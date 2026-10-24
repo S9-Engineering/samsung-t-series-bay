@@ -160,8 +160,8 @@ The generator writes to that revision's CAD, STL and manifest paths. Keep releas
 
 ## License and attribution
 
-Original project designs and documentation are licensed under **CC BY-NC-SA 4.0**. Read [LICENSE.txt](LICENSE.txt) for the unmodified license and [LICENSING.md](LICENSING.md) for scope, attribution, separate commercial permissions, S9 branding and software exclusions.
+Original project designs and documentation are licensed under **CC BY-NC-SA 4.0** ([LICENSE.txt](LICENSE.txt)). Original S9 software, including CAD generators and build/render scripts, is licensed under **PolyForm Noncommercial 1.0.0** ([LICENSE-SOFTWARE.txt](LICENSE-SOFTWARE.txt)). Read [LICENSING.md](LICENSING.md) for scope, required notices, separate commercial permissions, S9 branding and third-party exclusions. The software is source-available; generated models retain their separately stated design license.
 
-The license grant includes covered original material in **v1.0.0**. Its published ZIP predates this notice and remains unchanged; its historical statement that no license was selected is superseded by the current grant in LICENSING.md. Future print packages will include both licensing files.
+The license grants include covered original material in **v1.0.0** and original software in retained revisions and release source archives. Published archives predate these notices and remain unchanged; historical statements that no license was selected or software terms were undecided are superseded by the current grants in LICENSING.md. Future print packages will include both license texts and the scope notice.
 
 Samsung names identify compatible devices; this is an independent enclosure design with no claim of manufacturer affiliation.

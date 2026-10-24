@@ -274,9 +274,9 @@ The generator writes to that revision's CAD, STL and manifest paths. Keep releas
 
 ## License and attribution
 
-Original project designs and documentation are licensed under **CC BY-NC-SA 4.0**. Read [LICENSE.txt](LICENSE.txt) for the unmodified license and [LICENSING.md](LICENSING.md) for scope, attribution, separate commercial permissions, S9 branding and software exclusions.
+Original project designs and documentation are licensed under **CC BY-NC-SA 4.0** ([LICENSE.txt](LICENSE.txt)). Original S9 software, including CAD generators and build/render scripts, is licensed under **PolyForm Noncommercial 1.0.0** ([LICENSE-SOFTWARE.txt](LICENSE-SOFTWARE.txt)). Read [LICENSING.md](LICENSING.md) for scope, required notices, separate commercial permissions, S9 branding and third-party exclusions. The software is source-available; generated models retain their separately stated design license.
 
-The license grant includes covered original material in **v1.0.0**. Its published ZIP predates this notice and remains unchanged; its historical statement that no license was selected is superseded by the current grant in LICENSING.md. Future print packages will include both licensing files.
+The license grants include covered original material in **v1.0.0** and original software in retained revisions and release source archives. Published archives predate these notices and remain unchanged; historical statements that no license was selected or software terms were undecided are superseded by the current grants in LICENSING.md. Future print packages will include both license texts and the scope notice.
 
 Samsung names identify compatible devices; this is an independent enclosure design with no claim of manufacturer affiliation.
 '''
@@ -338,9 +338,9 @@ The native 3MF and optional G-code were prepared with this reference configurati
 
 ## License and attribution
 
-Original designs and documentation are licensed under **CC BY-NC-SA 4.0**, with separate commercial permissions. Read the [license text](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSE.txt) and [scope notice](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSING.md) for attribution, S9 branding, software and third-party exclusions.
+Original designs and documentation are licensed under **CC BY-NC-SA 4.0** ([design license](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSE.txt)). Original S9 software, including CAD generators and build/render scripts, is licensed under **PolyForm Noncommercial 1.0.0** ([software license](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSE-SOFTWARE.txt)). Read the [scope notice](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSING.md) for required notices, separate commercial permissions, S9 branding and third-party exclusions. Software sources remain in the repository, outside the print pack.
 
-This grant includes covered original material in the **v1.0.0 print pack**. The published ZIP and tag remain unchanged and predate the license notice; its earlier statement that no license was selected is superseded by this grant. Keep the current licensing files with new redistributions where applicable.
+These grants include covered original material in the **v1.0.0 print pack** and original software in retained revisions and release source archives. The published ZIP and tag remain unchanged and predate these notices; earlier statements that no license was selected or software terms were undecided are superseded by the current grants. Retain the applicable license information and required notices when redistributing.
 
 Samsung product names identify compatible devices; this is an independent DIY enclosure design.
 '''
