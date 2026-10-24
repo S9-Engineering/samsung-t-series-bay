@@ -9,9 +9,9 @@
     "previews": "previews",
     "verification": "verification"
   },
-  "project_name": "S9 Samsung T-Series Bay",
+  "project_name": "S9 Monolith Bay",
   "name_confirmation": {
-    "project_name": "S9 Samsung T-Series Bay",
+    "project_name": "S9 Monolith Bay",
     "repository": "S9-Engineering/samsung-t-series-bay",
     "confirmed_by": "user"
   },
@@ -20,6 +20,6 @@
     "version": "v1.0.0",
     "project_revision": "R27",
     "confirmed_by": "user",
-    "scope": "First public printing release, digitally prepared prototype; no physical or thermal validation claim."
+    "scope": "First complete R27 printing release."
   }
 }

@@ -45,26 +45,6 @@
       "role": "stl"
     },
     {
-      "source": "print/stl/coupon-shell-r27.stl",
-      "archive": "print/stl/coupon-shell-r27.stl",
-      "role": "stl"
-    },
-    {
-      "source": "print/stl/coupon-lid-r27.stl",
-      "archive": "print/stl/coupon-lid-r27.stl",
-      "role": "stl"
-    },
-    {
-      "source": "print/slicer/01-fit-coupon-r27-ecc2-pla-basic.3mf",
-      "archive": "print/3mf/01-fit-coupon-r27-ecc2-pla-basic.3mf",
-      "role": "slicer"
-    },
-    {
-      "source": "print/gcode/01-fit-coupon-r27-ecc2-pla-basic.gcode",
-      "archive": "print/gcode/01-fit-coupon-r27-ecc2-pla-basic.gcode",
-      "role": "gcode"
-    },
-    {
       "source": "print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf",
       "archive": "print/3mf/02-full-kit-r27-ecc2-pla-basic.3mf",
       "role": "slicer"
@@ -73,11 +53,6 @@
       "source": "print/gcode/02-full-kit-r27-ecc2-pla-basic.gcode",
       "archive": "print/gcode/02-full-kit-r27-ecc2-pla-basic.gcode",
       "role": "gcode"
-    },
-    {
-      "source": "previews/assembly/01-fit-coupon.png",
-      "archive": "assembly/01-fit-coupon.png",
-      "role": "assembly-image"
     },
     {
       "source": "previews/assembly/02-drive-cartridge.png",

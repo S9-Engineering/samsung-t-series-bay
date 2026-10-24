@@ -159,24 +159,24 @@ def main():
     # Shift the schematic drive backwards to reveal the insertion direction and both frames.
     parts[1][0].apply_translation((0, 55, 0))
     p = render('02-drive-cartridge', parts, (170, 240, 155), (21, 85, 43), fov=29, size=(1200, 900), floor=False)
-    caption(p, '02 / Model-specific cartridge', 'Insert the unplugged SSD from the rear through both frames. Drive envelope is schematic.')
+    caption(p, 'Model-specific cartridge', 'Insert the unplugged SSD from the rear through both frames. Drive envelope is schematic.')
 
     parts = [(load('SCOCCA_R27_DOPPIO_PERNO'), CHARCOAL)]
     for i, model in enumerate(['T7', 'T7_Shield', 'T9']):
         parts.append((load('CARTUCCIA_' + model + '_R27', (24*i, -6, 22)), GOLD))
     parts.append((load('FERMO_CARTUCCE_R27', (0, -18, 0)), BLUE))
     p = render('03-cartridge-seating', parts, (220, -240, 220), (45, 48, 47), size=(1200, 1000), floor=False)
-    caption(p, '03 / Seat the three cartridges', 'Lower 6 mm forward of the final seat; slide back 6 mm. Lower the blue front stop last.')
+    caption(p, 'Seat the three cartridges', 'Lower 6 mm forward of the final seat; slide back 6 mm. Lower the blue front stop last.')
 
     parts = assembly(roof=False, drives=True)
     parts.append((load('TETTO_R27_DOPPIO_PERNO', (0, 68, 0)), GOLD))
     p = render('04-slide-lid', parts, (225, 300, 220), (45, 75, 47), size=(1200, 1000), floor=False)
-    caption(p, '04 / Sliding lid and rear cable access', 'Slide the lid forward from the rear. USB plugs and cable bends remain outside the enclosure.')
+    caption(p, 'Sliding lid and rear cable access', 'Slide the lid forward from the rear. USB plugs and cable bends remain outside the enclosure.')
 
     parts = [(load('TETTO_R27_DOPPIO_PERNO'), CHARCOAL)]
     parts.extend((m, BLUE) for m in pin_pair())
     p = render('05-locking-pins', parts, (160, 240, -60), (45, 65, 75), fov=28, size=(1200, 900), floor=False, up=(0, 0, 1))
-    caption(p, '05 / Two hidden quarter-turn pins', 'Underside view, shell hidden. Insert upwards, turn 90 degrees, lower 1.1 mm into the seat.')
+    caption(p, 'Two hidden quarter-turn pins', 'Underside view, shell hidden. Insert upwards, turn 90 degrees, lower 1.1 mm into the seat.')
 
     inputs = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
               for p in sorted((REV/'verifiche/mesh_assieme').glob('*.ply'))}

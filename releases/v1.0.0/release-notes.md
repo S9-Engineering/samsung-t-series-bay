@@ -1,21 +1,26 @@
-# S9 Samsung T-Series Bay v1.0.0
+# S9 Monolith Bay — Samsung T-Series
 
-First public printing release, based on **R27**, for **ELEGOO Centauri Carbon 2 Combo, 0.4 mm nozzle, textured PEI and ELEGOO PLA BASIC**.
+**v1.0.0 / R27** — complete PLA printing release for **Samsung T7, T7 Shield and T9**.
 
-- Sharp-edged monolithic shell, horizontal top slots and side ventilation, with external rear cables.
-- Three interchangeable base positions; model-specific **T7, T7 Shield and T9 cartridges** included. **T5 is not supported in v1.0.0**: its dedicated cartridge is not included.
-- Sliding rigid lid secured by **two identical hidden quarter-turn pins**. No internal screws or adhesive. Four commercial rubber feet are supplied by the builder.
-- Small raised S9 front logo and reduced 32 × 19.8 mm centred S9 Engineering rear logo.
-- A four-part fit coupon, then an eight-part complete kit on **one plate**. Slicer estimates: **26.15 g / 1 h 35 min 49 s** for the coupon and **214.07 g / 12 h 30 min 42 s** for the complete kit.
+A compact monolithic enclosure with three interchangeable drive cartridges, horizontal ventilation slots, external rear cable access, and a sliding roof secured by two hidden quarter-turn pins. Small raised S9 branding on the front and S9 Engineering on the rear.
 
-## Download and print
+## Download
 
-Open **Assets** and download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, plus its **`samsung-t-series-bay-v1.0.0-SHA256SUMS.txt`**. Extract the ZIP and follow its illustrated English `README.md`, starting with the fit coupon. The named print pack contains STL, native sliced 3MF, optional matching G-code and assembly instructions. GitHub's automatic source archives contain the development project instead.
+Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and follow its English `README.md`.
 
-The stable download entry point is [Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases). Source, CAD, renders, retained revisions and verification reports are included in the repository at the tagged commit.
+The pack includes:
 
-## Evidence and limits
+- **Complete native ElegooSlicer 3MF**, with all **8 components on one plate**.
+- Separate oriented STL files and matching optional G-code.
+- Illustrated assembly instructions, printed-part quantities and a list of separately supplied items.
+- File manifest and SHA-256 checksums.
 
-Digitally **Ready for printing**: the unchanged R27 exports/native projects were reopened, original hashes matched, and 145 coupon plus 415 full-kit G-code layers were reparsed and reviewed through their saved preview sheets. The reviewed bed-temperature/chamber warning remains documented: use the PLA setup with the front door open.
+GitHub's automatic source archives contain the development project; choose the named print pack for printing. The stable download page is [Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases).
 
-This is a **digitally prepared prototype**, not a physically or thermally validated product. Earlier internal-seat coupon feedback is positive; the full R27 kit, both-pin retention/cycling, actual cables, commercial feet and thermal behaviour remain to be tested. No printer was started by publication. No project license has been selected.
+## Printing
+
+**ELEGOO Centauri Carbon 2 Combo · 0.4 mm nozzle · textured PEI · ELEGOO PLA BASIC.**
+
+0.20 mm layers, no supports, 5 mm outer brim, one material. **Slicer estimate: 214.07 g / 12 h 30 min 42 s** for the complete kit. Print with the front door open for PLA.
+
+Assembly requires no internal screws or adhesives. Supply **four rubber feet**, the drives and their USB cables. All CAD/source files, renders and retained revisions are included in the repository at this tag. No project license has been selected.

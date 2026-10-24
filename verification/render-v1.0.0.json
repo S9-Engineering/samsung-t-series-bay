@@ -49,25 +49,25 @@
     {
       "file": "previews/assembly/02-drive-cartridge.png",
       "seconds": 6.34,
-      "sha256": "0d1e0c42c28c11d820112446b2c1c27d5dd615837ae70ebaa87ce4e975f99305",
+      "sha256": "5463c92e2b238ad4fcb50e9ae008d14529c3ecb989ca61a1dde5f58d5452c9f5",
       "samples_per_pixel": 256
     },
     {
       "file": "previews/assembly/03-cartridge-seating.png",
       "seconds": 18.92,
-      "sha256": "92c0dc750d11b0905220882ed182a39233d640bc1e9893c7f66f796ea8abfdb0",
+      "sha256": "f8e5efc9b6bff634f865b5cfd36f3628961fab4cd904e7d1c5688b41b4717c32",
       "samples_per_pixel": 256
     },
     {
       "file": "previews/assembly/04-slide-lid.png",
       "seconds": 14.32,
-      "sha256": "a54dcf768fd1948d53fb1579d80206d0736c961c8705ea7dceabe46ca2d01b89",
+      "sha256": "2257c2d3f099edfa613c3debeabff85dc2eac36f1bd76bf4c2dac9685573e831",
       "samples_per_pixel": 256
     },
     {
       "file": "previews/assembly/05-locking-pins.png",
       "seconds": 8.15,
-      "sha256": "2915575d960af8c98be9cc696da3e962fbdca5128dc0fb71d09304d94ce4682f",
+      "sha256": "cf8f29bf2bac71355ec4399f293590049f6f2db1a8438a3d84308073d253f53b",
       "samples_per_pixel": 256
     }
   ]
