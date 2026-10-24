@@ -160,4 +160,8 @@ The generator writes to that revision's CAD, STL and manifest paths. Keep releas
 
 ## License and attribution
 
-No project license has been selected. S9 and S9 Engineering branding are project assets. Samsung names identify the intended devices; this is an independent enclosure design with no claim of manufacturer affiliation.
+Original project designs and documentation are licensed under **CC BY-NC-SA 4.0**. Read [LICENSE.txt](LICENSE.txt) for the unmodified license and [LICENSING.md](LICENSING.md) for scope, attribution, separate commercial permissions, S9 branding and software exclusions.
+
+The license grant includes covered original material in **v1.0.0**. Its published ZIP predates this notice and remains unchanged; its historical statement that no license was selected is superseded by the current grant in LICENSING.md. Future print packages will include both licensing files.
+
+Samsung names identify compatible devices; this is an independent enclosure design with no claim of manufacturer affiliation.

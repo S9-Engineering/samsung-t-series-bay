@@ -1,6 +1,8 @@
 """Prepare English R27 documentation and byte-identical convenience copies.
 
 Does not edit retained revisions, generate geometry, slice, or publish anything.
+Once the v1.0.0 print archive exists, its packaged README and manifest are
+preserved; current repository documentation and release presentation can evolve.
 Run from any directory: python3 source/prepare_release_docs.py
 """
 from pathlib import Path
@@ -30,6 +32,11 @@ IMAGES=['01-fit-coupon','02-drive-cartridge','03-cartridge-seating','04-slide-li
 
 
 def write(path,text):
+ if (path.parent == RELEASE and path.name in {'README.print.md','manifest.json'}
+     and (RELEASE/'assets/samsung-t-series-bay-v1.0.0-print-pack.zip').exists()):
+  if not path.is_file():
+   raise RuntimeError(f'Missing frozen release input: {path}')
+  return
  path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text.strip()+'\n')
 
 
@@ -267,7 +274,11 @@ The generator writes to that revision's CAD, STL and manifest paths. Keep releas
 
 ## License and attribution
 
-No project license has been selected. S9 and S9 Engineering branding are project assets. Samsung names identify the intended devices; this is an independent enclosure design with no claim of manufacturer affiliation.
+Original project designs and documentation are licensed under **CC BY-NC-SA 4.0**. Read [LICENSE.txt](LICENSE.txt) for the unmodified license and [LICENSING.md](LICENSING.md) for scope, attribution, separate commercial permissions, S9 branding and software exclusions.
+
+The license grant includes covered original material in **v1.0.0**. Its published ZIP predates this notice and remains unchanged; its historical statement that no license was selected is superseded by the current grant in LICENSING.md. Future print packages will include both licensing files.
+
+Samsung names identify compatible devices; this is an independent enclosure design with no claim of manufacturer affiliation.
 '''
  write(ROOT/'README.md',header+'\n'+public_content()+'\n'+footer)
  intro='''# S9 Monolith Bay — v1.0.0
@@ -325,7 +336,13 @@ The native 3MF and optional G-code were prepared with this reference configurati
 
 [Build guide and product details](https://github.com/S9-Engineering/samsung-t-series-bay#readme) · [All printing releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases)
 
-No project license has been selected. Samsung product names identify compatible devices; this is an independent DIY enclosure design.
+## License and attribution
+
+Original designs and documentation are licensed under **CC BY-NC-SA 4.0**, with separate commercial permissions. Read the [license text](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSE.txt) and [scope notice](https://github.com/S9-Engineering/samsung-t-series-bay/blob/main/LICENSING.md) for attribution, S9 branding, software and third-party exclusions.
+
+This grant includes covered original material in the **v1.0.0 print pack**. The published ZIP and tag remain unchanged and predate the license notice; its earlier statement that no license was selected is superseded by this grant. Keep the current licensing files with new redistributions where applicable.
+
+Samsung product names identify compatible devices; this is an independent DIY enclosure design.
 '''
  write(RELEASE/'release-notes.md',notes)
  files=[{'source':'releases/v1.0.0/README.print.md','archive':'README.md','role':'instructions'}]
