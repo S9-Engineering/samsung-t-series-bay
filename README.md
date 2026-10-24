@@ -4,7 +4,7 @@
 
 A compact desktop enclosure for **Samsung T7, T7 Shield and T9**. Three upright drives, interchangeable cartridges, passive ventilation and a clean monolithic silhouette.
 
-**v1.0.0 · R27 · ELEGOO PLA BASIC · Complete one-plate print project**
+**v1.0.0 · R27 · PLA · 8 printed components**
 
 ![S9 Monolith Bay on a desk: closed and open with three installed SSDs](previews/renders/hero-desk-closed-open.png)
 
@@ -36,19 +36,17 @@ Three drives stand side by side on their long edges, with their USB ports facing
 
 ### For printing
 
-- **ELEGOO Centauri Carbon 2 Combo**, **0.4 mm nozzle**, **textured PEI** plate.
-- **ELEGOO PLA BASIC**, 1.75 mm, one colour; the complete plate uses an estimated **214.07 g**. Have additional filament available for loading and normal machine preparation. Render colour is illustrative; use your available PLA BASIC colour.
-- **ElegooSlicer 1.5.3.5** with the included native project. The saved printer profile is named **Elegoo Centauri Carbon 2 0.4 nozzle** for the confirmed Combo setup, with a 256 × 256 mm plate and its excluded corner.
-- A clean plate, dry filament and flush cutters or a deburring tool for the brim.
+- PLA filament in your chosen colour.
+- Flush cutters or a deburring tool for removing the brim.
 
 ### For assembly
 
-**8 printed components, supplied on one plate:**
+**8 printed components:**
 
 | Printed component | Quantity | Print orientation / setting | STL |
 | --- | ---: | --- | --- |
 | Shell | 1 | Upright; 4 walls | [shell-r27.stl](print/stl/shell-r27.stl) |
-| Sliding lid with rear tail | 1 | Exterior on PEI; Arachne | [lid-r27.stl](print/stl/lid-r27.stl) |
+| Sliding lid with rear tail | 1 | Exterior on the build plate; Arachne | [lid-r27.stl](print/stl/lid-r27.stl) |
 | Hidden locking pin | 2 | Flat; 100% rectilinear infill | [locking-pin-r27.stl](print/stl/locking-pin-r27.stl) |
 | Common front cartridge stop | 1 | Upright handle; 4 walls | [cartridge-stop-r27.stl](print/stl/cartridge-stop-r27.stl) |
 | T7 cartridge | 1 | Upright frames; 6 walls | [cartridge-t7-r27.stl](print/stl/cartridge-t7-r27.stl) |
@@ -66,22 +64,33 @@ Assembly is tool-free. There are **no screws, nuts, threaded inserts or internal
 ## Download and print
 
 1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) and select **v1.0.0**.
-2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`** and extract it. Use this print pack rather than GitHub's automatic source archives.
-3. Read the extracted `README.md` and open **[02-full-kit-r27-ecc2-pla-basic.3mf](print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf)** in ElegooSlicer. Keep its project settings, object orientations and per-object overrides.
-4. Select your loaded PLA BASIC channel, confirm the printer/nozzle/plate, and inspect the print preview before sending the job. Use the printer's normal bed-levelling procedure and print with the **front door open for PLA**.
-5. Let the plate cool, remove the parts and trim off the brim and stray strings, especially at the guides, cartridge openings and pin seats.
+2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and read its `README.md`.
+3. Import the [separate STLs](print/stl) into your slicer in **millimetres**, keeping their supplied orientations. Use the quantities listed above, including **two copies of the locking pin**.
+4. Arrange the parts for your build plate, apply your printer and PLA profile with the part settings below, and inspect the slicing preview. The supplied [reference 3MF](print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf) already contains the one-plate layout and configuration described in **My setup**.
+5. Print the parts, let the plate cool, and remove the brim and stray strings from the guides, cartridge openings and pin seats.
 
-The native 3MF contains the complete one-plate layout, machine/material/process profiles, per-object settings and sliced paths. It is a full slicer project. Separate STLs are already oriented for printing in **millimetres**; print two copies of the locking pin when building a plate from STLs.
+The 3MF is a complete native slicer project with saved profiles, object overrides and sliced paths. Its optional G-code in `print/gcode/` is tied to the reference configuration below. Use the separate STLs to slice for your own equipment.
 
-**Slicer estimate:** **214.07 g / 12 h 30 min 42 s**, including brim, for all 8 components. One material, no purge tower. This is a slicer estimate, not a measured print time.
+The same [printing ZIP](releases/v1.0.0/assets/samsung-t-series-bay-v1.0.0-print-pack.zip) is stored in this repository. The archive includes `SHA256SUMS.txt`; the separate release checksum file verifies the downloaded ZIP with `shasum -a 256 -c samsung-t-series-bay-v1.0.0-SHA256SUMS.txt` from the download directory.
 
-The same [printing ZIP](releases/v1.0.0/assets/samsung-t-series-bay-v1.0.0-print-pack.zip) is stored in this repository. All development files and retained revisions are separate from the release download.
+## My setup
 
-### Print settings
+This is the reference configuration used to prepare the included 3MF and G-code. You can use the separate STLs with your own printer and material profile.
 
-| Setting | Prepared value |
+| Item | What I used |
 | --- | --- |
-| Filament | ELEGOO PLA BASIC, one channel |
+| Printer | ELEGOO Centauri Carbon 2 Combo |
+| Printer profile | Elegoo Centauri Carbon 2 0.4 nozzle; 256 × 256 mm plate with the profile's excluded corner |
+| Nozzle | 0.4 mm |
+| Build plate | Textured PEI |
+| Filament | ELEGOO PLA BASIC, 1.75 mm, one colour/channel |
+| Slicer | ElegooSlicer 1.5.3.5, engine 2.4.2 |
+| PLA enclosure setup | Front door open |
+| Reference layout | All 8 printed components on one plate |
+| Slicer estimate for this setup | 214.07 g / 12 h 30 min 42 s, including brim; one material, no purge tower |
+
+| Print setting | My value |
+| --- | --- |
 | Layer height | 0.20 mm |
 | Walls | 4 general; 6 on the drive cartridges |
 | Infill | 20% gyroid; pins 100% rectilinear |
@@ -92,9 +101,7 @@ The same [printing ZIP](releases/v1.0.0/assets/samsung-t-series-bay-v1.0.0-print
 | Elephant-foot compensation | 0.10 mm |
 | Supports / raft / fuzzy skin | Disabled |
 
-Use the settings stored in the 3MF. If changing the printer, nozzle, material or part quantities, reslice for the new configuration. The included optional G-code in `print/gcode/` matches the setup above; opening the 3MF is the recommended route.
-
-The archive includes `SHA256SUMS.txt` for file integrity. The separate release checksum file verifies the downloaded ZIP with `shasum -a 256 -c samsung-t-series-bay-v1.0.0-SHA256SUMS.txt` from the download directory.
+These are the saved reference values. Temperature, flow and the plate layout should follow your own printer/material configuration when you reslice. The time and consumption above are slicer estimates for this setup.
 
 ## Assembly
 

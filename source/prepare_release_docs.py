@@ -154,6 +154,64 @@ Gold and blue in the following images distinguish the pieces; the print project 
  return out
 
 
+def public_content():
+ """Current brand-neutral overview; retain the published package instructions."""
+ original=content(False)
+ prefix, rest=original.split('### For printing\n\n',1)
+ _, rest=rest.split('### For assembly\n\n',1)
+ assembly_bom, rest=rest.split('## Download and print\n\n',1)
+ _, rest=rest.split('### Print settings\n\n',1)
+ settings, assembly=rest.split('## Assembly\n\n',1)
+ table=settings.split('Use the settings stored in the 3MF.',1)[0]
+ table=table.replace('| Setting | Prepared value |','| Print setting | My value |')
+ table=table.replace('| Filament | ELEGOO PLA BASIC, one channel |\n','')
+ assembly_bom=assembly_bom.replace('**8 printed components, supplied on one plate:**',
+     '**8 printed components:**')
+ assembly_bom=assembly_bom.replace('Exterior on PEI; Arachne','Exterior on the build plate; Arachne')
+ printing='''### For printing
+
+- PLA filament in your chosen colour.
+- Flush cutters or a deburring tool for removing the brim.
+
+### For assembly
+
+'''
+ download=f'''## Download and print
+
+1. Open [GitHub Releases]({URL}) and select **v1.0.0**.
+2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and read its `README.md`.
+3. Import the [separate STLs](print/stl) into your slicer in **millimetres**, keeping their supplied orientations. Use the quantities listed above, including **two copies of the locking pin**.
+4. Arrange the parts for your build plate, apply your printer and PLA profile with the part settings below, and inspect the slicing preview. The supplied [reference 3MF](print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf) already contains the one-plate layout and configuration described in **My setup**.
+5. Print the parts, let the plate cool, and remove the brim and stray strings from the guides, cartridge openings and pin seats.
+
+The 3MF is a complete native slicer project with saved profiles, object overrides and sliced paths. Its optional G-code in `print/gcode/` is tied to the reference configuration below. Use the separate STLs to slice for your own equipment.
+
+The same [printing ZIP](releases/v1.0.0/assets/samsung-t-series-bay-v1.0.0-print-pack.zip) is stored in this repository. The archive includes `SHA256SUMS.txt`; the separate release checksum file verifies the downloaded ZIP with `shasum -a 256 -c samsung-t-series-bay-v1.0.0-SHA256SUMS.txt` from the download directory.
+
+## My setup
+
+This is the reference configuration used to prepare the included 3MF and G-code. You can use the separate STLs with your own printer and material profile.
+
+| Item | What I used |
+| --- | --- |
+| Printer | ELEGOO Centauri Carbon 2 Combo |
+| Printer profile | Elegoo Centauri Carbon 2 0.4 nozzle; 256 × 256 mm plate with the profile's excluded corner |
+| Nozzle | 0.4 mm |
+| Build plate | Textured PEI |
+| Filament | ELEGOO PLA BASIC, 1.75 mm, one colour/channel |
+| Slicer | ElegooSlicer 1.5.3.5, engine 2.4.2 |
+| PLA enclosure setup | Front door open |
+| Reference layout | All 8 printed components on one plate |
+| Slicer estimate for this setup | 214.07 g / 12 h 30 min 42 s, including brim; one material, no purge tower |
+
+'''
+ return prefix+printing+assembly_bom+download+table+'''These are the saved reference values. Temperature, flow and the plate layout should follow your own printer/material configuration when you reslice. The time and consumption above are slicer estimates for this setup.
+
+## Assembly
+
+'''+assembly
+
+
 def main():
  RELEASE.mkdir(parents=True,exist_ok=True)
  copies=[]
@@ -176,7 +234,7 @@ def main():
 
 A compact desktop enclosure for **Samsung T7, T7 Shield and T9**. Three upright drives, interchangeable cartridges, passive ventilation and a clean monolithic silhouette.
 
-**v1.0.0 · R27 · ELEGOO PLA BASIC · Complete one-plate print project**
+**v1.0.0 · R27 · PLA · 8 printed components**
 
 ![S9 Monolith Bay on a desk: closed and open with three installed SSDs](previews/renders/hero-desk-closed-open.png)
 
@@ -211,7 +269,7 @@ The generator writes to that revision's CAD, STL and manifest paths. Keep releas
 
 No project license has been selected. S9 and S9 Engineering branding are project assets. Samsung names identify the intended devices; this is an independent enclosure design with no claim of manufacturer affiliation.
 '''
- write(ROOT/'README.md',header+'\n'+content(False)+'\n'+footer)
+ write(ROOT/'README.md',header+'\n'+public_content()+'\n'+footer)
  intro='''# S9 Monolith Bay — v1.0.0
 
 **Samsung T-Series SSD enclosure · R27 · Complete printing and assembly kit**
