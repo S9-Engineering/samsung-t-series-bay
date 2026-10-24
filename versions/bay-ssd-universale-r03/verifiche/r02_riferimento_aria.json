@@ -1,0 +1,15 @@
+{
+  "revision": "R02",
+  "floor_net_vent_cm2": 17.534876128747655,
+  "roof_net_vent_cm2": 23.359574709728832,
+  "side_rectangular_upper_bound_cm2": 8.16,
+  "continuous_vertical_clear_cm2": 12.110030744967318,
+  "corridor_areas_cm2": [
+    3.1306459514079417,
+    3.08127650036582,
+    3.0812764737458154,
+    2.8168318194477426
+  ],
+  "method": "Proiezione XY di tutte le facce triangolari dei solidi, sottratta ai quattro corridoi T9; area libera lungo l'intera altezza, entro la tessellazione. Fondo e tetto misurati sulle sezioni delle mesh esportate, esclusi i fori vite.",
+  "manifest_sha256": "f4b51288531ce3820bd0adde72d099a91abaddf462b7d754277e8d0d71486129"
+}

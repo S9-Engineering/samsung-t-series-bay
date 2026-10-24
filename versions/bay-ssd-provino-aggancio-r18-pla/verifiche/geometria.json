@@ -1,0 +1,161 @@
+{
+  "result": "PASS_GEOMETRIA_NOMINALE",
+  "source_manifest_sha256": "419a74736191ff244ce503552bbbd06706322abf0a547a20aed2068ee1472201",
+  "stl_sha256": "8031821b22ed1baa439957a30cedb0e8b674abb69d46fbf23fb8834dfe0c035c",
+  "step_sha256": "55ef72bf2f9fa925ae35d98755fc4359c3d4e4e2dd5cc4bc713fb9038b08b829",
+  "print_step_sha256": "06599d1639fb998ae3cc564362d20f6fb714e3cab16564335d1581bc8458c5e7",
+  "closed": true,
+  "winding_consistent": true,
+  "components": 1,
+  "volume_mm3": 5182.296900205787,
+  "bounds_mm": [
+    [
+      1.3877787807814457e-17,
+      7.105427357601002e-15,
+      0.0
+    ],
+    [
+      90.08333587646484,
+      32.0,
+      15.0
+    ]
+  ],
+  "degenerate_faces": 0,
+  "duplicate_faces": 0,
+  "self_intersections": {
+    "candidate_pairs_no_shared_vertex": 446,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "wall_thickness_mm": 3,
+  "penetration_in_wall_mm": 3,
+  "outer_protrusion_mm": 0.04166666666667,
+  "actual_tip_x_mm": -0.04166666666667,
+  "lateral_arm_from_finger_face_mm": 3.1,
+  "tip_span_mm": 90.08333333333334,
+  "tooth_width_mm": 8.4,
+  "root_wall_clearance_mm": 0.15,
+  "minimum_stem_wall_clearance_mm": 0.04999999999999982,
+  "minimum_clearance_above_window_mm": 0.07500000000000284,
+  "outward_tip_bias_mm": 0.1,
+  "outward_angle_deg": 0.4774537773095774,
+  "finger_thickness_mm": 1.2,
+  "window_y_clearance_per_end_mm": 0.5999999999999996,
+  "vertical_retention_play_mm": 0.2,
+  "seated_overlap_mm3": 0,
+  "bearing_overlap_after_lift_0_4mm_mm3": 4.914856198346815,
+  "insertion_envelopes": [
+    {
+      "phase": "discesa",
+      "dz_mm": 16,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 12,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 8,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 4,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 1,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 0.2,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 0,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 3.15,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 2.5,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 2,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 1.5,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 1,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 0.5,
+      "intersections_mm3": 0
+    },
+    {
+      "phase": "rilascio_nel_foro",
+      "dz_mm": 0,
+      "inward_mm": 0,
+      "intersections_mm3": 0
+    }
+  ],
+  "reference_difference_mm3": 0,
+  "previous_hashed_files_preserved": {
+    "R15": 134,
+    "R16": 67,
+    "R17": 46
+  },
+  "root_release_slot": {
+    "x_min": 0.8,
+    "x_max": 8.0,
+    "y_min": 28.0,
+    "y_max": 55.6,
+    "lunghezza_flessibile_y": 18.0
+  },
+  "spring_free_length_y_mm": 18,
+  "roof_relief_unchanged_from_R17": true,
+  "prior_user_observation": "Ora entrano bene: confermato ingresso del braccetto, senza misura della forza o dei cicli.",
+  "limitations": [
+    "Corsa controllata con inviluppi traslati: non simulazione della deformazione elastica.",
+    "Forza di inserimento, ritenuta, ritorno e durata PLA R18 non misurati.",
+    "Gioco minimo 0,05 mm nominali: tolleranza fisica della stampa da verificare sul case esistente.",
+    "Scarichi di radice presenti solo sul provino, da trasferire e ricontrollare sul tetto dopo la prova.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ],
+  "physical_print": false,
+  "force_validated": false,
+  "FEA": false
+}

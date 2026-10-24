@@ -1,0 +1,70 @@
+{
+  "revisione": "R02",
+  "unita": "mm",
+  "ssd_nominali": {
+    "T7": {
+      "lunghezza": 85.0,
+      "altezza": 57.0,
+      "spessore": 8.0
+    },
+    "T7_Shield": {
+      "lunghezza": 88.0,
+      "altezza": 59.0,
+      "spessore": 13.0
+    },
+    "T9": {
+      "lunghezza": 88.0,
+      "altezza": 60.0,
+      "spessore": 14.0
+    }
+  },
+  "larghezza": 90.0,
+  "profondita": 101.0,
+  "parete": 3.0,
+  "base": 5.0,
+  "piedini_silicone": 5.0,
+  "prima_faccia_ssd_x": 14.0,
+  "passo_slot": 24.0,
+  "inizio_ssd_y": 16.0,
+  "aria_sotto_ssd": 8.0,
+  "aria_sopra_t9": 10.0,
+  "tetto": 3.0,
+  "appoggi_y": [
+    36.0,
+    84.0
+  ],
+  "guide_y": [
+    24.0,
+    72.0
+  ],
+  "spessore_silicone": 1.0,
+  "gioco_laterale_nominale_totale": 0.2,
+  "apertura_minima_fra_tamponi": 7.8,
+  "apertura_massima_fra_tamponi": 14.6,
+  "gioco_guida_per_lato": 0.3,
+  "gioco_guida_verticale": 0.4,
+  "foro_m3": 3.4,
+  "tasca_dado_m3_chiave": 5.9,
+  "tasca_dado_m3_altezza": 2.8,
+  "cavi": {
+    "tratto_rigido_massimo_dichiarato_utente": 50.0,
+    "diametro_dichiarato_utente": 5.0,
+    "connettore_gabarit_x": 9.0,
+    "connettore_gabarit_z": 16.0,
+    "ingombro_connettori_rilevato": false,
+    "gestione": "uscita diretta; spine e cavi esterni, nessun fermacavi interno"
+  },
+  "configurazione_stampa": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PETG PRO",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-20",
+    "colore": "non specificato; un solo materiale per piatto"
+  },
+  "misure_ssd_rilevate": false,
+  "prova_fisica": false,
+  "prova_termica": false,
+  "retro_aperto": true
+}

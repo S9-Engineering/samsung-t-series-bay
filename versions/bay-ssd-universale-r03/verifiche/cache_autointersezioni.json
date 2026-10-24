@@ -1,0 +1,58 @@
+{
+  "555aa68e528db1b986ecdc224140222645449a8d5f429dc470d6ff37cbdff413": {
+    "candidate_pairs_no_shared_vertex": 43847,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "9cb5a71ac185709f0a6c91bc07a6f8e54bfe8f788bc6875a26a858edbeee29ac": {
+    "candidate_pairs_no_shared_vertex": 876,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "37fb812826ba448c1acb622c1ebb81af8b4f9905a29e9ae971886bf5a95f0cbf": {
+    "candidate_pairs_no_shared_vertex": 81457,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "6d6e2986ec045ff4793bb7e9e4e01bc1c6a2c617b48e9be86ff3ff47fc6202d0": {
+    "candidate_pairs_no_shared_vertex": 1774,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "1c66521fe36839a4ce87b6c5b28c26cb9cdd4f2c873dc44cda5048403e4ffe7f": {
+    "candidate_pairs_no_shared_vertex": 41325,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "ad91ab242a39404b61c6c5bf5e723e0082652be14b1c2ceb17d13c82aa0c7da6": {
+    "candidate_pairs_no_shared_vertex": 40245,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "b9a6904b2fc543bf131de1c865d5e5724cac1d35eb7dfcbf2884f1cb93fee00c": {
+    "candidate_pairs_no_shared_vertex": 44155,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "fec9aaee4f9e02d631dc0bac6c8c0bef056a0c77c5c142b8bf6017d3a39455b1": {
+    "candidate_pairs_no_shared_vertex": 55773,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R03: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  }
+}

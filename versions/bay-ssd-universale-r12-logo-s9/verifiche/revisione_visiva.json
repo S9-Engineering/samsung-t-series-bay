@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-20",
+  "reviewer": "Codex: ispezione delle tavole dei percorsi reali",
+  "method": "Tutti i 645 strati nelle otto tavole ZOOM; dieci tavole critiche campionate, incluso il nuovo logo frontale S9. Esaminati in particolare inizio e termine del rilievo. Nessuna prova fisica.",
+  "projects": {
+    "BAY_R12_00_PROVINO_PRIMA_DI_TUTTO": {
+      "project_sha256": "ffa29f1e03b15442edf31a6568e682fd963730ebdee42cbe8f2255f94c3598e5",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R12_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png": "585ead579b3adae3fa96385f9144079f4f2574a70ffa51b8674c24a42aeaab53",
+        "verifiche/slicing/BAY_R12_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0155.png": "77a171dc53b2775cb07a960be6b749e3f61838e4733fb40d00548daa41c1768b",
+        "verifiche/slicing/BAY_R12_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png": "1aa56a5b2aa4c1e4fed9a53c9fff97e8f822bc55952ece5c550c85c20ec0f220",
+        "verifiche/slicing/BAY_R12_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png": "d82c4f242b8b3b9413627819817b78815505de8820bd991de32e724add0496f5"
+      },
+      "notes": [
+        "Provini e clip presenti nei percorsi. Primo strato con brim e crescita regolare. Forza e gioco degli incastri richiedono il provino fisico."
+      ]
+    },
+    "BAY_R12_01_SCOCCA_INSERTI": {
+      "project_sha256": "30f9b2e6af28f0d96f9136aec209a1abe2053c50cf1ca0afb091da3e354d1fc6",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png": "f482d1495fe03c23ca31907c479052c6584152e8eb45d66d218285373eb57d76",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png": "4ead132155d1b6ba35950638713f1f62071d855eff30c6699696ccf2869a07e5",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png": "63af1c1f805a5415d399239a910b0eb53c658653229109ff029e6fe3123aa921",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png": "d4ce4a8b717741487d44181655437e343ecc6be3f20f01d651455b070401311e",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png": "a5fa22eeef0a44e378a52f5bca3adf08a6df8aba22fa7e0793c2f8e8dd50fc19",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/CRITICI_01.png": "61678231703e907d53a9885dc1cb0bf16064b5c3f27b9be36082ae4176236898",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/CRITICI_08.png": "bcba7220076c4fa25c91195f451f9c3de4c7749ceaa4ff842fb7cdf3bf403cda",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/FERITOIE_LATERALI.png": "5f5a3adbfd8b2dbb5b3b7247bc81df284bec1f9f4b08daf30ad0aa0c060b606e",
+        "verifiche/slicing/BAY_R12_01_SCOCCA_INSERTI/LOGO_FRONTALE.png": "228dffb8cc81afee6292c42c95ceb916de5cdc069fb5e19296a4dc066afc0e15"
+      },
+      "notes": [
+        "Perimetro e corpo conservati. Logo S9 presente davanti alla parete: estrusioni per entrambi i glifi fra Z6,2 e Z12,8 mm, assenti prima/dopo. Controllato il dettaglio tenendo conto dell’offset estrusore del profilo. Fondo, recessi piedini, guide, feritoie e agganci presenti. Finitura del rilievo da provare fisicamente."
+      ]
+    },
+    "BAY_R12_02_COPERCHIO": {
+      "project_sha256": "153e3df3f34e4defe64d49bd18fe552a53510f566df1224b5c1e28a9c6ea30a6",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R12_02_COPERCHIO/ZOOM_tutti_0001_0075.png": "0a37a6e431b350a1d812d61fbe5113ad84fded428a659f9669ef600ebbf0c8d6",
+        "verifiche/slicing/BAY_R12_02_COPERCHIO/CRITICI_01.png": "9c8673a21a8588e413ec1a77411e524914987a4ab546ef2929a02446b07899bc",
+        "verifiche/slicing/BAY_R12_02_COPERCHIO/CRITICI_02.png": "ed70763e2b5c9715d9e2062868faff0e1eacc2fac31a64522d39c850eab4faaa",
+        "verifiche/slicing/BAY_R12_02_COPERCHIO/CRITICI_05.png": "8fe7dc6856555e0f101dbe2175cb82372ff78824e3d3d0f0977d568d97d273b7",
+        "verifiche/slicing/BAY_R12_02_COPERCHIO/CRITICI_06.png": "7bda0dc7c726b0e65d88ceb62609bb18964a7a290d7fb38aeed7c370fb913799"
+      },
+      "notes": [
+        "Perimetro rettangolare a spigolo e griglia presenti dal primo strato con brim; linguette e riferimenti crescono dal tetto capovolto. Nessuna isola sospesa involontaria individuata nelle tavole."
+      ]
+    }
+  }
+}

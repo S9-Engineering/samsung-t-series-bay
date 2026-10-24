@@ -1,0 +1,56 @@
+{
+  "revision": "R01",
+  "date": "2026-10-20",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_NOMINALE",
+  "print_first": "stampa/progetti_ElegooSlicer/BAY_R01_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+  "dimensions_mm": [
+    90.0,
+    216.0,
+    91.0
+  ],
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PETG PRO",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-20",
+    "colore": "non specificato; un solo materiale per piatto"
+  },
+  "geometry": true,
+  "export_reopened": true,
+  "stl_unique_parts": 5,
+  "kit_printed_parts": 6,
+  "nominal_model_slot_pairs": 9,
+  "nominal_assignments": 27,
+  "slicer": "2.4.2",
+  "slicing": true,
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true,
+  "source_manifest_sha256": "dda4d80d02237e43a85055e66a46a9575935f06f6e79411a47c0c851d2156e16",
+  "geometry_report_sha256": "5bd786cdad133250902bbb3d529dc6d3fa753134a0a82990f8199c870da6e446",
+  "kit_estimates": {
+    "filament_g": 292.62,
+    "printing_seconds": 56954,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "coupon_estimates": {
+    "filament_g": 15.55,
+    "printing_seconds": 3907,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "physical_fit": false,
+  "physical_print": false,
+  "thermal_test": false,
+  "sent_to_printer": false,
+  "open_items": [
+    "SSD reali",
+    "sezione e posizione esatte delle porte USB",
+    "larghezza/altezza degli spinotti",
+    "raggio minimo ammesso dei cavi",
+    "Accoppiamento, serraggio e stabilita reali",
+    "Rigidita effettiva e fissaggio dei cavi",
+    "Temperatura e comportamento del disco centrale"
+  ],
+  "python": "3.11.5"
+}

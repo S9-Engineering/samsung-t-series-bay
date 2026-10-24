@@ -1,0 +1,16 @@
+{
+  "data": "2026-10-23",
+  "origine": "Conversazione diretta con utente",
+  "provino_interni_R24": {
+    "esito_generale": "positivo riferito",
+    "citazione": "ti confermo che il primo provino va bene",
+    "misure_strumentali": null
+  },
+  "provino_tetto_R24": {
+    "inserimento": "positivo riferito",
+    "citazione": "ok entra",
+    "rotazione_e_bloccaggio_perno": "non esplicitamente confermati"
+  },
+  "R26_completo_stampato": false,
+  "provino_doppio_perno_R26_stampato": false
+}

@@ -1,0 +1,74 @@
+{
+  "state": "STUDIO_COPERCHIO_NON_PRONTO_PER_LA_STAMPA",
+  "unit": "mm",
+  "holes": 90,
+  "hole_diameter_mm": 7.35,
+  "pitch_mm": 9.0,
+  "min_web_mm": 1.6500000000000004,
+  "depression_mm": 1.0,
+  "min_panel_thickness_mm": 3.0,
+  "bare_height_mm": 87,
+  "old_top_aperture_cm2": 37.913457663239846,
+  "round_hole_area_cm2": 38.18625505392478,
+  "area_delta_percent": 0.7195265414935648,
+  "lid_valid": true,
+  "lid_solids": 1,
+  "mesh_closed": true,
+  "mesh_winding": true,
+  "bounds_mm": [
+    [
+      -1.0000000546544499e-07,
+      -1.0000001654883263e-07,
+      71.0
+    ],
+    [
+      90.00000010000001,
+      101.00000010000004,
+      86.99999799048362
+    ]
+  ],
+  "step_sha256": "bc06ff220b32703d45bd8b61292406d5083f11b9313ad102c0c878ff547cb1fd",
+  "extra_parts": 0,
+  "new_hardware": 0,
+  "slicing_variants": [
+    {
+      "name": "faccia_concava_giu",
+      "path": "verifiche/slicing_input/R07_STUDIO_faccia_concava_giu.stl",
+      "sha256": "b4b87afabeca9017e3983d24c937a22a84bbfdf2a1b19ed8cbe7c929f2179cc3",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.99999989999999,
+          100.99999989999996,
+          15.999997991971881
+        ]
+      ]
+    },
+    {
+      "name": "sul_bordo_frontale",
+      "path": "verifiche/slicing_input/R07_STUDIO_sul_bordo_frontale.stl",
+      "sha256": "eb85dd656e82af1d67294fe544f6348e810a6fd5c24937e4d017f84ba70e93c3",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          89.99999989999999,
+          15.999997991971881,
+          100.9999999
+        ]
+      ]
+    }
+  ],
+  "leds": false,
+  "fan": false,
+  "physical_print": false,
+  "thermal_validation": false,
+  "note": "Le aree aperte non provano pari portata o prestazioni termiche. Orientamento e supporti da verificare nello slicer."
+}

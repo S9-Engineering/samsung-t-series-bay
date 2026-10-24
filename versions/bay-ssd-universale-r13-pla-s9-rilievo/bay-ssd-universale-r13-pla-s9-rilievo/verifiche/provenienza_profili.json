@@ -1,0 +1,59 @@
+{
+  "materiale_confermato_utente": "ELEGOO PLA BASIC",
+  "data_conferma": "2026-10-21",
+  "colore_confermato": false,
+  "profilo_originale": "Elegoo PLA Basic @ECC2",
+  "catena_ereditarieta": [
+    {
+      "path": "/Users/stefanonovelli/Library/Application Support/ElegooSlicer/system/Elegoo/filament/fdm_filament_common.json",
+      "name": "fdm_filament_common",
+      "sha256": "905b6882f138c64d28cd5a6615f5abb0eb079161340781600a7b09401f05f7c8"
+    },
+    {
+      "path": "/Users/stefanonovelli/Library/Application Support/ElegooSlicer/system/Elegoo/filament/fdm_filament_pla.json",
+      "name": "fdm_filament_pla",
+      "sha256": "f867b1e209051427290b11cc2a085ed722643a47823f1827f820bbb6c7d2a08e"
+    },
+    {
+      "path": "/Users/stefanonovelli/Library/Application Support/ElegooSlicer/system/Elegoo/filament/BASE/Elegoo PLA @base.json",
+      "name": "Elegoo PLA @base",
+      "sha256": "5923401a79e2d3b3115019bce2a9d0e023a14bff17ad95ca59e7d74b360dc055"
+    },
+    {
+      "path": "/Users/stefanonovelli/Library/Application Support/ElegooSlicer/system/Elegoo/filament/ECC2/Elegoo PLA Basic @ECC2.json",
+      "name": "Elegoo PLA Basic @ECC2",
+      "sha256": "8682e4713299224f3657239775470c50aabb1bb81776ccbf937ffbb212432075"
+    }
+  ],
+  "macchina": "Elegoo Centauri Carbon 2 0.4 nozzle",
+  "ugello_mm": 0.4,
+  "piano": "Textured PEI Plate",
+  "modifiche_al_filamento": {
+    "filament_max_volumetric_speed": {
+      "originale": "21",
+      "provini": "5",
+      "motivo": "Stesso limite conservativo dei provini PETG per confrontare le finiture con velocita comparabili"
+    }
+  },
+  "temperature": {
+    "ugello_C": 220,
+    "piano_C": 60
+  },
+  "origine_temperature": "Profilo ufficiale locale Elegoo PLA Basic @ECC2 con ereditarieta risolta",
+  "riferimento_produttore": "https://www.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg",
+  "intervalli_produttore": {
+    "ugello_C": [
+      190,
+      230
+    ],
+    "piano_C": [
+      35,
+      65
+    ]
+  },
+  "calibrazione_bobina_eseguita": false,
+  "sent_to_printer": false,
+  "specifiche_materiale_url": "https://uk.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg",
+  "specifiche_verificate_il": "2026-10-21",
+  "nota_soglia_camera": "Avviso PLA risolto con preparazione a sportello aperto; soglia software 45 C conservata dal profilo originale."
+}

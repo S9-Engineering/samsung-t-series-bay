@@ -1,0 +1,74 @@
+{
+  "name": "BAY_R01_00_PROVINO_PRIMA_DI_TUTTO",
+  "group": "provino",
+  "geometry_sha256": "6be8f1fd132832aeb6338f11f5e5cd25f4496f5b4cc6a020a97341791f06aea7",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "b660c0917f41d233219ac4489d0bfe353382bb0389e1c51a2f82b5dea9445ad0",
+    "filament.json": "0e99264b8e2671bccac748b08780295a3df35c2f9383e53c928e537367d00fdf"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R01_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+  "project_sha256": "5eff1940baa055a39dedaa909ae10c84f5c498601dedb48f5c91218c582076d7",
+  "layers": 125,
+  "slicer_estimates": {
+    "filament used [mm]": "5173.08",
+    "filament used [cm3]": "12.44",
+    "filament used [g]": "15.55",
+    "total filament used [g]": "15.55",
+    "estimated printing time (normal mode)": "1h 5m 7s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R01_00_PROVINO_PRIMA_DI_TUTTO/tutti_strati_0001_0125.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R01_00_PROVINO_PRIMA_DI_TUTTO/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r01-slicer-h1hdv3f8/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r01/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r01/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r01/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r01-slicer-h1hdv3f8/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r01/stampa/piatti_geometrici/BAY_R01_00_PROVINO_PRIMA_DI_TUTTO_GEOMETRIA.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

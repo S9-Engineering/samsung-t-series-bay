@@ -1,0 +1,12 @@
+{
+  "source_manifest_sha256": "373288c5d196a836e3bca1e01d0ff098f5ab715c33c31f04c7fe7aa10ea3b36b",
+  "outputs": {
+    "anteprime/01_R24_CASE_E_INTERNI.png": "9143adc6f4834f4ee0822672eb1374e9b223bf30adc35f3a8c6cabe08264075b",
+    "anteprime/02_R24_CARTUCCE.png": "a4a0e6629f4412e2d78940986b00512c083af33c80078bf290f82cf97b4c11d7",
+    "anteprime/03_R24_MONTAGGIO.png": "59037bf1fb62122620853e7b20e86c3b8073896cdd79ba4d3f59ba3e5e43c3cb",
+    "anteprime/04_R24_PIATTO_COMPLETO.png": "3dd1459f5b5cf9ae79dab8fae6f4b377856609326aeda6a44bee0b328e44cca3",
+    "anteprime/04_R24_PIATTO_INTERNI.png": "dabc42d087b59665c206c9fd34c8ea890b8e29bbb765566162338e6f7ea95f69",
+    "anteprime/04_R24_PIATTO_TETTO.png": "08458c81e8fdef3041d831d4082d669380462b1df530e754356035eb420440ce"
+  },
+  "physical_photo": false
+}

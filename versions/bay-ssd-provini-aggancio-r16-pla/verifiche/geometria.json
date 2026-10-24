@@ -1,0 +1,142 @@
+{
+  "result": "PASS_GEOMETRIA_NOMINALE",
+  "source_manifest_sha256": "09497a072834d5ad43012058c7b85ea20c8ec9cc4253e14bc879ea9c3e4b177d",
+  "parts": [
+    {
+      "name": "PROVINO_I_R16",
+      "stl_sha256": "dfabf12721b51183838126123a09e09fc41bfd7ef1d71c33402286834eeb92c3",
+      "step_sha256": "87c65facfe0f80da1a1422f810ec8be6d798c0e35e0ccc62e26b75e195ce3437",
+      "one_solid": true,
+      "closed": true,
+      "winding": true,
+      "volume_mm3": 4062.6360995466093,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 242,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          14.0,
+          15.0
+        ]
+      ],
+      "nominal_tooth_reach_per_side_mm": 0.6,
+      "tooth_tip_span_mm": 85.19999999999999,
+      "geometric_reach_after_pad_translation_mm": 0.44999999999999996,
+      "window_width_mm": 9.6,
+      "tab_width_mm": 9,
+      "tab_y_clearance_per_end_mm": 0.3,
+      "first_bearing_z_mm": 73.45,
+      "vertical_lid_play_envelope_mm": 0.5499999999999972,
+      "intentional_pad_overlap_mm3": 2.6018181818160224,
+      "translated_envelope_collisions_mm3": 0,
+      "mechanical_force_validated": false,
+      "FEA": false
+    },
+    {
+      "name": "PROVINO_II_R16",
+      "stl_sha256": "e3cf192131272854546eea8a8833e6bb89fe22d8ac7b95d609f9ad93482af598",
+      "step_sha256": "5229e465ef193368040a2327a980bc22bdcc192e2ed32df266f1ab9afe095f97",
+      "one_solid": true,
+      "closed": true,
+      "winding": true,
+      "volume_mm3": 4068.1846974117257,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 294,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          14.0,
+          15.0
+        ]
+      ],
+      "nominal_tooth_reach_per_side_mm": 1.0,
+      "tooth_tip_span_mm": 86.00000000000045,
+      "geometric_reach_after_pad_translation_mm": 0.85,
+      "window_width_mm": 9.6,
+      "tab_width_mm": 9,
+      "tab_y_clearance_per_end_mm": 0.3,
+      "first_bearing_z_mm": 73.60714285714286,
+      "vertical_lid_play_envelope_mm": 0.3928571428571388,
+      "intentional_pad_overlap_mm3": 2.6018181818160224,
+      "translated_envelope_collisions_mm3": 0,
+      "mechanical_force_validated": false,
+      "FEA": false
+    },
+    {
+      "name": "PROVINO_III_R16",
+      "stl_sha256": "eb3c2ff4d8598dd7537d1d2de4ab1139d772bc4a4862298836701532cf00bed7",
+      "step_sha256": "11f03559ca697bd5b1515bf4c227d8c8f47d8eacc50ffa45ff86bfb4abccc2be",
+      "one_solid": true,
+      "closed": true,
+      "winding": true,
+      "volume_mm3": 4071.5989920837433,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 387,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          14.0,
+          15.0
+        ]
+      ],
+      "nominal_tooth_reach_per_side_mm": 1.0,
+      "tooth_tip_span_mm": 86.00000000000091,
+      "geometric_reach_after_pad_translation_mm": 0.85,
+      "window_width_mm": 9.6,
+      "tab_width_mm": 9,
+      "tab_y_clearance_per_end_mm": 0.3,
+      "first_bearing_z_mm": 73.8,
+      "vertical_lid_play_envelope_mm": 0.20000000000000284,
+      "intentional_pad_overlap_mm3": 2.6018181818160224,
+      "translated_envelope_collisions_mm3": 0,
+      "mechanical_force_validated": false,
+      "FEA": false
+    }
+  ],
+  "R15_hashed_files_preserved": 134,
+  "baseline_left_latch_difference_mm3": 0,
+  "reference_window_difference_mm3": 0,
+  "limitations": [
+    "Lieve interferenza solo sui due pattini di precarico.",
+    "Inviluppo traslato: nessuna FEA o misura della forza.",
+    "Traversa piu rigida del tetto ventilato: qualifica misure e presa locale, non la forza del tetto completo.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ],
+  "physical_print": false
+}

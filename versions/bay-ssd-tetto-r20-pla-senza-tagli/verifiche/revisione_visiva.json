@@ -1,0 +1,22 @@
+{
+  "project_sha256": "327f7b7a1388b5e0635cb626a0aead389679df1ae4be254d7646c725680f3bcb",
+  "all_layer_overviews_reviewed": true,
+  "image_hashes": {
+    "verifiche/slicing/TETTO/TUTTI_STRATI_001_100.png": "33383d2a904dc3aebe823cced6d634020f878289f339871b9ffd7056d516b342",
+    "verifiche/slicing/TETTO/TUTTI_STRATI_101_145.png": "7fc2f096d7968f840e6762bfab9c037f8a62b01bcfc94658680d47f4f7863d31",
+    "verifiche/slicing/TETTO/ALETTA_SINISTRA.png": "877a6d06a0b40bb2ee2def215efc58f9af47058f918ef6c07becf116ffe7ec53",
+    "verifiche/slicing/TETTO/ALETTA_DESTRA.png": "f5764473b9a99f3ee6eb54df4037189572643ae3d598c6f34563d60c0e5380c1",
+    "verifiche/slicing/TETTO/PRIMO_STRATO_TETTO_CODA.png": "6613ff6cc38cd8f5ab7e41fb8931f38916b5e11cad5ed56b0f164cb37b80c96b",
+    "verifiche/slicing/TETTO/RADICI.png": "b48349861b4fefc4befc434897983b4e979be6674f93dfdaa6847ce0ea64055b",
+    "verifiche/slicing/TETTO/FLESSURA_INTERNA.png": "489d28e2d5a24a074921845df9b562d9da7ea05fab33ce468c84c912afc9acb3",
+    "verifiche/slicing/TETTO/CODA_POSTERIORE.png": "204d0f7da4db20ee674c0df027d890f2b41e3cfcd4e375e9d7cddec1b2cbc53b",
+    "verifiche/slicing/TETTO/PONTI_01.png": "e85e4a704fcaa4c8a8ee1ab6cae353995904e68e3c610a4d060f76e61c4ff56f"
+  },
+  "cad_image_hashes": {
+    "anteprime/01_TETTO_R20.png": "1f5f3ef78fa9046208f1afdb0154431ce2e3f3348ab01fc9454b701a29b27d60",
+    "anteprime/02_ASSIEME_R20.png": "ae43964258c9b0b4c4612a8d62b0a571f0a41c9b8b58b837f45bd35d67425516",
+    "anteprime/03_PIATTO_R20.png": "54f6ae32814e58d9cd77b5b9c847f58ac395acb2af7aa7380c1eed1213473280"
+  },
+  "review": "Visionate tutte le nove tavole dei percorsi e le tre anteprime CAD/piatto. Tutti i 145 strati presenti. Primo strato integro con sole feritoie orizzontali e brim. Nuovi attacchi collegati al tetto; supporti sotto entrambi i tratti liberi, separati dalla flessura da interfaccia; crescita delle due flessure presente. Braccetti supportati, coda continua, nessuna isola involontaria osservata. Supporti accessibili dal lato interno nel gioco da 3 mm; distacco e funzione meccanica ancora da provare fisicamente.",
+  "physical_verification": false
+}

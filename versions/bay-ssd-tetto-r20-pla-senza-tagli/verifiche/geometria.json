@@ -1,0 +1,247 @@
+{
+  "result": "PASS_GEOMETRIA_NOMINALE_TETTO",
+  "source_manifest_sha256": "4aed2a8ed980d8187f270edc0dc77bb83a6d154e99200c503baccd10a67c23d2",
+  "stl_sha256": "e59017a0a08d8eec9d375b56b23d785586be03af2e54b49ac01313a513fff8da",
+  "step_sha256": "4dadebdb2d07727681913cd35ffdbbbe93b812ec5562ef343b3c59119848c082",
+  "print_step_sha256": "1dbf9bc121aac2c89ce84f7968554ff82a18810ed632a07ef4b6e75a74b2aa4f",
+  "closed": true,
+  "winding_consistent": true,
+  "components": 1,
+  "faces": 10500,
+  "volume_mm3": 26372.69258077872,
+  "print_bounds_mm": [
+    [
+      1.3877787807814457e-17,
+      0.0,
+      -3.9157713758723625e-16
+    ],
+    [
+      90.08333587646484,
+      109.0,
+      29.0
+    ]
+  ],
+  "degenerate_faces": 0,
+  "duplicate_faces": 0,
+  "self_intersections": {
+    "candidate_pairs_no_shared_vertex": 22706,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "top_roof_difference_R15_mm3": 0,
+  "no_top_release_slots": true,
+  "lower_latch_R18_and_hidden_spring_checks": [
+    {
+      "side": "left",
+      "lower_finger_and_peg_difference_R18_mm3": 0,
+      "free_beam_difference_after_translation_mm3": 0,
+      "roof_gap_mm": 3
+    },
+    {
+      "side": "right",
+      "lower_finger_and_peg_difference_R18_mm3": 0,
+      "free_beam_difference_after_translation_mm3": 0,
+      "roof_gap_mm": 3
+    }
+  ],
+  "unchanged_remainder_difference_mm3": 0,
+  "tail_bottom_z_mm": 57,
+  "horizontal_roof_vent_cutters": 16,
+  "roof_thickness_mm": 3,
+  "hidden_beam_free_length_mm": 18,
+  "hidden_beam_section_mm": [
+    1.2,
+    3
+  ],
+  "hidden_beam_z_mm": [
+    77,
+    80
+  ],
+  "gap_to_roof_mm": 3,
+  "lower_finger_horizontal_thickness_mm": 1.2,
+  "lateral_arm_mm": 3.1,
+  "minimum_stem_wall_clearance_mm": 0.04999999999999982,
+  "minimum_gap_above_window_mm": 0.07500000000000284,
+  "outward_angle_deg": 0.4774537773095774,
+  "seated_overlap_mm3": 0,
+  "bearing_overlap_after_lift_0_4mm_mm3": 9.829712396692686,
+  "insertion_envelopes": [
+    {
+      "phase": "discesa",
+      "dz_mm": 16,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 12,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 8,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 4,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 1,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 0.2,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "discesa",
+      "dz_mm": 0,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 3.15,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 2.5,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 2,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 1.5,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 1,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 0.5,
+      "intersection_mm3": 0
+    },
+    {
+      "phase": "rilascio",
+      "dz_mm": 0,
+      "inward_mm": 0,
+      "intersection_mm3": 0
+    }
+  ],
+  "drive_and_usb_checks": [
+    {
+      "model": "T7",
+      "slot": 1,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.299999999999997,
+      "ssd_top_to_roof_mm": 11.799999999999997
+    },
+    {
+      "model": "T7",
+      "slot": 2,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.299999999999997,
+      "ssd_top_to_roof_mm": 11.799999999999997
+    },
+    {
+      "model": "T7",
+      "slot": 3,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.299999999999997,
+      "ssd_top_to_roof_mm": 11.799999999999997
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 1,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 3.299999999999997,
+      "ssd_top_to_roof_mm": 9.799999999999997
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 2,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 3.299999999999997,
+      "ssd_top_to_roof_mm": 9.799999999999997
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 3,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 3.299999999999997,
+      "ssd_top_to_roof_mm": 9.799999999999997
+    },
+    {
+      "model": "T9",
+      "slot": 1,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.0,
+      "ssd_top_to_roof_mm": 10.0
+    },
+    {
+      "model": "T9",
+      "slot": 2,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.0,
+      "ssd_top_to_roof_mm": 10.0
+    },
+    {
+      "model": "T9",
+      "slot": 3,
+      "drive_collision_mm3": 0,
+      "usb_collision_mm3": 0,
+      "usb_minimum_distance_mm": 4.0,
+      "ssd_top_to_roof_mm": 10.0
+    }
+  ],
+  "minimum_usb_clearance_mm": 3.299999999999997,
+  "previous_hashed_files_preserved": {
+    "R15": 134,
+    "R18": 47,
+    "R19": 54
+  },
+  "limitations": [
+    "Geometria nominale; scocca, SSD e spinotti reali non misurati in questa revisione.",
+    "Inviluppi di manovra traslati rigidamente, non simulazione della flessione.",
+    "Attacco interno nuovo rispetto a R18/R19: forza, ritorno e durata non verificati fisicamente.",
+    "Rimozione dei supporti fra flessure e tetto da verificare sulla stampa; spazio nominale 3 mm, accessibile dal lato interno.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ],
+  "physical_print": false,
+  "physical_fit": false,
+  "FEA": false,
+  "force_validated": false
+}

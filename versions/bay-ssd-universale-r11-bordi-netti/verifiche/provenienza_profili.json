@@ -1,0 +1,56 @@
+{
+  "source_revision": "bay-ssd-universale-r10-feritoie-orizzontali",
+  "configuration_confirmed_by_user": "ECC2 Combo, ugello .4 mm, PEI testurizzato, ELEGOO PETG PRO, 2026-10-20",
+  "changes": "Sola rinomina R10 in R11. Profili numericamente identici; cambiano solo i raccordi esterni del CAD, azzerati su richiesta.",
+  "profiles": {
+    "filament.json": {
+      "source_sha256": "75d5ea9ca84bb271cda70000b53fc522bdecda01a97137a0d2e42f3dcc256bda",
+      "current_sha256": "7596a84cb63de62b65e2a64550934f2644fb1a87fa7a67f26b95667f17fecf02"
+    },
+    "process.json": {
+      "source_sha256": "2192b7d479340052051d7bd2c141cd8b0bfafa37564aec48739666c1ad255d7c",
+      "current_sha256": "400851225ec6e9431f7979bf12caaaa4dc504d52c39214c2373ca8de0b7dadbd"
+    },
+    "machine.json": {
+      "source_sha256": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+      "current_sha256": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5"
+    }
+  },
+  "references": [
+    {
+      "url": "https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg",
+      "checked": "2026-10-20",
+      "nozzle_range_C": [
+        230,
+        260
+      ],
+      "nozzle_recommended_C": 240,
+      "bed_range_C": [
+        65,
+        75
+      ],
+      "speed_range_mm_s": [
+        40,
+        100
+      ]
+    },
+    {
+      "url": "https://www.elegoo.com/products/centauri-carbon-2-combo",
+      "checked": "2026-10-20",
+      "volume_mm": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "url": "https://elegoo-downloads.oss-us-west-1.aliyuncs.com/tutorials/Centauri%20Carbon%202%20Combo/Centauri%20Carbon%202%20Combo%20User%20Manual-English-V1.3.pdf",
+      "checked": "2026-10-20",
+      "access": "Indicizzazione web del manuale ufficiale; apertura diretta del PDF non riuscita.",
+      "slicer_model": "Elegoo Centauri Carbon 2",
+      "nozzle_mm": 0.4
+    }
+  ],
+  "calibrated": false,
+  "material_color_stock_confirmed": false
+}

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-20",
+  "reviewer": "Codex: ispezione delle tavole dei percorsi reali",
+  "method": "Tutti i 645 strati nelle otto tavole ZOOM; nove tavole critiche campionate. Controllati il perimetro squadrato, i primi strati, le feritoie e gli agganci. Nessuna prova fisica.",
+  "projects": {
+    "BAY_R11_00_PROVINO_PRIMA_DI_TUTTO": {
+      "project_sha256": "4db2cf44b3ecae49f0c3702c7f9fb5226d0855c6da65ef7b33ea58d49c6218f8",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R11_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png": "327a50bfe35aa78c63c4d529b879540d70dee8cba6d6a6c59436814bfb59ea46",
+        "verifiche/slicing/BAY_R11_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0155.png": "35971e1001f8327dbdff19d21154f25dc0e5356d61f3c019d7b70a7f8d07cd33",
+        "verifiche/slicing/BAY_R11_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png": "1aa56a5b2aa4c1e4fed9a53c9fff97e8f822bc55952ece5c550c85c20ec0f220",
+        "verifiche/slicing/BAY_R11_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png": "86eecf5957515ef4b1cb61f7a1f250fa485d81ed09f87ec1475c46dddedb44f2"
+      },
+      "notes": [
+        "Provini e clip presenti nei percorsi. Primo strato con brim e crescita regolare. Forza e gioco degli incastri richiedono il provino fisico."
+      ]
+    },
+    "BAY_R11_01_SCOCCA_INSERTI": {
+      "project_sha256": "5030480fe25116f995d8fde35e7da5e78cccf92a1a0c876e4df6405f6433238c",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png": "aee30f70fce748654922db37129ec0d531ad6ff1dd0505c770a0b8ffdb17f581",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png": "76593b9c956d2fbc49fa6fb904fb4138bb72a25e14a3b77e062a563855ab1d35",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png": "5955ab039438a640fabaecc3d73be2d9874151842c7ed6751792e1f27cb24049",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png": "93dd8b2722d131e7423f96639af8238de17506a7c17b27187d82f9be700270d7",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png": "e3f5627a66922a7a7fee9c6f60641116e5a28b920cc6cad0324f652e4124cf49",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/CRITICI_01.png": "fde5c55104b3bf9b1e3a82604751aa104d01c4b5e89d324c071a9f79bc719084",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/CRITICI_08.png": "0e07e36d846801e3534fe056f30d0cb6d9eb1d2b305a6afb0a3fa0e199f6de77",
+        "verifiche/slicing/BAY_R11_01_SCOCCA_INSERTI/FERITOIE_LATERALI.png": "baedb033fc2490ac523d8f8194fc485b7796cd7de66d36cd07f1695bb72ee53f"
+      },
+      "notes": [
+        "Perimetro esterno squadrato presente a tutti gli strati; fondo, recessi piedini, appoggi e guide presenti. Feritoie orizzontali e chiusure superiori regolari nelle tavole. Finestre degli agganci e strati soprastanti presenti. Finitura e resistenza richiedono stampa fisica."
+      ]
+    },
+    "BAY_R11_02_COPERCHIO": {
+      "project_sha256": "77b59f3ef5dd527f1f3b714bd74533937bd1246b3ca090c992ec44469b142ac3",
+      "reviewed": true,
+      "all_layer_overviews_reviewed": true,
+      "critical_detail_review": "campionata",
+      "image_hashes": {
+        "verifiche/slicing/BAY_R11_02_COPERCHIO/ZOOM_tutti_0001_0075.png": "483388b439b204dd42c0a8fc78c43722ee15e604f8bfad1ed482ec450dfc5456",
+        "verifiche/slicing/BAY_R11_02_COPERCHIO/CRITICI_01.png": "8e331fb1b58d2e96a5357ee061c6cd5221bb286f91dd4a9c50e4f069059a2178",
+        "verifiche/slicing/BAY_R11_02_COPERCHIO/CRITICI_02.png": "0d9bc0d6faa0b41031227fb7822a77c6d3eb9e920326f2aaccabebdb47ab3d11",
+        "verifiche/slicing/BAY_R11_02_COPERCHIO/CRITICI_05.png": "aa693e4a43aad76d6eee36c3c60c37387b77de6d8c90a09366cfd4db5f554156",
+        "verifiche/slicing/BAY_R11_02_COPERCHIO/CRITICI_06.png": "72e74c4b0e8b9b5433712784f5d63a7ecca290ad81bc23ff06cfe1b937a4c869"
+      },
+      "notes": [
+        "Perimetro rettangolare a spigolo e griglia presenti dal primo strato con brim; linguette e riferimenti crescono dal tetto capovolto. Nessuna isola sospesa involontaria individuata nelle tavole."
+      ]
+    }
+  }
+}

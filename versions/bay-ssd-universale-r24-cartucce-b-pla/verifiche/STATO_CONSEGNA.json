@@ -1,0 +1,76 @@
+{
+  "revision": "R24_CARTUCCE_B_PLA_BASIC",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_CON_PROVA_PRELIMINARE",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "projects": {
+    "INTERNI": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R24_01_PROVINO_INTERNI_ECC2_PLABASIC.3mf",
+      "sha256": "aa8ad4c5a3dac4924ec491273c5e1c873e299e118ddedf606b09254c7e005171",
+      "estimates": {
+        "filament_g": 27.53,
+        "printing_seconds": 6611,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    },
+    "TETTO": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R24_02_PROVINO_TETTO_ECC2_PLABASIC.3mf",
+      "sha256": "769c96540440e49f34e4ea3b1c10616f81557ad17d9740606c0bccb667976357",
+      "estimates": {
+        "filament_g": 22.7,
+        "printing_seconds": 4784,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    },
+    "COMPLETO": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R24_03_KIT_COMPLETO_UNICO_PIATTO_ECC2_PLABASIC.3mf",
+      "sha256": "7ecc8a6ba6e004687b708c304ebb92f0dc05106e120d14809c47e108603b2df5",
+      "estimates": {
+        "filament_g": 211.29,
+        "printing_seconds": 43953,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    }
+  },
+  "parts_full_kit": 7,
+  "body_reprint_required": true,
+  "old_carriers_reusable": false,
+  "roof_geometry_unchanged_from_R22": true,
+  "roof_and_key_already_printed_R22_reusable_if_fit_verified": true,
+  "external_dimensions_mm": [
+    90,
+    109.4,
+    86
+  ],
+  "side_protrusions": false,
+  "elastic_arms": false,
+  "export_reopened": true,
+  "kinematics_verified": true,
+  "slicing_verified": true,
+  "all_layers_reviewed": true,
+  "physical_fit": false,
+  "physical_print": false,
+  "force_validated": false,
+  "thermal_test": false,
+  "sent_to_printer": false,
+  "hardware_bom": {},
+  "commercial_components": [
+    "4 piedini trasparenti propri; sole sedi incluse"
+  ],
+  "prerequisite": "Prima il provino interni R24. Provino del tetto solo se guide e perno R22 non sono ancora stati verificati sul pezzo reale.",
+  "limitations": [
+    "Corpi rettangolari SSD nominali, non scansioni dei rivestimenti.",
+    "Moto campionato; nessuna analisi delle forze, fatica o creep del PLA.",
+    "Gioco piede .2 mm per lato e .2 verticale sulle rampe = circa .141 normale; da provare fisicamente.",
+    "Il fermo frontale si appoggia per gravita: progetto per uso da scrivania in posizione verticale.",
+    "Screening mesh esclude triangoli con vertici condivisi."
+  ]
+}

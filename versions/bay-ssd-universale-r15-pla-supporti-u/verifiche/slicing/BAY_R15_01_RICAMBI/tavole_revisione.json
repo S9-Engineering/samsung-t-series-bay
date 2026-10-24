@@ -1,0 +1,41 @@
+{
+  "project_sha256": "cf7d29364af951486204ade1fb28e03c36f6ee268fb8a9c61c30a9cd0f645405",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ZOOM_tutti_0101_0145.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_01.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_02.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_03.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_04.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_05.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_06.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_07.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_08.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CULLA_T7_INGRANDITA.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CULLA_SHIELD_INGRANDITA.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/COPERCHIO_AGGANCI.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ALETTA_PRECARICO.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Tavole da ispezionare; la loro generazione non costituisce approvazione automatica.",
+  "reviewed_image_paths": [
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ZOOM_tutti_0101_0145.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_01.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_02.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_03.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_04.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_05.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_06.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_07.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CRITICI_08.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CULLA_T7_INGRANDITA.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/CULLA_SHIELD_INGRANDITA.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/COPERCHIO_AGGANCI.png",
+    "verifiche/slicing/BAY_R15_01_RICAMBI/ALETTA_PRECARICO.png"
+  ],
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true
+}

@@ -1,0 +1,104 @@
+{
+  "revision": "R04_STUDIO_ESTETICO",
+  "scope": "STUDIO_ESTETICO",
+  "checks": [
+    {
+      "name": "scocca_estetica_R04",
+      "step": "CAD_studio/scocca_estetica_R04.step",
+      "step_sha256": "4bdea409894e5904ddfdffffed797561a2de7bfb83da584e44d82bc95ee3eb81",
+      "mesh": "verifiche/scocca_estetica_R04.ply",
+      "mesh_sha256": "946e708058655576dc455b470f1a63a9e7abae2a36e8afd09bb61cb02bf7e389",
+      "step_valid": true,
+      "solids": 1,
+      "mesh_closed": true,
+      "consistent_normals": true,
+      "volume_mm3": 102068.17239765049,
+      "bounds_mm": [
+        [
+          -8.881784197001252e-16,
+          -8.881784197001252e-16,
+          -1.1102230246251565e-16
+        ],
+        [
+          90.0,
+          101.0,
+          83.0
+        ]
+      ],
+      "degenerate_faces": 0,
+      "duplicate_faces": 0
+    },
+    {
+      "name": "tetto_estetico_R04",
+      "step": "CAD_studio/tetto_estetico_R04.step",
+      "step_sha256": "6efc7f9e474027fb8f5a9582d1312367951c617475fd8a89d9eb14c1e3be9931",
+      "mesh": "verifiche/tetto_estetico_R04.ply",
+      "mesh_sha256": "6b9f76f676370820f7b016f3df20286512af7168b885c24827dcb79936683b03",
+      "step_valid": true,
+      "solids": 1,
+      "mesh_closed": true,
+      "consistent_normals": true,
+      "volume_mm3": 15598.743654770455,
+      "bounds_mm": [
+        [
+          -1.1102230246251565e-16,
+          -8.881784197001252e-16,
+          83.0
+        ],
+        [
+          90.0,
+          101.0,
+          86.0
+        ]
+      ],
+      "degenerate_faces": 0,
+      "duplicate_faces": 0
+    }
+  ],
+  "feet_seats": {
+    "numero": 4,
+    "centri_xy": [
+      [
+        10,
+        10
+      ],
+      [
+        80,
+        10
+      ],
+      [
+        10,
+        91
+      ],
+      [
+        80,
+        91
+      ]
+    ],
+    "diametro_indicativo": 10.5,
+    "profondita_indicativa": 0.65,
+    "piazzola_piena_diametro": 12.0,
+    "tipo": "tasca per gommino adesivo trasparente commerciale; gommini non inclusi nei pezzi stampati",
+    "misure_gommini_confermate": false
+  },
+  "parameters_sha256": "2721a8997e427d83f5dbd2b47bc097f5fd3a95f39991e8d0bf17c0bb84c50d5c",
+  "slicing": false,
+  "structural_validation": false,
+  "thermal_validation": false,
+  "self_intersection_screening": false,
+  "physical_fit": false,
+  "print_ready": false,
+  "reference_print_revision": "R03",
+  "previews": {
+    "anteprime/01_R04_PALETTE.png": "19d57372d6a53209f9702bc859491c3968382ef23188177260faa1a4f8479791",
+    "anteprime/02_R04_BIANCO_ROSSO.png": "44e5a821c1849f0c4445c6dd3739a4863ce6a48a63a33a8730a1918096616ca5",
+    "anteprime/03_R04_DETTAGLI.png": "a2e2b7f151ee82f890016a1c29ecdbcb027a085ea49309cac5f8471f4969c50c"
+  },
+  "dependencies": {
+    "cadquery": "2.8.0",
+    "trimesh": "5.1.1",
+    "vtk": "9.6.2",
+    "Pillow": "13.0.0",
+    "numpy": "2.4.6"
+  }
+}

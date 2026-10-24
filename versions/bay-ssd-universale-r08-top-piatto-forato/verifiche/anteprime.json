@@ -1,0 +1,15 @@
+{
+  "source_manifest_sha256": "a34f73e725d899d97131f358d40455de93c1cd4b7d85c4e8da0377b383343d2e",
+  "outputs": {
+    "anteprime/01_R08_CHIUSO.png": "85e17200d5e3a9aca2b485fec86d357dc10a8fae593e397fb59b91180ccaa5cf",
+    "anteprime/02_R08_INTERNO.png": "884966ac19fea1e24dfb523bbef1ace4b800c3a7ef2d198ac9d37789e14eb750",
+    "anteprime/03_R08_SEDI.png": "8ac79d871d782b2c6d7ec3e327a381e6e3497903eaf23372c08deca4f8b44a58",
+    "anteprime/04_R08_PIATTI.png": "0b5d40b98bd6a5ba399e80befaf46010ddd177b58c8f829b51097be8c32fa4d3",
+    "anteprime/05_R08_MONOLITE.png": "8cb5c8aba1d202856d231648f387d732ad692eb5fea51b0a36b1ff2d080d92aa",
+    "anteprime/06_R08_ALTO.png": "4837eea21e7c08d6ba829ede78869c79b4f14d611c98b5e65ed737922d3dc3b5",
+    "anteprime/07_R08_TETTO_PIATTO.png": "ced6ad577ebfab94a6d1cdd2cc21e1e1a798a5815bda1400c86ed644dc5e5cc1"
+  },
+  "cfd": false,
+  "physical_photo": false,
+  "notes": "Render dai solidi esportati; colori degli inserti esplicativi, stampa con lo stesso PETG della scocca."
+}

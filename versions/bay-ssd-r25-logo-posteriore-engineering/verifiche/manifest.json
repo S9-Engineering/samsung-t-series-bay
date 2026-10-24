@@ -1,0 +1,289 @@
+{
+  "revision": "R25_LOGO_POSTERIORE_ENGINEERING",
+  "unit": "millimeter",
+  "source_sha256": "988ea1efdaff4a5f2a79ab0ade56c0b1c60cd953ae23cf7be9c7f9bdcca7e66b",
+  "parameters_sha256": "88ddfbdc72b308d5aa3b91298609cc6e7cd757cacdbc82a74d6a0a8527646012",
+  "parts": [
+    {
+      "name": "SCOCCA_R25",
+      "quantity": 1,
+      "orientation": "none",
+      "stl": "stampa/STL/SCOCCA_R25.stl",
+      "step": "CAD/SCOCCA_R25.step",
+      "print_step": "CAD/SCOCCA_R25_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/SCOCCA_R25.ply",
+      "stl_sha256": "7947bbdd0b39e401820bcfa369de3c2b442db9c9941e5ee3d838de04298da0db",
+      "step_sha256": "68ca7309825ddd5c8c4773ecf355c9bfda976d7472ab8022736827568be714a4",
+      "print_step_sha256": "a250f5a40468eca6eb69b22f0b7d9b22c4d8fb4fd95f37c31eefaadf6ce01c15",
+      "bounds_mm": [
+        [
+          0.0,
+          -0.4,
+          0.0
+        ],
+        [
+          90.0,
+          101.0,
+          83.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4,
+          83.0
+        ]
+      ],
+      "volume_mm3": 111720.51747103265
+    },
+    {
+      "name": "TETTO_R25_LOGO_ENGINEERING",
+      "quantity": 1,
+      "orientation": "flip",
+      "stl": "stampa/STL/TETTO_R25_LOGO_ENGINEERING.stl",
+      "step": "CAD/TETTO_R25_LOGO_ENGINEERING.step",
+      "print_step": "CAD/TETTO_R25_LOGO_ENGINEERING_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/TETTO_R25_LOGO_ENGINEERING.ply",
+      "stl_sha256": "2a274cd06810d3c0165ea18f3a833999f92e1ecb5dc00fe6ae5a6da7160929f5",
+      "step_sha256": "f147d198901aec3c05f6c8da2aeb2a3ef1ea9a989822cfd9e8adc3c619827444",
+      "print_step_sha256": "779213f2e5808c30e465773cbe0239a12e26c3741bb1ec76d578b7df090747fc",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          57.0
+        ],
+        [
+          90.0,
+          109.39999999999999,
+          86.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          -2.886579864025407e-15,
+          -3.91886975727153e-16
+        ],
+        [
+          90.0,
+          109.39999999999999,
+          29.000000000000014
+        ]
+      ],
+      "volume_mm3": 37411.55858754148
+    },
+    {
+      "name": "PERNO_R25_NASCOSTO",
+      "quantity": 1,
+      "orientation": "key",
+      "stl": "stampa/STL/PERNO_R25_NASCOSTO.stl",
+      "step": "CAD/PERNO_R25_NASCOSTO.step",
+      "print_step": "CAD/PERNO_R25_NASCOSTO_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PERNO_R25_NASCOSTO.ply",
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d",
+      "step_sha256": "d616056664ddf743e68b1f7655552f877e5f90d61912ab1ae659960e60367442",
+      "print_step_sha256": "cbe8a7a83b610d8969938609dd1242638ebbdeb13eb8d2c6ea87201864323a38",
+      "bounds_mm": [
+        [
+          4.199999999999999,
+          94.3,
+          52.0
+        ],
+        [
+          12.2,
+          97.8,
+          78.5
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.3306690738754696e-15
+        ],
+        [
+          8.0,
+          26.5,
+          3.500000000000017
+        ]
+      ],
+      "volume_mm3": 358.0459172461266
+    },
+    {
+      "name": "FERMO_CARTUCCE_R25",
+      "quantity": 1,
+      "orientation": "none",
+      "stl": "stampa/STL/FERMO_CARTUCCE_R25.stl",
+      "step": "CAD/FERMO_CARTUCCE_R25.step",
+      "print_step": "CAD/FERMO_CARTUCCE_R25_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/FERMO_CARTUCCE_R25.ply",
+      "stl_sha256": "eac2ebe1297161b43d78418abc0d47fa0b215d5e714c27ba97faa75affdd4162",
+      "step_sha256": "fc0e280e7e08c578dd6bed5cee08b37e89b6bd80ed433cd2be6ad3d63e6c565d",
+      "print_step_sha256": "51e0b437bb6be4ac1d67c5aaf83a9537dcc4b95c9cd249745f29c37fc6bc54ed",
+      "bounds_mm": [
+        [
+          16.5,
+          3.1999999999999993,
+          5.0
+        ],
+        [
+          73.5,
+          14.100000000000001,
+          79.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          57.0,
+          10.900000000000002,
+          74.0
+        ]
+      ],
+      "volume_mm3": 8999.999999999996
+    },
+    {
+      "name": "CARTUCCIA_T7_R25",
+      "quantity": 1,
+      "orientation": "none",
+      "stl": "stampa/STL/CARTUCCIA_T7_R25.stl",
+      "step": "CAD/CARTUCCIA_T7_R25.step",
+      "print_step": "CAD/CARTUCCIA_T7_R25_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/CARTUCCIA_T7_R25.ply",
+      "stl_sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e",
+      "step_sha256": "53048bf71c16d1352617af2c979ea6a9c0f836e4c0cf9f32342e8c88fdb8f34c",
+      "print_step_sha256": "6a771ad38f51b62e33be1d912503245dff3543a4be1bf753d438d2d749e54ecd",
+      "bounds_mm": [
+        [
+          10.6,
+          14.3,
+          10.0
+        ],
+        [
+          31.4,
+          92.0000001,
+          72.9
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999999999997,
+          77.7000001,
+          62.900000000000006
+        ]
+      ],
+      "volume_mm3": 12334.895999999988
+    },
+    {
+      "name": "CARTUCCIA_T7_Shield_R25",
+      "quantity": 1,
+      "orientation": "none",
+      "stl": "stampa/STL/CARTUCCIA_T7_Shield_R25.stl",
+      "step": "CAD/CARTUCCIA_T7_Shield_R25.step",
+      "print_step": "CAD/CARTUCCIA_T7_Shield_R25_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/CARTUCCIA_T7_Shield_R25.ply",
+      "stl_sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96",
+      "step_sha256": "117076f08c9ac52e7e63a2084500e83004a245efd80eca3f7e9c4036d2147d2c",
+      "print_step_sha256": "064a45fb4b1d2b77f38051d9093e7255b1fd020025737d615cf5cb20a446ae08",
+      "bounds_mm": [
+        [
+          10.6,
+          14.3,
+          10.0
+        ],
+        [
+          31.4,
+          92.0000001,
+          74.9
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999999999997,
+          77.7000001,
+          64.9
+        ]
+      ],
+      "volume_mm3": 12891.515999999996
+    },
+    {
+      "name": "CARTUCCIA_T9_R25",
+      "quantity": 1,
+      "orientation": "none",
+      "stl": "stampa/STL/CARTUCCIA_T9_R25.stl",
+      "step": "CAD/CARTUCCIA_T9_R25.step",
+      "print_step": "CAD/CARTUCCIA_T9_R25_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/CARTUCCIA_T9_R25.ply",
+      "stl_sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a",
+      "step_sha256": "1829204a9f3d2c26cfa5ef0263df7e7b831534b1e9f9a5917444fc67e95c85b6",
+      "print_step_sha256": "d7d45a87a5a8340b4e68493d282eb4d058f5f367626654ed2070433903ed5502",
+      "bounds_mm": [
+        [
+          10.6,
+          14.3,
+          10.0
+        ],
+        [
+          31.4,
+          92.0000001,
+          75.9
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999999999997,
+          77.7000001,
+          65.9
+        ]
+      ],
+      "volume_mm3": 13081.655999999992
+    }
+  ],
+  "full_kit_count": 7,
+  "external_dimensions_mm": [
+    90,
+    109.8,
+    86
+  ],
+  "logo_glyphs": 13,
+  "logo_bounds_mm": [
+    [
+      25.0,
+      108.85,
+      59.14132553606238
+    ],
+    [
+      65.0,
+      109.39999999999999,
+      83.85867446393763
+    ]
+  ],
+  "physical_print": false,
+  "physical_fit": false,
+  "sent_to_printer": false
+}

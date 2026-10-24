@@ -1,0 +1,61 @@
+{
+  "sections": [
+    {
+      "z_mm": 2.5,
+      "open_cm2": 20.591185559806117
+    },
+    {
+      "z_mm": 5.1,
+      "open_cm2": 28.53119999999999
+    },
+    {
+      "z_mm": 6.5,
+      "open_cm2": 29.25119999999999
+    },
+    {
+      "z_mm": 7.5,
+      "open_cm2": 29.21999999999999
+    },
+    {
+      "z_mm": 10,
+      "open_cm2": 34.68
+    },
+    {
+      "z_mm": 12,
+      "open_cm2": 34.68
+    },
+    {
+      "z_mm": 14,
+      "open_cm2": 34.68
+    },
+    {
+      "z_mm": 20,
+      "open_cm2": 34.68
+    },
+    {
+      "z_mm": 26,
+      "open_cm2": 36.12
+    },
+    {
+      "z_mm": 40,
+      "open_cm2": 36.12
+    },
+    {
+      "z_mm": 65,
+      "open_cm2": 36.12
+    },
+    {
+      "z_mm": 75,
+      "open_cm2": 36.12
+    },
+    {
+      "z_mm": 84.5,
+      "open_cm2": 26.812371093574537
+    }
+  ],
+  "common_vertical_open_cm2": 15.021422240893642,
+  "note": "Sezioni di soli quattro corridoi fra SSD T9. Area geometrica campionata, non portata, CFD o garanzia termica.",
+  "test_plan": "Confrontare stesso SSD, carico e ambiente dentro/fuori dal bay; poi tre unita insieme, almeno 60 minuti e fino a stabilizzazione. Registrare temperatura disponibile, throughput e disconnessioni. Nessuna scrittura su dati esistenti senza un volume di prova.",
+  "central_slot_priority": true,
+  "thermal_test": false
+}

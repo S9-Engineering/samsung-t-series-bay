@@ -1,0 +1,8 @@
+cli mode, Current ElegooSlicer Version 1.5.3.5
+run:2520, can not find system preset file: /Applications/ElegooSlicer.app/Contents/Resources/profiles/BBL/machine_full/Elegoo.json 
+run:2542, can not find system preset file: /Applications/ElegooSlicer.app/Contents/Resources/profiles/BBL/process_full/PROVINI FUZZY S9 R02 - ECC2 PLA BASIC .20.json 
+no filament colors found in projects
+3680: disable_wipe_tower_after_mapping: disable prime tower for only one filament!
+error_code 65540, description: Invalid OpenGL version 3.4
+Failed to create GLFW window; skipping thumbnail rendering for CLI export
+OpenGL context unavailable; skip thumbnail generating

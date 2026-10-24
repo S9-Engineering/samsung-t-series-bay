@@ -1,0 +1,76 @@
+{
+  "name": "BAY_R06_01_SCOCCA_INSERTI",
+  "group": "kit",
+  "geometry_sha256": "7ca3b960366b7d550b499d8d239a0de921888a061ce28214e2ddf99765a4c84c",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "648a8ac8de5e9f9269d8347a1e3878b781df40eda1fb14ec0a959db3d78b5ae8",
+    "filament.json": "935ca03d56642f8313f336b781cea3663e0da6facdad8b658da0dde56996e031"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R06_01_SCOCCA_INSERTI_ECC2_PETGPRO.3mf",
+  "project_sha256": "1f7b4c782e76fae7810310b4310bfe3b942f4b38721b269477de0cac9a0d3bca",
+  "layers": 415,
+  "slicer_estimates": {
+    "filament used [mm]": "38377.61",
+    "filament used [cm3]": "92.31",
+    "filament used [g]": "115.39",
+    "total filament used [g]": "115.39",
+    "estimated printing time (normal mode)": "6h 20m 20s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R06_01_SCOCCA_INSERTI/tutti_strati_0001_0144.png",
+      "verifiche/slicing/BAY_R06_01_SCOCCA_INSERTI/tutti_strati_0145_0288.png",
+      "verifiche/slicing/BAY_R06_01_SCOCCA_INSERTI/tutti_strati_0289_0415.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R06_01_SCOCCA_INSERTI/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r06-slicer-g790xevz/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r06-monolite/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r06-monolite/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r06-monolite/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r06-slicer-g790xevz/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r06-monolite/stampa/piatti_geometrici/BAY_R06_01_SCOCCA_INSERTI_GEOMETRIA.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

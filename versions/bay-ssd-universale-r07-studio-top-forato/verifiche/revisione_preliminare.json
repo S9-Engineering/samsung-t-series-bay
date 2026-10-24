@@ -1,0 +1,12 @@
+{
+  "scope": "Fattibilita: supporti iniziali e quadro degli 80 strati della variante concava verso il piano.",
+  "complete_print_review": false,
+  "images_seen": {
+    "verifiche/slicing_prova/faccia_concava_giu/DETTAGLIO_SUPPORTI_BASSI.png": "b3ad7ec3eca60fe4fc6adb4bacece586ca214b609a470e07279479f04f2e31f1",
+    "verifiche/slicing_prova/faccia_concava_giu/tutti_strati_0001_0080.png": "2c9d2fd8bea328f01a430b0db7348d5199a4e952e52cb57df291f8243987e6c2"
+  },
+  "notes": [
+    "Supporti bassi raggiungibili dall esterno; rimozione e segni sulla superficie da provare.",
+    "Variante sul bordo non revisionata integralmente."
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "revision": "R11",
+  "unit": "millimeter",
+  "parameters_sha256": "c50e15d282faefac569020bc904f6336dbc0a0cfe9fda8a644dd866720ab7f75",
+  "parts": [
+    {
+      "name": "scocca_R11",
+      "quantity": 1,
+      "role": "kit_corpo",
+      "stl": "stampa/STL/scocca_R11.stl",
+      "stl_sha256": "d29ea4b06f534a391d2ac4dbd3671f45d76cb5c8c37ba4298b6628b363b189b8",
+      "step": "CAD/scocca_R11.step",
+      "bounds_mm": [
+        [
+          -0.0002770415632578868,
+          -1.0000012058310082e-07,
+          -0.0014958054605538167
+        ],
+        [
+          90.00027704156325,
+          101.00000010000012,
+          83.00030221806901
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -0.0002770415632578868,
+          -1.0000012058310082e-07,
+          -0.0014958054605538167
+        ],
+        [
+          90.00027704156325,
+          101.00000010000012,
+          83.00030221806901
+        ]
+      ],
+      "volume_mm3": 104342.47489199258,
+      "print_flip_x_180": false,
+      "assembly_mesh": "verifiche/mesh_assieme/scocca_R11.ply",
+      "assembly_mesh_sha256": "d614df0a0ef28efc8f0eb7429bbe70b8c6209c1b3e9d0b379b3112300633608e"
+    },
+    {
+      "name": "coperchio_R11",
+      "quantity": 1,
+      "role": "kit_tetto",
+      "stl": "stampa/STL/coperchio_R11.stl",
+      "stl_sha256": "d7785eed47cce28e0eabbef2c7f680627ab519bdc40105508075d080fd13e35f",
+      "step": "CAD/coperchio_R11.step",
+      "bounds_mm": [
+        [
+          -1.0000000710542735e-07,
+          -1.0000000710542735e-07,
+          70.99999989999999
+        ],
+        [
+          90.00000010000001,
+          101.00000010000001,
+          86.00080574818399
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000003203085244e-07,
+          -1.0000003203085244e-07,
+          -0.0008057481839938435
+        ],
+        [
+          90.00000010000004,
+          101.00000010000004,
+          15.000000100000014
+        ]
+      ],
+      "volume_mm3": 16215.604378907557,
+      "print_flip_x_180": true,
+      "assembly_mesh": "verifiche/mesh_assieme/coperchio_R11.ply",
+      "assembly_mesh_sha256": "de80f3037814cedead94b08f6662e8165d70adf0fb71a38e45c3ed50acf91030"
+    },
+    {
+      "name": "inserto_T7_R11",
+      "quantity": 2,
+      "role": "kit_corpo",
+      "stl": "stampa/STL/inserto_T7_R11.stl",
+      "stl_sha256": "ba0ef23ce0b672a69c0fa667a6095ac1cb9fb89dabd34477ab67cf95da60069a",
+      "step": "CAD/inserto_T7_R11.step",
+      "bounds_mm": [
+        [
+          22.499999899999995,
+          31.999999899999995,
+          13.199999899999995
+        ],
+        [
+          31.800000100000005,
+          40.00000010000001,
+          32.50000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000640474566e-07,
+          -1.0000000483983077e-07,
+          -9.99999992993183e-08
+        ],
+        [
+          9.300000100000007,
+          8.000000100000014,
+          19.30000010000001
+        ]
+      ],
+      "volume_mm3": 1017.8399999999998,
+      "print_flip_x_180": true,
+      "assembly_mesh": "verifiche/mesh_assieme/inserto_T7_R11.ply",
+      "assembly_mesh_sha256": "a4015f63c24501150cc5a20f5a1df6dcf7a7c9c02282c43573f451df9b6260e8"
+    },
+    {
+      "name": "inserto_Shield_R11",
+      "quantity": 2,
+      "role": "kit_corpo",
+      "stl": "stampa/STL/inserto_Shield_R11.stl",
+      "stl_sha256": "5059c9257135d328eac323c25f8050642613653413c0cb2e15609f279631ede1",
+      "step": "CAD/inserto_Shield_R11.step",
+      "bounds_mm": [
+        [
+          27.099999899999997,
+          31.999999899999995,
+          13.199999899999995
+        ],
+        [
+          31.800000100000005,
+          40.00000010000001,
+          32.50000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000640474566e-07,
+          -1.0000000483983077e-07,
+          -9.99999992993183e-08
+        ],
+        [
+          4.700000100000006,
+          8.000000100000014,
+          19.30000010000001
+        ]
+      ],
+      "volume_mm3": 307.5999999999995,
+      "print_flip_x_180": true,
+      "assembly_mesh": "verifiche/mesh_assieme/inserto_Shield_R11.ply",
+      "assembly_mesh_sha256": "a3b3fd2b795a9ada9e3595f9b9a65c788ae4fa78c22a4b6401eac116b0037580"
+    },
+    {
+      "name": "provino_sede_R11",
+      "quantity": 1,
+      "role": "provino",
+      "stl": "stampa/STL/provino_sede_R11.stl",
+      "stl_sha256": "b3ee2bc7dca307d27d0b0929c6b93f5d6f4ea87f7e621e23dea729ea687e001f",
+      "step": "CAD/provino_sede_R11.step",
+      "bounds_mm": [
+        [
+          10.499999899999986,
+          4.9999998999999855,
+          -1.0000001421085471e-07
+        ],
+        [
+          33.500000100000015,
+          101.00000010000001,
+          31.000054751965138
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000355271367e-07,
+          -1.0000000355271367e-07,
+          -1.0000001421085471e-07
+        ],
+        [
+          23.000000100000005,
+          96.00000010000001,
+          31.000054751965138
+        ]
+      ],
+      "volume_mm3": 11308.932418637212,
+      "print_flip_x_180": false,
+      "assembly_mesh": "verifiche/mesh_assieme/provino_sede_R11.ply",
+      "assembly_mesh_sha256": "c2794bb32a495a82cad4a4eb9ce968c7bc113896fc536b5b4f094202d84a3406"
+    },
+    {
+      "name": "provino_chiusura_femmina_R11",
+      "quantity": 1,
+      "role": "provino",
+      "stl": "stampa/STL/provino_chiusura_femmina_R11.stl",
+      "stl_sha256": "91a6ee22a2e1bbdf0436091c532bc3bb0a95e391c89b23bcd1e39ccc14a0d522",
+      "step": "CAD/provino_chiusura_femmina_R11.step",
+      "bounds_mm": [
+        [
+          -1.0000000177635683e-07,
+          -1.0000000177635683e-07,
+          -1.0000000177635683e-07
+        ],
+        [
+          8.000000100000001,
+          13.000000100000001,
+          15.000000100000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000177635683e-07,
+          -1.0000000177635683e-07,
+          -1.0000000177635683e-07
+        ],
+        [
+          8.000000100000001,
+          13.000000100000001,
+          15.000000100000001
+        ]
+      ],
+      "volume_mm3": 621.6,
+      "print_flip_x_180": false,
+      "assembly_mesh": "verifiche/mesh_assieme/provino_chiusura_femmina_R11.ply",
+      "assembly_mesh_sha256": "ac5dc7d9b09f0c39c1bedaa5a97777a3f73f2ed1b77220ba874c5e70773c8755"
+    },
+    {
+      "name": "provino_chiusura_maschio_R11",
+      "quantity": 1,
+      "role": "provino",
+      "stl": "stampa/STL/provino_chiusura_maschio_R11.stl",
+      "stl_sha256": "e6066e61563e3ad515d66ec03f588d18f8748b792fe27bd0e911c94741893d3f",
+      "step": "CAD/provino_chiusura_maschio_R11.step",
+      "bounds_mm": [
+        [
+          -1.0000000177635683e-07,
+          0.9999998999999983,
+          2.999999899999998
+        ],
+        [
+          8.000000100000001,
+          12.000000100000001,
+          18.0000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000100187459e-07,
+          -1.0000000100187459e-07,
+          -1.0000000100187459e-07
+        ],
+        [
+          8.000000100000001,
+          11.000000100000001,
+          15.000000100000005
+        ]
+      ],
+      "volume_mm3": 385.67999999999995,
+      "print_flip_x_180": true,
+      "assembly_mesh": "verifiche/mesh_assieme/provino_chiusura_maschio_R11.ply",
+      "assembly_mesh_sha256": "f95a46c1da9f4d0c729c4e497ffab4fa9d7321008aaf0af8573778a29ff3c0e7"
+    }
+  ],
+  "display": [
+    {
+      "name": "scocca_R11",
+      "mesh": "verifiche/mesh_assieme/scocca_R11.ply",
+      "color": "#30363c",
+      "kind": "struttura",
+      "bounds_mm": [
+        [
+          -0.0002770415632578868,
+          -1.0000012058310082e-07,
+          -0.0014958054605538167
+        ],
+        [
+          90.00027704156325,
+          101.00000010000012,
+          83.00030221806901
+        ]
+      ]
+    },
+    {
+      "name": "coperchio_R11",
+      "mesh": "verifiche/mesh_assieme/coperchio_R11.ply",
+      "color": "#30363c",
+      "kind": "coperchio",
+      "bounds_mm": [
+        [
+          -1.0000000710542735e-07,
+          -1.0000000710542735e-07,
+          70.99999989999999
+        ],
+        [
+          90.00000010000001,
+          101.00000010000001,
+          86.00080574818399
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T7",
+      "mesh": "verifiche/mesh_assieme/SSD_T7.ply",
+      "color": "#719cb4",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          13.999999899999986,
+          15.999999899999986,
+          12.999999899999986
+        ],
+        [
+          22.000000100000015,
+          101.00000010000001,
+          70.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "inserto_T7_1",
+      "mesh": "verifiche/mesh_assieme/inserto_T7_1.ply",
+      "color": "#30363c",
+      "kind": "inserto",
+      "bounds_mm": [
+        [
+          22.499999899999995,
+          31.999999899999995,
+          13.199999899999995
+        ],
+        [
+          31.800000100000005,
+          40.00000010000001,
+          32.50000010000001
+        ]
+      ]
+    },
+    {
+      "name": "inserto_T7_2",
+      "mesh": "verifiche/mesh_assieme/inserto_T7_2.ply",
+      "color": "#30363c",
+      "kind": "inserto",
+      "bounds_mm": [
+        [
+          22.499999899999995,
+          79.99999989999999,
+          13.199999899999995
+        ],
+        [
+          31.800000100000005,
+          88.00000010000001,
+          32.50000010000001
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T7_Shield",
+      "mesh": "verifiche/mesh_assieme/SSD_T7_Shield.ply",
+      "color": "#394b58",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          37.79999989999998,
+          15.999999899999983,
+          12.999999899999983
+        ],
+        [
+          50.80000010000001,
+          104.00000010000002,
+          72.00000010000002
+        ]
+      ]
+    },
+    {
+      "name": "inserto_T7_Shield_1",
+      "mesh": "verifiche/mesh_assieme/inserto_T7_Shield_1.ply",
+      "color": "#30363c",
+      "kind": "inserto",
+      "bounds_mm": [
+        [
+          51.09999989999999,
+          31.99999989999999,
+          13.199999899999991
+        ],
+        [
+          55.800000100000005,
+          40.00000010000001,
+          32.50000010000001
+        ]
+      ]
+    },
+    {
+      "name": "inserto_T7_Shield_2",
+      "mesh": "verifiche/mesh_assieme/inserto_T7_Shield_2.ply",
+      "color": "#30363c",
+      "kind": "inserto",
+      "bounds_mm": [
+        [
+          51.09999989999999,
+          79.99999989999999,
+          13.199999899999991
+        ],
+        [
+          55.800000100000005,
+          88.00000010000001,
+          32.50000010000001
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T9",
+      "mesh": "verifiche/mesh_assieme/SSD_T9.ply",
+      "color": "#242c32",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          61.999999899999985,
+          15.999999899999986,
+          12.999999899999986
+        ],
+        [
+          76.00000010000001,
+          104.00000010000001,
+          73.00000010000001
+        ]
+      ]
+    }
+  ],
+  "assembly_models": [
+    "T7",
+    "T7_Shield",
+    "T9"
+  ],
+  "external_dimensions_mm": [
+    90,
+    101,
+    86
+  ],
+  "kit_printed_parts": 6,
+  "ssd_nominal": true,
+  "hardware_bom": {},
+  "internal_adhesives": false,
+  "side_pattern_count_per_panel": 108,
+  "commercial_components": [
+    "4 piedini adesivi trasparenti; misure da scegliere"
+  ],
+  "physical_print": false,
+  "thermal_test": false
+}

@@ -1,0 +1,155 @@
+{
+  "result": "PASS",
+  "geometry_parameters_equal": [
+    "dimensioni_provino_mm",
+    "spessore_parete_mm",
+    "spessore_base_mm",
+    "logo",
+    "campo_fuzzy_mm",
+    "campioni",
+    "riferimento_PEI"
+  ],
+  "meshes": [
+    {
+      "name": "provino_00_LISCIO.stl",
+      "stl_sha256": "f5a1bd51e771343fc762da5e1ff29a9c3da0031ab43df150ecca5bde51fdf2d0",
+      "original_sha256": "f5a1bd51e771343fc762da5e1ff29a9c3da0031ab43df150ecca5bde51fdf2d0",
+      "byte_identical": true,
+      "geometry_equal": true
+    },
+    {
+      "name": "provino_01_FINE_006.stl",
+      "stl_sha256": "fc039a3d678177c594b66dd4226ab712b1737317af9f75157fe0c9fd6dbc1bf8",
+      "original_sha256": "fc039a3d678177c594b66dd4226ab712b1737317af9f75157fe0c9fd6dbc1bf8",
+      "byte_identical": true,
+      "geometry_equal": true
+    },
+    {
+      "name": "provino_02_FINE_008.stl",
+      "stl_sha256": "35a50ae9578271c2a46198719f78b4bce31f6c12546059c43c4a232d3cb00359",
+      "original_sha256": "35a50ae9578271c2a46198719f78b4bce31f6c12546059c43c4a232d3cb00359",
+      "byte_identical": true,
+      "geometry_equal": true
+    },
+    {
+      "name": "provino_03_FINE_010.stl",
+      "stl_sha256": "fdb6c519f5ddb98f865bde3ac56a09fd22868a35a72488d00267bcfb00b63b1d",
+      "original_sha256": "fdb6c519f5ddb98f865bde3ac56a09fd22868a35a72488d00267bcfb00b63b1d",
+      "byte_identical": true,
+      "geometry_equal": true
+    },
+    {
+      "name": "riferimento_PEI.stl",
+      "stl_sha256": "c038ff414b32522f33c9ed1e09daed393cdf4fac97302a9892e81cf887837065",
+      "original_sha256": "c038ff414b32522f33c9ed1e09daed393cdf4fac97302a9892e81cf887837065",
+      "byte_identical": true,
+      "geometry_equal": true
+    }
+  ],
+  "machine_profile_identical": true,
+  "process_equal_except_names": true,
+  "material_profiles": {
+    "nozzle_temperature": {
+      "PETG": [
+        "240"
+      ],
+      "PLA": [
+        "220"
+      ]
+    },
+    "textured_plate_temp": {
+      "PETG": [
+        "65"
+      ],
+      "PLA": [
+        "60"
+      ]
+    },
+    "filament_max_volumetric_speed": {
+      "PETG": [
+        "5"
+      ],
+      "PLA": [
+        "5"
+      ]
+    },
+    "filament_flow_ratio": {
+      "PETG": [
+        "0.98"
+      ],
+      "PLA": [
+        "0.98"
+      ]
+    },
+    "filament_density": {
+      "PETG": [
+        "1.25"
+      ],
+      "PLA": [
+        "1.25"
+      ]
+    },
+    "pressure_advance": {
+      "PETG": [
+        "0.1"
+      ],
+      "PLA": [
+        "0.04"
+      ]
+    },
+    "fan_min_speed": {
+      "PETG": [
+        "10"
+      ],
+      "PLA": [
+        "50"
+      ]
+    },
+    "fan_max_speed": {
+      "PETG": [
+        "40"
+      ],
+      "PLA": [
+        "100"
+      ]
+    },
+    "close_fan_the_first_x_layers": {
+      "PETG": [
+        "3"
+      ],
+      "PLA": [
+        "1"
+      ]
+    },
+    "slow_down_layer_time": {
+      "PETG": [
+        "12"
+      ],
+      "PLA": [
+        "4"
+      ]
+    },
+    "temperature_vitrification": {
+      "PETG": [
+        "70"
+      ],
+      "PLA": [
+        "45"
+      ]
+    }
+  },
+  "actual_gcode_temperature_commands": {
+    "nozzle_setpoints_C": [
+      0.0,
+      140.0,
+      220.0
+    ],
+    "bed_setpoints_C": [
+      0.0,
+      60.0
+    ]
+  },
+  "original_PETG_files_preserved": 45,
+  "physical_comparison_performed": false,
+  "note": "Geometrie e parametri Fuzzy identici; temperatura, raffreddamento e pressure advance specifici del materiale. Non e una misura del risultato fisico."
+}

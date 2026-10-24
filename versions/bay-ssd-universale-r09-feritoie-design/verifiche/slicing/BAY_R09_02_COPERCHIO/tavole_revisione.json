@@ -1,0 +1,24 @@
+{
+  "project_sha256": "430b77273c4ab07d380ced071cd524d2ec16707ca22e8db3852951d3c5ac7d4f",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/ZOOM_tutti_0001_0075.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_03.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_04.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_05.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_06.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Ispezionate tutte le tavole ZOOM e i dettagli campionati elencati; nessuna stampa fisica eseguita.",
+  "all_layers_zoom_reviewed": true,
+  "critical_layers_reviewed_sample": [
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_05.png",
+    "verifiche/slicing/BAY_R09_02_COPERCHIO/CRITICI_06.png"
+  ],
+  "critical_layers_fully_reviewed": false
+}

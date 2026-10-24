@@ -1,0 +1,31 @@
+{
+  "project_sha256": "b6dec05951b69cfe2aca8a4899cbe466bbd1570cc6416392fc3129c93a32fb22",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0101_0200.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0201_0300.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0301_0400.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0401_0415.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_03.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_04.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_05.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_06.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_07.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Tavole da ispezionare; la loro generazione non costituisce approvazione automatica.",
+  "reviewed_images": [
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0101_0200.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0201_0300.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0301_0400.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/ZOOM_tutti_0401_0415.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_06.png",
+    "verifiche/slicing/BAY_R02_01_KIT_RETRO_APERTO/CRITICI_07.png"
+  ]
+}

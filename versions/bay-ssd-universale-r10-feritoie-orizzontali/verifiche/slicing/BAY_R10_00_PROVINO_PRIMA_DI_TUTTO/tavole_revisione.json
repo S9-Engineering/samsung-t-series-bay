@@ -1,0 +1,26 @@
+{
+  "project_sha256": "11b78fb7d0c056605c7748357d3794fd633b414335fdad023c3cf6083b75c81e",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0155.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_04.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_05.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_06.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_07.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_08.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Ispezionate tutte le tavole ZOOM e i dettagli campionati elencati; nessuna stampa fisica eseguita.",
+  "all_layers_zoom_reviewed": true,
+  "critical_layers_reviewed_sample": [
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png",
+    "verifiche/slicing/BAY_R10_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png"
+  ],
+  "critical_layers_fully_reviewed": false
+}

@@ -1,0 +1,70 @@
+{
+  "revision": "R22_SCORREVOLE_NASCOSTO",
+  "state": "KIT_COMPLETO_SOSPESO_SEDI_INTERNE_DA_RIPROGETTARE",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "projects": {
+    "PROVA": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R22_01_PROVINO_GUIDE_E_FERMO_ECC2_PLABASIC.3mf",
+      "sha256": "f421944134159782b2077e4d923a948e720ca53f03d64e06181fbb6f84c35917",
+      "estimates": {
+        "filament_g": 22.7,
+        "printing_seconds": 4772,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    },
+    "COMPLETO": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R22_02_KIT_COMPLETO_UNICO_PIATTO_ECC2_PLABASIC.3mf",
+      "sha256": "90996a25fc1549a2bdf827492ea184dc203835e7769d9fb6e9ddb46102a37514",
+      "estimates": {
+        "filament_g": 159.67,
+        "printing_seconds": 33040,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    }
+  },
+  "parts_full_kit": 7,
+  "types_full_kit": 5,
+  "body_reprint_required": true,
+  "external_dimensions_mm": [
+    90,
+    109.4,
+    86
+  ],
+  "side_protrusions": false,
+  "elastic_arms": false,
+  "kinematics_verified": true,
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_layers_reviewed": true,
+  "physical_fit": false,
+  "physical_print": false,
+  "force_validated": false,
+  "thermal_test": false,
+  "sent_to_printer": false,
+  "hardware_bom": {},
+  "commercial_components_optional": [
+    "4 piedini trasparenti propri; sole sedi incluse"
+  ],
+  "prerequisite": "Stampare e verificare guide e fermo del provino R22 prima della nuova scocca completa.",
+  "limitations": [
+    "Controlli su corpi rigidi, senza misurazione di forza e durata.",
+    "Passi discreti del moto: controllo geometrico, non analisi continua certificata.",
+    "Posizione USB e ingombro connettori nominali: da verificare con i cavi reali.",
+    "Accesso manuale al perno e scorrimento delle guide da provare sul provino.",
+    "Screening autointersezioni esclude facce con vertici condivisi."
+  ],
+  "previous_digital_preparation_state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_CON_PROVA_PRELIMINARE",
+  "complete_kit_recommended_for_print": false,
+  "internal_slots_under_redesign": true,
+  "roof_coupon_scope": "Solo prova del tetto scorrevole e del fermo, non stabilita degli SSD.",
+  "user_feedback_receipt": "verifiche/REVISIONE_SEDI_INTERNE.json"
+}

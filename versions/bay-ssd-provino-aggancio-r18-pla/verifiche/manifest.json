@@ -1,0 +1,54 @@
+{
+  "revision": "R18_PROVINO_AGGANCIO",
+  "unit": "millimeter",
+  "parameters_sha256": "f40e1c55a8cb1714dc670ed99117f8144f1abb233957df2775b6ddfb8cc1dfc3",
+  "parts": [
+    {
+      "name": "PROVINO_AGGANCIO_R18",
+      "variant": {
+        "id": "I",
+        "nome": "aggancio_aperto",
+        "tipo": "spalla",
+        "quota_spalla": 73.8,
+        "quota_naso_basso": 72.0,
+        "quota_rampa_bassa": 71.2,
+        "larghezza_dente": 8.4,
+        "smusso_naso": 0.2,
+        "lunghezza_braccetto_dal_fianco": 3.1
+      },
+      "quantity": 1,
+      "stl": "stampa/STL/PROVINO_AGGANCIO_R18.stl",
+      "step": "CAD/PROVINO_AGGANCIO_R18.step",
+      "print_step": "CAD/PROVINO_AGGANCIO_R18_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_AGGANCIO_R18.ply",
+      "stl_sha256": "8031821b22ed1baa439957a30cedb0e8b674abb69d46fbf23fb8834dfe0c035c",
+      "step_sha256": "55ef72bf2f9fa925ae35d98755fc4359c3d4e4e2dd5cc4bc713fb9038b08b829",
+      "bounds_mm": [
+        [
+          -0.04166676666668695,
+          25.99999989999999,
+          70.99999989999998
+        ],
+        [
+          90.0416667666667,
+          58.00000010000001,
+          86.00000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000709696851e-07,
+          -1.0000000762688973e-07,
+          -1.0000001473231708e-07
+        ],
+        [
+          90.08333343333335,
+          32.000000100000015,
+          15.000000100000015
+        ]
+      ],
+      "volume_mm3": 5182.296800000003
+    }
+  ],
+  "physical_print": false
+}

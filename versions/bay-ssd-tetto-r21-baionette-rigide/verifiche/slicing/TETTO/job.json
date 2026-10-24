@@ -1,0 +1,269 @@
+{
+  "mode": "TETTO",
+  "name": "BAY_R21_02_TETTO_COMPLETO",
+  "project": "stampa/progetti_ElegooSlicer/BAY_R21_02_TETTO_COMPLETO_ECC2_PLABASIC.3mf",
+  "project_sha256": "be45680e621916d849b3419b2ee456f8fd90a4227dce3018a9ae33831f050020",
+  "geometry_source": "sorgenti/BAY_R21_02_TETTO_COMPLETO_SORGENTE.3mf",
+  "geometry_sha256": "665c6f978b59ffca84995cafbbd854014bbafbf0076456b325e86e1b11a0766f",
+  "items": [
+    {
+      "part": "TETTO_R21_BAIONETTA",
+      "name": "TETTO_R21_BAIONETTA",
+      "xy": [
+        65,
+        65
+      ],
+      "support": false,
+      "bounds_mm": [
+        [
+          65.0,
+          65.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          155.0,
+          174.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "part": "PERNO_R21_QUARTO_GIRO",
+      "name": "PERNO_R21_1",
+      "xy": [
+        170,
+        70
+      ],
+      "support": false,
+      "bounds_mm": [
+        [
+          170.0,
+          70.0,
+          0.0
+        ],
+        [
+          185.89999961853027,
+          79.0,
+          2.75
+        ]
+      ]
+    },
+    {
+      "part": "PERNO_R21_QUARTO_GIRO",
+      "name": "PERNO_R21_2",
+      "xy": [
+        170,
+        96
+      ],
+      "support": false,
+      "bounds_mm": [
+        [
+          170.0,
+          96.0,
+          0.0
+        ],
+        [
+          185.89999961853027,
+          105.0,
+          2.75
+        ]
+      ]
+    }
+  ],
+  "native_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 3,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "TETTO_R21_BAIONETTA",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            65.0,
+            65.0,
+            0.0
+          ],
+          [
+            155.0,
+            174.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 28327.13130450533,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R21_1",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            170.00000018999998,
+            70.0,
+            0.0
+          ],
+          [
+            185.89999981,
+            79.0,
+            2.75
+          ]
+        ],
+        "volume_mm3": 163.13643521406357,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R21_2",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            170.00000018999998,
+            96.0,
+            0.0
+          ],
+          [
+            185.89999981,
+            105.0,
+            2.75
+          ]
+        ],
+        "volume_mm3": 163.13643521406357,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "source_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 3,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "TETTO_R21_BAIONETTA",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            65.0,
+            65.0,
+            0.0
+          ],
+          [
+            155.0,
+            174.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 28327.131208099523,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R21_1",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            170.0,
+            70.0,
+            0.0
+          ],
+          [
+            185.8999996,
+            79.0,
+            2.75
+          ]
+        ],
+        "volume_mm3": 163.13643290770082,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R21_2",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            170.0,
+            96.0,
+            0.0
+          ],
+          [
+            185.8999996,
+            105.0,
+            2.75
+          ]
+        ],
+        "volume_mm3": 163.13643290770082,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "f11bbecc8d0a56876ff62ee5d1b37590c0e9d09f0ee555cde4cc1bb4c63b40a9",
+    "filament.json": "00f5f6bd56d18e55befaf9ce038cc6abb86891e534c3f81b746dab5f2af28e24"
+  },
+  "layers": 145,
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "slicer_estimates": {
+    "filament used [mm]": "11727.34",
+    "filament used [cm3]": "28.21",
+    "filament used [g]": "35.26",
+    "total filament used [g]": "35.26",
+    "estimated printing time (normal mode)": "1h 56m 12s"
+  },
+  "totals": {
+    "filament_g": 35.26,
+    "printing_seconds": 6972,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "supports": false,
+  "object_support": {
+    "TETTO_R21_BAIONETTA": "0",
+    "PERNO_R21_1": "0",
+    "PERNO_R21_2": "0"
+  },
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "images": [
+    "verifiche/slicing/TETTO/TUTTI_001_100.png",
+    "verifiche/slicing/TETTO/TUTTI_101_145.png",
+    "verifiche/slicing/TETTO/SUPPORTO_RIGIDO_SINISTRO.png",
+    "verifiche/slicing/TETTO/SUPPORTO_RIGIDO_DESTRO.png",
+    "verifiche/slicing/TETTO/PERNO_INGRANDITO.png",
+    "verifiche/slicing/TETTO/PRIMO_INTERMEDI_ULTIMO.png",
+    "verifiche/slicing/TETTO/PONTI_01.png"
+  ],
+  "visual_review_complete": true,
+  "sent_to_printer": false,
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r21-1bly468l/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-tetto-r21-baionette-rigide/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-tetto-r21-baionette-rigide/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-tetto-r21-baionette-rigide/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "PIATTO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r21-1bly468l/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-tetto-r21-baionette-rigide/sorgenti/BAY_R21_02_TETTO_COMPLETO_SORGENTE.3mf"
+    ]
+  }
+}

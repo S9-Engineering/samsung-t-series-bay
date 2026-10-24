@@ -1,0 +1,74 @@
+{
+  "name": "BAY_R10_02_COPERCHIO",
+  "group": "kit",
+  "geometry_sha256": "209430664cc82b702b58d43cb89785ab7a6264f2a577f0c379caf2f51d536003",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "2192b7d479340052051d7bd2c141cd8b0bfafa37564aec48739666c1ad255d7c",
+    "filament.json": "75d5ea9ca84bb271cda70000b53fc522bdecda01a97137a0d2e42f3dcc256bda"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R10_02_COPERCHIO_ECC2_PETGPRO.3mf",
+  "project_sha256": "56ad891a938b05aabf760283d983ad1c79cc2bd77ede5e51e796472071a0ddeb",
+  "layers": 75,
+  "slicer_estimates": {
+    "filament used [mm]": "5796.51",
+    "filament used [cm3]": "13.94",
+    "filament used [g]": "17.43",
+    "total filament used [g]": "17.43",
+    "estimated printing time (normal mode)": "1h 4m 56s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R10_02_COPERCHIO/tutti_strati_0001_0075.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R10_02_COPERCHIO/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r10-slicer-54rq3n9c/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r10-feritoie-orizzontali/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r10-feritoie-orizzontali/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r10-feritoie-orizzontali/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r10-slicer-54rq3n9c/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r10-feritoie-orizzontali/stampa/piatti_geometrici/BAY_R10_02_COPERCHIO_GEOMETRIA.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

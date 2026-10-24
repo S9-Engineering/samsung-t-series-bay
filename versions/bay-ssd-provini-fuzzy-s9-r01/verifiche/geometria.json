@@ -1,0 +1,197 @@
+{
+  "result": "PASS",
+  "units": "mm",
+  "parts": [
+    {
+      "name": "provino_00_LISCIO",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          14.0,
+          32.0
+        ]
+      ],
+      "volume_mm3": 4406.400037765503,
+      "components": 1,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 14,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": true
+    },
+    {
+      "name": "provino_01_FINE_006",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          14.0,
+          32.0
+        ]
+      ],
+      "volume_mm3": 4401.792038589479,
+      "components": 1,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 35,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": true
+    },
+    {
+      "name": "provino_02_FINE_008",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          14.0,
+          32.0
+        ]
+      ],
+      "volume_mm3": 4397.184039413452,
+      "components": 1,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 91,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": true
+    },
+    {
+      "name": "provino_03_FINE_010",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          14.0,
+          32.0
+        ]
+      ],
+      "volume_mm3": 4392.576038864136,
+      "components": 1,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 179,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": true
+    },
+    {
+      "name": "riferimento_PEI",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          24.0,
+          3.0
+        ]
+      ],
+      "volume_mm3": 2592.0,
+      "components": 1,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 6,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": true
+    },
+    {
+      "name": "MASCHERA_NON_STAMPABILE_FUZZY",
+      "bounds_mm": [
+        [
+          1.0,
+          -0.5,
+          3.4
+        ],
+        [
+          35.0,
+          0.6499999999999999,
+          31.0
+        ]
+      ],
+      "volume_mm3": 1024.3720124330755,
+      "components": 2,
+      "closed": true,
+      "normals_consistent": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 1521,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "step_reopened": true,
+      "printable": false
+    }
+  ],
+  "mask_components_intentional": "Campo principale e isola interna al 9: due volumi modificatori, nessun materiale aggiunto.",
+  "relief_mm": 0,
+  "nominal_front_y_mm": 0,
+  "texture_only_in_slicer": true,
+  "physical_verified": false
+}

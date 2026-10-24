@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "step_sha256": "1be6ce9e4bb55c98ecdcd7eb9f22f3b133fea77cab3f3aebd2cf9932225d6c65",
+  "solids": 10,
+  "bounds_mm": [
+    [
+      0.0,
+      -0.4,
+      0.0
+    ],
+    [
+      90.0,
+      109.0,
+      86.0
+    ]
+  ],
+  "printable_assembly": false,
+  "adapters_drive_interference_mm3": 0
+}

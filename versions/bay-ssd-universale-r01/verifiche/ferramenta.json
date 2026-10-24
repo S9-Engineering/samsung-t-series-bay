@@ -1,0 +1,134 @@
+{
+  "joints": [
+    {
+      "name": "regolazione_1",
+      "xy_mm": [
+        27.0,
+        8
+      ],
+      "top_mm": 9.0,
+      "length_mm": 10,
+      "screw": "M3x10 testa cilindrica",
+      "washer": true,
+      "nut_bottom_mm": 0.2,
+      "nut_window": "dal fondo"
+    },
+    {
+      "name": "regolazione_2",
+      "xy_mm": [
+        51.0,
+        8
+      ],
+      "top_mm": 9.0,
+      "length_mm": 10,
+      "screw": "M3x10 testa cilindrica",
+      "washer": true,
+      "nut_bottom_mm": 0.2,
+      "nut_window": "dal fondo"
+    },
+    {
+      "name": "regolazione_3",
+      "xy_mm": [
+        75.0,
+        8
+      ],
+      "top_mm": 9.0,
+      "length_mm": 10,
+      "screw": "M3x10 testa cilindrica",
+      "washer": true,
+      "nut_bottom_mm": 0.2,
+      "nut_window": "dal fondo"
+    },
+    {
+      "name": "coperchio_6_8",
+      "xy_mm": [
+        6,
+        8
+      ],
+      "top_mm": 86.0,
+      "length_mm": 12,
+      "screw": "M3x12 testa svasata DIN 7991",
+      "washer": false,
+      "nut_bottom_mm": 76.5,
+      "nut_window": "verso interno"
+    },
+    {
+      "name": "coperchio_6_208.0",
+      "xy_mm": [
+        6,
+        208.0
+      ],
+      "top_mm": 86.0,
+      "length_mm": 12,
+      "screw": "M3x12 testa svasata DIN 7991",
+      "washer": false,
+      "nut_bottom_mm": 76.5,
+      "nut_window": "verso interno"
+    },
+    {
+      "name": "coperchio_84.0_8",
+      "xy_mm": [
+        84.0,
+        8
+      ],
+      "top_mm": 86.0,
+      "length_mm": 12,
+      "screw": "M3x12 testa svasata DIN 7991",
+      "washer": false,
+      "nut_bottom_mm": 76.5,
+      "nut_window": "verso interno"
+    },
+    {
+      "name": "coperchio_84.0_208.0",
+      "xy_mm": [
+        84.0,
+        208.0
+      ],
+      "top_mm": 86.0,
+      "length_mm": 12,
+      "screw": "M3x12 testa svasata DIN 7991",
+      "washer": false,
+      "nut_bottom_mm": 76.5,
+      "nut_window": "verso interno"
+    },
+    {
+      "name": "fermacavi_26.0",
+      "xy_mm": [
+        26.0,
+        204.0
+      ],
+      "top_mm": 50.5,
+      "length_mm": 16,
+      "screw": "M3x16 testa cilindrica",
+      "washer": true,
+      "nut_bottom_mm": 37.5,
+      "nut_window": "verso fronte"
+    },
+    {
+      "name": "fermacavi_64.0",
+      "xy_mm": [
+        64.0,
+        204.0
+      ],
+      "top_mm": 50.5,
+      "length_mm": 16,
+      "screw": "M3x16 testa cilindrica",
+      "washer": true,
+      "nut_bottom_mm": 37.5,
+      "nut_window": "verso fronte"
+    }
+  ],
+  "main_bom": {
+    "M3x10_cilindrica": 3,
+    "M3x12_svasata_DIN7991": 4,
+    "M3x16_cilindrica": 2,
+    "dado_M3_standard_chiave_5p5_altezza_2p4": 9,
+    "rondella_M3_OD7": 5
+  },
+  "extra_coupon_bom": {
+    "M3x10_cilindrica": 1,
+    "dado_M3": 1,
+    "rondella_M3_OD7": 1
+  },
+  "note": "Le viti nel STEP sono gabarit lisci senza filetto; dadi standard commerciali."
+}

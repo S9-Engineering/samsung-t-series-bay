@@ -1,0 +1,13 @@
+{
+  "state": "RITIRATA_NON_STAMPARE",
+  "revision": "R20",
+  "selected_revision": "R19",
+  "reason": "L’utente preferisce tornare alla R19 e segnala il rischio di rottura delle alette con il nuovo attacco interno R20.",
+  "physical_fracture_test_recorded": false,
+  "selected_project_relative_to_R20": "../bay-ssd-tetto-r19-pla-alette-r18/stampa/progetti_ElegooSlicer/BAY_R19_TETTO_COMPLETO_ALETTE_R18_ECC2_PLABASIC.3mf",
+  "selected_project_sha256": "fcc80f53d6cd54fa522cc9566cb8c4b45ee5d6759c119b6a4dd60ad0d178412e",
+  "R19_hashed_files_rechecked": 54,
+  "geometry_R19_modified": false,
+  "slicing_R19_repeated": false,
+  "explanation": "Ripristinati i file R19 conservati; nessuna nuova modifica geometrica e nessuna nuova prova fisica."
+}

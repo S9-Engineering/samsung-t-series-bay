@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-23",
+  "cad_image_hashes": {
+    "anteprime/01_R26_CASE_COMPLETO.png": "2927fd65f8805d0c684b5426dac083b02f9ed79c41ef21b81ab8d23a5e2e57c2",
+    "anteprime/02_R26_DUE_PERNI.png": "a65f31413faba50aacf505a1179efb4aa1b0779e1d372bf8c7fa2bcaf50f2c39",
+    "anteprime/03_R26_PROVINO_DOPPIO_PERNO.png": "6d0f329715096a59dac8d6c259163a61391ac78b8cd6173693ed09f3fbdd4fdd",
+    "anteprime/04_R26_PIATTO_COMPLETO.png": "be246f0659488d1461fd8b73a11a88f4fda98a45cfa72cc76cdeda3b5a79fb5f",
+    "anteprime/04_R26_PIATTO_PROVINO.png": "a45460059b2505d497d41464546aeeaeea41c8c6869b30c73b25b62dd555e935"
+  },
+  "projects": {
+    "PROVINO": "2b150688b1882b737f839ece90ffe1538095e6fb17564f1df163f50200e5c8be",
+    "COMPLETO": "c0d5e9019a4f09b282c0889b1dc754c46094849fb02db46c71a1e95fa6cd52d8"
+  },
+  "image_hashes": {
+    "PROVINO": {
+      "verifiche/slicing/PROVINO/TUTTI_001_100.png": "3211d6081480d0f0614b93ea9f03defab294bbcb5b774ad515ffe5b93df39dd2",
+      "verifiche/slicing/PROVINO/TUTTI_101_145.png": "bd158abca7985676b60ee018e0c2bc730465dc2427e7336f9c4cfc01ba5e3801",
+      "verifiche/slicing/PROVINO/PRIMO_INTERMEDI_ULTIMO.png": "6c030c01eeac19cfe5ee081b679ab8df4dad6b6636b040bc7c0e53cbd8de7405",
+      "verifiche/slicing/PROVINO/GUIDE_E_PERNO_SX.png": "c148e41ae45b56c4103fb590ee40eca6b2f78ee682e532e90e41284b2088cd7f",
+      "verifiche/slicing/PROVINO/GUIDE_E_PERNO_DX.png": "5140988c339ce357e47707ed7b4c05a5ad4f2a3472853cf27c265d16de81794c",
+      "verifiche/slicing/PROVINO/DUE_PERNI.png": "7010a68f9adcdee9bbb65fbf722e52555d05f8a13c6f0f3f05e2986c63653cd3",
+      "verifiche/slicing/PROVINO/PONTI_LUNGHI_01.png": "06beaf2e99c151ceee4fcb21bea9e1f8710ff8db8b782aee90952f60af6130fc",
+      "verifiche/slicing/PROVINO/PONTI_LUNGHI_02.png": "b37a61ee503e69b5d6d09643653879b8e065829a2d91bf7faf1af0fd1e5a235d",
+      "verifiche/slicing/PROVINO/PONTI_LUNGHI_03.png": "2153f6fcaa264c1befd3784f2beefd10f56daa654b74cc1d1675a78dc7b7e34a"
+    },
+    "COMPLETO": {
+      "verifiche/slicing/COMPLETO/TUTTI_001_100.png": "e1065c0b428ab5710abb2851c2575958a2e064eca89f058ec6a1afc7b41e02dd",
+      "verifiche/slicing/COMPLETO/TUTTI_101_200.png": "3d38dc9d30089eb8076032da507bb77365032a1b28e796cfdbe0aa6c740ad7ac",
+      "verifiche/slicing/COMPLETO/TUTTI_201_300.png": "3e4369448f4527061d552fe536e268bcacdeb9858c594850540891aeadc93b42",
+      "verifiche/slicing/COMPLETO/TUTTI_301_400.png": "b512657eac5d72106da5d2a83ad6a797c73960a0754e04298ff9d52ff75caacb",
+      "verifiche/slicing/COMPLETO/TUTTI_401_415.png": "49a513094134c50a30549e268e8215add9f8262b324990174aa4d9f30f73953b",
+      "verifiche/slicing/COMPLETO/PRIMO_INTERMEDI_ULTIMO.png": "dac3a4d56c5761f4ceac387a2ab4c3dd8c27b6cd63580f27ea0ce389a85b5022",
+      "verifiche/slicing/COMPLETO/GUIDE_E_PERNO_SX.png": "e0ceddd3d21c8f009a1b8428b38d5a86824e9d943e19a719c03fb20959526263",
+      "verifiche/slicing/COMPLETO/GUIDE_E_PERNO_DX.png": "a4aa2c3b668a5c0fd3456e1e82d4c3a79f0e890a126ae1b36d8c87305ab321ee",
+      "verifiche/slicing/COMPLETO/DUE_PERNI.png": "140cb491d76df734f7277e7c0ff7f4f54443857ff4e667b0fcec93bce42f55de",
+      "verifiche/slicing/COMPLETO/LOGO_PRIMI_STRATI.png": "fdce44698edec5c0fc00b0d3a44a903d86e05697b498e408a0616e453221dbce",
+      "verifiche/slicing/COMPLETO/SUPPORTO_SCOCCA_DX.png": "0ce71cd6e6ef4bc9bf34b83dac83c52a0ea2cd510508c4f294bc29eda5cc89a0",
+      "verifiche/slicing/COMPLETO/PONTI_T7.png": "5723b5c9de649e50ed047b47ce0f7ca70a44a0eda109d1831a280f0837e494a5",
+      "verifiche/slicing/COMPLETO/PONTI_T7_Shield.png": "afa71ecd975828fdf6febb171b62371707c6ea71e6e85119f0c81815500c7593",
+      "verifiche/slicing/COMPLETO/PONTI_T9.png": "3c6d239e0cbb7ed58ab3e12fa070d1e784aa8725237344a3c1322527a2a13549",
+      "verifiche/slicing/COMPLETO/PONTI_LUNGHI_01.png": "3b2ed6a9b0072cb87aafb09c270cafaf59d69446c4db5fd5d76b3c53e620faff",
+      "verifiche/slicing/COMPLETO/PONTI_LUNGHI_02.png": "ea9cc663392d0ba3f07d6fc52034c4d2390f3997db4ff2cbb4f31bee4a0e36be",
+      "verifiche/slicing/COMPLETO/PONTI_LUNGHI_03.png": "cb21dd44e4068525119c27a06392d2cf9bcab92e3bb7f48066ee36000c434b82",
+      "verifiche/slicing/COMPLETO/PONTI_LUNGHI_04.png": "4d92345697794218ae78a2c51b1ae1ffa47b4928c9de72b6ed61a6adb01f19ec",
+      "verifiche/slicing/COMPLETO/LOGO_PERCORSI.png": "a6398a3d7f1eedffae01f242d1f8bfa8517831c5953a343ccb2a5f6288e0601d"
+    }
+  },
+  "all_images_opened_and_reviewed": true,
+  "notes": [
+    "Visionate tutte le cinque anteprime CAD e tutte le 28 tavole dei percorsi; contact sheet per tutti i 560 strati complessivi.",
+    "Due perni presenti, distesi, pieni, con brim separato e ingombri entro il piatto.",
+    "Ricevitori del tetto sinistro e destro presenti nei percorsi, con i fori e i ponti brevi sopra la camera. Nuovo supporto destro della scocca radicato nella parete e crescente dalla rampa inferiore.",
+    "Ponti delle cartucce ancorati ai due lati. Le linee lunghe etichettate ponte interne alla base passano sopra riempimento; non equivalgono a campate interamente libere.",
+    "Logo completo S9 ENGINEERING correttamente orientato, tutti i tredici glifi presenti nella proiezione del G-code.",
+    "Il controllo dei percorsi non prova adesione, buon esito dei ponti, ritenuta, finitura, durata o comportamento termico del kit reale."
+  ],
+  "physical_full_kit_test": false
+}

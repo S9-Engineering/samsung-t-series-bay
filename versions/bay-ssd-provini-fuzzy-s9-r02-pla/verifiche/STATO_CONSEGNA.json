@@ -1,0 +1,39 @@
+{
+  "status": "PRONTO_PER_LA_STAMPA_DEI_PROVINI",
+  "revision": "R02",
+  "physical_printed": false,
+  "sent_to_printer": false,
+  "configuration": "ECC2 Combo / ugello 0.4 / PEI testurizzato / ELEGOO PLA BASIC",
+  "printable_objects": 5,
+  "non_printable_modifiers": 3,
+  "project": "stampa/progetti_ElegooSlicer/PROVINI_FUZZY_S9_R02_ECC2_PLABASIC.3mf",
+  "project_sha256": "4d7fbfa6ab7318fde2963336876fa8dc86e3db5a41d4f540203d859437de17d2",
+  "sliced": true,
+  "all_layers_reviewed": true,
+  "texture_selectivity_checked": true,
+  "nominal_logo_relief_mm": 0,
+  "estimates": {
+    "filament_g": 23.3,
+    "printing_seconds": 4701,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "limits": [
+    "Lucentezza e grana non provate fisicamente",
+    "Il case R12 non e stato modificato"
+  ],
+  "material": "ELEGOO PLA BASIC",
+  "preparazione_richiesta": "Sportello anteriore aperto durante la stampa PLA",
+  "slicer_warning_resolution": [
+    {
+      "warning": {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      },
+      "action": "Stampare con sportello anteriore aperto; evitare accumulo di calore nella camera. Soglia del profilo ufficiale conservata.",
+      "reference": "https://github.com/OrcaSlicer/OrcaSlicer/wiki/material_basic_information"
+    }
+  ],
+  "data_consegna": "2026-10-21",
+  "PETG_comparison_geometry_verified": true
+}

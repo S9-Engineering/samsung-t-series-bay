@@ -1,0 +1,67 @@
+{
+  "revision": "R12",
+  "source_revision": "R11",
+  "base_enclosure_dimensions_unchanged": true,
+  "logo_only_addition_verified": true,
+  "R05_internal_unchanged": true,
+  "horizontal_vents_and_latches_unchanged": true,
+  "external_radii_zero": true,
+  "body": {
+    "current_sha256": "faa55df7a74cb763a16405bcd02d013cb9deebfc05ca1d1dc605100a7e956fcf",
+    "internal_difference_mm3": 0,
+    "side_region_difference_mm3": 0,
+    "core_difference_mm3": 0,
+    "logo_difference_mm3": 0,
+    "logo_glyphs": 2,
+    "logo_bounds_mm": [
+      [
+        71.9999999999995,
+        -0.4,
+        6.0
+      ],
+      [
+        86.0,
+        0.0,
+        12.822612085771505
+      ]
+    ],
+    "removed_material_mm3": 0,
+    "added_external_material_mm3": 19.056691287027206
+  },
+  "lid": {
+    "current_sha256": "be1fb438dc64cc3a8d710bcbc2cdda9fd38e2f9c9ee19bc968cf19e51b7cb20e",
+    "functional_region_difference_mm3": 0,
+    "removed_material_mm3": 0,
+    "added_external_material_mm3": 0.0
+  },
+  "identical_parts": [
+    {
+      "part": "inserto_T7",
+      "current_sha256": "29eedaa604bd316df3f045f9c2ff44c96327255965e4e184539808751ded65d2",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "inserto_Shield",
+      "current_sha256": "9027df897d1116128a71acde82cb8f5d2275624c7fd4e43664076e8642bbeec6",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_sede",
+      "current_sha256": "6c5c04c098ec9df090c3eee709859d2eb6e2f35744a4ad97344dadd1fd8e1ba4",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_chiusura_femmina",
+      "current_sha256": "1df83b44aafb7c3f40a6bd0c2a36577e5dc9931728cb0fbda118871d4d101cdc",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_chiusura_maschio",
+      "current_sha256": "227160c2fdbb40424dd9822b70483bc7728b22bb433ab581aba6cd083c8eb47c",
+      "symmetric_difference_mm3": 0
+    }
+  ],
+  "R11_hashed_files_preserved": 133,
+  "physical_print": false,
+  "thermal_validation": false
+}

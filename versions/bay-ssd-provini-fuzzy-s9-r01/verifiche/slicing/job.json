@@ -1,0 +1,55 @@
+{
+  "project": "stampa/progetti_ElegooSlicer/PROVINI_FUZZY_S9_R01_ECC2_PETGPRO.3mf",
+  "project_sha256": "dbd8f3214c953063ba76c7258465a648035ca45bf3df3ceb4bc1ba5f157db39e",
+  "slicer_version": "2.4.2",
+  "source_sha256": "24e6abcafaa79677fe6748d543c7b773259f9d01153360eca5551e7137128a0b",
+  "profiles": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "7c8b582d867a35c383447cf4385927bac60aa53c58374ec8c3cb035fc48831e7",
+    "filament.json": "058619e7811a6c1bdca0cbb84f04e18b7611edaffc5223666c6328f1d53d8936"
+  },
+  "slicer_estimates": {
+    "filament used [mm]": "7751.13",
+    "filament used [cm3]": "18.64",
+    "filament used [g]": "23.30",
+    "total filament used [g]": "23.30",
+    "estimated printing time (normal mode)": "1h 18m 21s"
+  },
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/provini-fuzzy-s9-rxjvhdi3/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-provini-fuzzy-s9-r01/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-provini-fuzzy-s9-r01/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-provini-fuzzy-s9-r01/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "PROVINI.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/provini-fuzzy-s9-rxjvhdi3/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-provini-fuzzy-s9-r01/sorgenti/PROVINI_FUZZY_S9_R01_MODIFICATORI.3mf"
+    ]
+  },
+  "model_warnings": [],
+  "layers": 160,
+  "printable_objects": 5,
+  "modifier_volumes": 3,
+  "sent_to_printer": false,
+  "visual_review_complete": true,
+  "totals": {
+    "filament_g": 23.3,
+    "printing_seconds": 4701,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  }
+}

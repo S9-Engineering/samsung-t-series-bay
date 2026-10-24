@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "reviewer": "Codex: ispezione delle tavole reali",
+  "method": "Tutti gli strati, con ingrandimenti campionati di clip, tasche piedini, finestre e coperchio. Nessuna prova fisica.",
+  "projects": {
+    "BAY_R05_00_PROVINO_PRIMA_DI_TUTTO": {
+      "project_sha256": "c49e7cfe469eb7d1da1b159a9b33c43c31e857ac65ec49df9febf17b89b55db2",
+      "reviewed": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png": "48241b1c30de7f9e4b3b0bf2b0f56a09f9d04f9aae2a9a3c9c57c4026de8ba9d",
+        "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0155.png": "8772ce57f8d0ab213de88dfea631f116fb110ed25f1bc6d6a928f91f07e57b2b",
+        "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png": "5025fddf51ffd8677ce3ed841b75ea791c42305c1e698a4f3db2bdcd70bc98fb",
+        "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_04.png": "a7cbf2eb1560027e13528b9be4064429993eb5f6bdaa39107fcf59259117ebb2",
+        "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png": "1aa56a5b2aa4c1e4fed9a53c9fff97e8f822bc55952ece5c550c85c20ec0f220"
+      },
+      "notes": [
+        "Brim e primi strati presenti; sei pezzi nel kit distribuiti sui due piatti.",
+        "Canali delle clip, linguette e detent conservati nei percorsi; nessun supporto o isola sospesa involontaria rilevata.",
+        "Ponti delle tasche dei piedini e delle finestre da controllare sul provino/stampa fisica; forze degli agganci non validate."
+      ]
+    },
+    "BAY_R05_01_SCOCCA_INSERTI": {
+      "project_sha256": "ce04a5f4a77193cb02396bfbb47dc58e6a0207c5594cb275e8fda2841a0c7e1c",
+      "reviewed": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png": "21312cc3751af12a51ed1723af6d96e39a62261073bda8a72c5f9277c6333542",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png": "30bd7466b84528ea0933c18d8a2307d7660f04d07bf0f535a73fd436996a864f",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png": "d34b355fec5b3e8a2061b77b3fdb74991d485f402ab201d01213d5852810cf78",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png": "07aecf86260c665ca98272338717788bfee295d0d4f3b70eabef79d9d30d1498",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png": "c44f667ba81195c39a8bc041528cc2e9c486e7e20c1009a9351d7e7697f6d305",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/CRITICI_01.png": "1241bc93e223e8d202e43ebccbbc74347c6037feecfe51573262039948553289",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/CRITICI_08.png": "d57b40e4cf37bcd531a09e84713afaa91bfeb361311ad4fc1a64087b0b7249af",
+        "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/CRITICI_09.png": "fdf755a4a044114c1f74f5e08f6009777a1907d4a707bbd70f3b578717044f4a"
+      },
+      "notes": [
+        "Brim e primi strati presenti; sei pezzi nel kit distribuiti sui due piatti.",
+        "Canali delle clip, linguette e detent conservati nei percorsi; nessun supporto o isola sospesa involontaria rilevata.",
+        "Ponti delle tasche dei piedini e delle finestre da controllare sul provino/stampa fisica; forze degli agganci non validate."
+      ]
+    },
+    "BAY_R05_02_COPERCHIO": {
+      "project_sha256": "14e6aeeebcdf9117726bb9f6add46fe7fe77e2fab0307f1a6ca0e98c93cce4c6",
+      "reviewed": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R05_02_COPERCHIO/ZOOM_tutti_0001_0075.png": "1546a3ef8320e09088d8b1927bbbca3d45f7eca00cb80375752df4867d146105",
+        "verifiche/slicing/BAY_R05_02_COPERCHIO/CRITICI_05.png": "e84d60467c53334362a4af874ae05067c922df882a8818598784114cda0741f4",
+        "verifiche/slicing/BAY_R05_02_COPERCHIO/CRITICI_06.png": "11af68b47e43addd4e6289a8ca70aba334dbbb70e4a725dab074f1700a320e74"
+      },
+      "notes": [
+        "Brim e primi strati presenti; sei pezzi nel kit distribuiti sui due piatti.",
+        "Canali delle clip, linguette e detent conservati nei percorsi; nessun supporto o isola sospesa involontaria rilevata.",
+        "Ponti delle tasche dei piedini e delle finestre da controllare sul provino/stampa fisica; forze degli agganci non validate."
+      ]
+    }
+  }
+}

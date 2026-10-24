@@ -1,0 +1,56 @@
+{
+  "source_revision": "bay-ssd-universale-r05-incastri",
+  "configuration_confirmed_by_user": "ECC2 Combo, ugello .4 mm, PEI testurizzato, ELEGOO PETG PRO, 2026-10-20",
+  "changes": "Rinomina R06 e colore uniforme #30363C; impostazioni numeriche invariate rispetto alla R05.",
+  "profiles": {
+    "filament.json": {
+      "source_sha256": "3ae48c69da8b06358a122f93fdcffe65688739eb8e7d622874f90caade3880ab",
+      "current_sha256": "935ca03d56642f8313f336b781cea3663e0da6facdad8b658da0dde56996e031"
+    },
+    "process.json": {
+      "source_sha256": "e61241cc4bc56d231754a7932ad899cc1c724d042b0373fd18a67f3d782fde85",
+      "current_sha256": "648a8ac8de5e9f9269d8347a1e3878b781df40eda1fb14ec0a959db3d78b5ae8"
+    },
+    "machine.json": {
+      "source_sha256": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+      "current_sha256": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5"
+    }
+  },
+  "references": [
+    {
+      "url": "https://www.elegoo.com/products/petg-pro-filament-1-75mm-colored-1kg",
+      "checked": "2026-10-20",
+      "nozzle_range_C": [
+        230,
+        260
+      ],
+      "nozzle_recommended_C": 240,
+      "bed_range_C": [
+        65,
+        75
+      ],
+      "speed_range_mm_s": [
+        40,
+        100
+      ]
+    },
+    {
+      "url": "https://www.elegoo.com/products/centauri-carbon-2-combo",
+      "checked": "2026-10-20",
+      "volume_mm": [
+        256,
+        256,
+        256
+      ]
+    },
+    {
+      "url": "https://elegoo-downloads.oss-us-west-1.aliyuncs.com/tutorials/Centauri%20Carbon%202%20Combo/Centauri%20Carbon%202%20Combo%20User%20Manual-English-V1.3.pdf",
+      "checked": "2026-10-20",
+      "access": "Indicizzazione web del manuale ufficiale; apertura diretta del PDF non riuscita.",
+      "slicer_model": "Elegoo Centauri Carbon 2",
+      "nozzle_mm": 0.4
+    }
+  ],
+  "calibrated": false,
+  "material_color_stock_confirmed": false
+}

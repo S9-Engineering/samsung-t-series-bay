@@ -1,0 +1,1068 @@
+{
+  "revision": "R02",
+  "unit": "millimeter",
+  "parameters_sha256": "4fb2c76fdf57a4427586e2b21145bdb320129c4ce76b2dcad9b512c299f9b7b6",
+  "parts": [
+    {
+      "name": "scocca_ventilata_R02",
+      "quantity": 1,
+      "role": "assieme",
+      "color": "#41474e",
+      "stl": "stampa/STL/scocca_ventilata_R02.stl",
+      "stl_sha256": "e0b7e46193f8db97729241f7bc17dbadbaaa941870474c4d9d301a3402b6530e",
+      "step": "CAD/scocca_ventilata_R02.step",
+      "bounds_mm": [
+        [
+          -0.0012692497534085368,
+          -0.0012692497534085498,
+          -0.0012692497534101288
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          83.0012692497534
+        ]
+      ],
+      "volume_mm3": 110176.29932068814,
+      "print_flip_x_180": false,
+      "print_bounds_mm": [
+        [
+          -0.0012692497534081057,
+          -0.0012692497534080927,
+          -0.0012692497534101288
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          83.0012692497534
+        ]
+      ],
+      "assembly_mesh": "verifiche/mesh_assieme/scocca_ventilata_R02.ply",
+      "assembly_mesh_sha256": "fb34ea10dce13b515ab0f34170ba7670d11c8f6ba62229bf2aeeb0d02ee2894d"
+    },
+    {
+      "name": "sponda_regolabile_R02",
+      "quantity": 3,
+      "role": "assieme",
+      "color": "#d28b3e",
+      "stl": "stampa/STL/sponda_regolabile_R02.stl",
+      "stl_sha256": "9cb5a71ac185709f0a6c91bc07a6f8e54bfe8f788bc6875a26a858edbeee29ac",
+      "step": "CAD/sponda_regolabile_R02.step",
+      "bounds_mm": [
+        [
+          22.49999989999999,
+          3.9999998999999926,
+          4.999253322064946
+        ],
+        [
+          37.50000010000001,
+          89.00000010000002,
+          25.00000010000001
+        ]
+      ],
+      "volume_mm3": 1837.3631889245019,
+      "print_flip_x_180": false,
+      "print_bounds_mm": [
+        [
+          -1.0000000355271367e-07,
+          -1.0000000355271367e-07,
+          -0.0007466779350512226
+        ],
+        [
+          15.000000100000003,
+          85.00000010000001,
+          20.000000100000005
+        ]
+      ],
+      "assembly_mesh": "verifiche/mesh_assieme/sponda_regolabile_R02.ply",
+      "assembly_mesh_sha256": "169aee49082633524c3c1a9c52c0ecfedb2ab84ff0560ba0a7e5920def809078"
+    },
+    {
+      "name": "coperchio_ventilato_R02",
+      "quantity": 1,
+      "role": "assieme",
+      "color": "#41474e",
+      "stl": "stampa/STL/coperchio_ventilato_R02.stl",
+      "stl_sha256": "888da93e2795a96cc412bdb40ca58b243ea2fe34d98eabd402e57186608707bf",
+      "step": "CAD/coperchio_ventilato_R02.step",
+      "bounds_mm": [
+        [
+          -0.0012692497534085238,
+          -0.0012692497534085498,
+          82.9987307502466
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          86.01276191512142
+        ]
+      ],
+      "volume_mm3": 20058.07954737719,
+      "print_flip_x_180": true,
+      "print_bounds_mm": [
+        [
+          -0.0012692497534080797,
+          -0.001269249753413021,
+          -0.012761915121412374
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          3.0012692497534275
+        ]
+      ],
+      "assembly_mesh": "verifiche/mesh_assieme/coperchio_ventilato_R02.ply",
+      "assembly_mesh_sha256": "1d57f080b176383a16a397185b8330a0d12bee3a96046424090fc075108cfdb1"
+    },
+    {
+      "name": "provino_sede_R02",
+      "quantity": 1,
+      "role": "provino",
+      "color": "#64747d",
+      "stl": "stampa/STL/provino_sede_R02.stl",
+      "stl_sha256": "6d6e2986ec045ff4793bb7e9e4e01bc1c6a2c617b48e9be86ff3ff47fc6202d0",
+      "step": "CAD/provino_sede_R02.step",
+      "bounds_mm": [
+        [
+          8.999999899999994,
+          -1.0000000710542735e-07,
+          -1.0000000710889595e-07
+        ],
+        [
+          40.00000010000001,
+          106.00000010000001,
+          25.000000100000005
+        ]
+      ],
+      "volume_mm3": 15849.829418159787,
+      "print_flip_x_180": false,
+      "print_bounds_mm": [
+        [
+          -1.0000000355271367e-07,
+          -1.0000000355271367e-07,
+          -1.0000000710889595e-07
+        ],
+        [
+          31.000000100000005,
+          106.00000010000001,
+          25.000000100000005
+        ]
+      ],
+      "assembly_mesh": "verifiche/mesh_assieme/provino_sede_R02.ply",
+      "assembly_mesh_sha256": "2a6a4d56e8ab6aeb7b7f821996c86679d5db09049bca1b40a4ff0a62afe1e4ef"
+    }
+  ],
+  "display": [
+    {
+      "name": "scocca_ventilata_R02",
+      "mesh": "verifiche/mesh_assieme/scocca_ventilata_R02.ply",
+      "color": "#41474e",
+      "kind": "struttura",
+      "bounds_mm": [
+        [
+          -0.0012692497534085368,
+          -0.0012692497534085498,
+          -0.0012692497534101288
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          83.0012692497534
+        ]
+      ]
+    },
+    {
+      "name": "coperchio_ventilato_R02",
+      "mesh": "verifiche/mesh_assieme/coperchio_ventilato_R02.ply",
+      "color": "#41474e",
+      "kind": "coperchio",
+      "bounds_mm": [
+        [
+          -0.0012692497534085238,
+          -0.0012692497534085498,
+          82.9987307502466
+        ],
+        [
+          90.0012692497534,
+          101.0012692497534,
+          86.01276191512142
+        ]
+      ]
+    },
+    {
+      "name": "sponda_slot_1",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_1.ply",
+      "color": "#d28b3e",
+      "kind": "sponda",
+      "bounds_mm": [
+        [
+          16.49999989999999,
+          3.999999899999993,
+          4.999253322064947
+        ],
+        [
+          31.50000010000001,
+          89.00000010000001,
+          25.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T7_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T7_GABARIT.ply",
+      "color": "#719cb4",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          13.999999899999986,
+          15.999999899999986,
+          12.999999899999986
+        ],
+        [
+          22.000000100000015,
+          101.00000010000001,
+          70.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_1_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_1_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          12.9999999,
+          32.9999999,
+          12.9999999
+        ],
+        [
+          14.0000001,
+          39.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_1_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_1_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          22.199999899999995,
+          32.9999999,
+          12.999999899999997
+        ],
+        [
+          23.200000100000004,
+          39.0000001,
+          23.000000100000005
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_1_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_1_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          13.9999999,
+          31.9999999,
+          11.9999999
+        ],
+        [
+          22.0000001,
+          40.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_1_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_1_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          12.9999999,
+          80.9999999,
+          12.9999999
+        ],
+        [
+          14.0000001,
+          87.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_1_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_1_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          22.199999899999995,
+          80.99999989999999,
+          12.999999899999997
+        ],
+        [
+          23.200000100000004,
+          87.00000010000001,
+          23.000000100000005
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_1_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_1_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          13.9999999,
+          79.9999999,
+          11.9999999
+        ],
+        [
+          22.0000001,
+          88.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "battuta_morbida_1",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          13.9999999,
+          14.9999999,
+          12.9999999
+        ],
+        [
+          22.0000001,
+          16.0000001,
+          19.0000001
+        ]
+      ]
+    },
+    {
+      "name": "spinotto_1_GABARIT",
+      "mesh": "verifiche/mesh_assieme/spinotto_1_GABARIT.ply",
+      "color": "#25292e",
+      "kind": "gabarit_connettore_non_rilevato",
+      "bounds_mm": [
+        [
+          13.4999999,
+          100.9999999,
+          33.4999999
+        ],
+        [
+          22.5000001,
+          151.0000001,
+          49.5000001
+        ]
+      ]
+    },
+    {
+      "name": "cavo_1_GABARIT",
+      "mesh": "verifiche/mesh_assieme/cavo_1_GABARIT.ply",
+      "color": "#202327",
+      "kind": "gabarit_cavo",
+      "bounds_mm": [
+        [
+          15.499160726183066,
+          150.99888098070875,
+          38.99999989999999
+        ],
+        [
+          20.500839273816936,
+          196.00111901929125,
+          44.00111901929125
+        ]
+      ]
+    },
+    {
+      "name": "sponda_slot_2",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_2.ply",
+      "color": "#d28b3e",
+      "kind": "sponda",
+      "bounds_mm": [
+        [
+          45.49999989999999,
+          3.999999899999992,
+          4.999253322064946
+        ],
+        [
+          60.50000010000001,
+          89.00000010000002,
+          25.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T7_Shield_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T7_Shield_GABARIT.ply",
+      "color": "#394b58",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          37.999999899999985,
+          15.999999899999985,
+          12.999999899999985
+        ],
+        [
+          51.000000100000015,
+          104.00000010000002,
+          72.00000010000002
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_2_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_2_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          36.9999999,
+          32.9999999,
+          12.9999999
+        ],
+        [
+          38.0000001,
+          39.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_2_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_2_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          51.199999899999995,
+          32.99999989999999,
+          12.999999899999994
+        ],
+        [
+          52.20000010000001,
+          39.00000010000001,
+          23.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_2_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_2_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          37.9999999,
+          31.9999999,
+          11.9999999
+        ],
+        [
+          46.0000001,
+          40.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_2_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_2_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          36.9999999,
+          80.9999999,
+          12.9999999
+        ],
+        [
+          38.0000001,
+          87.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_2_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_2_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          51.199999899999995,
+          80.99999989999999,
+          12.999999899999994
+        ],
+        [
+          52.20000010000001,
+          87.00000010000001,
+          23.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_2_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_2_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          37.9999999,
+          79.9999999,
+          11.9999999
+        ],
+        [
+          46.0000001,
+          88.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "battuta_morbida_2",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          37.9999999,
+          14.9999999,
+          12.9999999
+        ],
+        [
+          46.0000001,
+          16.0000001,
+          19.0000001
+        ]
+      ]
+    },
+    {
+      "name": "spinotto_2_GABARIT",
+      "mesh": "verifiche/mesh_assieme/spinotto_2_GABARIT.ply",
+      "color": "#25292e",
+      "kind": "gabarit_connettore_non_rilevato",
+      "bounds_mm": [
+        [
+          39.9999999,
+          103.9999999,
+          34.4999999
+        ],
+        [
+          49.0000001,
+          154.0000001,
+          50.5000001
+        ]
+      ]
+    },
+    {
+      "name": "cavo_2_GABARIT",
+      "mesh": "verifiche/mesh_assieme/cavo_2_GABARIT.ply",
+      "color": "#202327",
+      "kind": "gabarit_cavo",
+      "bounds_mm": [
+        [
+          41.999160726183064,
+          153.99888098070875,
+          39.99999989999999
+        ],
+        [
+          47.000839273816936,
+          199.00111901929125,
+          45.00111901929125
+        ]
+      ]
+    },
+    {
+      "name": "sponda_slot_3",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_3.ply",
+      "color": "#d28b3e",
+      "kind": "sponda",
+      "bounds_mm": [
+        [
+          70.49999989999999,
+          3.9999998999999855,
+          4.999253322064941
+        ],
+        [
+          85.50000010000001,
+          89.00000010000002,
+          25.000000100000015
+        ]
+      ]
+    },
+    {
+      "name": "SSD_T9_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T9_GABARIT.ply",
+      "color": "#242c32",
+      "kind": "gabarit_ssd",
+      "bounds_mm": [
+        [
+          61.999999899999985,
+          15.999999899999986,
+          12.999999899999986
+        ],
+        [
+          76.00000010000001,
+          104.00000010000001,
+          73.00000010000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_3_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_3_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          60.9999999,
+          32.9999999,
+          12.9999999
+        ],
+        [
+          62.0000001,
+          39.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_3_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_3_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          76.1999999,
+          32.999999899999985,
+          12.999999899999986
+        ],
+        [
+          77.20000010000001,
+          39.000000100000015,
+          23.000000100000015
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_3_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_3_1.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          61.9999999,
+          31.9999999,
+          11.9999999
+        ],
+        [
+          70.0000001,
+          40.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_fisso_3_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_3_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          60.9999999,
+          80.9999999,
+          12.9999999
+        ],
+        [
+          62.0000001,
+          87.0000001,
+          23.0000001
+        ]
+      ]
+    },
+    {
+      "name": "tampone_mobile_3_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_3_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          76.1999999,
+          80.99999989999999,
+          12.999999899999986
+        ],
+        [
+          77.20000010000001,
+          87.00000010000001,
+          23.000000100000015
+        ]
+      ]
+    },
+    {
+      "name": "appoggio_morbido_3_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_3_2.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          61.9999999,
+          79.9999999,
+          11.9999999
+        ],
+        [
+          70.0000001,
+          88.0000001,
+          13.0000001
+        ]
+      ]
+    },
+    {
+      "name": "battuta_morbida_3",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_3.ply",
+      "color": "#b3b8b5",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          61.9999999,
+          14.9999999,
+          12.9999999
+        ],
+        [
+          70.0000001,
+          16.0000001,
+          19.0000001
+        ]
+      ]
+    },
+    {
+      "name": "spinotto_3_GABARIT",
+      "mesh": "verifiche/mesh_assieme/spinotto_3_GABARIT.ply",
+      "color": "#25292e",
+      "kind": "gabarit_connettore_non_rilevato",
+      "bounds_mm": [
+        [
+          64.4999999,
+          103.9999999,
+          34.9999999
+        ],
+        [
+          73.5000001,
+          154.0000001,
+          51.0000001
+        ]
+      ]
+    },
+    {
+      "name": "cavo_3_GABARIT",
+      "mesh": "verifiche/mesh_assieme/cavo_3_GABARIT.ply",
+      "color": "#202327",
+      "kind": "gabarit_cavo",
+      "bounds_mm": [
+        [
+          66.49916072618306,
+          153.99888098070875,
+          40.499999899999985
+        ],
+        [
+          71.50083927381694,
+          199.00111901929125,
+          45.50111901929126
+        ]
+      ]
+    },
+    {
+      "name": "piedino_silicone_1",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_1.ply",
+      "color": "#24282a",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          4.999999899999998,
+          4.999999899999998,
+          -5.000000100000002
+        ],
+        [
+          15.000000100000001,
+          15.000000100000001,
+          1.0000000183102671e-07
+        ]
+      ]
+    },
+    {
+      "name": "piedino_silicone_2",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_2.ply",
+      "color": "#24282a",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          74.99999989999999,
+          4.999999899999998,
+          -5.000000100000002
+        ],
+        [
+          85.00000010000001,
+          15.000000100000001,
+          1.0000000179018084e-07
+        ]
+      ]
+    },
+    {
+      "name": "piedino_silicone_3",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_3.ply",
+      "color": "#24282a",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          4.999999899999998,
+          85.99999989999999,
+          -5.000000100000002
+        ],
+        [
+          15.000000100000001,
+          96.00000010000001,
+          1.0000000183102671e-07
+        ]
+      ]
+    },
+    {
+      "name": "piedino_silicone_4",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_4.ply",
+      "color": "#24282a",
+      "kind": "silicone_commerciale",
+      "bounds_mm": [
+        [
+          74.9999999,
+          85.9999999,
+          -5.0000001
+        ],
+        [
+          85.0000001,
+          96.0000001,
+          1.000000004440892e-07
+        ]
+      ]
+    },
+    {
+      "name": "rondella_regolazione_1",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_1.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          23.4999999,
+          4.498825056656301,
+          8.998433412992258
+        ],
+        [
+          30.50156658700774,
+          11.501174943343699,
+          9.501566587007742
+        ]
+      ]
+    },
+    {
+      "name": "vite_regolazione_1",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_1.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          24.2499999,
+          5.249076808801379,
+          -0.5006714515747487
+        ],
+        [
+          29.751230911220368,
+          10.750923191198622,
+          12.50123091122037
+        ]
+      ]
+    },
+    {
+      "name": "rondella_regolazione_2",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_2.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          47.49999989999999,
+          4.4988250566562975,
+          8.998433412992254
+        ],
+        [
+          54.501566587007744,
+          11.501174943343702,
+          9.501566587007746
+        ]
+      ]
+    },
+    {
+      "name": "vite_regolazione_2",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_2.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          48.24999989999999,
+          5.249076808801376,
+          -0.5006714515747502
+        ],
+        [
+          53.751230911220375,
+          10.750923191198623,
+          12.501230911220372
+        ]
+      ]
+    },
+    {
+      "name": "rondella_regolazione_3",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_3.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          71.49999989999999,
+          4.498825056656293,
+          8.998433412992249
+        ],
+        [
+          78.50156658700774,
+          11.501174943343708,
+          9.501566587007751
+        ]
+      ]
+    },
+    {
+      "name": "vite_regolazione_3",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_3.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          72.24999989999999,
+          5.249076808801369,
+          -0.5006714515747612
+        ],
+        [
+          77.75123091122038,
+          10.75092319119863,
+          12.501230911220379
+        ]
+      ]
+    },
+    {
+      "name": "vite_coperchio_6_8",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_6_8.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          2.9894385992351857,
+          4.988431590654876,
+          73.99932854842525
+        ],
+        [
+          9.011904103914304,
+          11.011568409345124,
+          85.91190410391431
+        ]
+      ]
+    },
+    {
+      "name": "vite_coperchio_6_93.0",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_6_93.0.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          2.9894385992351773,
+          89.98843159065486,
+          73.99932854842524
+        ],
+        [
+          9.011904103914313,
+          96.01156840934514,
+          85.91190410391432
+        ]
+      ]
+    },
+    {
+      "name": "vite_coperchio_84.0_8",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_84.0_8.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          80.98943859923517,
+          4.988431590654864,
+          73.99932854842524
+        ],
+        [
+          87.01190410391432,
+          11.011568409345136,
+          85.91190410391432
+        ]
+      ]
+    },
+    {
+      "name": "vite_coperchio_84.0_93.0",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_84.0_93.0.ply",
+      "color": "#a5adb4",
+      "kind": "ferramenta_commerciale",
+      "bounds_mm": [
+        [
+          80.98943859923517,
+          89.98843159065486,
+          73.99932854842524
+        ],
+        [
+          87.01190410391432,
+          96.01156840934514,
+          85.91190410391432
+        ]
+      ]
+    }
+  ],
+  "assembly_models": [
+    "T7",
+    "T7_Shield",
+    "T9"
+  ],
+  "external_dimensions_mm": [
+    90.0,
+    101.0,
+    91.0
+  ],
+  "unmeasured": [
+    "SSD reali",
+    "sezione e posizione esatte delle porte USB",
+    "larghezza/altezza degli spinotti"
+  ],
+  "rear_open": true,
+  "cable_compartment": false,
+  "cable_clamp": false,
+  "ssd_rear_projection_mm": {
+    "T7": 0.0,
+    "T7_Shield": 3.0,
+    "T9": 3.0
+  },
+  "measured_by_user_approximately": {
+    "stiff_cable_length_mm": 50,
+    "cable_diameter_mm": 5
+  },
+  "physical_print": false,
+  "thermal_test": false
+}

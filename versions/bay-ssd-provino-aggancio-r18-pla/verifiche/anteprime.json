@@ -1,0 +1,9 @@
+{
+  "source_manifest_sha256": "419a74736191ff244ce503552bbbd06706322abf0a547a20aed2068ee1472201",
+  "outputs": {
+    "anteprime/01_R18_AGGANCIO.png": "63c2550e1c65ed772b6ab027beb698404e96ad75fb3ddc1be3b20a3a2b89d663",
+    "anteprime/02_R18_MONTAGGIO.png": "1dad18c30592873539166818f70bd56d960b9b90fb7f222f108a637c37e6459f",
+    "anteprime/03_R17_R18_CONFRONTO.png": "f50022887967d2e4adc1f506d2a001b1be3e35b06e908d0004cd92b9e8f2d25c"
+  },
+  "physical_photo": false
+}

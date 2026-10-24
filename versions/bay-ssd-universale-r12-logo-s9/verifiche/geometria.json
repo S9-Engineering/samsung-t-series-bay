@@ -1,0 +1,843 @@
+{
+  "result": "PASS_DIGITALE_QUOTE_NOMINALI",
+  "source_manifest_sha256": "2b8bdda7b4bb07152512d0abb30046229a63c74f35da66304310a77c667886c2",
+  "source_parameters_sha256": "b18196a89b48dd30c3e7d8af05673627957873b490187ef2fc481aed6300c73c",
+  "export_checks": [
+    {
+      "name": "scocca_R12",
+      "stl_sha256": "92c771f59c302a2acc713e22a1ef2f43c71cc71a5ff7fe8b733eed3824578139",
+      "step_sha256": "faa55df7a74cb763a16405bcd02d013cb9deebfc05ca1d1dc605100a7e956fcf",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 104363.07031713596,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 853552,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R12: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4000015258789,
+          83.0
+        ]
+      ]
+    },
+    {
+      "name": "coperchio_R12",
+      "stl_sha256": "d7785eed47cce28e0eabbef2c7f680627ab519bdc40105508075d080fd13e35f",
+      "step_sha256": "be1fb438dc64cc3a8d710bcbc2cdda9fd38e2f9c9ee19bc968cf19e51b7cb20e",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 16216.12288077712,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 20422,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R11: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.914923813529516e-16
+        ],
+        [
+          90.0,
+          101.0,
+          15.0
+        ]
+      ]
+    },
+    {
+      "name": "inserto_T7_R12",
+      "stl_sha256": "ba0ef23ce0b672a69c0fa667a6095ac1cb9fb89dabd34477ab67cf95da60069a",
+      "step_sha256": "29eedaa604bd316df3f045f9c2ff44c96327255965e4e184539808751ded65d2",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 1017.839926300051,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 49,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R09: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          7.105427357601002e-15
+        ],
+        [
+          9.300000190734863,
+          8.0,
+          19.299999237060547
+        ]
+      ]
+    },
+    {
+      "name": "inserto_Shield_R12",
+      "stl_sha256": "5059c9257135d328eac323c25f8050642613653413c0cb2e15609f279631ede1",
+      "step_sha256": "9027df897d1116128a71acde82cb8f5d2275624c7fd4e43664076e8642bbeec6",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 307.59997949600194,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 52,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R09: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          7.105427357601002e-15
+        ],
+        [
+          4.699999809265137,
+          8.0,
+          19.299999237060547
+        ]
+      ]
+    },
+    {
+      "name": "provino_sede_R12",
+      "stl_sha256": "b3ee2bc7dca307d27d0b0929c6b93f5d6f4ea87f7e621e23dea729ea687e001f",
+      "step_sha256": "6c5c04c098ec9df090c3eee709859d2eb6e2f35744a4ad97344dadd1fd8e1ba4",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 11308.93153807905,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 3721,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R09: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          23.0,
+          96.0,
+          31.0
+        ]
+      ]
+    },
+    {
+      "name": "provino_chiusura_femmina_R12",
+      "stl_sha256": "91a6ee22a2e1bbdf0436091c532bc3bb0a95e391c89b23bcd1e39ccc14a0d522",
+      "step_sha256": "1df83b44aafb7c3f40a6bd0c2a36577e5dc9931728cb0fbda118871d4d101cdc",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 621.5999987125397,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 100,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R09: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          13.0,
+          15.0
+        ]
+      ]
+    },
+    {
+      "name": "provino_chiusura_maschio_R12",
+      "stl_sha256": "e6066e61563e3ad515d66ec03f588d18f8748b792fe27bd0e911c94741893d3f",
+      "step_sha256": "227160c2fdbb40424dd9822b70483bc7728b22bb433ab581aba6cd083c8eb47c",
+      "mesh_closed": true,
+      "winding_consistent": true,
+      "volume_positive_mm3": 385.68000080108686,
+      "components": 1,
+      "step_valid": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 53,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R09: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          11.0,
+          15.0
+        ]
+      ]
+    }
+  ],
+  "model_slot_cases": [
+    {
+      "slot": 1,
+      "model": "T7",
+      "adapters": 2,
+      "aperture_mm": 9.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 1,
+      "model": "T7_Shield",
+      "adapters": 2,
+      "aperture_mm": 13.6,
+      "total_thickness_clearance_mm": 0.5999999999999996,
+      "static_intersections_mm3": [
+        0,
+        0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 1,
+      "model": "T9",
+      "adapters": 0,
+      "aperture_mm": 15.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "model": "T7",
+      "adapters": 2,
+      "aperture_mm": 9.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "model": "T7_Shield",
+      "adapters": 2,
+      "aperture_mm": 13.6,
+      "total_thickness_clearance_mm": 0.5999999999999996,
+      "static_intersections_mm3": [
+        0,
+        0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 2,
+      "model": "T9",
+      "adapters": 0,
+      "aperture_mm": 15.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "model": "T7",
+      "adapters": 2,
+      "aperture_mm": 9.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "model": "T7_Shield",
+      "adapters": 2,
+      "aperture_mm": 13.6,
+      "total_thickness_clearance_mm": 0.5999999999999996,
+      "static_intersections_mm3": [
+        0,
+        0,
+        0.0,
+        0.0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0.0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "slot": 3,
+      "model": "T9",
+      "adapters": 0,
+      "aperture_mm": 15.0,
+      "total_thickness_clearance_mm": 1.0,
+      "static_intersections_mm3": [
+        0,
+        0
+      ],
+      "extraction_samples": [
+        {
+          "lift_mm": 1,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 5,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 10,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 20,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 40,
+          "intersections_mm3": 0
+        },
+        {
+          "lift_mm": 90,
+          "intersections_mm3": 0.0
+        }
+      ]
+    }
+  ],
+  "assignments_checked": 27,
+  "assignment_cases": [
+    [
+      "T7",
+      "T7",
+      "T7"
+    ],
+    [
+      "T7",
+      "T7",
+      "T7_Shield"
+    ],
+    [
+      "T7",
+      "T7",
+      "T9"
+    ],
+    [
+      "T7",
+      "T7_Shield",
+      "T7"
+    ],
+    [
+      "T7",
+      "T7_Shield",
+      "T7_Shield"
+    ],
+    [
+      "T7",
+      "T7_Shield",
+      "T9"
+    ],
+    [
+      "T7",
+      "T9",
+      "T7"
+    ],
+    [
+      "T7",
+      "T9",
+      "T7_Shield"
+    ],
+    [
+      "T7",
+      "T9",
+      "T9"
+    ],
+    [
+      "T7_Shield",
+      "T7",
+      "T7"
+    ],
+    [
+      "T7_Shield",
+      "T7",
+      "T7_Shield"
+    ],
+    [
+      "T7_Shield",
+      "T7",
+      "T9"
+    ],
+    [
+      "T7_Shield",
+      "T7_Shield",
+      "T7"
+    ],
+    [
+      "T7_Shield",
+      "T7_Shield",
+      "T7_Shield"
+    ],
+    [
+      "T7_Shield",
+      "T7_Shield",
+      "T9"
+    ],
+    [
+      "T7_Shield",
+      "T9",
+      "T7"
+    ],
+    [
+      "T7_Shield",
+      "T9",
+      "T7_Shield"
+    ],
+    [
+      "T7_Shield",
+      "T9",
+      "T9"
+    ],
+    [
+      "T9",
+      "T7",
+      "T7"
+    ],
+    [
+      "T9",
+      "T7",
+      "T7_Shield"
+    ],
+    [
+      "T9",
+      "T7",
+      "T9"
+    ],
+    [
+      "T9",
+      "T7_Shield",
+      "T7"
+    ],
+    [
+      "T9",
+      "T7_Shield",
+      "T7_Shield"
+    ],
+    [
+      "T9",
+      "T7_Shield",
+      "T9"
+    ],
+    [
+      "T9",
+      "T9",
+      "T7"
+    ],
+    [
+      "T9",
+      "T9",
+      "T7_Shield"
+    ],
+    [
+      "T9",
+      "T9",
+      "T9"
+    ]
+  ],
+  "assembly_step_solids": 9,
+  "kit_parts": 6,
+  "feet": [
+    {
+      "x": 10.0,
+      "y": 10.0,
+      "solid_floor_fraction": 1.0
+    },
+    {
+      "x": 80.0,
+      "y": 10.0,
+      "solid_floor_fraction": 1.0
+    },
+    {
+      "x": 10.0,
+      "y": 91.0,
+      "solid_floor_fraction": 1.0
+    },
+    {
+      "x": 80.0,
+      "y": 91.0,
+      "solid_floor_fraction": 1.0
+    }
+  ],
+  "body_lid_static_overlap_mm3": 0,
+  "hardware_components": 0,
+  "internal_adhesives": false,
+  "sharp_external_edges_verified": true,
+  "external_edges_on_reopened_step": [
+    {
+      "part": "scocca",
+      "corners": [
+        {
+          "x": 0,
+          "y": 0,
+          "vertical_edge_length_mm": 83.0
+        },
+        {
+          "x": 90.0,
+          "y": 0,
+          "vertical_edge_length_mm": 83.0
+        },
+        {
+          "x": 0,
+          "y": 101.0,
+          "vertical_edge_length_mm": 83.0
+        },
+        {
+          "x": 90.0,
+          "y": 101.0,
+          "vertical_edge_length_mm": 83.0
+        }
+      ]
+    },
+    {
+      "part": "coperchio",
+      "corners": [
+        {
+          "x": 0,
+          "y": 0,
+          "vertical_edge_length_mm": 3.0
+        },
+        {
+          "x": 90.0,
+          "y": 0,
+          "vertical_edge_length_mm": 3.0
+        },
+        {
+          "x": 0,
+          "y": 101.0,
+          "vertical_edge_length_mm": 3.0
+        },
+        {
+          "x": 90.0,
+          "y": 101.0,
+          "vertical_edge_length_mm": 3.0
+        }
+      ]
+    }
+  ],
+  "logo_verified": {
+    "glyphs": 2,
+    "emboss_mm": 0.4,
+    "width_mm": 14.0,
+    "bounds_mm": [
+      [
+        71.99999989999975,
+        -0.40000010000080377,
+        5.999999899999736
+      ],
+      [
+        86.00000010000026,
+        1.000008037695752e-07,
+        12.822612185770264
+      ]
+    ],
+    "subtitle": false,
+    "fused_with_shell": true,
+    "source_png_sha256": "86bdfc4dffb08b3792fc78dff7a9809a0da18fe51f4d0cbab320dd11ac3520f3"
+  },
+  "guide_channel_mm": 15,
+  "adapters_channels_mm": {
+    "T7": 9,
+    "Shield": 13.6
+  },
+  "guide_height_above_seat_mm": 18,
+  "printed_adapter_inner_plate_min_mm": 1.1,
+  "lid_snap_finger_mm": {
+    "thickness": 1.2,
+    "width": 8,
+    "length": 12,
+    "engagement": 0.6
+  },
+  "adapter_hook_engagement_mm": 0.2,
+  "side_pattern_holes_per_panel": 108,
+  "side_vent_mm": {
+    "width": 3.4,
+    "height": 2.2,
+    "angle_degrees": 0,
+    "horizontal_orientation_verified_on_exported_mesh": true,
+    "wall_thickness": 3,
+    "solid_diagonal_band": 8.0
+  },
+  "limitations": [
+    "Quote nominali, SSD e gommini reali non misurati.",
+    "Agganci verificati staticamente: deformazione, forza di montaggio ed elasticita non validate.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi.",
+    "Estrazione verificata a quote campionate con coperchio rimosso e cavi scollegati.",
+    "Assenza di serraggio: i dischi sono guidati e appoggiati, il retro rimane aperto.",
+    "Nessuna prova fisica o termica."
+  ],
+  "physical_fit": false,
+  "physical_print": false,
+  "thermal_test": false
+}

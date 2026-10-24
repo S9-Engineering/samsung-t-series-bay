@@ -1,0 +1,13 @@
+{
+  "revision": "R03",
+  "source_manifest_sha256": "f1580a2a63f5de67d56354620ed4fc111ad367ae24cffc3d080f385e59173499",
+  "outputs": [
+    "anteprime/10_R03_CON_SSD.png",
+    "anteprime/11_R03_SENZA_SSD.png",
+    "anteprime/12_R03_SCHEMA_ARIA.png"
+  ],
+  "notes": "Dispositivi rappresentati dagli inviluppi nominali, viti senza filetto/impronta. Tinta unica indicativa. Geometria della scocca invariata rispetto agli STL della R03.",
+  "orthographic": true,
+  "cfd": false,
+  "physical_photo": false
+}

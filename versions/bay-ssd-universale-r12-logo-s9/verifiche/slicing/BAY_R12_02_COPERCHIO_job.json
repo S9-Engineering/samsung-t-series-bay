@@ -1,0 +1,74 @@
+{
+  "name": "BAY_R12_02_COPERCHIO",
+  "group": "kit",
+  "geometry_sha256": "e79198394fdfb942ca481bda34dbd0815e7f32d31e5e38d14ba3d1fbda43cdbb",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "98c1f2b808bfe28e1a331a4e0ffbe2404b72240078363747be1282959fe6fb43",
+    "filament.json": "322e2e5f9f121aabc8f2408f1f57b2418dab57e0da15b0d6e50cf802f6ededf0"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R12_02_COPERCHIO_ECC2_PETGPRO.3mf",
+  "project_sha256": "153e3df3f34e4defe64d49bd18fe552a53510f566df1224b5c1e28a9c6ea30a6",
+  "layers": 75,
+  "slicer_estimates": {
+    "filament used [mm]": "5810.38",
+    "filament used [cm3]": "13.98",
+    "filament used [g]": "17.47",
+    "total filament used [g]": "17.47",
+    "estimated printing time (normal mode)": "1h 5m 16s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R12_02_COPERCHIO/tutti_strati_0001_0075.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R12_02_COPERCHIO/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r12-slicer-wsegbq9m/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r12-logo-s9/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r12-logo-s9/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r12-logo-s9/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r12-slicer-wsegbq9m/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r12-logo-s9/stampa/piatti_geometrici/BAY_R12_02_COPERCHIO_GEOMETRIA.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

@@ -1,0 +1,119 @@
+{
+  "copies": [
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/SCOCCA_R27_DOPPIO_PERNO.stl",
+      "copy": "print/stl/shell-r27.stl",
+      "sha256": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/SCOCCA_R27_DOPPIO_PERNO.step",
+      "copy": "cad/shell-r27.step",
+      "sha256": "8b34eebb2a5d433070c782368a81cd8136ebf37ec581818712b2ddece93c47d1"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/TETTO_R27_DOPPIO_PERNO.stl",
+      "copy": "print/stl/lid-r27.stl",
+      "sha256": "a2b01f2bc2b3dde80a1d1462b905632ec308c118a7c980141dbc90b24c35236a"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/TETTO_R27_DOPPIO_PERNO.step",
+      "copy": "cad/lid-r27.step",
+      "sha256": "9f497b03e33b974d22e94f949d32faf7b43de2521b2ec0c7d2c04eea2cdb8eab"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/PERNO_R27_NASCOSTO.stl",
+      "copy": "print/stl/locking-pin-r27.stl",
+      "sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/PERNO_R27_NASCOSTO.step",
+      "copy": "cad/locking-pin-r27.step",
+      "sha256": "7289c0f9fb64335207c0c8bcaa545880523da888aeb0bd1f161c48bf1374b3c4"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/FERMO_CARTUCCE_R27.stl",
+      "copy": "print/stl/cartridge-stop-r27.stl",
+      "sha256": "eac2ebe1297161b43d78418abc0d47fa0b215d5e714c27ba97faa75affdd4162"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/FERMO_CARTUCCE_R27.step",
+      "copy": "cad/cartridge-stop-r27.step",
+      "sha256": "069c560f5a65cd0e95ea132a60013454cf8c83cf0e8d232b58e6f03bbaac55d9"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/CARTUCCIA_T7_R27.stl",
+      "copy": "print/stl/cartridge-t7-r27.stl",
+      "sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/CARTUCCIA_T7_R27.step",
+      "copy": "cad/cartridge-t7-r27.step",
+      "sha256": "a7aa9f0e36bf684830b58fdf0f39b154a6db00ac829f1308179682301c1b9b3b"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/CARTUCCIA_T7_Shield_R27.stl",
+      "copy": "print/stl/cartridge-t7-shield-r27.stl",
+      "sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/CARTUCCIA_T7_Shield_R27.step",
+      "copy": "cad/cartridge-t7-shield-r27.step",
+      "sha256": "2bc9881ea33b7cbd8349646281357e875dbaaee931629aae80e8456cb4e3ed7f"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/CARTUCCIA_T9_R27.stl",
+      "copy": "print/stl/cartridge-t9-r27.stl",
+      "sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/CARTUCCIA_T9_R27.step",
+      "copy": "cad/cartridge-t9-r27.step",
+      "sha256": "dbc4238c657d069a4cf2c96355733184bfa9823b2c49c48deb9f46cbca6ea081"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/PROVINO_GUIDE_SCOCCA_R27.stl",
+      "copy": "print/stl/coupon-shell-r27.stl",
+      "sha256": "11a9e9262ebac45fb94502370f3c2d2c40684dbb2510516b0b1e8bd2ea71bd18"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/PROVINO_GUIDE_SCOCCA_R27.step",
+      "copy": "cad/coupon-shell-r27.step",
+      "sha256": "4c90218c926f3781087b160a017b5afefc14e33fd981aa6be93b7c1af86c36ac"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/STL/PROVINO_GUIDE_TETTO_R27.stl",
+      "copy": "print/stl/coupon-lid-r27.stl",
+      "sha256": "4ed05bfaa714af7001788fe3173e9e93efc5360e1f0d64a2007a9091fda86ed9"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/PROVINO_GUIDE_TETTO_R27.step",
+      "copy": "cad/coupon-lid-r27.step",
+      "sha256": "f42285cb0b9c1802bd141be6afdf4445d6eaaa90171d36439cbfb9d90cebd9e2"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/CAD/ASSIEME_R27_NON_STAMPARE.step",
+      "copy": "cad/reference-assembly-r27-do-not-print.step",
+      "sha256": "04146429c53cd06697591d7dc7d12899c0cecc2b233ee99c3b919b4301a78869"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/progetti_ElegooSlicer/BAY_R27_01_PROVINO_DOPPIO_PERNO_ECC2_PLABASIC.3mf",
+      "copy": "print/slicer/01-fit-coupon-r27-ecc2-pla-basic.3mf",
+      "sha256": "7ba7f45c3300fce8c7c555b47a32e20157b5890eb235243fb6802a6562822fa3"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/GCODE/BAY_R27_01_PROVINO_DOPPIO_PERNO_ECC2_PLABASIC.gcode",
+      "copy": "print/gcode/01-fit-coupon-r27-ecc2-pla-basic.gcode",
+      "sha256": "2c879e3ddb7f44abaeb3c0e0c45f8c1386e77b218b49a294bbbb919b2563c381"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/progetti_ElegooSlicer/BAY_R27_02_KIT_COMPLETO_UNICO_PIATTO_ECC2_PLABASIC.3mf",
+      "copy": "print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf",
+      "sha256": "8077c506605ad4f0b6cccb9b7d88de5b50b23a194019c6503920a475c0d0ea53"
+    },
+    {
+      "source": "versions/bay-ssd-r27-logo-retro-80-pla/stampa/GCODE/BAY_R27_02_KIT_COMPLETO_UNICO_PIATTO_ECC2_PLABASIC.gcode",
+      "copy": "print/gcode/02-full-kit-r27-ecc2-pla-basic.gcode",
+      "sha256": "e08722902b542a71c01e7665c9d99030fdae65da82bfd7de64059fd39195f33b"
+    }
+  ]
+}

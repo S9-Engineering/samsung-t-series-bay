@@ -1,0 +1,44 @@
+{
+  "revision": "R09",
+  "monolith_envelope_unchanged": true,
+  "R05_internal_unchanged": true,
+  "R06_horizontal_roof_restored": true,
+  "body": {
+    "current_sha256": "5930b7b6bb9c6dac5cfa08eadd158f5dfc7d26b25b8c7dccc933d301d915f046",
+    "internal_difference_mm3": 0
+  },
+  "lid": {
+    "current_sha256": "a4fba0418cc22c601678b6704a21c5f3359dfb6bc5137a594fa9a2d01e5247c8",
+    "symmetric_difference_mm3": 0
+  },
+  "identical_parts": [
+    {
+      "part": "inserto_T7",
+      "current_sha256": "595cff5ff60eb898f749d74ff32ffba730ff52bbad3cf0044af4a761e5b9d2a4",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "inserto_Shield",
+      "current_sha256": "c3da81c48a2ef7abdd207ba3f5fb5c3eba78a6688e2da025ccca8abb52c26182",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_sede",
+      "current_sha256": "5df5946bbb4c9817c16b659b4fcbea88b9e6719f29d1390e9aaab7afcb85378c",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_chiusura_femmina",
+      "current_sha256": "00c1f79cc4803b5e054fb5a22af1f665b78c6bcbd7f2231124aa881301613d19",
+      "symmetric_difference_mm3": 0
+    },
+    {
+      "part": "provino_chiusura_maschio",
+      "current_sha256": "c8dcfd5a3508001d689fabb2a08527e09a1f007c587ebabd23bc10438d9d3ac9",
+      "symmetric_difference_mm3": 0
+    }
+  ],
+  "R06_hashed_files_preserved": 131,
+  "physical_print": false,
+  "thermal_validation": false
+}

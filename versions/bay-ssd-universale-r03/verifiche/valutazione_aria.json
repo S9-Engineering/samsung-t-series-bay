@@ -1,0 +1,192 @@
+{
+  "revision": "R03",
+  "current": {
+    "revision": "R03",
+    "floor_net_vent_cm2": 32.01089426235153,
+    "roof_net_vent_cm2": 37.912168757697444,
+    "side_rectangular_upper_bound_cm2": 8.16,
+    "continuous_vertical_clear_cm2": 11.276304158426642,
+    "corridor_areas_cm2": [
+      3.4475812740306977,
+      2.768599826812744,
+      2.768599826812744,
+      2.2915232307704585
+    ],
+    "method": "Proiezione XY di tutte le facce triangolari dei solidi, sottratta ai quattro corridoi T9; area libera lungo l'intera altezza, entro la tessellazione. Fondo e tetto misurati sulle sezioni delle mesh esportate, esclusi i fori vite.",
+    "manifest_sha256": "f1580a2a63f5de67d56354620ed4fc111ad367ae24cffc3d080f385e59173499"
+  },
+  "comparison_R02": {
+    "revision": "R02",
+    "floor_net_vent_cm2": 17.534876128747655,
+    "roof_net_vent_cm2": 23.359574709728832,
+    "side_rectangular_upper_bound_cm2": 8.16,
+    "continuous_vertical_clear_cm2": 12.110030744967318,
+    "corridor_areas_cm2": [
+      3.1306459514079417,
+      3.08127650036582,
+      3.0812764737458154,
+      2.8168318194477426
+    ],
+    "method": "Proiezione XY di tutte le facce triangolari dei solidi, sottratta ai quattro corridoi T9; area libera lungo l'intera altezza, entro la tessellazione. Fondo e tetto misurati sulle sezioni delle mesh esportate, esclusi i fori vite.",
+    "manifest_sha256": "f4b51288531ce3820bd0adde72d099a91abaddf462b7d754277e8d0d71486129"
+  },
+  "changes_percent": {
+    "floor_net_vent_cm2": 82.5555768248119,
+    "roof_net_vent_cm2": 62.29819775746055,
+    "continuous_vertical_clear_cm2": -6.884595126954207
+  },
+  "geometry": {
+    "case_mm": [
+      90,
+      101,
+      91
+    ],
+    "bottom_air_mm": 8,
+    "top_air_mm": 10,
+    "face_gap_three_T9_mm": 10,
+    "feet_mm": 5,
+    "top_slits": 16,
+    "slit_rows": 8,
+    "slit_mm": [
+      38.4,
+      6.4
+    ],
+    "center_spine_mm": 3.2,
+    "solid_rib_mm": 3.2,
+    "roof_thickness_mm": 3,
+    "base_thickness_mm": 5,
+    "lid_side_rail_mm": 5.0,
+    "under_desktop_perimeter_gross_cm2": 19.1
+  },
+  "interpretation": "Per uso intermittente il raffreddamento passivo e una scelta progettuale plausibile. Retro aperto, prese basse e tetto forato riducono il confinamento. Nessuna portata o temperatura calcolata: mancano potenze reali, condizioni ambiente e coefficienti di scambio. Il retro permette anche moti laterali; il percorso fondo-tetto non e obbligato.",
+  "buoyancy_sensitivity": {
+    "formula": "delta_p = rho * g * H * delta_T / T0",
+    "assumptions": {
+      "rho_kg_m3": 1.18,
+      "H_m": 0.08,
+      "T0_K": 298,
+      "g_m_s2": 9.81
+    },
+    "illustrative_delta_T_K": [
+      5,
+      10,
+      20
+    ],
+    "ideal_delta_p_Pa": [
+      0.01553798657718121,
+      0.03107597315436242,
+      0.06215194630872484
+    ],
+    "note": "Solo ordine di grandezza della spinta per un canale ideale. Non e una simulazione della bay aperta, ne una stima di temperatura o di portata; delta_T assunto per sensibilita."
+  },
+  "structural_assessment": "Guscio unico con pareti 3 mm e fondo 5 mm; coperchio 3 mm con nervature e spina centrale da 3.2 mm, bordo laterale 5 mm, quattro viti su piazzole piene. Le feritoie sono divise in due banchi: luce di ciascuna apertura 38.4 mm. Materiale ripristinato sotto guide/appoggi, battute e piedini. Nessuna FEA o prova di carico: rigidezza, creep e stabilita da verificare fisicamente.",
+  "solid_foundations": [
+    {
+      "name": "piedino_5_5",
+      "material_fraction": 1.0000000000000004
+    },
+    {
+      "name": "piedino_5_86",
+      "material_fraction": 1.0000000000000002
+    },
+    {
+      "name": "piedino_75_5",
+      "material_fraction": 1.0000000000000002
+    },
+    {
+      "name": "piedino_75_86",
+      "material_fraction": 1.0000000000000002
+    },
+    {
+      "name": "fondazione_slot_1_1",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_1_2",
+      "material_fraction": 1.0000000000000002
+    },
+    {
+      "name": "fondazione_slot_1_3",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_1_4",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_1_5",
+      "material_fraction": 1.0000000000000004
+    },
+    {
+      "name": "fondazione_slot_2_1",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_2_2",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_2_3",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_2_4",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_2_5",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_3_1",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_3_2",
+      "material_fraction": 1.0000000000000002
+    },
+    {
+      "name": "fondazione_slot_3_3",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_3_4",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "fondazione_slot_3_5",
+      "material_fraction": 1.0
+    },
+    {
+      "name": "spina_coperchio",
+      "material_fraction": 0.9999999999999999
+    }
+  ],
+  "fan": {
+    "present": false,
+    "mounting_interface_designed": false,
+    "note": "Solo feritoie inferiori. Futuro adattatore e interasse ventola non progettati."
+  },
+  "thermal_test": false,
+  "cfd": false,
+  "test_protocol": [
+    "SSD fuori/dentro il bay nello stesso orientamento, ambiente e carico; registrare temperatura ambiente.",
+    "Provare uno, due e tre SSD; ripetere con il T9 centrale e coperchio montato.",
+    "Fasi: scollegato; collegato inattivo 30 min; carico intermittente rappresentativo; trasferimento sostenuto almeno 60 min e fino a stabilizzazione.",
+    "Usare un volume di prova: registrare temperatura via sensore se disponibile, temperatura esterna e velocita; verificare assenza di disconnessioni.",
+    "Se la bay alza sensibilmente la temperatura o anticipa un calo di prestazioni rispetto alla stessa prova all'aperto, aumentare aperture/distanze prima di dichiarare riuscita la soluzione passiva.",
+    "Temperatura di superficie, sensore interno e intervallo ambiente ammesso dal produttore sono grandezze diverse."
+  ],
+  "sources": [
+    {
+      "title": "COMSOL: natural convection, buoyancy and Boussinesq approximation",
+      "url": "https://www.comsol.com/blogs/introduction-to-modeling-natural-convection-in-comsol-multiphysics/",
+      "accessed": "2026-10-20"
+    },
+    {
+      "title": "nVent HOFFMAN: prese alte e basse",
+      "url": "https://www.nvent.com/en-se/hoffman/products/encuav01",
+      "accessed": "2026-10-20"
+    }
+  ]
+}

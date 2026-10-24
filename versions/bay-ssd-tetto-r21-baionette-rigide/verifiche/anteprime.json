@@ -1,0 +1,9 @@
+{
+  "source_manifest_sha256": "fe9788ef973ab260f7b5fd845c240dd4efcabdba43f4ea5b6ec2f30e7a57e5f9",
+  "outputs": {
+    "anteprime/01_R21_TETTO_E_ASSIEME.png": "b0ce5443319b9e3d93c7afda81b759d763e3f42c3f741062bfee20b2cd1ed4dc",
+    "anteprime/02_R21_MECCANISMO.png": "296ffbcdba9d139978d27ea2c3f25852df078a037a7bf8b012ba119c85875726",
+    "anteprime/03_R21_PROVINO.png": "72c151c4e3d75f5f6aaff407619424f84e62acb7044a0b4d979bf637aea1a548"
+  },
+  "physical_photo": false
+}

@@ -1,0 +1,8 @@
+{
+  "floor_net_cm2": 30.169795272297034,
+  "roof_net_cm2": 37.916024290428936,
+  "continuous_vertical_corridors_three_T9_cm2": 15.19060201276884,
+  "method": "Aree sulle mesh esportate; corridoi verticali conservativi dalla proiezione di tutti i solidi, tre T9 senza inserti.",
+  "cfd": false,
+  "thermal_test": false
+}

@@ -1,0 +1,134 @@
+{
+  "revision": "R16_PROVINI",
+  "unit": "millimeter",
+  "parameters_sha256": "a14656b4b3ac203955db38768c113ce1060b7cea929e104dadafdc09f9bf4c8a",
+  "parts": [
+    {
+      "name": "PROVINO_I_R16",
+      "variant": {
+        "id": "I",
+        "nome": "R15_riferimento",
+        "tipo": "triangolo",
+        "sporgenza_nominale": 0.6
+      },
+      "quantity": 1,
+      "stl": "stampa/STL/PROVINO_I_R16.stl",
+      "step": "CAD/PROVINO_I_R16.step",
+      "print_step": "CAD/PROVINO_I_R16_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_I_R16.ply",
+      "stl_sha256": "dfabf12721b51183838126123a09e09fc41bfd7ef1d71c33402286834eeb92c3",
+      "step_sha256": "87c65facfe0f80da1a1422f810ec8be6d798c0e35e0ccc62e26b75e195ce3437",
+      "bounds_mm": [
+        [
+          -1e-07,
+          43.4999999,
+          70.99999989999998
+        ],
+        [
+          90.0000001,
+          57.5000001,
+          86.00000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000186602732e-07,
+          -1.0000000186602732e-07,
+          -1.0000000186602732e-07
+        ],
+        [
+          90.00000010000001,
+          14.000000100000001,
+          15.000000100000014
+        ]
+      ],
+      "volume_mm3": 4062.6363636363617
+    },
+    {
+      "name": "PROVINO_II_R16",
+      "variant": {
+        "id": "II",
+        "nome": "dente_piu_profondo",
+        "tipo": "triangolo",
+        "sporgenza_nominale": 1.0
+      },
+      "quantity": 1,
+      "stl": "stampa/STL/PROVINO_II_R16.stl",
+      "step": "CAD/PROVINO_II_R16.step",
+      "print_step": "CAD/PROVINO_II_R16_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_II_R16.ply",
+      "stl_sha256": "e3cf192131272854546eea8a8833e6bb89fe22d8ac7b95d609f9ad93482af598",
+      "step_sha256": "5229e465ef193368040a2327a980bc22bdcc192e2ed32df266f1ab9afe095f97",
+      "bounds_mm": [
+        [
+          -1e-07,
+          43.4999999,
+          70.99999989999998
+        ],
+        [
+          90.0000001,
+          57.5000001,
+          86.00000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000186107291e-07,
+          -1.0000000186107291e-07,
+          -1.0000000177635683e-07
+        ],
+        [
+          90.00000010000001,
+          14.000000100000001,
+          15.000000100000014
+        ]
+      ],
+      "volume_mm3": 4068.184935064936
+    },
+    {
+      "name": "PROVINO_III_R16",
+      "variant": {
+        "id": "III",
+        "nome": "spalla_ritenuta",
+        "tipo": "spalla",
+        "sporgenza_nominale": 1.0,
+        "quota_spalla": 73.8,
+        "quota_naso_basso": 73.4,
+        "quota_rampa_bassa": 71.8
+      },
+      "quantity": 1,
+      "stl": "stampa/STL/PROVINO_III_R16.stl",
+      "step": "CAD/PROVINO_III_R16.step",
+      "print_step": "CAD/PROVINO_III_R16_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_III_R16.ply",
+      "stl_sha256": "eb3c2ff4d8598dd7537d1d2de4ab1139d772bc4a4862298836701532cf00bed7",
+      "step_sha256": "11f03559ca697bd5b1515bf4c227d8c8f47d8eacc50ffa45ff86bfb4abccc2be",
+      "bounds_mm": [
+        [
+          -1e-07,
+          43.4999999,
+          70.99999989999998
+        ],
+        [
+          90.0000001,
+          57.5000001,
+          86.00000010000001
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -1.0000000186602732e-07,
+          -1.0000000186602732e-07,
+          -1.0000000186602732e-07
+        ],
+        [
+          90.00000010000001,
+          14.000000100000001,
+          15.000000100000014
+        ]
+      ],
+      "volume_mm3": 4071.5992207792183
+    }
+  ],
+  "physical_print": false
+}

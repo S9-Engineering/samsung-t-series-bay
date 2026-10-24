@@ -1,0 +1,82 @@
+{
+  "name": "BAY_R15_01_RICAMBI",
+  "group": "ricambi",
+  "geometry_sha256": "8038eebc6d2ffc069ae0b70eb8638320096d8ede8b9191944ed558ff56129a4b",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "e7d1d6b335440769503bef4bfe4334df4fd978d1bd151064d847df1857bbacc5",
+    "filament.json": "00f5f6bd56d18e55befaf9ce038cc6abb86891e534c3f81b746dab5f2af28e24"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R15_01_RICAMBI_ECC2_PLABASIC.3mf",
+  "project_sha256": "cf7d29364af951486204ade1fb28e03c36f6ee268fb8a9c61c30a9cd0f645405",
+  "layers": 145,
+  "slicer_estimates": {
+    "filament used [mm]": "11567.38",
+    "filament used [cm3]": "27.82",
+    "filament used [g]": "34.78",
+    "total filament used [g]": "34.78",
+    "estimated printing time (normal mode)": "2h 7m 8s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R15_01_RICAMBI/tutti_strati_0001_0144.png",
+      "verifiche/slicing/BAY_R15_01_RICAMBI/tutti_strati_0145_0145.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R15_01_RICAMBI/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "warning_resolution": "Sportello anteriore aperto durante la stampa PLA; soglia software del profilo conservata.",
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r15-pla-slicer-qj1xrcv8/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r15-pla-supporti-u/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r15-pla-supporti-u/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r15-pla-supporti-u/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r15-pla-slicer-qj1xrcv8/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r15-pla-supporti-u/sorgenti/piatti/BAY_R15_01_RICAMBI_SORGENTE.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

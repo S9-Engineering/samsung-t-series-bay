@@ -1,0 +1,69 @@
+{
+  "revision": "R02",
+  "date": "2026-10-20",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_NOMINALE",
+  "print_first": "stampa/progetti_ElegooSlicer/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+  "dimensions_mm": [
+    90.0,
+    101.0,
+    91.0
+  ],
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PETG PRO",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-20",
+    "colore": "non specificato; un solo materiale per piatto"
+  },
+  "loaded_ssd_without_cables_mm": [
+    90.0,
+    104.0,
+    91.0
+  ],
+  "changes_from_R01": [
+    "Retro aperto",
+    "Vano e fermacavi eliminati",
+    "Profondita da 216 a 101 mm",
+    "Coperchio piatto, kit su un piatto"
+  ],
+  "rear_open": true,
+  "cable_compartment": false,
+  "cable_clamp": false,
+  "geometry": true,
+  "export_reopened": true,
+  "stl_unique_parts": 4,
+  "kit_printed_parts": 5,
+  "nominal_model_slot_pairs": 9,
+  "nominal_assignments": 27,
+  "slicer": "2.4.2",
+  "slicing": true,
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true,
+  "source_manifest_sha256": "f4b51288531ce3820bd0adde72d099a91abaddf462b7d754277e8d0d71486129",
+  "geometry_report_sha256": "d0594b5de22809b46a3a3b8433fe51be00f82c8e87e2d324d9188beb64863f67",
+  "kit_estimates": {
+    "filament_g": 137.68,
+    "printing_seconds": 27630,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "coupon_estimates": {
+    "filament_g": 15.55,
+    "printing_seconds": 3907,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "physical_fit": false,
+  "physical_print": false,
+  "thermal_test": false,
+  "sent_to_printer": false,
+  "open_items": [
+    "SSD reali",
+    "sezione e posizione esatte delle porte USB",
+    "larghezza/altezza degli spinotti",
+    "Accoppiamento, serraggio e stabilita reali",
+    "Stabilita con trazione dei cavi esterni",
+    "Temperatura e comportamento del disco centrale"
+  ],
+  "python": "3.11.5"
+}

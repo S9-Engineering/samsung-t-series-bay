@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-21",
+  "method": "Ispezione visiva delle immagini dei percorsi reali dei 3MF esportati; insieme di tutti gli strati e dettagli critici campionati. Non e una prova fisica.",
+  "projects": {
+    "BAY_R13_01_SCOCCA_INSERTI": {
+      "project_sha256": "476dc8c50d80192af212d3e804a8374e0e2faa7477cd4078c8c1d940fe4ec203",
+      "reviewed": true,
+      "all_layer_overviews": true,
+      "layers": 415,
+      "critical_layers_sampled": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png": "3d0881ebeb8a425e7f7775ab38ea12d795367098641b3abf6b6968acf083049e",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png": "b341920f9b5b4e214c26e64dc3deefe643715175abbdbd6d7e0801b4331fc4b6",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png": "828d5eee5ed90597c743e504be60f8b39e348f926d681f88625e5856274b7535",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png": "a1f7a0b75deebaa0804d5c7978971c2c3b60355488ad12c768c53308bd2c9326",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png": "831ae4e990673a23aba831907def0591522bab7f99bc8a300a9a65af03cb1ccd",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_01.png": "cec1cfb52e68dcc1b323e46ad3d54168e731384b41ab762f818077cc9255f35c",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_05.png": "b0afcafcec83a0755d4e7076f08b9cc38b816ff2d36b662294f94a5baa3689de",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_06.png": "2dd15c6a164f6204109b32120d1af9c9e398a573dea5cb9077dfb2260ffa05a6",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_09.png": "9301bd4c85a35836150b8c3cd4e58d524d8f8d015d202dbbe9d41b314e0a3ebb",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/FERITOIE_LATERALI.png": "5f5a3adbfd8b2dbb5b3b7247bc81df284bec1f9f4b08daf30ad0aa0c060b606e",
+        "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/LOGO_FRONTALE.png": "8532159602b2ac6586e2afe36bb7c11844d48ae2c2f4a3db37446f41c32d8ea7"
+      },
+      "notes": [
+        "Cinque basi e brim separati; sedi piedini chiuse dal livello 0.8 mm.",
+        "Pareti, sei appoggi e guide continui; nessuna isola involontaria osservata.",
+        "Feritoie orizzontali e finestre degli agganci chiuse dai livelli superiori; S e 9 presenti nel rilievo da 0.4 mm.",
+        "Fuzzy Skin disattivata. Ponti e finitura restano da verificare sulla stampa."
+      ]
+    },
+    "BAY_R13_02_COPERCHIO": {
+      "project_sha256": "5ea4bea18ea52505c55546ae8b30375be8cfce8dbef733d3a1314bc2bc3fd8c2",
+      "reviewed": true,
+      "all_layer_overviews": true,
+      "layers": 75,
+      "critical_layers_sampled": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R13_02_COPERCHIO/ZOOM_tutti_0001_0075.png": "19a79d27356f6706984bfc08aba058c17080a74f5fbf450de1dcea88684cf820",
+        "verifiche/slicing/BAY_R13_02_COPERCHIO/CRITICI_01.png": "9d0872cde0cb486fa79879ebd1b9a944c4dc9fbfa0b135a9cdc767fd05ee449d",
+        "verifiche/slicing/BAY_R13_02_COPERCHIO/CRITICI_03.png": "368fa1f2201c3e7072b67b3144cea52c2bebcae83b68c6633f7e90d845ec5454",
+        "verifiche/slicing/BAY_R13_02_COPERCHIO/CRITICI_06.png": "c4da88a052863b785a7f1822c16891edb0122c92d72ab250251350987c9a19b0"
+      },
+      "notes": [
+        "Un solo coperchio appoggiato sulla faccia esterna.",
+        "Fori del tetto aperti, due linguette laterali e due riferimenti anteriori continui dal tetto.",
+        "Nessun supporto o isola involontaria osservato; agganci da verificare fisicamente."
+      ]
+    }
+  }
+}

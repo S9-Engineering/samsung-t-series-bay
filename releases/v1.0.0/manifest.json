@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "repository": "S9-Engineering/samsung-t-series-bay",
+  "tag": "v1.0.0",
+  "project_revision": "R27",
+  "files": [
+    {
+      "source": "releases/v1.0.0/README.print.md",
+      "archive": "README.md",
+      "role": "instructions"
+    },
+    {
+      "source": "print/stl/shell-r27.stl",
+      "archive": "print/stl/shell-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/lid-r27.stl",
+      "archive": "print/stl/lid-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/locking-pin-r27.stl",
+      "archive": "print/stl/locking-pin-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/cartridge-stop-r27.stl",
+      "archive": "print/stl/cartridge-stop-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/cartridge-t7-r27.stl",
+      "archive": "print/stl/cartridge-t7-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/cartridge-t7-shield-r27.stl",
+      "archive": "print/stl/cartridge-t7-shield-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/cartridge-t9-r27.stl",
+      "archive": "print/stl/cartridge-t9-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/coupon-shell-r27.stl",
+      "archive": "print/stl/coupon-shell-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/stl/coupon-lid-r27.stl",
+      "archive": "print/stl/coupon-lid-r27.stl",
+      "role": "stl"
+    },
+    {
+      "source": "print/slicer/01-fit-coupon-r27-ecc2-pla-basic.3mf",
+      "archive": "print/3mf/01-fit-coupon-r27-ecc2-pla-basic.3mf",
+      "role": "slicer"
+    },
+    {
+      "source": "print/gcode/01-fit-coupon-r27-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/01-fit-coupon-r27-ecc2-pla-basic.gcode",
+      "role": "gcode"
+    },
+    {
+      "source": "print/slicer/02-full-kit-r27-ecc2-pla-basic.3mf",
+      "archive": "print/3mf/02-full-kit-r27-ecc2-pla-basic.3mf",
+      "role": "slicer"
+    },
+    {
+      "source": "print/gcode/02-full-kit-r27-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/02-full-kit-r27-ecc2-pla-basic.gcode",
+      "role": "gcode"
+    },
+    {
+      "source": "previews/assembly/01-fit-coupon.png",
+      "archive": "assembly/01-fit-coupon.png",
+      "role": "assembly-image"
+    },
+    {
+      "source": "previews/assembly/02-drive-cartridge.png",
+      "archive": "assembly/02-drive-cartridge.png",
+      "role": "assembly-image"
+    },
+    {
+      "source": "previews/assembly/03-cartridge-seating.png",
+      "archive": "assembly/03-cartridge-seating.png",
+      "role": "assembly-image"
+    },
+    {
+      "source": "previews/assembly/04-slide-lid.png",
+      "archive": "assembly/04-slide-lid.png",
+      "role": "assembly-image"
+    },
+    {
+      "source": "previews/assembly/05-locking-pins.png",
+      "archive": "assembly/05-locking-pins.png",
+      "role": "assembly-image"
+    }
+  ],
+  "gcode": {
+    "verified": true,
+    "printer": "ELEGOO Centauri Carbon 2 Combo",
+    "nozzle_mm": 0.4,
+    "plate": "Textured PEI",
+    "filament": "ELEGOO PLA BASIC",
+    "slicer": "ElegooSlicer 1.5.3.5",
+    "profile": "Elegoo Centauri Carbon 2 0.4 nozzle",
+    "verification_report": "verification/release-v1.0.0.json"
+  }
+}

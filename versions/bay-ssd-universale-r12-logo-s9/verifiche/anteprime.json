@@ -1,0 +1,16 @@
+{
+  "source_manifest_sha256": "2b8bdda7b4bb07152512d0abb30046229a63c74f35da66304310a77c667886c2",
+  "outputs": {
+    "anteprime/01_R12_CHIUSO.png": "9b4f88d61b6117d1f1ae9b17829d4def408e29a294773ffe53fb9aeec2a962f6",
+    "anteprime/02_R12_INTERNO.png": "fe46ac527fe8f11d678892a73bc6afbef64c75d0e4a073cd86e620f3b4c5f105",
+    "anteprime/03_R12_SEDI.png": "8ac79d871d782b2c6d7ec3e327a381e6e3497903eaf23372c08deca4f8b44a58",
+    "anteprime/04_R12_PIATTI.png": "a34fe01a8ddea2bfbcb4c6f77c8c964184e81ad3f774e3a2d9720fbaa34ed827",
+    "anteprime/05_R12_MONOLITE.png": "ed10dbf1bcb44d0141c69453041b0932baf95f71f26fb15ad3a889da80966405",
+    "anteprime/06_R12_ALTO.png": "5e62cef77c0c85c609f4a9d91ab8281380fb87019d6427c13f030fe404544846",
+    "anteprime/07_R12_PATTERN_LATERALE.png": "a31c551b8f510cb3bdf5372a5023f9a952591b54eae1d52a5893f1c80806b67d",
+    "anteprime/08_R12_LOGO_FRONTALE.png": "db0e5bf3033d5584f0d6a7c34d7d4631cd1cb7988c1b1f20a47ac33fbbeeba27"
+  },
+  "cfd": false,
+  "physical_photo": false,
+  "notes": "Render dai solidi esportati; colori degli inserti esplicativi, stampa con lo stesso PETG della scocca."
+}

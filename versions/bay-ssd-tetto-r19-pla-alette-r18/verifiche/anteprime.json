@@ -1,0 +1,10 @@
+{
+  "source_manifest_sha256": "b57de6ba539e5ba0e6327d9df52baf839fdc800bb796da51af4102d4be368296",
+  "project_sha256": "fcc80f53d6cd54fa522cc9566cb8c4b45ee5d6759c119b6a4dd60ad0d178412e",
+  "outputs": {
+    "anteprime/01_TETTO_R19.png": "a6e99632bd80ba45622c4b3debefa0d16d62ea3b01730c6ebfd9d062b0632c4c",
+    "anteprime/02_ASSIEME_R19.png": "8d8bb6d908a3a7c8b547fa4c01d6fedc6e74f4135ba9c154f596466199a0c9de",
+    "anteprime/03_PIATTO_R19.png": "36b30fbf33f8c766f40d7a244739abd08171b23f8dc7596b03af22f67460b9c9"
+  },
+  "physical_photo": false
+}

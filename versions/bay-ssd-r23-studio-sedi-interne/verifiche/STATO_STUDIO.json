@@ -1,0 +1,27 @@
+{
+  "revision": "R23_STUDIO_COMPARATIVO_SEDI",
+  "state": "STUDIO_COMPARATIVO_A_B_C_DA_SCEGLIERE",
+  "not_print_ready": true,
+  "nominal_geometry_checked": true,
+  "models_per_slot": 27,
+  "source_editable": true,
+  "step_export_reopened": true,
+  "cad_images_reviewed": true,
+  "slicing_performed": false,
+  "physical_print": false,
+  "physical_fit": false,
+  "force_validated": false,
+  "thermal_test": false,
+  "recommendation": "B se accettato caricamento della cartuccia fuori dal case; A se prioritario inserimento diretto dall alto.",
+  "preserved_roof_design": "R22",
+  "full_r22_kit_under_redesign": true,
+  "limitations": [
+    "Cinematica campionata e geometria nominale: nessuna prova fisica o analisi delle forze.",
+    "Innesto a cuneo al basamento da calibrare; non e un aggancio di stampa finalizzato.",
+    "Opzione C: fissaggio delle guide al tetto e compatibilita del disegno delle feritoie da sviluppare dopo scelta.",
+    "Cornici B con ponti superiori da verificare nel successivo slicing.",
+    "Dimensioni SSD nominali, senza rilievo delle curvature, rivestimenti o tolleranze reali.",
+    "Tolleranza indicativa .4 mm totale = .2 per lato, non garanzia di assenza di gioco.",
+    "Screening autointersezioni non comprende triangoli con vertici condivisi."
+  ]
+}

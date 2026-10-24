@@ -1,0 +1,102 @@
+{
+  "revision": "R14",
+  "date": "2026-10-21",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_NOMINALE",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "slicer_engine": "2.4.2",
+  "slicer_app": "1.5.3.5",
+  "bare_dimensions_mm": [
+    90.0,
+    109.4,
+    86
+  ],
+  "base_enclosure_dimensions_mm": [
+    90,
+    101,
+    86
+  ],
+  "rear_tail": {
+    "arretramento_esterno_mm": 8.0,
+    "spessore_mm": 3.0,
+    "quota_inferiore_mm": 56.0,
+    "gioco_con_scocca_mm": 0.3,
+    "ingombro_spina_larghezza_mm": 20.0,
+    "ingombro_spina_altezza_mm": 20.0,
+    "lunghezza_rigida_cavo_mm": 50.0,
+    "quote_spina_confermate": false,
+    "centro_usb": "Centro nominale della faccia corta del gabarit SSD, posizione reale da verificare",
+    "scelta_utente": "Ingombro generoso per cavi grossi, senza misura specifica dello spinotto"
+  },
+  "usb_keepouts_checked": 9,
+  "minimum_nominal_usb_clearance_mm": 3,
+  "kit_printed_parts": 6,
+  "unique_printable_parts": 4,
+  "native_projects": 1,
+  "plates": 1,
+  "print_sequence": "by layer",
+  "coupons_included": false,
+  "fuzzy_skin": false,
+  "logo": {
+    "testo": "S9",
+    "sottotitolo": false,
+    "larghezza_mm": 14.0,
+    "rilievo_mm": 0.4,
+    "sovrapposizione_mm": 0.15,
+    "margine_destro_mm": 4.0,
+    "margine_inferiore_mm": 6.0,
+    "colore": "stesso PLA BASIC della scocca",
+    "sorgente": "logo_S9_contorni.json"
+  },
+  "logo_paths_verified": true,
+  "R05_internal_unchanged": true,
+  "sharp_external_edges_verified": true,
+  "geometry_verified": true,
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true,
+  "model_slot_cases": 9,
+  "assignments": 27,
+  "screws": 0,
+  "nuts": 0,
+  "washers": 0,
+  "internal_adhesives": false,
+  "commercial_components": [
+    "4 piedini trasparenti in gomma, quote da confermare"
+  ],
+  "kit_estimates": {
+    "filament_g": 142.38,
+    "printing_seconds": 29134,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "model_warnings": [
+    [
+      {
+        "msg": "bed_temperature_too_high_than_filament",
+        "level": "3",
+        "error_code": "1000C001"
+      }
+    ]
+  ],
+  "warning_resolution": "Sportello anteriore aperto per la stampa PLA.",
+  "physical_print": false,
+  "physical_fit": false,
+  "snap_force_validated": false,
+  "thermal_test": false,
+  "sent_to_printer": false,
+  "open_items": [
+    "Misure effettive SSD, posizione USB, spinotti e gommini",
+    "Forza e durata degli incastri in PLA",
+    "Stabilita con i cavi collegati",
+    "Temperature dentro/fuori dal bay e agli appoggi PLA, soprattutto SSD centrale"
+  ]
+}

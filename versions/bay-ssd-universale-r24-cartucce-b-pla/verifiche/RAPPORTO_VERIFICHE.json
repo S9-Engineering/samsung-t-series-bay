@@ -1,0 +1,339 @@
+{
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROTOTIPO_CON_PROVA_PRELIMINARE",
+  "parts_reopened": 15,
+  "geometry_manifest_sha256": "373288c5d196a836e3bca1e01d0ff098f5ab715c33c31f04c7fe7aa10ea3b36b",
+  "slicing_layers_reviewed": 890,
+  "cad_images_reviewed": 6,
+  "toolpath_images_reviewed": 41,
+  "base_bridge_screen": {
+    "result": "PASS_SCREENING_CAMPATE_BASAMENTO",
+    "source_gcode_sha256": "97b6000be81d2ac979a82960e4620bbbf7442862534b329588e5d7b1ce219c5a",
+    "current_layer": 26,
+    "previous_layer": 25,
+    "current_z_mm": 5.2,
+    "previous_z_mm": 5,
+    "bead_approx_radius_mm": 0.21,
+    "max_approx_free_span_mm": 11.600000000000023,
+    "checked_bridge_segments": 980,
+    "longest_free_spans": [
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            57.453,
+            105.086
+          ],
+          [
+            92.661,
+            105.086
+          ]
+        ],
+        "line_length_mm": 35.208,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            104.729
+          ],
+          [
+            57.299,
+            104.729
+          ]
+        ],
+        "line_length_mm": 35.362,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.821,
+            104.372
+          ],
+          [
+            57.345,
+            104.372
+          ]
+        ],
+        "line_length_mm": 35.476,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            104.015
+          ],
+          [
+            92.661,
+            104.015
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            103.658
+          ],
+          [
+            21.34,
+            103.658
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            103.301
+          ],
+          [
+            92.661,
+            103.301
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            102.944
+          ],
+          [
+            21.34,
+            102.944
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            102.587
+          ],
+          [
+            92.661,
+            102.587
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            102.23
+          ],
+          [
+            21.34,
+            102.23
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            101.873
+          ],
+          [
+            92.661,
+            101.873
+          ]
+        ],
+        "line_length_mm": 71.321,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            101.516
+          ],
+          [
+            57.382,
+            101.516
+          ]
+        ],
+        "line_length_mm": 35.279,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            57.518,
+            101.159
+          ],
+          [
+            92.661,
+            101.159
+          ]
+        ],
+        "line_length_mm": 35.143,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            100.801
+          ],
+          [
+            57.69,
+            100.801
+          ]
+        ],
+        "line_length_mm": 34.971000000000004,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            57.901,
+            100.444
+          ],
+          [
+            92.661,
+            100.444
+          ]
+        ],
+        "line_length_mm": 34.76,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            92.661,
+            100.087
+          ],
+          [
+            58.161,
+            100.087
+          ]
+        ],
+        "line_length_mm": 34.5,
+        "max_approx_free_span_mm": 11.600000000000023
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            56.547,
+            105.086
+          ],
+          [
+            21.34,
+            105.086
+          ]
+        ],
+        "line_length_mm": 35.206999999999994,
+        "max_approx_free_span_mm": 11.599999999999998
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            104.729
+          ],
+          [
+            56.701,
+            104.729
+          ]
+        ],
+        "line_length_mm": 35.361000000000004,
+        "max_approx_free_span_mm": 11.599999999999998
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            56.655,
+            104.372
+          ],
+          [
+            21.34,
+            104.372
+          ]
+        ],
+        "line_length_mm": 35.315,
+        "max_approx_free_span_mm": 11.599999999999998
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            56.788,
+            101.516
+          ],
+          [
+            21.34,
+            101.516
+          ]
+        ],
+        "line_length_mm": 35.44799999999999,
+        "max_approx_free_span_mm": 11.599999999999998
+      },
+      {
+        "role": "Bridge",
+        "endpoints_xy_mm": [
+          [
+            21.34,
+            101.159
+          ],
+          [
+            56.482,
+            101.159
+          ]
+        ],
+        "line_length_mm": 35.141999999999996,
+        "max_approx_free_span_mm": 11.599999999999998
+      }
+    ],
+    "image": "verifiche/slicing/COMPLETO/CAMPATE_BASAMENTO.png",
+    "limitations": [
+      "Approssimazione geometrica dai cordoni precedenti, non prova di bridging fisico.",
+      "Una linea Bridge lunga attraversa piu appoggi; la lunghezza intera non e una campata unica."
+    ]
+  },
+  "history_preserved": {
+    "R22": {
+      "checked": true,
+      "files": 106
+    },
+    "R23": {
+      "checked": true,
+      "files": 58
+    }
+  },
+  "physical_print": false,
+  "physical_fit": false,
+  "thermal_test": false
+}

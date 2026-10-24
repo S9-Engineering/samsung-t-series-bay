@@ -1,0 +1,26 @@
+{
+  "reviewed_images": {
+    "verifiche/slicing/INTERNI/PRIMO_INTERMEDI_ULTIMO.png": "24a913fec227e9a33b1a7e0516e2f9bf8b5eeb91067699f74866f657ef15c89c",
+    "verifiche/slicing/INTERNI/PONTE_T9.png": "bc4a75a9583be249f9c964dfd5af83b1926edb27f428fdd51502772e1894546c",
+    "verifiche/slicing/INTERNI/PONTE_T7_Shield.png": "bfb512b834f78a20f61cfafbc776ecce0b7755f6d3833fd15b909f6cd9bf4387",
+    "verifiche/slicing/INTERNI/TUTTI_001_100.png": "17ff69b6c8dc8915912aa54524fa577114b55885bd020d518ee60f222aa03b03",
+    "verifiche/slicing/INTERNI/TUTTI_101_200.png": "aefc650c3fb9ffc119398be9951028da589d7c861396518b953d24ebff5af3f7",
+    "verifiche/slicing/INTERNI/TUTTI_301_330.png": "837489f63c77e88851d1b9add18b66853c064f0dc883a1cbaedbcf2e3269827b",
+    "verifiche/slicing/INTERNI/PONTI_02.png": "68d8d3432ff3fcd70093bd5a759cd85a7ec72c47fe5429d29753fccf27595b41",
+    "verifiche/slicing/INTERNI/PONTI_01.png": "dbbcbb3610925f9b77aa219b72ec55c34f025d72a44f075a624053013c56612a",
+    "verifiche/slicing/INTERNI/GUIDE_PIEDE.png": "045f9f7ded4ed598684f9b5ee90bc7a223ac02c7d844ad6f76edd1b48eb0c0fa",
+    "verifiche/slicing/INTERNI/TUTTI_201_300.png": "8a501b1206237a8e6fbefe878e335cfedcd23159b79dc50f03fa55e4ffd59193",
+    "verifiche/slicing/INTERNI/PONTE_T7.png": "394edb431bde714fcf3cbd2aa784dff854e6e9700d087e7c35afbf71cb8dbc64",
+    "verifiche/slicing/TETTO/PRIMO_INTERMEDI_ULTIMO.png": "02dc38812c90e72a649d34f16892b11063d1d309a78bc3b654c50525fabd0dfa",
+    "verifiche/slicing/TETTO/CAMERA_FERMO.png": "d13ad7e0d9c98e9846188bbc7f22f2e3670782bcb3929ad96460a6c71616d94b",
+    "verifiche/slicing/TETTO/TUTTI_001_100.png": "32e37e26e2317948415ae29ef0e9f5e0757481e174dd83675be878dfe63f7ede",
+    "verifiche/slicing/TETTO/GUIDA_TETTO.png": "e53a05ba0da5ca0dcd66565f187184594c7b5ee91764c27d6ab50f7cf6aeaf1e",
+    "verifiche/slicing/TETTO/PONTI_02.png": "0149a31783eb7fd116a9f4075c2732e1871d012e1ef90dbc5705e82ad2520b2f",
+    "verifiche/slicing/TETTO/PONTI_03.png": "a9848910fd886fd378d6f29e86210cf141bc5c3e3953b7e0019b553fb6db225e",
+    "verifiche/slicing/TETTO/PONTI_01.png": "7aeeecd2d2543a2978c116289be3bf36aa85e3ec006c4811e1556864f0f03655",
+    "verifiche/slicing/TETTO/TUTTI_101_145.png": "2e6037b24c1f1c2e76b421d68ece883067f36ebaf76dfb23a56037c7804a13b0",
+    "verifiche/slicing/TETTO/PERNO.png": "acf4c11fd33ae64c6ad8009fa24b325894c40ee8e976cf47c073688cd4060b40"
+  },
+  "reviewed_before_base_ribs_reslice": true,
+  "must_match_after_reslice": true
+}

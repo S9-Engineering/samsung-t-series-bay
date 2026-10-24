@@ -1,0 +1,245 @@
+{
+  "result": "PASS",
+  "projects": [
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R15_01_RICAMBI_ECC2_PLABASIC.3mf",
+      "sha256": "cf7d29364af951486204ade1fb28e03c36f6ee268fb8a9c61c30a9cd0f645405",
+      "result": "PASS",
+      "units": "millimeter",
+      "printable_count": 5,
+      "modifier_count": 0,
+      "parts": [
+        {
+          "name": "coperchio_capovolto",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              65.0,
+              60.0,
+              0.0
+            ],
+            [
+              155.0,
+              169.0,
+              29.0
+            ]
+          ],
+          "volume_mm3": 26170.198850172794,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              40.00000001,
+              185.0,
+              0.0
+            ],
+            [
+              58.60000039,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 1592.4960052499991,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              70.00000001,
+              185.0,
+              0.0
+            ],
+            [
+              88.60000039,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 1592.496005250002,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              159.99999981000002,
+              185.0,
+              0.0
+            ],
+            [
+              178.60000019,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 979.7759537599995,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              189.99999981000002,
+              185.0,
+              0.0
+            ],
+            [
+              208.60000019,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 979.7759537600019,
+          "closed": true
+        }
+      ],
+      "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati.",
+      "configuration_checked": true,
+      "fuzzy_skin": false,
+      "model_warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "warning_resolution": "Stampare il PLA a sportello anteriore aperto; soglia software originale conservata."
+    },
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R15_02_KIT_COMPLETO_ECC2_PLABASIC.3mf",
+      "sha256": "b9af66d883891eeafbeca7357e846b0bc9bb8e2fa58612e364c2fdcbcd052520",
+      "result": "PASS",
+      "units": "millimeter",
+      "printable_count": 6,
+      "modifier_count": 0,
+      "parts": [
+        {
+          "name": "scocca",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              20.0,
+              60.0000002,
+              0.0
+            ],
+            [
+              110.0,
+              161.40000179999998,
+              83.0
+            ]
+          ],
+          "volume_mm3": 104363.06697755384,
+          "closed": true
+        },
+        {
+          "name": "coperchio_capovolto",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              140.0,
+              60.0,
+              0.0
+            ],
+            [
+              230.0,
+              169.0,
+              29.0
+            ]
+          ],
+          "volume_mm3": 26170.198850172786,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              40.00000001,
+              185.0,
+              0.0
+            ],
+            [
+              58.60000039,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 1592.4960052499991,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              70.00000001,
+              185.0,
+              0.0
+            ],
+            [
+              88.60000039,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 1592.496005250002,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              159.99999981000002,
+              185.0,
+              0.0
+            ],
+            [
+              178.60000019,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 979.7759537599995,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              189.99999981000002,
+              185.0,
+              0.0
+            ],
+            [
+              208.60000019,
+              201.0,
+              19.20000076
+            ]
+          ],
+          "volume_mm3": 979.7759537600019,
+          "closed": true
+        }
+      ],
+      "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati.",
+      "configuration_checked": true,
+      "fuzzy_skin": false,
+      "model_warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "warning_resolution": "Stampare il PLA a sportello anteriore aperto; soglia software originale conservata."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "mode": "TETTO",
+  "name": "BAY_R25_01_SOLO_TETTO_LOGO_ENGINEERING",
+  "items": [
+    {
+      "part": "TETTO_R25_LOGO_ENGINEERING",
+      "name": "TETTO_R25_LOGO_ENGINEERING",
+      "xy": [
+        60,
+        60
+      ],
+      "support": false,
+      "options": {
+        "wall_generator": "arachne"
+      },
+      "bounds_mm": [
+        [
+          60.0,
+          60.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          150.0,
+          169.4000015258789,
+          29.0
+        ]
+      ]
+    }
+  ],
+  "project": "stampa/progetti_ElegooSlicer/BAY_R25_01_SOLO_TETTO_LOGO_ENGINEERING_ECC2_PLABASIC.3mf",
+  "project_sha256": "958e9958ee98d28b4bb04607cdf5693e130e221f6f6c366f90782faa50cabde0",
+  "gcode": "stampa/GCODE/BAY_R25_01_SOLO_TETTO_LOGO_ENGINEERING_ECC2_PLABASIC.gcode",
+  "gcode_sha256": "23b99214bd8983d35318ccb0d5773aa055f0da702f0a00015d1c576c8fe32c77",
+  "geometry_source": "sorgenti/BAY_R25_01_SOLO_TETTO_LOGO_ENGINEERING_SORGENTE.3mf",
+  "geometry_sha256": "0cf6fda21c9155503a702de01d5b7a4e6693fcc968cb377a4effe6c406662695",
+  "source_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 1,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "TETTO_R25_LOGO_ENGINEERING",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            60.0,
+            60.0,
+            0.0
+          ],
+          [
+            150.0,
+            169.4000015,
+            29.0
+          ]
+        ],
+        "volume_mm3": 37411.96671580838,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "native_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 1,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "TETTO_R25_LOGO_ENGINEERING",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            60.0,
+            60.0000002,
+            0.0
+          ],
+          [
+            150.0,
+            169.40000179999998,
+            29.0
+          ]
+        ],
+        "volume_mm3": 37411.96719488197,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "profiles": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "d72aeb57017434b4d97aca38eb46f0ef5c59b219d35c56a836eb5cc0bb84680c",
+    "filament.json": "f2dc1a2e34b2f0b9a0f4e31478e31172445bb2b01a07beb0425331edcebcec5e"
+  },
+  "object_config": {
+    "TETTO_R25_LOGO_ENGINEERING": {
+      "name": "TETTO_R25_LOGO_ENGINEERING",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy",
+      "wall_generator": "arachne"
+    }
+  },
+  "images": [
+    "verifiche/slicing/TETTO/TUTTI_001_100.png",
+    "verifiche/slicing/TETTO/TUTTI_101_145.png",
+    "verifiche/slicing/TETTO/PRIMO_INTERMEDI_ULTIMO.png",
+    "verifiche/slicing/TETTO/GUIDE_E_PERNO_TETTO.png",
+    "verifiche/slicing/TETTO/LOGO_PRIMI_STRATI.png",
+    "verifiche/slicing/TETTO/PONTI_LUNGHI_01.png",
+    "verifiche/slicing/TETTO/PONTI_LUNGHI_02.png",
+    "verifiche/slicing/TETTO/PONTI_LUNGHI_03.png",
+    "verifiche/slicing/TETTO/LOGO_PERCORSI.png"
+  ],
+  "layers": 145,
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "slicer_estimates": {
+    "filament used [mm]": "12851.34",
+    "filament used [cm3]": "30.91",
+    "filament used [g]": "38.64",
+    "total filament used [g]": "38.64",
+    "estimated printing time (normal mode)": "2h 10m 17s"
+  },
+  "totals": {
+    "filament_g": 38.64,
+    "printing_seconds": 7817,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r25-ulszne0f/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r25-logo-posteriore-engineering/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r25-logo-posteriore-engineering/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r25-logo-posteriore-engineering/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "PIATTO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r25-ulszne0f/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r25-logo-posteriore-engineering/sorgenti/BAY_R25_01_SOLO_TETTO_LOGO_ENGINEERING_SORGENTE.3mf"
+    ]
+  },
+  "visual_review_complete": true,
+  "sent_to_printer": false
+}

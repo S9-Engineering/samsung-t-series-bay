@@ -1,0 +1,62 @@
+{
+  "revision": "R20_TETTO_SENZA_TAGLI_SUPERIORI",
+  "state": "RITIRATA_NON_STAMPARE",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "project": "stampa/progetti_ElegooSlicer/BAY_R20_TETTO_SENZA_TAGLI_ECC2_PLABASIC.3mf",
+  "project_sha256": "327f7b7a1388b5e0635cb626a0aead389679df1ae4be254d7646c725680f3bcb",
+  "estimates": {
+    "filament_g": 28.94,
+    "printing_seconds": 5703,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "parts": 1,
+  "plates": 1,
+  "top_release_slots_removed": true,
+  "lower_R18_peg_position_preserved": true,
+  "new_hidden_flexure": true,
+  "hidden_beam_section_mm": [
+    1.2,
+    3
+  ],
+  "hidden_beam_free_length_mm": 18,
+  "roof_gap_mm": 3,
+  "minimum_stem_wall_clearance_mm": 0.05,
+  "arm_length_mm": 3.1,
+  "rear_tail_included": true,
+  "geometry_verified": true,
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_145_layers_reviewed": true,
+  "critical_layers_sampled": true,
+  "physical_print": false,
+  "physical_fit": false,
+  "thermal_test": false,
+  "force_validated": false,
+  "FEA": false,
+  "sent_to_printer": false,
+  "full_lid_modified": true,
+  "reference_shell": "R15 esistente; non inclusa nel piatto",
+  "hardware_bom": {},
+  "limitations": [
+    "Geometria nominale; scocca, SSD e spinotti reali non misurati in questa revisione.",
+    "Inviluppi di manovra traslati rigidamente, non simulazione della flessione.",
+    "Attacco interno nuovo rispetto a R18/R19: forza, ritorno e durata non verificati fisicamente.",
+    "Rimozione dei supporti fra flessure e tetto da verificare sulla stampa; spazio nominale 3 mm, accessibile dal lato interno.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ],
+  "recommended_for_print": false,
+  "selected_revision": "R19",
+  "withdrawal_record": "verifiche/RITIRO_R20.json",
+  "withdrawal_reason": "L’utente preferisce tornare alla R19 e segnala il rischio di rottura delle alette con il nuovo attacco interno R20."
+}

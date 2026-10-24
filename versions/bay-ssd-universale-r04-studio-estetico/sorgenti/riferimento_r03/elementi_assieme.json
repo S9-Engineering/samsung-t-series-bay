@@ -1,0 +1,668 @@
+[
+  {
+    "name": "sponda_slot_1",
+    "mesh": "sorgenti/riferimento_r03/sponda_slot_1.ply",
+    "color": "#41474e",
+    "kind": "sponda",
+    "bounds_mm": [
+      [
+        16.49999989999999,
+        3.999999899999993,
+        4.999253322064947
+      ],
+      [
+        31.50000010000001,
+        89.00000010000001,
+        25.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "SSD_T7_GABARIT",
+    "mesh": "sorgenti/riferimento_r03/SSD_T7_GABARIT.ply",
+    "color": "#719cb4",
+    "kind": "gabarit_ssd",
+    "bounds_mm": [
+      [
+        13.999999899999986,
+        15.999999899999986,
+        12.999999899999986
+      ],
+      [
+        22.000000100000015,
+        101.00000010000001,
+        70.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_1_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_1_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        12.9999999,
+        32.9999999,
+        12.9999999
+      ],
+      [
+        14.0000001,
+        39.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_1_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_1_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        22.199999899999995,
+        32.9999999,
+        12.999999899999997
+      ],
+      [
+        23.200000100000004,
+        39.0000001,
+        23.000000100000005
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_1_1",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_1_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        13.9999999,
+        31.9999999,
+        11.9999999
+      ],
+      [
+        22.0000001,
+        40.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_1_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_1_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        12.9999999,
+        80.9999999,
+        12.9999999
+      ],
+      [
+        14.0000001,
+        87.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_1_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_1_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        22.199999899999995,
+        80.99999989999999,
+        12.999999899999997
+      ],
+      [
+        23.200000100000004,
+        87.00000010000001,
+        23.000000100000005
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_1_2",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_1_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        13.9999999,
+        79.9999999,
+        11.9999999
+      ],
+      [
+        22.0000001,
+        88.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "battuta_morbida_1",
+    "mesh": "sorgenti/riferimento_r03/battuta_morbida_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        13.9999999,
+        14.9999999,
+        12.9999999
+      ],
+      [
+        22.0000001,
+        16.0000001,
+        19.0000001
+      ]
+    ]
+  },
+  {
+    "name": "sponda_slot_2",
+    "mesh": "sorgenti/riferimento_r03/sponda_slot_2.ply",
+    "color": "#41474e",
+    "kind": "sponda",
+    "bounds_mm": [
+      [
+        45.49999989999999,
+        3.999999899999992,
+        4.999253322064946
+      ],
+      [
+        60.50000010000001,
+        89.00000010000002,
+        25.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "SSD_T7_Shield_GABARIT",
+    "mesh": "sorgenti/riferimento_r03/SSD_T7_Shield_GABARIT.ply",
+    "color": "#394b58",
+    "kind": "gabarit_ssd",
+    "bounds_mm": [
+      [
+        37.999999899999985,
+        15.999999899999985,
+        12.999999899999985
+      ],
+      [
+        51.000000100000015,
+        104.00000010000002,
+        72.00000010000002
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_2_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_2_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        36.9999999,
+        32.9999999,
+        12.9999999
+      ],
+      [
+        38.0000001,
+        39.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_2_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_2_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        51.199999899999995,
+        32.99999989999999,
+        12.999999899999994
+      ],
+      [
+        52.20000010000001,
+        39.00000010000001,
+        23.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_2_1",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_2_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        37.9999999,
+        31.9999999,
+        11.9999999
+      ],
+      [
+        46.0000001,
+        40.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_2_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_2_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        36.9999999,
+        80.9999999,
+        12.9999999
+      ],
+      [
+        38.0000001,
+        87.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_2_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_2_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        51.199999899999995,
+        80.99999989999999,
+        12.999999899999994
+      ],
+      [
+        52.20000010000001,
+        87.00000010000001,
+        23.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_2_2",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_2_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        37.9999999,
+        79.9999999,
+        11.9999999
+      ],
+      [
+        46.0000001,
+        88.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "battuta_morbida_2",
+    "mesh": "sorgenti/riferimento_r03/battuta_morbida_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        37.9999999,
+        14.9999999,
+        12.9999999
+      ],
+      [
+        46.0000001,
+        16.0000001,
+        19.0000001
+      ]
+    ]
+  },
+  {
+    "name": "sponda_slot_3",
+    "mesh": "sorgenti/riferimento_r03/sponda_slot_3.ply",
+    "color": "#41474e",
+    "kind": "sponda",
+    "bounds_mm": [
+      [
+        70.49999989999999,
+        3.9999998999999855,
+        4.999253322064941
+      ],
+      [
+        85.50000010000001,
+        89.00000010000002,
+        25.000000100000015
+      ]
+    ]
+  },
+  {
+    "name": "SSD_T9_GABARIT",
+    "mesh": "sorgenti/riferimento_r03/SSD_T9_GABARIT.ply",
+    "color": "#242c32",
+    "kind": "gabarit_ssd",
+    "bounds_mm": [
+      [
+        61.999999899999985,
+        15.999999899999986,
+        12.999999899999986
+      ],
+      [
+        76.00000010000001,
+        104.00000010000001,
+        73.00000010000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_3_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_3_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        60.9999999,
+        32.9999999,
+        12.9999999
+      ],
+      [
+        62.0000001,
+        39.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_3_1",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_3_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        76.1999999,
+        32.999999899999985,
+        12.999999899999986
+      ],
+      [
+        77.20000010000001,
+        39.000000100000015,
+        23.000000100000015
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_3_1",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_3_1.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        61.9999999,
+        31.9999999,
+        11.9999999
+      ],
+      [
+        70.0000001,
+        40.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_fisso_3_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_fisso_3_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        60.9999999,
+        80.9999999,
+        12.9999999
+      ],
+      [
+        62.0000001,
+        87.0000001,
+        23.0000001
+      ]
+    ]
+  },
+  {
+    "name": "tampone_mobile_3_2",
+    "mesh": "sorgenti/riferimento_r03/tampone_mobile_3_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        76.1999999,
+        80.99999989999999,
+        12.999999899999986
+      ],
+      [
+        77.20000010000001,
+        87.00000010000001,
+        23.000000100000015
+      ]
+    ]
+  },
+  {
+    "name": "appoggio_morbido_3_2",
+    "mesh": "sorgenti/riferimento_r03/appoggio_morbido_3_2.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        61.9999999,
+        79.9999999,
+        11.9999999
+      ],
+      [
+        70.0000001,
+        88.0000001,
+        13.0000001
+      ]
+    ]
+  },
+  {
+    "name": "battuta_morbida_3",
+    "mesh": "sorgenti/riferimento_r03/battuta_morbida_3.ply",
+    "color": "#b3b8b5",
+    "kind": "silicone_commerciale",
+    "bounds_mm": [
+      [
+        61.9999999,
+        14.9999999,
+        12.9999999
+      ],
+      [
+        70.0000001,
+        16.0000001,
+        19.0000001
+      ]
+    ]
+  },
+  {
+    "name": "rondella_regolazione_1",
+    "mesh": "sorgenti/riferimento_r03/rondella_regolazione_1.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        23.4999999,
+        4.498825056656301,
+        8.998433412992258
+      ],
+      [
+        30.50156658700774,
+        11.501174943343699,
+        9.501566587007742
+      ]
+    ]
+  },
+  {
+    "name": "vite_regolazione_1",
+    "mesh": "sorgenti/riferimento_r03/vite_regolazione_1.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        24.2499999,
+        5.249076808801379,
+        -0.5006714515747487
+      ],
+      [
+        29.751230911220368,
+        10.750923191198622,
+        12.50123091122037
+      ]
+    ]
+  },
+  {
+    "name": "rondella_regolazione_2",
+    "mesh": "sorgenti/riferimento_r03/rondella_regolazione_2.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        47.49999989999999,
+        4.4988250566562975,
+        8.998433412992254
+      ],
+      [
+        54.501566587007744,
+        11.501174943343702,
+        9.501566587007746
+      ]
+    ]
+  },
+  {
+    "name": "vite_regolazione_2",
+    "mesh": "sorgenti/riferimento_r03/vite_regolazione_2.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        48.24999989999999,
+        5.249076808801376,
+        -0.5006714515747502
+      ],
+      [
+        53.751230911220375,
+        10.750923191198623,
+        12.501230911220372
+      ]
+    ]
+  },
+  {
+    "name": "rondella_regolazione_3",
+    "mesh": "sorgenti/riferimento_r03/rondella_regolazione_3.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        71.49999989999999,
+        4.498825056656293,
+        8.998433412992249
+      ],
+      [
+        78.50156658700774,
+        11.501174943343708,
+        9.501566587007751
+      ]
+    ]
+  },
+  {
+    "name": "vite_regolazione_3",
+    "mesh": "sorgenti/riferimento_r03/vite_regolazione_3.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        72.24999989999999,
+        5.249076808801369,
+        -0.5006714515747612
+      ],
+      [
+        77.75123091122038,
+        10.75092319119863,
+        12.501230911220379
+      ]
+    ]
+  },
+  {
+    "name": "vite_coperchio_6_8",
+    "mesh": "sorgenti/riferimento_r03/vite_coperchio_6_8.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        2.9894385992351857,
+        4.988431590654876,
+        73.99932854842525
+      ],
+      [
+        9.011904103914304,
+        11.011568409345124,
+        85.91190410391431
+      ]
+    ]
+  },
+  {
+    "name": "vite_coperchio_6_93.0",
+    "mesh": "sorgenti/riferimento_r03/vite_coperchio_6_93.0.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        2.9894385992351773,
+        89.98843159065486,
+        73.99932854842524
+      ],
+      [
+        9.011904103914313,
+        96.01156840934514,
+        85.91190410391432
+      ]
+    ]
+  },
+  {
+    "name": "vite_coperchio_84.0_8",
+    "mesh": "sorgenti/riferimento_r03/vite_coperchio_84.0_8.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        80.98943859923517,
+        4.988431590654864,
+        73.99932854842524
+      ],
+      [
+        87.01190410391432,
+        11.011568409345136,
+        85.91190410391432
+      ]
+    ]
+  },
+  {
+    "name": "vite_coperchio_84.0_93.0",
+    "mesh": "sorgenti/riferimento_r03/vite_coperchio_84.0_93.0.ply",
+    "color": "#a5adb4",
+    "kind": "ferramenta_commerciale",
+    "bounds_mm": [
+      [
+        80.98943859923517,
+        89.98843159065486,
+        73.99932854842524
+      ],
+      [
+        87.01190410391432,
+        96.01156840934514,
+        85.91190410391432
+      ]
+    ]
+  }
+]

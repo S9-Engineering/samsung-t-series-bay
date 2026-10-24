@@ -1,0 +1,51 @@
+{
+  "e709fe6f73046194e8f6774e51db3d3a8c8ce87900a3ce80f3a47ae9224cd0fe": {
+    "candidate_pairs_no_shared_vertex": 63624,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "86b374ea02f547b15d076aabb7fca17f5976899dcda6a67cbabead63b87f4d12": {
+    "candidate_pairs_no_shared_vertex": 36763,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "ba0ef23ce0b672a69c0fa667a6095ac1cb9fb89dabd34477ab67cf95da60069a": {
+    "candidate_pairs_no_shared_vertex": 49,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "5059c9257135d328eac323c25f8050642613653413c0cb2e15609f279631ede1": {
+    "candidate_pairs_no_shared_vertex": 52,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "b3ee2bc7dca307d27d0b0929c6b93f5d6f4ea87f7e621e23dea729ea687e001f": {
+    "candidate_pairs_no_shared_vertex": 3721,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "91a6ee22a2e1bbdf0436091c532bc3bb0a95e391c89b23bcd1e39ccc14a0d522": {
+    "candidate_pairs_no_shared_vertex": 100,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  },
+  "e6066e61563e3ad515d66ec03f588d18f8748b792fe27bd0e911c94741893d3f": {
+    "candidate_pairs_no_shared_vertex": 53,
+    "intersection_pairs": 0,
+    "examples": [],
+    "algorithm": "triangle_pairs_vectorized_v1",
+    "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "result": "PASS_GEOMETRIA_R27",
+  "manifest_sha256": "28b8ba164716bbaf429b42b22070e3138fe42c15dceb5ee58038057111c09f65",
+  "parts": [
+    {
+      "name": "SCOCCA_R27_DOPPIO_PERNO",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 1048924,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 112690.57832126289,
+      "stl_sha256": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2",
+      "step_sha256": "8b34eebb2a5d433070c782368a81cd8136ebf37ec581818712b2ddece93c47d1",
+      "print_step_sha256": "51daec223031fed9c233392498e527831aad509a6da5ad35d1dc210e819f6bad",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4000015258789,
+          83.0
+        ]
+      ]
+    },
+    {
+      "name": "TETTO_R27_DOPPIO_PERNO",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 27352,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": false,
+      "volume_mm3": 38867.15635574742,
+      "stl_sha256": "a2b01f2bc2b3dde80a1d1462b905632ec308c118a7c980141dbc90b24c35236a",
+      "step_sha256": "9f497b03e33b974d22e94f949d32faf7b43de2521b2ec0c7d2c04eea2cdb8eab",
+      "print_step_sha256": "001c84e529f86944421f938884a246eb68a0de2ad91c49dd67d2d8459550dedd",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          90.0,
+          109.4000015258789,
+          29.0
+        ]
+      ]
+    },
+    {
+      "name": "PERNO_R27_NASCOSTO",
+      "quantity": 2,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 996,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 357.9965125629428,
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d",
+      "step_sha256": "7289c0f9fb64335207c0c8bcaa545880523da888aeb0bd1f161c48bf1374b3c4",
+      "print_step_sha256": "bca1e5738629cacaf11119eff7369523db716fa7db2b2d20353e6eaa2ed15bd0",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          26.5,
+          3.499650716781616
+        ]
+      ]
+    },
+    {
+      "name": "FERMO_CARTUCCE_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 118,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 9000.000049591063,
+      "stl_sha256": "eac2ebe1297161b43d78418abc0d47fa0b215d5e714c27ba97faa75affdd4162",
+      "step_sha256": "069c560f5a65cd0e95ea132a60013454cf8c83cf0e8d232b58e6f03bbaac55d9",
+      "print_step_sha256": "791bcb17cef478ff774d719f3efa922010eb87d28b0b999a722810dc8bb321af",
+      "print_bounds_mm": [
+        [
+          0.0,
+          8.881784197001252e-16,
+          0.0
+        ],
+        [
+          57.0,
+          10.899999618530273,
+          74.0
+        ]
+      ]
+    },
+    {
+      "name": "CARTUCCIA_T7_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 605,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 12334.894986579857,
+      "stl_sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e",
+      "step_sha256": "a7aa9f0e36bf684830b58fdf0f39b154a6db00ac829f1308179682301c1b9b3b",
+      "print_step_sha256": "a8179bbf4512da5e4803d3c410e00ba8c018c3c45a9abc1f910337a35b15d4a6",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          62.900001525878906
+        ]
+      ]
+    },
+    {
+      "name": "CARTUCCIA_T7_Shield_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 608,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 12891.515456982086,
+      "stl_sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96",
+      "step_sha256": "2bc9881ea33b7cbd8349646281357e875dbaaee931629aae80e8456cb4e3ed7f",
+      "print_step_sha256": "0aaccbe05b4ac0e468c90b9aa301a6ebac04acac1ac2ca0e6476eb859666c215",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          64.9000015258789
+        ]
+      ]
+    },
+    {
+      "name": "CARTUCCIA_T9_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 616,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 13081.655459930727,
+      "stl_sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a",
+      "step_sha256": "dbc4238c657d069a4cf2c96355733184bfa9823b2c49c48deb9f46cbca6ea081",
+      "print_step_sha256": "24ad255235c018df417b2ca04ec03fe8e51233ba4a63da916b14a5ef19c1aaf1",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          65.9000015258789
+        ]
+      ]
+    },
+    {
+      "name": "PROVINO_GUIDE_SCOCCA_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 521,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 9455.718641761665,
+      "stl_sha256": "11a9e9262ebac45fb94502370f3c2d2c40684dbb2510516b0b1e8bd2ea71bd18",
+      "step_sha256": "4c90218c926f3781087b160a017b5afefc14e33fd981aa6be93b7c1af86c36ac",
+      "print_step_sha256": "c375cac8484045c7072fc4cfd82d5da26ced2aefe661102f900493d2f26d567a",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          33.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "name": "PROVINO_GUIDE_TETTO_R27",
+      "quantity": 1,
+      "single_valid_solid": true,
+      "mesh_closed": true,
+      "winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersections": {
+        "candidate_pairs_no_shared_vertex": 4873,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "screen_reused_identical_stl": true,
+      "volume_mm3": 13750.961412828254,
+      "stl_sha256": "4ed05bfaa714af7001788fe3173e9e93efc5360e1f0d64a2007a9091fda86ed9",
+      "step_sha256": "f42285cb0b9c1802bd141be6afdf4445d6eaaa90171d36439cbfb9d90cebd9e2",
+      "print_step_sha256": "ee1652d188f3b8b5ee7fe7d2ec013238895b16506197ca390b4f29c8b195d711",
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          1.3819275618851077e-14
+        ],
+        [
+          90.0,
+          41.0,
+          29.0
+        ]
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "name": "TETTO_R27_DOPPIO_PERNO",
+      "only_external_logo_changed": true,
+      "width_mm": 32,
+      "height_mm": 19.773879142300196,
+      "planar_scale": 0.8,
+      "center_x_mm": 45,
+      "center_z_mm": 71.5,
+      "relief_mm": 0.4,
+      "glyphs": 13,
+      "vertical_margin_mm": 4.613060428849902,
+      "bounds_mm": [
+        [
+          28.999999999999996,
+          109.0,
+          61.61306042884309
+        ],
+        [
+          61.0,
+          109.4,
+          81.38693957115049
+        ]
+      ],
+      "functional_roof_unchanged": true
+    }
+  ],
+  "unchanged_types": [
+    "SCOCCA_R27_DOPPIO_PERNO",
+    "PERNO_R27_NASCOSTO",
+    "FERMO_CARTUCCE_R27",
+    "CARTUCCIA_T7_R27",
+    "CARTUCCIA_T7_Shield_R27",
+    "CARTUCCIA_T9_R27",
+    "PROVINO_GUIDE_SCOCCA_R27",
+    "PROVINO_GUIDE_TETTO_R27"
+  ],
+  "unchanged_kit_types": 6,
+  "ssd_checks": [
+    {
+      "model": "T7",
+      "slot": 1,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T7",
+      "slot": 2,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T7",
+      "slot": 3,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 1,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 2,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 3,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T9",
+      "slot": 1,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T9",
+      "slot": 2,
+      "no_roof_interference": true
+    },
+    {
+      "model": "T9",
+      "slot": 3,
+      "no_roof_interference": true
+    }
+  ],
+  "assembly_sha256": "04146429c53cd06697591d7dc7d12899c0cecc2b233ee99c3b919b4301a78869",
+  "assembly_solids": 11,
+  "pins_identical_printable": true,
+  "coupon_functional_surfaces_match": true,
+  "inherited_functional_checks": {
+    "reference_sha256": "deb1b3a4232d468fd00a4501202cab3ca04953c1214e5cff672f2e04082045ec",
+    "roof_poses": 35,
+    "key_poses": 124,
+    "cartridge_poses": 171,
+    "pin_retention": [
+      {
+        "side": 0,
+        "blocking_overlap_mm3": {
+          "pin_extraction": 2.855999999999975,
+          "pin_rotation": 0.48549145463755367,
+          "roof_back": 3.0663167468943193
+        }
+      },
+      {
+        "side": 1,
+        "blocking_overlap_mm3": {
+          "pin_extraction": 2.855999999999975,
+          "pin_rotation": 0.4854914546375749,
+          "roof_back": 3.0663167468943366
+        }
+      }
+    ],
+    "reason": "Scocca, perni, cartucce, fermo, provino e tetto fino a Y109 identici alla R26; soltanto rilievo esterno ridimensionato. Prove cinematiche conservate per identita geometrica, non rieseguite."
+  },
+  "physical_full_kit_print": false,
+  "physical_double_pin_test": false,
+  "thermal_test": false,
+  "force_validated": false,
+  "limitations": [
+    "Screening autointersezioni esclude triangoli con vertici condivisi.",
+    "La stampa reale, la finitura delle lettere e il kit completo non sono ancora verificati."
+  ]
+}

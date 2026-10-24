@@ -1,0 +1,63 @@
+{
+  "verified_date": "2026-10-23",
+  "app": "1.5.3.5",
+  "official_machine_profile": "Elegoo Centauri Carbon 2 0.4 nozzle",
+  "profile_is_ECC2_not_original_CC": true,
+  "profiles": {
+    "macchina": {
+      "installed_path": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/machine/ECC2/Elegoo Centauri Carbon 2 0.4 nozzle.json",
+      "snapshot": "slicer/riferimento_installato_macchina.json",
+      "sha256": "06ce79b9ad2d9e40bffa786f2df5199ec33add8d31b70cd4e5ea687c9fcc2039"
+    },
+    "filamento": {
+      "installed_path": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/ECC2/Elegoo PLA Basic @ECC2.json",
+      "snapshot": "slicer/riferimento_installato_filamento.json",
+      "sha256": "8682e4713299224f3657239775470c50aabb1bb81776ccbf937ffbb212432075"
+    },
+    "processo": {
+      "installed_path": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/ECC2/0.20mm Standard @Elegoo CC2 0.4 nozzle.json",
+      "snapshot": "slicer/riferimento_installato_processo.json",
+      "sha256": "80030b42558303e83daffd8694752c2e548ac0524cb60994d7d4dcfa9e5d8fd9"
+    }
+  },
+  "changes_from_R22": {
+    "process_name": "R24 CARTUCCE B",
+    "bridge_speed_mm_s": 25,
+    "cartucce_and_fit_frames_wall_loops": 6,
+    "internal_receiver_design": "R24",
+    "remainder": "machine/filament values unchanged except display name"
+  },
+  "initial_uncalibrated_values": {
+    "nozzle_C": 220,
+    "bed_C": 60,
+    "flow_ratio": 0.98,
+    "process_flow_ratio": 0.97,
+    "PA": 0.04,
+    "volumetric_limit_mm3_s": 5
+  },
+  "sources": [
+    {
+      "url": "https://us.elegoo.com/products/pla-filament-1-75mm-colored-1kg",
+      "claim": "Manufacturer PLA nozzle range 190-230 C. 220 C is also the installed ECC2 PLA Basic profile."
+    },
+    {
+      "url": "https://wiki.elegoo.com/en/faq/centauri-carbon-2-combo",
+      "claim": "ECC2 Combo 256x256x256 nominal; auxiliary structures must fit."
+    }
+  ],
+  "no_filament_calibration_performed": true,
+  "resolved_current_machine_critical_keys_equal": [
+    "machine_start_gcode",
+    "machine_end_gcode",
+    "change_filament_gcode",
+    "bed_exclude_area",
+    "printable_area",
+    "bed_mesh_max",
+    "bed_mesh_min",
+    "extruder_offset",
+    "nozzle_diameter",
+    "printer_model",
+    "gcode_flavor",
+    "host_type"
+  ]
+}

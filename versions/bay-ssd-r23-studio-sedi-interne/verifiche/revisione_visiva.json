@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23T09:37:31.546975+02:00",
+  "method": "Apertura e lettura delle tre tavole PNG tramite view_image, confronto con le descrizioni e con i CAD.",
+  "images": {
+    "anteprime/01_CONFRONTO_A_B_C.png": "3779ebecaffe959316b975500db7773456390e591fba61266e284535f7c76bd5",
+    "anteprime/02_NEL_CASE.png": "a65185906adae1a586a8a1a533308284cfc86beb0a3ff5b77cf0c517aa454491",
+    "anteprime/03_USO_SOLUZIONE_B.png": "cee56a42a75dd8df6f0a25903217a85a4adb604cb1ac6609d3c67cabb44fa67f"
+  },
+  "notes": [
+    "A aperta in alto, B con due cornici chiuse, C con guida superiore distinta e ancora da integrare al tetto.",
+    "Tutti i render fanno riferimento a modelli nominali, senza validazione fisica.",
+    "La sequenza B mostra il caricamento assiale del disco fuori dal case e il montaggio della cartuccia dall alto.",
+    "Sagoma del case preservata; nella seconda tavola le pareti sono tagliate per mostrare l interno.",
+    "Basamento aperto e appoggi larghi; l incastro a cuneo e ancora da calibrare.",
+    "Testi e limiti leggibili, colori illustrativi, nessuna fotografia o pretesa di prontezza per la stampa."
+  ]
+}

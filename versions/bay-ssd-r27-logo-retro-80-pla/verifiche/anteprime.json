@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "28b8ba164716bbaf429b42b22070e3138fe42c15dceb5ee58038057111c09f65",
+  "outputs": {
+    "anteprime/01_R27_CASE_COMPLETO.png": "23a85b2a877057d20c88f558f6b62fc6e89d62a1b249b973769003791b426eea",
+    "anteprime/02_R27_DUE_PERNI.png": "9f174669d83168704977a95027e206d5a4d0c8a34d31e30de46bb968756614a8",
+    "anteprime/03_R27_PROVINO_DOPPIO_PERNO.png": "5fa6ad24548b389120430bd3c4088029d9f40acf3bd030c668cb18a6551d297c",
+    "anteprime/04_R27_PIATTO_COMPLETO.png": "83c8fad07166d7a343fb8283fad94519625ed39b3630d8c5e22f32b4c984c170",
+    "anteprime/04_R27_PIATTO_PROVINO.png": "6d53f43125dbddcc64b203029f661852eaa1e1e5117e92ab299e208a73cfa38f"
+  },
+  "physical_photos": false
+}

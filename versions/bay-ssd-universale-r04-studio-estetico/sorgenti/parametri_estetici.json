@@ -1,0 +1,69 @@
+{
+  "revisione": "R04_STUDIO_ESTETICO",
+  "origine": "R03",
+  "unita": "mm",
+  "ingombro_corpo_senza_piedini": [
+    90,
+    101,
+    86
+  ],
+  "raccordo_verticale_esterno": 4.5,
+  "raccordo_bordo_inferiore_scocca": 0.8,
+  "raccordo_bordo_superiore_tetto": 0.8,
+  "raccordo_bordo_inferiore_tetto": 0.4,
+  "sedi_piedini": {
+    "numero": 4,
+    "centri_xy": [
+      [
+        10,
+        10
+      ],
+      [
+        80,
+        10
+      ],
+      [
+        10,
+        91
+      ],
+      [
+        80,
+        91
+      ]
+    ],
+    "diametro_indicativo": 10.5,
+    "profondita_indicativa": 0.65,
+    "piazzola_piena_diametro": 12.0,
+    "tipo": "tasca per gommino adesivo trasparente commerciale; gommini non inclusi nei pezzi stampati",
+    "misure_gommini_confermate": false
+  },
+  "palette": [
+    {
+      "id": "01",
+      "nome": "Bianco / rosso",
+      "scocca": "#f0f1ee",
+      "tetto": "#bf2934"
+    },
+    {
+      "id": "02",
+      "nome": "Grafite / rosso",
+      "scocca": "#39434b",
+      "tetto": "#bf2934"
+    },
+    {
+      "id": "03",
+      "nome": "Bianco / grafite",
+      "scocca": "#f0f1ee",
+      "tetto": "#39434b"
+    },
+    {
+      "id": "04",
+      "nome": "Bianco / salvia",
+      "scocca": "#f0f1ee",
+      "tetto": "#6f8b7d"
+    }
+  ],
+  "stato": "STUDIO_ESTETICO_NON_PREPARATO_PER_STAMPA",
+  "slicing_eseguito": false,
+  "revisione_preparata_per_stampa": "R03"
+}

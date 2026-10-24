@@ -1,0 +1,360 @@
+{
+  "mode": "PROVINO",
+  "name": "BAY_R26_01_PROVINO_DOPPIO_PERNO",
+  "items": [
+    {
+      "part": "PROVINO_GUIDE_SCOCCA_R26",
+      "name": "PROVINO_GUIDE_SCOCCA_R26",
+      "xy": [
+        25,
+        30
+      ],
+      "support": false,
+      "bounds_mm": [
+        [
+          25.0,
+          30.0,
+          0.0
+        ],
+        [
+          115.0,
+          63.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "part": "PROVINO_GUIDE_TETTO_R26",
+      "name": "PROVINO_GUIDE_TETTO_R26",
+      "xy": [
+        135,
+        30
+      ],
+      "support": false,
+      "options": {
+        "wall_generator": "arachne"
+      },
+      "bounds_mm": [
+        [
+          135.0,
+          30.0,
+          1.3819275618851077e-14
+        ],
+        [
+          225.0,
+          71.0,
+          29.0
+        ]
+      ]
+    },
+    {
+      "part": "PERNO_R26_NASCOSTO",
+      "name": "PERNO_R26_SX",
+      "xy": [
+        45,
+        100
+      ],
+      "support": false,
+      "solid": true,
+      "bounds_mm": [
+        [
+          45.0,
+          100.0,
+          0.0
+        ],
+        [
+          53.0,
+          126.5,
+          3.499650716781616
+        ]
+      ]
+    },
+    {
+      "part": "PERNO_R26_NASCOSTO",
+      "name": "PERNO_R26_DX",
+      "xy": [
+        45,
+        140
+      ],
+      "support": false,
+      "solid": true,
+      "bounds_mm": [
+        [
+          45.0,
+          140.0,
+          0.0
+        ],
+        [
+          53.0,
+          166.5,
+          3.499650716781616
+        ]
+      ]
+    }
+  ],
+  "project": "stampa/progetti_ElegooSlicer/BAY_R26_01_PROVINO_DOPPIO_PERNO_ECC2_PLABASIC.3mf",
+  "project_sha256": "2b150688b1882b737f839ece90ffe1538095e6fb17564f1df163f50200e5c8be",
+  "gcode": "stampa/GCODE/BAY_R26_01_PROVINO_DOPPIO_PERNO_ECC2_PLABASIC.gcode",
+  "gcode_sha256": "5287a47aecb17289401b799bcdfad08fb4033c497ea418d39b8a462a8e02fa33",
+  "geometry_source": "sorgenti/BAY_R26_01_PROVINO_DOPPIO_PERNO_SORGENTE.3mf",
+  "geometry_sha256": "d5aeb9d4c962ef894e5e1a9635dc8180035fdb2aa779ab080916144fd3aa34db",
+  "source_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 4,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "PROVINO_GUIDE_SCOCCA_R26",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            25.0,
+            30.0,
+            0.0
+          ],
+          [
+            115.0,
+            63.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 9455.718627211822,
+        "closed": true
+      },
+      {
+        "name": "PROVINO_GUIDE_TETTO_R26",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            135.0,
+            30.0,
+            0.0
+          ],
+          [
+            225.0,
+            71.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 13750.961392562198,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R26_SX",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            45.0,
+            100.0,
+            0.0
+          ],
+          [
+            53.0,
+            126.5,
+            3.4996507
+          ]
+        ],
+        "volume_mm3": 357.99651189809373,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R26_DX",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            45.0,
+            140.0,
+            0.0
+          ],
+          [
+            53.0,
+            166.5,
+            3.4996507
+          ]
+        ],
+        "volume_mm3": 357.99651189809373,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "native_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 4,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "PROVINO_GUIDE_SCOCCA_R26",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            25.0,
+            30.0,
+            0.0
+          ],
+          [
+            115.0,
+            63.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 9455.718609856705,
+        "closed": true
+      },
+      {
+        "name": "PROVINO_GUIDE_TETTO_R26",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            135.0,
+            30.0,
+            0.0
+          ],
+          [
+            225.0,
+            71.0,
+            29.0
+          ]
+        ],
+        "volume_mm3": 13750.961360487525,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R26_SX",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            45.0,
+            100.0,
+            0.0
+          ],
+          [
+            53.0,
+            126.5,
+            3.49965072
+          ]
+        ],
+        "volume_mm3": 357.9965148246982,
+        "closed": true
+      },
+      {
+        "name": "PERNO_R26_DX",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            45.0,
+            140.0,
+            0.0
+          ],
+          [
+            53.0,
+            166.5,
+            3.49965072
+          ]
+        ],
+        "volume_mm3": 357.9965148246982,
+        "closed": true
+      }
+    ],
+    "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+  },
+  "profiles": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "d72aeb57017434b4d97aca38eb46f0ef5c59b219d35c56a836eb5cc0bb84680c",
+    "filament.json": "f2dc1a2e34b2f0b9a0f4e31478e31172445bb2b01a07beb0425331edcebcec5e"
+  },
+  "object_config": {
+    "PROVINO_GUIDE_SCOCCA_R26": {
+      "name": "PROVINO_GUIDE_SCOCCA_R26",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy"
+    },
+    "PROVINO_GUIDE_TETTO_R26": {
+      "name": "PROVINO_GUIDE_TETTO_R26",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy",
+      "wall_generator": "arachne"
+    },
+    "PERNO_R26_SX": {
+      "name": "PERNO_R26_SX",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy",
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "rectilinear"
+    },
+    "PERNO_R26_DX": {
+      "name": "PERNO_R26_DX",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy",
+      "sparse_infill_density": "100%",
+      "sparse_infill_pattern": "rectilinear"
+    }
+  },
+  "images": [
+    "verifiche/slicing/PROVINO/TUTTI_001_100.png",
+    "verifiche/slicing/PROVINO/TUTTI_101_145.png",
+    "verifiche/slicing/PROVINO/PRIMO_INTERMEDI_ULTIMO.png",
+    "verifiche/slicing/PROVINO/GUIDE_E_PERNO_SX.png",
+    "verifiche/slicing/PROVINO/GUIDE_E_PERNO_DX.png",
+    "verifiche/slicing/PROVINO/DUE_PERNI.png",
+    "verifiche/slicing/PROVINO/PONTI_LUNGHI_01.png",
+    "verifiche/slicing/PROVINO/PONTI_LUNGHI_02.png",
+    "verifiche/slicing/PROVINO/PONTI_LUNGHI_03.png"
+  ],
+  "layers": 145,
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "slicer_estimates": {
+    "filament used [mm]": "8698.74",
+    "filament used [cm3]": "20.92",
+    "filament used [g]": "26.15",
+    "total filament used [g]": "26.15",
+    "estimated printing time (normal mode)": "1h 35m 49s"
+  },
+  "totals": {
+    "filament_g": 26.15,
+    "printing_seconds": 5749,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r26-wvn254fm/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r26-doppio-perno-pla/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r26-doppio-perno-pla/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r26-doppio-perno-pla/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "PIATTO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r26-wvn254fm/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-r26-doppio-perno-pla/sorgenti/BAY_R26_01_PROVINO_DOPPIO_PERNO_SORGENTE.3mf"
+    ]
+  },
+  "visual_review_complete": true,
+  "sent_to_printer": false
+}

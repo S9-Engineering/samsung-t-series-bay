@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "project_sha256": "ee9db61bb7fcbdc41afaa608fc38494c994f0427843534461c5c14b617c56c41",
+  "all_layer_overviews_reviewed": true,
+  "layers": 75,
+  "critical_layers_sampled": true,
+  "image_hashes": {
+    "verifiche/slicing/PROVINO/TUTTI_STRATI.png": "d5ca4e65036eea2c6f2b9cd9c7fb5da9cc04694abea56c1c257f50ea97b59a6f",
+    "verifiche/slicing/PROVINO/PROVINO_BRACCETTO_PASSANTE_R17_sinistra.png": "3401898afcc9184a485580bf7f24c8febc604d662f60074ce20f4f4bcda85e30",
+    "verifiche/slicing/PROVINO/PROVINO_BRACCETTO_PASSANTE_R17_destra.png": "2b13db6f0d640cd8bcab02e96f5e9ece8ceb881f1e8a16f0dbce89ca9e0835b3",
+    "verifiche/slicing/PROVINO/PRIMI_STRATI_RADICI.png": "bab2fe8b209fa3209ace0d4c85261907e549271521e8e787c38cae1c4fc705f9",
+    "verifiche/slicing/PROVINO/RADICE_SCARICATA.png": "9ed7523ea70c36f664a9df9e6c179a2cf32e35caec8a66efbcef04638099c0cf"
+  },
+  "cad_images_reviewed": {
+    "anteprime/01_R17_BRACCETTO_PASSANTE.png": "e976c846284dbda41789aea35a649283adb37d740f9e702c16c98b2a6df89d6b",
+    "anteprime/02_R17_MONTAGGIO.png": "e129797c1264f8ae8d562124fe04b6ec4621deef3748c27475b4663f8bda6af9"
+  },
+  "findings": [
+    "Primo strato con cornice e tratti mobili continui alla radice; scarichi aperti",
+    "Supporti presenti sotto entrambi i braccetti; sezioni delle spalle presenti dagli strati a Z12,4",
+    "Radice libera da materiale del pezzo lungo il suo tratto laterale; supporti nel vano da rimuovere",
+    "Nessuna nuova isola involontaria osservata; piccoli ponti sull’incisione identificativa"
+  ],
+  "physical_print": false,
+  "physical_fit": false,
+  "force_validated": false,
+  "FEA": false
+}

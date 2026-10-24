@@ -1,0 +1,52 @@
+{
+  "revision": "R16_PROVINI",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROVINO",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "default_project": "stampa/progetti_ElegooSlicer/BAY_R16_01_PROVINO_III_ECC2_PLABASIC.3mf",
+  "default_estimates": {
+    "filament_g": 4.61,
+    "printing_seconds": 1083,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "comparison_project": "stampa/progetti_ElegooSlicer/BAY_R16_02_CONFRONTO_ECC2_PLABASIC.3mf",
+  "comparison_estimates": {
+    "filament_g": 12.56,
+    "printing_seconds": 2577,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "models": 3,
+  "native_projects": 2,
+  "plates_per_project": 1,
+  "alternative_projects_not_additive": true,
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "geometry_verified": true,
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true,
+  "observed_problem": "Utente conferma dente poco sporgente nella finestrella; prova R15 non soddisfacente",
+  "default_change": "Sporgenza nominale 0,6 -> 1,0 mm per lato, dente con spalla di ritenuta, lunghezza aletta invariata",
+  "physical_print": false,
+  "physical_fit": false,
+  "force_validated": false,
+  "FEA": false,
+  "full_lid_modified": false,
+  "sent_to_printer": false,
+  "limitations": [
+    "Lieve interferenza solo sui due pattini di precarico.",
+    "Inviluppo traslato: nessuna FEA o misura della forza.",
+    "Traversa piu rigida del tetto ventilato: qualifica misure e presa locale, non la forza del tetto completo.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ],
+  "warning_preparation": "PLA con sportello anteriore aperto; soglia software originale conservata."
+}

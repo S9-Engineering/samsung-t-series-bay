@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R11_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+      "sha256": "4db2cf44b3ecae49f0c3702c7f9fb5226d0855c6da65ef7b33ea58d49c6218f8",
+      "objects": 7,
+      "maximum_bounds_deviation_mm": 2.8392651358899457e-06,
+      "unit": "millimeter",
+      "bounds_and_configuration_checked": true
+    },
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R11_01_SCOCCA_INSERTI_ECC2_PETGPRO.3mf",
+      "sha256": "5030480fe25116f995d8fde35e7da5e78cccf92a1a0c876e4df6405f6433238c",
+      "objects": 5,
+      "maximum_bounds_deviation_mm": 1.0969265133553563e-05,
+      "unit": "millimeter",
+      "bounds_and_configuration_checked": true
+    },
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R11_02_COPERCHIO_ECC2_PETGPRO.3mf",
+      "sha256": "77b59f3ef5dd527f1f3b714bd74533937bd1246b3ca090c992ec44469b142ac3",
+      "objects": 1,
+      "maximum_bounds_deviation_mm": 3.914923813529516e-16,
+      "unit": "millimeter",
+      "bounds_and_configuration_checked": true
+    }
+  ],
+  "pass_": true
+}

@@ -1,0 +1,60 @@
+{
+  "revisione": "R16_PROVINI",
+  "unita": "mm",
+  "larghezza": 90,
+  "quota_tetto": 83,
+  "spessore_tetto": 3,
+  "centro_y": 50.5,
+  "profondita_traversa": 14,
+  "parete_case": 3,
+  "finestra_y_min": 45.7,
+  "finestra_larghezza_y": 9.6,
+  "finestra_z_min": 71,
+  "finestra_z_max": 74,
+  "aletta": {
+    "spessore": 1.2,
+    "lunghezza": 12,
+    "larghezza": 9,
+    "gioco_radice": 0.3,
+    "precarico_per_lato": 0.15,
+    "pattino_z_min": 74.2,
+    "pattino_z_max": 76.2,
+    "pattino_rampa": 0.6
+  },
+  "varianti": [
+    {
+      "id": "I",
+      "nome": "R15_riferimento",
+      "tipo": "triangolo",
+      "sporgenza_nominale": 0.6
+    },
+    {
+      "id": "II",
+      "nome": "dente_piu_profondo",
+      "tipo": "triangolo",
+      "sporgenza_nominale": 1.0
+    },
+    {
+      "id": "III",
+      "nome": "spalla_ritenuta",
+      "tipo": "spalla",
+      "sporgenza_nominale": 1.0,
+      "quota_spalla": 73.8,
+      "quota_naso_basso": 73.4,
+      "quota_rampa_bassa": 71.8
+    }
+  ],
+  "configurazione_stampa": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "richiesta": "Provino rapido per misure e leva; sola prova sulla scocca esistente, nessun nuovo tetto completo",
+  "ipotesi": "Dente poco sporgente lateralmente; quote verticali originali conservate per confronto",
+  "prove_fisiche_R16": false
+}

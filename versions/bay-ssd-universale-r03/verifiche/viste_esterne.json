@@ -1,0 +1,299 @@
+{
+  "revision": "R03",
+  "geometry_changed": false,
+  "projection": "orthographic",
+  "parallel_scale_mm": 62,
+  "views": [
+    {
+      "key": "FRONTE",
+      "title": "Davanti",
+      "position": [
+        45,
+        -300,
+        40.5
+      ],
+      "target": [
+        45,
+        50.5,
+        40.5
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "dimensions": "90 mm larghezza  /  91 mm altezza",
+      "orientation": ""
+    },
+    {
+      "key": "LATO_DESTRO",
+      "title": "Di lato",
+      "position": [
+        350,
+        50.5,
+        40.5
+      ],
+      "target": [
+        45,
+        50.5,
+        40.5
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ],
+      "dimensions": "101 mm profondità  /  91 mm altezza",
+      "orientation": "FRONTE                                               RETRO"
+    },
+    {
+      "key": "ALTO",
+      "title": "Dall’alto",
+      "position": [
+        45,
+        50.5,
+        350
+      ],
+      "target": [
+        45,
+        50.5,
+        40.5
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "dimensions": "90 mm larghezza  /  101 mm profondità",
+      "orientation": "Retro in alto · fronte in basso"
+    }
+  ],
+  "hidden_kinds": [
+    "gabarit_cavo",
+    "gabarit_connettore_non_rilevato"
+  ],
+  "manifest_sha256": "f1580a2a63f5de67d56354620ed4fc111ad367ae24cffc3d080f385e59173499",
+  "meshes": [
+    {
+      "name": "scocca_ventilata_R03",
+      "mesh": "verifiche/mesh_assieme/scocca_ventilata_R03.ply",
+      "sha256": "0c6afc522e8d1a19461721ce26d8ccd2704694b6a3e2f962df317db1476b9e74"
+    },
+    {
+      "name": "coperchio_ventilato_R03",
+      "mesh": "verifiche/mesh_assieme/coperchio_ventilato_R03.ply",
+      "sha256": "1fb32601bc76f827d421bbd3d3020a05ba123336f72e4aab6c757fc29f112e16"
+    },
+    {
+      "name": "sponda_slot_1",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_1.ply",
+      "sha256": "678de69f8c02cba7ca0159ad34f1f0217dfb6a9d49425bb63217bca5a7a01319"
+    },
+    {
+      "name": "SSD_T7_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T7_GABARIT.ply",
+      "sha256": "748da721344a66a9c678f16cdb063b01b6103a66a3843196eca41105a84822ce"
+    },
+    {
+      "name": "tampone_fisso_1_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_1_1.ply",
+      "sha256": "374d9442d1296cc5bf5ded4833ac3ba899d9986302c53875ce8f764e46b010bf"
+    },
+    {
+      "name": "tampone_mobile_1_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_1_1.ply",
+      "sha256": "4b80d01e6ad9c99f9c873ef2718ff2a0eb4285d1cfbd27375a62f4df0eacc5aa"
+    },
+    {
+      "name": "appoggio_morbido_1_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_1_1.ply",
+      "sha256": "55341d54aafb7407a00c6369ecf34a9d1b519e505e4a52e59642710fd11a1b50"
+    },
+    {
+      "name": "tampone_fisso_1_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_1_2.ply",
+      "sha256": "31e55ee05ead6705a7afbd7d903723746127411c12a87bf1e2a88df9841ab3da"
+    },
+    {
+      "name": "tampone_mobile_1_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_1_2.ply",
+      "sha256": "582faee4ba3fa894a72ec268eaa2f0a39519054f781c9f8512438a1f61a1d919"
+    },
+    {
+      "name": "appoggio_morbido_1_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_1_2.ply",
+      "sha256": "86713d8d1b4d8da575c9409372b4981382194199210a013416fa5251a1923473"
+    },
+    {
+      "name": "battuta_morbida_1",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_1.ply",
+      "sha256": "e18f7d8087492975a144bf417725eefdb95b009dcec18a67c7f5fe804417245d"
+    },
+    {
+      "name": "sponda_slot_2",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_2.ply",
+      "sha256": "bafa4b7ceb609c19766dccf7970ad309da8543d0dbd6f338b95b764119bb1712"
+    },
+    {
+      "name": "SSD_T7_Shield_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T7_Shield_GABARIT.ply",
+      "sha256": "6210d24f79e2332c9d65fed4073c5b180985003a231c606b6035be2d35153337"
+    },
+    {
+      "name": "tampone_fisso_2_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_2_1.ply",
+      "sha256": "64f94927097f3b2d886005514712b3b15b79fd4eee8697f70ea5a5647219f5a8"
+    },
+    {
+      "name": "tampone_mobile_2_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_2_1.ply",
+      "sha256": "2f9b436aed0a1197040f176fdbe719c791f7ef4af4c451a4c252e49a590f411a"
+    },
+    {
+      "name": "appoggio_morbido_2_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_2_1.ply",
+      "sha256": "29a78cedb45a89d2f9164b54ebacd0da166a99d0c533600c9237bad8bdf477e9"
+    },
+    {
+      "name": "tampone_fisso_2_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_2_2.ply",
+      "sha256": "45738dc8642c6f175f350e5a39316cefc64f9328babc7076ab29474967637498"
+    },
+    {
+      "name": "tampone_mobile_2_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_2_2.ply",
+      "sha256": "e158feb58fda43aae98975963854596368304e91535a7564f9d95f7ef1990339"
+    },
+    {
+      "name": "appoggio_morbido_2_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_2_2.ply",
+      "sha256": "5e264b269c586a60246c3ea65b60f83aa2d5d0eec2cfcc33a3ef14095b76589c"
+    },
+    {
+      "name": "battuta_morbida_2",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_2.ply",
+      "sha256": "c3495beb0af5299a96b29847989b8c4e36e142b6196707f1d341703ebb227351"
+    },
+    {
+      "name": "sponda_slot_3",
+      "mesh": "verifiche/mesh_assieme/sponda_slot_3.ply",
+      "sha256": "f464a491e47073d065f035534785fd074d6f006fa49e909539928962b3014fa1"
+    },
+    {
+      "name": "SSD_T9_GABARIT",
+      "mesh": "verifiche/mesh_assieme/SSD_T9_GABARIT.ply",
+      "sha256": "179b773068e64dd166e9447e1be20faee2e2624769f586d6fb32511b8462ee4b"
+    },
+    {
+      "name": "tampone_fisso_3_1",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_3_1.ply",
+      "sha256": "99ffd2c450b189ca889bbc48b1ba26e052d8c6029a2591c4057730f07d849828"
+    },
+    {
+      "name": "tampone_mobile_3_1",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_3_1.ply",
+      "sha256": "40f397b18e3ec887b783fafcd601cb0a94ab3e3012dfef9f29e4aa881a4062dc"
+    },
+    {
+      "name": "appoggio_morbido_3_1",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_3_1.ply",
+      "sha256": "ddc1ee2962add82613c33fabb630f99d3542cc38ad242739ffb13db6d757cf7c"
+    },
+    {
+      "name": "tampone_fisso_3_2",
+      "mesh": "verifiche/mesh_assieme/tampone_fisso_3_2.ply",
+      "sha256": "81f2a4860bf736eec96d3d9ba8e4e90a74461b207bb70e965efb25a92227f7b8"
+    },
+    {
+      "name": "tampone_mobile_3_2",
+      "mesh": "verifiche/mesh_assieme/tampone_mobile_3_2.ply",
+      "sha256": "4b90cac8381002d22a68ae7721e0fed864c47f8aae51970abadb05e6c0598539"
+    },
+    {
+      "name": "appoggio_morbido_3_2",
+      "mesh": "verifiche/mesh_assieme/appoggio_morbido_3_2.ply",
+      "sha256": "a00950f4dc9b85a541033c6ee9df63edf5d7b26314fe9e448f89a2d05c131c56"
+    },
+    {
+      "name": "battuta_morbida_3",
+      "mesh": "verifiche/mesh_assieme/battuta_morbida_3.ply",
+      "sha256": "b80505dcc3dea0f2b92f3958b5db0b2b1407fd7909f52cb8749d1fdd1f89ce51"
+    },
+    {
+      "name": "piedino_silicone_1",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_1.ply",
+      "sha256": "a64d06d8e86069b37f4546f41791236643060a50e937adc860f359bd03d68bf6"
+    },
+    {
+      "name": "piedino_silicone_2",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_2.ply",
+      "sha256": "dcd5de287f34a4401b3eb23c2cd1f1b49deec2cb37252d7e937275048714ce76"
+    },
+    {
+      "name": "piedino_silicone_3",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_3.ply",
+      "sha256": "cbc8d2ea8246cffbe9bb0ed5ab39c795865bf8852b4b44559b48d271a3c0f976"
+    },
+    {
+      "name": "piedino_silicone_4",
+      "mesh": "verifiche/mesh_assieme/piedino_silicone_4.ply",
+      "sha256": "024f7f4155501f5cf76962452ece4fad90deb1da4d7ecb441827722b93773033"
+    },
+    {
+      "name": "rondella_regolazione_1",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_1.ply",
+      "sha256": "5ffaf3f8a77ecceb7dd417a895f61981c162081593f24b4872042a60d5a5d4fb"
+    },
+    {
+      "name": "vite_regolazione_1",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_1.ply",
+      "sha256": "1a76408cd453982809ef2d25e400a480f25969bd0e58683b9f553c11a7f9f59b"
+    },
+    {
+      "name": "rondella_regolazione_2",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_2.ply",
+      "sha256": "0a71d6f88f7767eaaa04cfe6a6d7dbf12cd33bd0653be7269d8d8eb490e91acc"
+    },
+    {
+      "name": "vite_regolazione_2",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_2.ply",
+      "sha256": "c8dea2ba94b93a6eaf0e8b460161dc6e04bd120f429cf57d04aef8e5eb8f87da"
+    },
+    {
+      "name": "rondella_regolazione_3",
+      "mesh": "verifiche/mesh_assieme/rondella_regolazione_3.ply",
+      "sha256": "d369f5cf242792bcc9764aa71d76c6970a27ef558dbed50d048a4c6ca5c63f64"
+    },
+    {
+      "name": "vite_regolazione_3",
+      "mesh": "verifiche/mesh_assieme/vite_regolazione_3.ply",
+      "sha256": "9d49f61268709bc22e6d2e100c7732a65f428bf72b8134c3f3bb9e5a51c95e96"
+    },
+    {
+      "name": "vite_coperchio_6_8",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_6_8.ply",
+      "sha256": "529b2221687b31dcc62bccda3d7e1ba776a865aa5b5688d35458e9b53ebea74f"
+    },
+    {
+      "name": "vite_coperchio_6_93.0",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_6_93.0.ply",
+      "sha256": "416030fcc1ab5a1a40354f03c4f278ff776d036991abaf343055f8df5814bc1d"
+    },
+    {
+      "name": "vite_coperchio_84.0_8",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_84.0_8.ply",
+      "sha256": "647566c9f811d923f861d0e870906fd23a9e8532bb9f0c4de9bf688f4a264957"
+    },
+    {
+      "name": "vite_coperchio_84.0_93.0",
+      "mesh": "verifiche/mesh_assieme/vite_coperchio_84.0_93.0.ply",
+      "sha256": "da2974c1947321d728e8007d954e1d8d2771010a790bc66d2e5f707724f88b44"
+    }
+  ],
+  "outputs": {
+    "anteprime/07_R03_FRONTE.png": "a64076f8d00702925eb0b15c38ee7a851962821eb05606f7a055145326a09d65",
+    "anteprime/08_R03_LATO_DESTRO.png": "706873047843ceb60d2d0e1a14cfe2270de010aa9ce5fe4ffdbc0e4cd9ec1b73",
+    "anteprime/09_R03_ALTO.png": "1af91ef29b7d9b55235c7835ccae7db52bf890e8fb2c33c755496f1c11e4b8ae",
+    "anteprime/06_R03_VISTE_ESTERNE.png": "797283c67845eedef84903ad6b0031426c3d24d36a5bd09b815774e405ccbf12"
+  }
+}

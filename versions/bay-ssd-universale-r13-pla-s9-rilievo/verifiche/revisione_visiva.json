@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "method": "Ispezione visiva delle cinque tavole di tutti i 415 strati e sette dettagli dei percorsi reali del 3MF esportato; non una prova fisica.",
+  "projects": {
+    "BAY_R13_01_KIT_COMPLETO": {
+      "project_sha256": "db5356b71e81a5f7b9639e6bae4ea0cc83cd1a408972fa81e2467e7bf3940125",
+      "reviewed": true,
+      "all_layer_overviews": true,
+      "layers": 415,
+      "critical_layers_sampled": true,
+      "image_hashes": {
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/ZOOM_tutti_0001_0100.png": "23b3f68a89b7d22444147194f1fd1cc9255ce2775c535e92183c34a0a516fc60",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/ZOOM_tutti_0101_0200.png": "0287a9f3dff1a3489522e63eba5db569580000798b01a3dfc6074b65e016abd1",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/ZOOM_tutti_0201_0300.png": "0b9e709e2ba3d1c3042179cb03f957a9340fbb2076c658afdc88dfd730ab06a6",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/ZOOM_tutti_0301_0400.png": "e304f20959d839bbe925664bb02b08c8bd47dd752ca077b0a6ca4c7d27fe6b57",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/ZOOM_tutti_0401_0415.png": "233511d5cafcda234d2b6a3faef6a6f39baa8664e97666d86704bb6c7b499d70",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/CRITICI_01.png": "e733fcfb6fcacc173abcccb7ff3bcd0bb8c0c31ef9432c5c8aac428b31fab332",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/CRITICI_05.png": "de0d0cc1d67e641ce3b1df5c0f410b42ea2026bbfc60253dc5033097c2d932b9",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/CRITICI_09.png": "1b84e42b1c49c044f2bba79f09cef4eaca1b423d10fed353b0e233c4280edc11",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/COPERCHIO_AGGANCI.png": "baaeca65b188a6860229fae8b4203742055806214ec2c772909dc7cc92ad0031",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/CLIP_INGRANDITA.png": "59ee311010b37d407166a66d705a95723264c76a3d9f90a387a26e16d697b0da",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/FERITOIE_LATERALI.png": "8efbecb6cc4634ca3bff22daa00bde20b275e7946576c841775d1c2dec12f102",
+        "verifiche/slicing/BAY_R13_01_KIT_COMPLETO/LOGO_FRONTALE.png": "8532159602b2ac6586e2afe36bb7c11844d48ae2c2f4a3db37446f41c32d8ea7"
+      },
+      "notes": [
+        "Sei basi e brim separati; scocca e coperchio affiancati, quattro inserti dietro.",
+        "Coperchio capovolto: tetto da 3 mm, poi linguette e riferimenti senza isole involontarie osservate.",
+        "Pareti, appoggi e guide della scocca continui; finestre e feritoie chiuse dai livelli superiori.",
+        "Cappelli degli inserti sul piano e due pareti continue, con piccoli denti.",
+        "Logo S9 presente, Fuzzy Skin disattivata. Supporti assenti.",
+        "Stampa per strato e zona esclusa macchina rispettata; controllo digitale senza avvio di stampa."
+      ]
+    }
+  }
+}

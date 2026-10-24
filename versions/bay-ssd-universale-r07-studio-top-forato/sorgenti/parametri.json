@@ -1,0 +1,138 @@
+{
+  "revisione": "R07 STUDIO TOP FORATO",
+  "unita": "mm",
+  "larghezza": 90.0,
+  "profondita": 101.0,
+  "base": 5.0,
+  "parete": 3.0,
+  "quota_seduta": 13.0,
+  "quota_tetto": 83.0,
+  "tetto": 3.0,
+  "raggio_esterno": 3.0,
+  "raccordo_bordi": 0.4,
+  "slot": {
+    "primo_centro_x": 21.0,
+    "passo": 24.0,
+    "larghezza_libera": 15.0,
+    "spessore_guide": 1.8,
+    "altezza_guide": 18.0,
+    "larghezza_appoggio_y": 8.0,
+    "centri_y": [
+      36.0,
+      84.0
+    ],
+    "inizio_ssd_y": 16.0,
+    "gioco_esterno_inserto": 0.3,
+    "gioco_sopra_guida": 0.3,
+    "altezza_cap_inserto": 1.2,
+    "parete_gancio_inserto": 1.2,
+    "larghezze_adattate": {
+      "T7": 9.0,
+      "T7_Shield": 13.6,
+      "T9": 15.0
+    }
+  },
+  "ssd_nominali": {
+    "T7": {
+      "lunghezza": 85.0,
+      "altezza": 57.0,
+      "spessore": 8.0
+    },
+    "T7_Shield": {
+      "lunghezza": 88.0,
+      "altezza": 59.0,
+      "spessore": 13.0
+    },
+    "T9": {
+      "lunghezza": 88.0,
+      "altezza": 60.0,
+      "spessore": 14.0
+    }
+  },
+  "ventilazione": {
+    "lunghezza_campo": 80.0,
+    "larghezza": 6.4,
+    "spina": 3.2,
+    "centri_y": [
+      16.9,
+      26.5,
+      36.1,
+      45.7,
+      55.3,
+      64.9,
+      74.5,
+      84.1
+    ]
+  },
+  "piedini": {
+    "sedi_diametro": 10.5,
+    "sedi_profondita": 0.65,
+    "piazzole_diametro": 12.0,
+    "centri_xy": [
+      [
+        10.0,
+        10.0
+      ],
+      [
+        80.0,
+        10.0
+      ],
+      [
+        10.0,
+        91.0
+      ],
+      [
+        80.0,
+        91.0
+      ]
+    ],
+    "misure_commerciali_confermate": false,
+    "luce_utile_obiettivo": 5.0
+  },
+  "coperchio": {
+    "due_ganci_laterali": true,
+    "spessore_linguetta": 1.2,
+    "lunghezza_linguetta": 12.0,
+    "larghezza_linguetta": 8.0,
+    "gioco_laterale": 0.3,
+    "aggancio": 0.6
+  },
+  "colori": {
+    "scocca": "#30363c",
+    "coperchio": "#30363c",
+    "T7": "#719cb4",
+    "T7_Shield": "#394b58",
+    "T9": "#242c32"
+  },
+  "configurazione_stampa": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PETG PRO",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-20",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite uniforme approvato; tonalita effettiva legata al PETG PRO disponibile; un filamento per piatto"
+  },
+  "viti": 0,
+  "dadi": 0,
+  "rondelle": 0,
+  "adesivi_interni": false,
+  "silicone_interno": false,
+  "prova_fisica": false,
+  "prova_termica": false,
+  "raccordo_tetto_superiore": 0.4,
+  "raccordo_tetto_inferiore": 0.2,
+  "top_studio": {
+    "diametro_fori": 7.35,
+    "passo": 9.0,
+    "colonne": 9,
+    "righe": 10,
+    "primo_centro": [
+      9.0,
+      10.0
+    ],
+    "concavita": 1.0,
+    "spessore_minimo": 3.0
+  }
+}

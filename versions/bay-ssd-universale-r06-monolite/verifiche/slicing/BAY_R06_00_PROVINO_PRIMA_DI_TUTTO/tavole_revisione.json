@@ -1,0 +1,27 @@
+{
+  "project_sha256": "a5137951884baf44d12be29a387bf380af1475cf5577cf4abf5abb0b61139a17",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0155.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_04.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_05.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_06.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_07.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_08.png",
+    "verifiche/slicing/BAY_R06_00_PROVINO_PRIMA_DI_TUTTO/CLIP_INGRANDITA.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Tavole da ispezionare; la loro generazione non costituisce approvazione automatica.",
+  "all_layers_zoom_reviewed": true,
+  "critical_layers_reviewed_sample": [
+    "CRITICI_03.png",
+    "CRITICI_04.png",
+    "CLIP_INGRANDITA.png"
+  ],
+  "critical_layers_fully_reviewed": false
+}

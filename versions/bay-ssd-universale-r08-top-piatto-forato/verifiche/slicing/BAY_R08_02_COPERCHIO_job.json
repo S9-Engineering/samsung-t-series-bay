@@ -1,0 +1,74 @@
+{
+  "name": "BAY_R08_02_COPERCHIO",
+  "group": "kit",
+  "geometry_sha256": "22abad3dcdc871335406d3280a90aae77cdcad3f99a037a1e1a0cd774aca79f6",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "fb82476d02ad2572c05c7cf32eda03930b0fbab60209a861afe6508be1599cdd",
+    "filament.json": "82ca348cd9773a153fdc2defa04eaee2139d927c1e22c6d2113dd97b4f59f3bb"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R08_02_COPERCHIO_ECC2_PETGPRO.3mf",
+  "project_sha256": "a67d5e08457674ee22e34ed491f8e648d4ed14eefde2b816be573ea93892b65c",
+  "layers": 75,
+  "slicer_estimates": {
+    "filament used [mm]": "6209.07",
+    "filament used [cm3]": "14.93",
+    "filament used [g]": "18.67",
+    "total filament used [g]": "18.67",
+    "estimated printing time (normal mode)": "1h 34m 48s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R08_02_COPERCHIO/tutti_strati_0001_0075.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R08_02_COPERCHIO/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r08-slicer-wl2lv3ek/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r08-top-piatto-forato/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r08-top-piatto-forato/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r08-top-piatto-forato/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r08-slicer-wl2lv3ek/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r08-top-piatto-forato/stampa/piatti_geometrici/BAY_R08_02_COPERCHIO_GEOMETRIA.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": false,
+  "supports": false,
+  "sent_to_printer": false
+}

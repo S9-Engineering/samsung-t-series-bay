@@ -1,0 +1,83 @@
+{
+  "name": "BAY_R14_01_KIT_COMPLETO",
+  "group": "kit",
+  "geometry_sha256": "ba9f2014ab42f6b846b45e218ad00e77bca08a4cf45829e66d4c08ad5cd8204c",
+  "profile_hashes": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "e7d1d6b335440769503bef4bfe4334df4fd978d1bd151064d847df1857bbacc5",
+    "filament.json": "00f5f6bd56d18e55befaf9ce038cc6abb86891e534c3f81b746dab5f2af28e24"
+  },
+  "slicer_version": "2.4.2",
+  "configuration_confirmed": true,
+  "project": "stampa/progetti_ElegooSlicer/BAY_R14_01_KIT_COMPLETO_ECC2_PLABASIC.3mf",
+  "project_sha256": "4c0aabd3dc89dc474e4dfddb89837a9ba3b83c1e9bc36fb3076da58bc88cf3e8",
+  "layers": 415,
+  "slicer_estimates": {
+    "filament used [mm]": "47356.01",
+    "filament used [cm3]": "113.90",
+    "filament used [g]": "142.38",
+    "total filament used [g]": "142.38",
+    "estimated printing time (normal mode)": "8h 5m 34s"
+  },
+  "previews": {
+    "all_layer_contact_sheets": [
+      "verifiche/slicing/BAY_R14_01_KIT_COMPLETO/tutti_strati_0001_0144.png",
+      "verifiche/slicing/BAY_R14_01_KIT_COMPLETO/tutti_strati_0145_0288.png",
+      "verifiche/slicing/BAY_R14_01_KIT_COMPLETO/tutti_strati_0289_0415.png"
+    ],
+    "detail_sheets": [
+      "verifiche/slicing/BAY_R14_01_KIT_COMPLETO/dettaglio_primo_secondo_medio_ultimo.png"
+    ],
+    "legend": {
+      "Outer wall": "#233c59",
+      "Inner wall": "#48789a",
+      "Sparse infill": "#299f99",
+      "Internal solid infill": "#70ab8e",
+      "Top surface": "#6e4c91",
+      "Bottom surface": "#6e4c91",
+      "Bridge": "#d6472d",
+      "Support": "#dc9c2d",
+      "Support interface": "#cf6724",
+      "Brim": "#bdc6d0"
+    },
+    "full_path_rendered_for_every_layer": true
+  },
+  "model_warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "warning_resolution": "Sportello anteriore aperto durante la stampa PLA; soglia software del profilo conservata.",
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r14-pla-slicer-ddlj18al/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r14-pla-coda-posteriore/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r14-pla-coda-posteriore/slicer/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r14-pla-coda-posteriore/slicer/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "CONTROLLO.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r14-pla-slicer-ddlj18al/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r14-pla-coda-posteriore/sorgenti/piatti/BAY_R14_01_KIT_COMPLETO_SORGENTE.3mf"
+    ]
+  },
+  "new_wall_island_candidates": 0,
+  "visual_review_complete": true,
+  "supports": false,
+  "sent_to_printer": false
+}

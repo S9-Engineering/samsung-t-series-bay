@@ -1,0 +1,39 @@
+{
+  "project_sha256": "476dc8c50d80192af212d3e804a8374e0e2faa7477cd4078c8c1d940fe4ec203",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_01.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_02.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_03.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_04.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_05.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_06.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_07.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_08.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_09.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/FERITOIE_LATERALI.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/LOGO_FRONTALE.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Tutte le tavole d’insieme viste; soltanto i dettagli elencati sono stati ispezionati, gli altri dettagli generati restano disponibili.",
+  "critical_layers_sampled": true,
+  "reviewed_images": [
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0101_0200.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0201_0300.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0301_0400.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/ZOOM_tutti_0401_0415.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_01.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_05.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_06.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/CRITICI_09.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/FERITOIE_LATERALI.png",
+    "verifiche/slicing/BAY_R13_01_SCOCCA_INSERTI/LOGO_FRONTALE.png"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "project_sha256": "fcc80f53d6cd54fa522cc9566cb8c4b45ee5d6759c119b6a4dd60ad0d178412e",
+  "all_layer_overviews_reviewed": true,
+  "image_hashes": {
+    "verifiche/slicing/TETTO/TUTTI_STRATI_001_100.png": "2d0b392fea3dc50289a8ccf16e1408673e640cc2015517cc5d672d0aee1aed5f",
+    "verifiche/slicing/TETTO/TUTTI_STRATI_101_145.png": "ec0b97b25d5be71dcbcb4acc531913a9fd65e2008dc745cee18f78145e45b2d2",
+    "verifiche/slicing/TETTO/ALETTA_SINISTRA.png": "9138c0865b9ce276c33d0ab9a446d06272e2279dc6090612a0d497e17ddf84d2",
+    "verifiche/slicing/TETTO/ALETTA_DESTRA.png": "fd1bee348b99ff69f0b4874b3c59f4edf334c3c6a344dc8538d00d7bd22c2e5b",
+    "verifiche/slicing/TETTO/PRIMO_STRATO_TETTO_CODA.png": "2eae5966c5ab1bf87065813cef77a6ac00e983c6f08729f9da34e7203f384d57",
+    "verifiche/slicing/TETTO/RADICI.png": "9d2d948030990fcaf4136869506ae2630e75421b2028e0d7a2891b14b92cb9c8",
+    "verifiche/slicing/TETTO/CODA_POSTERIORE.png": "62d127dd749c7caca2f32cdb6c184829ffd92041143ea658f33c73653c4d4eaf",
+    "verifiche/slicing/TETTO/PONTI_01.png": "9ebf87e8d1c35cd3b88aab5728b995f85991fa80c265cadcc70d2c328de1de35"
+  },
+  "cad_image_hashes": {
+    "anteprime/01_TETTO_R19.png": "a6e99632bd80ba45622c4b3debefa0d16d62ea3b01730c6ebfd9d062b0632c4c",
+    "anteprime/02_ASSIEME_R19.png": "8d8bb6d908a3a7c8b547fa4c01d6fedc6e74f4135ba9c154f596466199a0c9de",
+    "anteprime/03_PIATTO_R19.png": "36b30fbf33f8c766f40d7a244739abd08171b23f8dc7596b03af22f67460b9c9"
+  },
+  "review": "Visionate tutte le otto tavole dei percorsi e le tre anteprime CAD/piatto. Tutti i 145 strati presenti, nessuna isola involontaria osservata. Primo strato e brim continui; radici e alette presenti con scarichi aperti; supporti laterali sotto entrambi i braccetti accessibili; coda e guance continue fino allo strato 145. Ponti interni sopra infill/supporto; rimozione e presa fisica da verificare.",
+  "physical_verification": false
+}

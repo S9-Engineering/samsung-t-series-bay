@@ -1,0 +1,21 @@
+{
+  "project_sha256": "0f93bfd60946344bc952c971bc08e66b6fb9d9196ca0183e7e12eabef49753f4",
+  "all_layers_zoom": [
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0125.png"
+  ],
+  "critical_layers": [
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_01.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_02.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_03.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/CRITICI_04.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/GUIDE_INGRANDITE.png"
+  ],
+  "manually_reviewed": true,
+  "note": "Tavole da ispezionare; la loro generazione non costituisce approvazione automatica.",
+  "reviewed_images": [
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0001_0100.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/ZOOM_tutti_0101_0125.png",
+    "verifiche/slicing/BAY_R02_00_PROVINO_PRIMA_DI_TUTTO/GUIDE_INGRANDITE.png"
+  ]
+}

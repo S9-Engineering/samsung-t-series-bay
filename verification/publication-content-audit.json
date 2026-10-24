@@ -1,0 +1,10 @@
+{
+  "useful_files": 3393,
+  "bytes": 1441743094,
+  "oversize_above_50_mib": [],
+  "outward_symlinks": [],
+  "potential_credential_findings": [],
+  "delivery_zip_archives_crc_checked": 28,
+  "archive_members_reviewed": 2978,
+  "scan_limits": "Pattern screening and archive member inspection, not a forensic guarantee. No credential values are printed."
+}

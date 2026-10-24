@@ -1,0 +1,109 @@
+{
+  "revision": "R27 — logo posteriore all’80%, doppio perno e cartucce B",
+  "state": "PRONTO_PER_LA_STAMPA",
+  "scope": "Preparazione digitale R27: logo posteriore all’80%, meccanica R26 invariata; esito fisico completo da verificare.",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "full_kit_parts": 8,
+  "full_kit_unique_types": 7,
+  "pin_quantity": 2,
+  "pins_identical": true,
+  "changed_parts": [
+    "TETTO_R27_DOPPIO_PERNO"
+  ],
+  "logo": {
+    "name": "TETTO_R27_DOPPIO_PERNO",
+    "only_external_logo_changed": true,
+    "width_mm": 32,
+    "height_mm": 19.773879142300196,
+    "planar_scale": 0.8,
+    "center_x_mm": 45,
+    "center_z_mm": 71.5,
+    "relief_mm": 0.4,
+    "glyphs": 13,
+    "vertical_margin_mm": 4.613060428849902,
+    "bounds_mm": [
+      [
+        28.999999999999996,
+        109.0,
+        61.61306042884309
+      ],
+      [
+        61.0,
+        109.4,
+        81.38693957115049
+      ]
+    ],
+    "functional_roof_unchanged": true
+  },
+  "unchanged_types": [
+    "SCOCCA_R27_DOPPIO_PERNO",
+    "PERNO_R27_NASCOSTO",
+    "FERMO_CARTUCCE_R27",
+    "CARTUCCIA_T7_R27",
+    "CARTUCCIA_T7_Shield_R27",
+    "CARTUCCIA_T9_R27",
+    "PROVINO_GUIDE_SCOCCA_R27",
+    "PROVINO_GUIDE_TETTO_R27"
+  ],
+  "external_dimensions_mm": [
+    90,
+    109.8,
+    86
+  ],
+  "projects": {
+    "PROVINO": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R27_01_PROVINO_DOPPIO_PERNO_ECC2_PLABASIC.3mf",
+      "sha256": "7ba7f45c3300fce8c7c555b47a32e20157b5890eb235243fb6802a6562822fa3",
+      "estimates": {
+        "filament_g": 26.15,
+        "printing_seconds": 5749,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    },
+    "COMPLETO": {
+      "path": "stampa/progetti_ElegooSlicer/BAY_R27_02_KIT_COMPLETO_UNICO_PIATTO_ECC2_PLABASIC.3mf",
+      "sha256": "8077c506605ad4f0b6cccb9b7d88de5b50b23a194019c6503920a475c0d0ea53",
+      "estimates": {
+        "filament_g": 214.07,
+        "printing_seconds": 45042,
+        "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+      }
+    }
+  },
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_layers_reviewed": true,
+  "physical_reports": {
+    "data": "2026-10-23",
+    "origine": "Conversazione diretta con utente",
+    "provino_interni_R24": {
+      "esito_generale": "positivo riferito",
+      "citazione": "ti confermo che il primo provino va bene",
+      "misure_strumentali": null
+    },
+    "provino_tetto_R24": {
+      "inserimento": "positivo riferito",
+      "citazione": "ok entra",
+      "rotazione_e_bloccaggio_perno": "non esplicitamente confermati"
+    },
+    "R26_completo_stampato": false,
+    "provino_doppio_perno_R26_stampato": false
+  },
+  "physical_full_kit_print": false,
+  "physical_double_pin_test": false,
+  "physical_strength_validated": false,
+  "thermal_test": false,
+  "physical_logo_finish": false,
+  "sent_to_printer": false,
+  "hardware_bom": {},
+  "R26_files_preserved": 140
+}

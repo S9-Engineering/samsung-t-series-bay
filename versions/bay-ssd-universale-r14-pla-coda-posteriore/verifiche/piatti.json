@@ -1,0 +1,250 @@
+{
+  "plates": [
+    {
+      "name": "BAY_R14_01_KIT_COMPLETO",
+      "group": "kit",
+      "items": [
+        {
+          "part": "scocca_R14",
+          "name": "scocca",
+          "xy": [
+            20,
+            60
+          ],
+          "bounds_mm": [
+            [
+              20.0,
+              60.0,
+              0.0
+            ],
+            [
+              110.0,
+              161.4000015258789,
+              83.0
+            ]
+          ]
+        },
+        {
+          "part": "coperchio_R14",
+          "name": "coperchio_capovolto",
+          "xy": [
+            140,
+            60
+          ],
+          "bounds_mm": [
+            [
+              140.0,
+              60.0,
+              -3.914923813529516e-16
+            ],
+            [
+              230.0,
+              169.0,
+              30.0
+            ]
+          ]
+        },
+        {
+          "part": "inserto_T7_R14",
+          "name": "inserto_T7_1",
+          "xy": [
+            40,
+            185
+          ],
+          "bounds_mm": [
+            [
+              40.0,
+              185.0,
+              7.105427357601002e-15
+            ],
+            [
+              49.30000019073486,
+              193.0,
+              19.299999237060547
+            ]
+          ]
+        },
+        {
+          "part": "inserto_T7_R14",
+          "name": "inserto_T7_2",
+          "xy": [
+            70,
+            185
+          ],
+          "bounds_mm": [
+            [
+              70.0,
+              185.0,
+              7.105427357601002e-15
+            ],
+            [
+              79.30000019073486,
+              193.0,
+              19.299999237060547
+            ]
+          ]
+        },
+        {
+          "part": "inserto_Shield_R14",
+          "name": "inserto_Shield_1",
+          "xy": [
+            160,
+            185
+          ],
+          "bounds_mm": [
+            [
+              160.0,
+              185.0,
+              7.105427357601002e-15
+            ],
+            [
+              164.69999980926514,
+              193.0,
+              19.299999237060547
+            ]
+          ]
+        },
+        {
+          "part": "inserto_Shield_R14",
+          "name": "inserto_Shield_2",
+          "xy": [
+            190,
+            185
+          ],
+          "bounds_mm": [
+            [
+              190.0,
+              185.0,
+              7.105427357601002e-15
+            ],
+            [
+              194.69999980926514,
+              193.0,
+              19.299999237060547
+            ]
+          ]
+        }
+      ],
+      "geometry_3mf": "sorgenti/piatti/BAY_R14_01_KIT_COMPLETO_SORGENTE.3mf",
+      "sha256": "ba9f2014ab42f6b846b45e218ad00e77bca08a4cf45829e66d4c08ad5cd8204c",
+      "geometry_check": {
+        "result": "PASS",
+        "units": "millimeter",
+        "printable_count": 6,
+        "modifier_count": 0,
+        "parts": [
+          {
+            "name": "scocca",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                20.0,
+                60.0,
+                0.0
+              ],
+              [
+                110.0,
+                161.4000015,
+                83.0
+              ]
+            ],
+            "volume_mm3": 104363.07033063495,
+            "closed": true
+          },
+          {
+            "name": "coperchio_capovolto",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                140.0,
+                60.0,
+                0.0
+              ],
+              [
+                230.0,
+                169.0,
+                30.0
+              ]
+            ],
+            "volume_mm3": 26427.522221634164,
+            "closed": true
+          },
+          {
+            "name": "inserto_T7_1",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                40.0,
+                185.0,
+                0.0
+              ],
+              [
+                49.3000002,
+                193.0,
+                19.2999992
+              ]
+            ],
+            "volume_mm3": 1017.839921760003,
+            "closed": true
+          },
+          {
+            "name": "inserto_T7_2",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                70.0,
+                185.0,
+                0.0
+              ],
+              [
+                79.3000002,
+                193.0,
+                19.2999992
+              ]
+            ],
+            "volume_mm3": 1017.8399217600036,
+            "closed": true
+          },
+          {
+            "name": "inserto_Shield_1",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                160.0,
+                185.0,
+                0.0
+              ],
+              [
+                164.6999998,
+                193.0,
+                19.2999992
+              ]
+            ],
+            "volume_mm3": 307.5999739200003,
+            "closed": true
+          },
+          {
+            "name": "inserto_Shield_2",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                190.0,
+                185.0,
+                0.0
+              ],
+              [
+                194.6999998,
+                193.0,
+                19.2999992
+              ]
+            ],
+            "volume_mm3": 307.5999739200003,
+            "closed": true
+          }
+        ],
+        "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati."
+      }
+    }
+  ],
+  "geometry_only": false
+}

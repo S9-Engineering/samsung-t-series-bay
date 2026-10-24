@@ -1,0 +1,51 @@
+{
+  "readme_rendered_locally": true,
+  "renderer": "Python Markdown + local headless Chrome",
+  "inline_images_loaded": [
+    {
+      "src": "previews/renders/hero.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/renders/product-front.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/renders/product-side.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/renders/product-rear.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/assembly/01-fit-coupon.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/assembly/02-drive-cartridge.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/assembly/03-cartridge-seating.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/assembly/04-slide-lid.png",
+      "loaded": true
+    },
+    {
+      "src": "previews/assembly/05-locking-pins.png",
+      "loaded": true
+    }
+  ],
+  "horizontal_overflow": false,
+  "screenshots": "Local QA screenshots excluded from Git; source renders retained.",
+  "required_views": [
+    "hero",
+    "front",
+    "side",
+    "rear"
+  ],
+  "assembly_images": 5
+}

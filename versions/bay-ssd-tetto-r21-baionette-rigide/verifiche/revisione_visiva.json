@@ -1,0 +1,33 @@
+{
+  "projects": {
+    "PROVA": "b11c2270b828239c61d68ec5d8550ac388f02118aa8737eaf51da6ab7866743f",
+    "TETTO": "be45680e621916d849b3419b2ee456f8fd90a4227dce3018a9ae33831f050020"
+  },
+  "cad_image_hashes": {
+    "anteprime/01_R21_TETTO_E_ASSIEME.png": "b0ce5443319b9e3d93c7afda81b759d763e3f42c3f741062bfee20b2cd1ed4dc",
+    "anteprime/02_R21_MECCANISMO.png": "296ffbcdba9d139978d27ea2c3f25852df078a037a7bf8b012ba119c85875726",
+    "anteprime/03_R21_PROVINO.png": "72c151c4e3d75f5f6aaff407619424f84e62acb7044a0b4d979bf637aea1a548"
+  },
+  "image_hashes": {
+    "PROVA": {
+      "verifiche/slicing/PROVA/TUTTI_001_088.png": "2125c953d53da3ab5dd5464e975e6c3f6975b18f659aa89064864920af68c1b4",
+      "verifiche/slicing/PROVA/SUPPORTO_RIGIDO_SINISTRO.png": "dd8ca17562510dfcdf2c3b2cb3a4717b8132b083bb0f3b29977759c4d5fb777d",
+      "verifiche/slicing/PROVA/SUPPORTO_RIGIDO_DESTRO.png": "94c1fba533bd01063e0dd4d94ba8d6773169a7f77effee26e2e51cae6b5fb5dd",
+      "verifiche/slicing/PROVA/PERNO_INGRANDITO.png": "9975b45fc52bfb273fc5fb57ca0e856947a0ffe2b92bc24bb2fd8eef720f9f66",
+      "verifiche/slicing/PROVA/PRIMO_INTERMEDI_ULTIMO.png": "d2eb6ef7e8c38ba69359b5e528c19a5295e865021d37643f1d431240beda82db",
+      "verifiche/slicing/PROVA/PONTI_01.png": "7740ba7b3fc44d96d883931dfc72f607bda306461be5e0bfec7246a0ab7dd37d"
+    },
+    "TETTO": {
+      "verifiche/slicing/TETTO/TUTTI_001_100.png": "53751e8a5f9dddfc1d35d0bb072ad9446306b75e39cda60010622e9c8e4acaad",
+      "verifiche/slicing/TETTO/TUTTI_101_145.png": "2e743e444e9694b0b7cee14994862aced3ec675684ef2b8f1756528cb8e78892",
+      "verifiche/slicing/TETTO/SUPPORTO_RIGIDO_SINISTRO.png": "ac1b5bc0a64609434c4bd19e4aa62d1944c22001bde3bf1bf4570e0ec81630ac",
+      "verifiche/slicing/TETTO/SUPPORTO_RIGIDO_DESTRO.png": "96fe10f9b4bd3f7df508ad795626612850c6b281ac0c505a815114f3a774bad8",
+      "verifiche/slicing/TETTO/PERNO_INGRANDITO.png": "2a3a5aa00d90e34aca73360311495ab6e18a52fb4555d1f7096264d1a523aaa0",
+      "verifiche/slicing/TETTO/PRIMO_INTERMEDI_ULTIMO.png": "195c7ecdde802861db643f32ba0136f16ed96af8d2cb7c49f5cfe1bf288789ea",
+      "verifiche/slicing/TETTO/PONTI_01.png": "575574f398fbd9c72e19fc6185e2acbec422cb22f3963b7748609bfbf0f6c967"
+    }
+  },
+  "all_layers_reviewed": true,
+  "review": "Visionate le tre anteprime CAD e tutte le tredici tavole dei percorsi aggiornate al riempimento 100%. Tutti gli 88/145 strati presenti; perni piatti con gambo continuo, primi strati e brim presenti. I due blocchi crescono dal tetto; fori accessibili, ponti di chiusura appoggiati sui bordi, nessuna isola involontaria osservata. Nessun supporto di stampa. Incastro e tenuta reali restano da provare sulla traversa.",
+  "physical_test": false
+}

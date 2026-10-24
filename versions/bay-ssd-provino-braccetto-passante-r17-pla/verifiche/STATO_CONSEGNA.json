@@ -1,0 +1,54 @@
+{
+  "revision": "R17_PROVINO_PASSANTE",
+  "state": "PRONTO_PER_LA_STAMPA_DEL_PROVINO",
+  "configuration": {
+    "macchina": "ELEGOO Centauri Carbon 2 Combo",
+    "ugello_mm": 0.4,
+    "piano": "PEI testurizzato",
+    "materiale": "ELEGOO PLA BASIC",
+    "confermata_utente": true,
+    "data_conferma": "2026-10-21",
+    "colori_disponibili_confermati": false,
+    "colore": "grafite/antracite indicativo; usare un solo colore PLA BASIC disponibile, colore bobina non comunicato"
+  },
+  "project": "stampa/progetti_ElegooSlicer/BAY_R17_PROVINO_BRACCETTO_PASSANTE_ECC2_PLABASIC.3mf",
+  "project_sha256": "ee9db61bb7fcbdc41afaa608fc38494c994f0427843534461c5c14b617c56c41",
+  "estimates": {
+    "filament_g": 6.17,
+    "printing_seconds": 1411,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "parts": 1,
+  "plates": 1,
+  "wall_mm": 3,
+  "penetration_mm": 2.8,
+  "outer_recess_mm": 0.2,
+  "arm_length_from_finger_face_mm": 3.1,
+  "root_release_slot": {
+    "x_min": 0.8,
+    "x_max": 8.0,
+    "y_min": 28.0,
+    "y_max": 55.6,
+    "lunghezza_flessibile_y": 18.0
+  },
+  "geometry_verified": true,
+  "export_reopened": true,
+  "slicing_verified": true,
+  "all_layer_overviews_reviewed": true,
+  "critical_layers_sampled": true,
+  "replaces_R16_coupon_for_this_test": true,
+  "physical_print": false,
+  "physical_fit": false,
+  "force_validated": false,
+  "FEA": false,
+  "sent_to_printer": false,
+  "full_lid_modified": false,
+  "limitations": [
+    "Corsa controllata con inviluppi traslati: non simulazione della deformazione elastica.",
+    "Forza di inserimento, ritenuta, ritorno e durata PLA non misurati.",
+    "Scarichi di radice presenti solo sul provino, da trasferire e ricontrollare sul tetto dopo la prova.",
+    "Screening autointersezioni esclude triangoli con vertici condivisi."
+  ]
+}

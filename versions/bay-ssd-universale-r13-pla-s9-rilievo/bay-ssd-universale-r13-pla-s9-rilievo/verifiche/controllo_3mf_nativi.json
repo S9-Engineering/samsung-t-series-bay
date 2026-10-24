@@ -1,0 +1,155 @@
+{
+  "result": "PASS",
+  "projects": [
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R13_01_SCOCCA_INSERTI_ECC2_PLABASIC.3mf",
+      "sha256": "476dc8c50d80192af212d3e804a8374e0e2faa7477cd4078c8c1d940fe4ec203",
+      "result": "PASS",
+      "units": "millimeter",
+      "printable_count": 5,
+      "modifier_count": 0,
+      "parts": [
+        {
+          "name": "scocca",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              20.0,
+              28.0,
+              0.0
+            ],
+            [
+              110.0,
+              129.4000016,
+              83.0
+            ]
+          ],
+          "volume_mm3": 104363.066977554,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              134.9999999,
+              28.0,
+              0.0
+            ],
+            [
+              144.3000001,
+              36.0,
+              19.29999924
+            ]
+          ],
+          "volume_mm3": 1017.8399221439977,
+          "closed": true
+        },
+        {
+          "name": "inserto_T7_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              154.9999999,
+              28.0,
+              0.0
+            ],
+            [
+              164.3000001,
+              36.0,
+              19.29999924
+            ]
+          ],
+          "volume_mm3": 1017.839922144005,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_1",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              135.0000001,
+              60.0,
+              0.0
+            ],
+            [
+              139.6999999,
+              68.0,
+              19.29999924
+            ]
+          ],
+          "volume_mm3": 307.5999735599992,
+          "closed": true
+        },
+        {
+          "name": "inserto_Shield_2",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              155.0000001,
+              60.0,
+              0.0
+            ],
+            [
+              159.6999999,
+              68.0,
+              19.29999924
+            ]
+          ],
+          "volume_mm3": 307.5999735600005,
+          "closed": true
+        }
+      ],
+      "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati.",
+      "configuration_checked": true,
+      "fuzzy_skin": false,
+      "model_warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "warning_resolution": "Stampare il PLA a sportello anteriore aperto; soglia software originale conservata."
+    },
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R13_02_COPERCHIO_ECC2_PLABASIC.3mf",
+      "sha256": "5ea4bea18ea52505c55546ae8b30375be8cfce8dbef733d3a1314bc2bc3fd8c2",
+      "result": "PASS",
+      "units": "millimeter",
+      "printable_count": 1,
+      "modifier_count": 0,
+      "parts": [
+        {
+          "name": "coperchio_capovolto",
+          "role": "normal_part",
+          "bounds_mm": [
+            [
+              30.0,
+              30.0,
+              0.0
+            ],
+            [
+              120.0,
+              131.0,
+              15.0
+            ]
+          ],
+          "volume_mm3": 16216.12314648626,
+          "closed": true
+        }
+      ],
+      "method": "Lettura indipendente per percorso e objectid; trasformazioni build e component composte; brim 5 mm e zona esclusa verificati.",
+      "configuration_checked": true,
+      "fuzzy_skin": false,
+      "model_warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "warning_resolution": "Stampare il PLA a sportello anteriore aperto; soglia software originale conservata."
+    }
+  ]
+}

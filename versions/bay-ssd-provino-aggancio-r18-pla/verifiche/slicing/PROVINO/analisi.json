@@ -1,0 +1,1813 @@
+{
+  "declared_layer_count": 75,
+  "parsed_layer_count": 75,
+  "layers": [
+    {
+      "layer": 1,
+      "z_mm": 0.2,
+      "extrusion_segments": 821,
+      "roles": {
+        "Brim": 392,
+        "Support": 20,
+        "Outer wall": 55,
+        "Inner wall": 60,
+        "Gap infill": 11,
+        "Bottom surface": 283
+      },
+      "bounds_xy_mm": [
+        [
+          55.599,
+          59.058
+        ],
+        [
+          154.484,
+          99.942
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 2,
+      "z_mm": 0.4,
+      "extrusion_segments": 497,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 28,
+        "Inner wall": 48,
+        "Gap infill": 18,
+        "Internal solid infill": 358
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.6,
+      "extrusion_segments": 606,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 18,
+        "Internal solid infill": 397,
+        "Bridge": 86
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 5.757000000000005
+    },
+    {
+      "layer": 4,
+      "z_mm": 0.8,
+      "extrusion_segments": 836,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 680,
+        "Internal solid infill": 45
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 5,
+      "z_mm": 1.0,
+      "extrusion_segments": 725,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 608,
+        "Internal solid infill": 6
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 6,
+      "z_mm": 1.2,
+      "extrusion_segments": 603,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 492
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 7,
+      "z_mm": 1.4,
+      "extrusion_segments": 606,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 495
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 8,
+      "z_mm": 1.6,
+      "extrusion_segments": 728,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 617
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 9,
+      "z_mm": 1.8,
+      "extrusion_segments": 794,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 683
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 10,
+      "z_mm": 2.0,
+      "extrusion_segments": 763,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Sparse infill": 640,
+        "Internal solid infill": 12
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 11,
+      "z_mm": 2.2,
+      "extrusion_segments": 227,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Internal solid infill": 4,
+        "Internal Bridge": 112
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 54.46066280353188
+    },
+    {
+      "layer": 12,
+      "z_mm": 2.4,
+      "extrusion_segments": 422,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Internal solid infill": 311
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 13,
+      "z_mm": 2.6,
+      "extrusion_segments": 422,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Internal solid infill": 311
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 14,
+      "z_mm": 2.8,
+      "extrusion_segments": 422,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Inner wall": 36,
+        "Gap infill": 6,
+        "Internal solid infill": 311
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 15,
+      "z_mm": 3.0,
+      "extrusion_segments": 549,
+      "roles": {
+        "Support": 45,
+        "Outer wall": 24,
+        "Gap infill": 2,
+        "Top surface": 478
+      },
+      "bounds_xy_mm": [
+        [
+          60.252,
+          63.71
+        ],
+        [
+          149.832,
+          95.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 16,
+      "z_mm": 3.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          61.23,
+          66.71
+        ],
+        [
+          148.853,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 17,
+      "z_mm": 3.4,
+      "extrusion_segments": 96,
+      "roles": {
+        "Support": 45,
+        "Support interface": 41,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          59.883,
+          66.568
+        ],
+        [
+          150.201,
+          75.432
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 18,
+      "z_mm": 3.6,
+      "extrusion_segments": 83,
+      "roles": {
+        "Support": 34,
+        "Support interface": 39,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 19,
+      "z_mm": 3.8,
+      "extrusion_segments": 87,
+      "roles": {
+        "Support": 34,
+        "Support interface": 43,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 20,
+      "z_mm": 4.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 21,
+      "z_mm": 4.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 22,
+      "z_mm": 4.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 23,
+      "z_mm": 4.6,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 24,
+      "z_mm": 4.8,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 25,
+      "z_mm": 5.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 26,
+      "z_mm": 5.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 27,
+      "z_mm": 5.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 28,
+      "z_mm": 5.6,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 29,
+      "z_mm": 5.8,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 30,
+      "z_mm": 6.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 31,
+      "z_mm": 6.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 32,
+      "z_mm": 6.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 33,
+      "z_mm": 6.6,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 34,
+      "z_mm": 6.8,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 35,
+      "z_mm": 7.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 36,
+      "z_mm": 7.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 37,
+      "z_mm": 7.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 38,
+      "z_mm": 7.6,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 39,
+      "z_mm": 7.8,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 40,
+      "z_mm": 8.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 41,
+      "z_mm": 8.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 42,
+      "z_mm": 8.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 43,
+      "z_mm": 8.6,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 44,
+      "z_mm": 8.8,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 45,
+      "z_mm": 9.0,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 46,
+      "z_mm": 9.2,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 47,
+      "z_mm": 9.4,
+      "extrusion_segments": 46,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 48,
+      "z_mm": 9.6,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 49,
+      "z_mm": 9.8,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 50,
+      "z_mm": 10.0,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 51,
+      "z_mm": 10.2,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 52,
+      "z_mm": 10.4,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 53,
+      "z_mm": 10.6,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 54,
+      "z_mm": 10.8,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 55,
+      "z_mm": 11.0,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 56,
+      "z_mm": 11.2,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 57,
+      "z_mm": 11.4,
+      "extrusion_segments": 47,
+      "roles": {
+        "Support": 36,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 58,
+      "z_mm": 11.6,
+      "extrusion_segments": 57,
+      "roles": {
+        "Support interface": 46,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 59,
+      "z_mm": 11.8,
+      "extrusion_segments": 57,
+      "roles": {
+        "Support interface": 46,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 60,
+      "z_mm": 12.0,
+      "extrusion_segments": 55,
+      "roles": {
+        "Support interface": 44,
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          60.303,
+          66.71
+        ],
+        [
+          149.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 61,
+      "z_mm": 12.2,
+      "extrusion_segments": 11,
+      "roles": {
+        "Outer wall": 9,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          63.326,
+          66.71
+        ],
+        [
+          146.758,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 62,
+      "z_mm": 12.4,
+      "extrusion_segments": 71,
+      "roles": {
+        "Overhang wall": 26,
+        "Inner wall": 21,
+        "Outer wall": 18,
+        "Bridge": 6
+      },
+      "bounds_xy_mm": [
+        [
+          60.324,
+          66.71
+        ],
+        [
+          149.759,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 5.081999999999994
+    },
+    {
+      "layer": 63,
+      "z_mm": 12.6,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.222,
+          66.71
+        ],
+        [
+          149.861,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 64,
+      "z_mm": 12.8,
+      "extrusion_segments": 52,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 17,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.221,
+          66.71
+        ],
+        [
+          149.863,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 65,
+      "z_mm": 13.0,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.219,
+          66.71
+        ],
+        [
+          149.864,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 66,
+      "z_mm": 13.2,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.217,
+          66.71
+        ],
+        [
+          149.866,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 67,
+      "z_mm": 13.4,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.216,
+          66.71
+        ],
+        [
+          149.868,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 68,
+      "z_mm": 13.6,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.214,
+          66.71
+        ],
+        [
+          149.869,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 69,
+      "z_mm": 13.8,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.212,
+          66.71
+        ],
+        [
+          149.871,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 70,
+      "z_mm": 14.0,
+      "extrusion_segments": 51,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Internal solid infill": 10
+      },
+      "bounds_xy_mm": [
+        [
+          60.211,
+          66.71
+        ],
+        [
+          149.873,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 71,
+      "z_mm": 14.2,
+      "extrusion_segments": 69,
+      "roles": {
+        "Inner wall": 25,
+        "Outer wall": 16,
+        "Gap infill": 2,
+        "Top surface": 26
+      },
+      "bounds_xy_mm": [
+        [
+          60.309,
+          66.71
+        ],
+        [
+          149.774,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 72,
+      "z_mm": 14.4,
+      "extrusion_segments": 63,
+      "roles": {
+        "Inner wall": 17,
+        "Outer wall": 16,
+        "Gap infill": 2,
+        "Top surface": 28
+      },
+      "bounds_xy_mm": [
+        [
+          60.907,
+          66.71
+        ],
+        [
+          149.176,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 73,
+      "z_mm": 14.6,
+      "extrusion_segments": 52,
+      "roles": {
+        "Inner wall": 8,
+        "Outer wall": 16,
+        "Top surface": 28
+      },
+      "bounds_xy_mm": [
+        [
+          61.906,
+          66.71
+        ],
+        [
+          148.177,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 74,
+      "z_mm": 14.8,
+      "extrusion_segments": 24,
+      "roles": {
+        "Inner wall": 8,
+        "Outer wall": 16
+      },
+      "bounds_xy_mm": [
+        [
+          62.904,
+          66.71
+        ],
+        [
+          147.179,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    },
+    {
+      "layer": 75,
+      "z_mm": 15.0,
+      "extrusion_segments": 10,
+      "roles": {
+        "Outer wall": 8,
+        "Gap infill": 2
+      },
+      "bounds_xy_mm": [
+        [
+          63.302,
+          66.71
+        ],
+        [
+          146.781,
+          75.29
+        ]
+      ],
+      "bridge_max_segment_mm": 0.0
+    }
+  ],
+  "all_layers_nonempty": true,
+  "layer_count_matches_header": true,
+  "extrusion_bounds_xy_mm": [
+    [
+      55.599,
+      59.058
+    ],
+    [
+      154.484,
+      99.942
+    ]
+  ],
+  "out_of_bed_layers": [],
+  "profile_exclusion_zone_xy_mm": [
+    [
+      246,
+      0
+    ],
+    [
+      256,
+      20
+    ]
+  ],
+  "profile_exclusion_zone_violations": [],
+  "bridge_overhang_support_segments": {
+    "Support": 2167,
+    "Bridge": 92,
+    "Internal Bridge": 112,
+    "Support interface": 259,
+    "Overhang wall": 26
+  },
+  "slicer_estimates": {
+    "filament used [mm]": "2054.63",
+    "filament used [cm3]": "4.94",
+    "filament used [g]": "6.18",
+    "total filament used [g]": "6.18",
+    "estimated printing time (normal mode)": "23m 32s"
+  },
+  "longest_bridge_segments": [
+    {
+      "layer": 11,
+      "z_mm": 2.2,
+      "segment_length_mm": 54.46066280353188,
+      "endpoints_xy_mm": [
+        [
+          83.862,
+          65.286
+        ],
+        [
+          137.215,
+          76.214
+        ]
+      ],
+      "role": "Internal Bridge"
+    },
+    {
+      "layer": 11,
+      "z_mm": 2.2,
+      "segment_length_mm": 54.46066280353187,
+      "endpoints_xy_mm": [
+        [
+          79.377,
+          65.286
+        ],
+        [
+          132.73,
+          76.214
+        ]
+      ],
+      "role": "Internal Bridge"
+    },
+    {
+      "layer": 11,
+      "z_mm": 2.2,
+      "segment_length_mm": 54.45968314266987,
+      "endpoints_xy_mm": [
+        [
+          70.407,
+          65.286
+        ],
+        [
+          123.759,
+          76.214
+        ]
+      ],
+      "role": "Internal Bridge"
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.6,
+      "segment_length_mm": 5.757000000000005,
+      "endpoints_xy_mm": [
+        [
+          102.163,
+          68.609
+        ],
+        [
+          107.92,
+          68.609
+        ]
+      ],
+      "role": "Bridge"
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.6,
+      "segment_length_mm": 5.757000000000005,
+      "endpoints_xy_mm": [
+        [
+          107.92,
+          71.823
+        ],
+        [
+          102.163,
+          71.823
+        ]
+      ],
+      "role": "Bridge"
+    },
+    {
+      "layer": 3,
+      "z_mm": 0.6,
+      "segment_length_mm": 5.757000000000005,
+      "endpoints_xy_mm": [
+        [
+          102.163,
+          70.752
+        ],
+        [
+          107.92,
+          70.752
+        ]
+      ],
+      "role": "Bridge"
+    },
+    {
+      "layer": 62,
+      "z_mm": 12.4,
+      "segment_length_mm": 5.081999999999994,
+      "endpoints_xy_mm": [
+        [
+          147.713,
+          73.461
+        ],
+        [
+          147.713,
+          68.379
+        ]
+      ],
+      "role": "Bridge"
+    },
+    {
+      "layer": 62,
+      "z_mm": 12.4,
+      "segment_length_mm": 5.081999999999994,
+      "endpoints_xy_mm": [
+        [
+          62.371,
+          68.379
+        ],
+        [
+          62.371,
+          73.461
+        ]
+      ],
+      "role": "Bridge"
+    },
+    {
+      "layer": 62,
+      "z_mm": 12.4,
+      "segment_length_mm": 5.081999999999994,
+      "endpoints_xy_mm": [
+        [
+          62.014,
+          73.461
+        ],
+        [
+          62.014,
+          68.379
+        ]
+      ],
+      "role": "Bridge"
+    }
+  ],
+  "bridge_length_note": "Lunghezza del segmento etichettato Bridge dallo slicer, non necessariamente campata libera: puo passare sopra infill o supporti. Valutare gli strati sottostanti.",
+  "limitation": "Tutti gli strati analizzati per presenza e ingombro. I ruoli ponte/sbalzo richiedono valutazione; questo controllo non prova adesione, rimovibilita supporti o resistenza.",
+  "new_wall_islands": {
+    "pixel_mm": 0.5,
+    "previous_layer_dilation_pixels": 1,
+    "minimum_candidate_pixels": 8,
+    "new_outer_wall_island_candidates": [],
+    "candidate_count": 0,
+    "limitation": "Screening approssimato dei soli contorni esterni. Risoluzione e dilatazione possono nascondere dettagli piccoli o generare falsi positivi; i candidati richiedono ispezione delle anteprime e non provano stampabilita."
+  }
+}

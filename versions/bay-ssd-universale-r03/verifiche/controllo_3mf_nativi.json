@@ -1,0 +1,23 @@
+{
+  "projects": [
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R03_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+      "sha256": "ec40c2b1a684d10159ed2bba76f7b0c2b3d56e5ca410ba4ec0220584d1a8de04",
+      "bodies": 2,
+      "unit": "millimeter",
+      "transforms_and_dimensions_checked": true,
+      "configuration_checked": true,
+      "layers": 125
+    },
+    {
+      "project": "stampa/progetti_ElegooSlicer/BAY_R03_01_KIT_RETRO_APERTO_ECC2_PETGPRO.3mf",
+      "sha256": "12360980e3ba7534a4f280fe85d91645084e068e86d7e10d1ad883162beef7f2",
+      "bodies": 5,
+      "unit": "millimeter",
+      "transforms_and_dimensions_checked": true,
+      "configuration_checked": true,
+      "layers": 415
+    }
+  ],
+  "pass_": true
+}

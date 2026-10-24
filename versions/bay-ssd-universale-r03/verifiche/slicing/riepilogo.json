@@ -1,0 +1,166 @@
+{
+  "jobs": [
+    {
+      "name": "BAY_R03_00_PROVINO_PRIMA_DI_TUTTO",
+      "group": "provino",
+      "geometry_sha256": "9321f317294648989e7a207ebb52432695f75e52dcba10f863414ade026985ae",
+      "profile_hashes": {
+        "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+        "process.json": "38cfaaeb0eaa9886573f87c8ae6374aad20a17ae5f94fb76c8b1a65145cea851",
+        "filament.json": "4e834f67eae65180badd9abef47b4ae6dee5bd393163905ee42f1ccd2b1c83c1"
+      },
+      "slicer_version": "2.4.2",
+      "configuration_confirmed": true,
+      "project": "stampa/progetti_ElegooSlicer/BAY_R03_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+      "project_sha256": "ec40c2b1a684d10159ed2bba76f7b0c2b3d56e5ca410ba4ec0220584d1a8de04",
+      "layers": 125,
+      "slicer_estimates": {
+        "filament used [mm]": "5173.08",
+        "filament used [cm3]": "12.44",
+        "filament used [g]": "15.55",
+        "total filament used [g]": "15.55",
+        "estimated printing time (normal mode)": "1h 5m 7s"
+      },
+      "previews": {
+        "all_layer_contact_sheets": [
+          "verifiche/slicing/BAY_R03_00_PROVINO_PRIMA_DI_TUTTO/tutti_strati_0001_0125.png"
+        ],
+        "detail_sheets": [
+          "verifiche/slicing/BAY_R03_00_PROVINO_PRIMA_DI_TUTTO/dettaglio_primo_secondo_medio_ultimo.png"
+        ],
+        "legend": {
+          "Outer wall": "#233c59",
+          "Inner wall": "#48789a",
+          "Sparse infill": "#299f99",
+          "Internal solid infill": "#70ab8e",
+          "Top surface": "#6e4c91",
+          "Bottom surface": "#6e4c91",
+          "Bridge": "#d6472d",
+          "Support": "#dc9c2d",
+          "Support interface": "#cf6724",
+          "Brim": "#bdc6d0"
+        },
+        "full_path_rendered_for_every_layer": true
+      },
+      "model_warnings": [],
+      "cli": {
+        "exit_code": 0,
+        "warnings": [],
+        "command": [
+          "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+          "--debug",
+          "2",
+          "--datadir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r03-slicer-8ovix01b/data",
+          "--load-settings",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/process.json",
+          "--load-filaments",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/filament.json",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--slice",
+          "0",
+          "--export-3mf",
+          "CONTROLLO.3mf",
+          "--outputdir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r03-slicer-8ovix01b/out",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/stampa/piatti_geometrici/BAY_R03_00_PROVINO_PRIMA_DI_TUTTO_GEOMETRIA.3mf"
+        ]
+      },
+      "new_wall_island_candidates": 0,
+      "visual_review_complete": true,
+      "supports": false,
+      "sent_to_printer": false
+    },
+    {
+      "name": "BAY_R03_01_KIT_RETRO_APERTO",
+      "group": "kit",
+      "geometry_sha256": "37ab89ae13a90742549a609d5338d4345718aebb6b3d1abee13acb5f2b039977",
+      "profile_hashes": {
+        "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+        "process.json": "38cfaaeb0eaa9886573f87c8ae6374aad20a17ae5f94fb76c8b1a65145cea851",
+        "filament.json": "4e834f67eae65180badd9abef47b4ae6dee5bd393163905ee42f1ccd2b1c83c1"
+      },
+      "slicer_version": "2.4.2",
+      "configuration_confirmed": true,
+      "project": "stampa/progetti_ElegooSlicer/BAY_R03_01_KIT_RETRO_APERTO_ECC2_PETGPRO.3mf",
+      "project_sha256": "12360980e3ba7534a4f280fe85d91645084e068e86d7e10d1ad883162beef7f2",
+      "layers": 415,
+      "slicer_estimates": {
+        "filament used [mm]": "44999.68",
+        "filament used [cm3]": "108.24",
+        "filament used [g]": "135.30",
+        "total filament used [g]": "135.30",
+        "estimated printing time (normal mode)": "7h 39m 56s"
+      },
+      "previews": {
+        "all_layer_contact_sheets": [
+          "verifiche/slicing/BAY_R03_01_KIT_RETRO_APERTO/tutti_strati_0001_0144.png",
+          "verifiche/slicing/BAY_R03_01_KIT_RETRO_APERTO/tutti_strati_0145_0288.png",
+          "verifiche/slicing/BAY_R03_01_KIT_RETRO_APERTO/tutti_strati_0289_0415.png"
+        ],
+        "detail_sheets": [
+          "verifiche/slicing/BAY_R03_01_KIT_RETRO_APERTO/dettaglio_primo_secondo_medio_ultimo.png"
+        ],
+        "legend": {
+          "Outer wall": "#233c59",
+          "Inner wall": "#48789a",
+          "Sparse infill": "#299f99",
+          "Internal solid infill": "#70ab8e",
+          "Top surface": "#6e4c91",
+          "Bottom surface": "#6e4c91",
+          "Bridge": "#d6472d",
+          "Support": "#dc9c2d",
+          "Support interface": "#cf6724",
+          "Brim": "#bdc6d0"
+        },
+        "full_path_rendered_for_every_layer": true
+      },
+      "model_warnings": [],
+      "cli": {
+        "exit_code": 0,
+        "warnings": [],
+        "command": [
+          "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+          "--debug",
+          "2",
+          "--datadir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r03-slicer-bp9qo24u/data",
+          "--load-settings",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/process.json",
+          "--load-filaments",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/slicer/filament.json",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--slice",
+          "0",
+          "--export-3mf",
+          "CONTROLLO.3mf",
+          "--outputdir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r03-slicer-bp9qo24u/out",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r03/stampa/piatti_geometrici/BAY_R03_01_KIT_RETRO_APERTO_GEOMETRIA.3mf"
+        ]
+      },
+      "new_wall_island_candidates": 0,
+      "visual_review_complete": true,
+      "supports": false,
+      "sent_to_printer": false
+    }
+  ],
+  "kit_totals": {
+    "filament_g": 135.3,
+    "printing_seconds": 27596,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "coupon_totals": {
+    "filament_g": 15.55,
+    "printing_seconds": 3907,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "slicer_version": "2.4.2",
+  "sent_to_printer": false
+}

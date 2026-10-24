@@ -1,0 +1,10 @@
+{
+  "source_manifest_sha256": "bd51ffc2a265ccbc9d3623670855f0ef49ff5ce5e35dd5bc327456786b12637d",
+  "outputs": {
+    "anteprime/01_R22_SILHOUETTE.png": "e2371c9da5576fd3f4d8cae175e13a4a889bf5c4a9d0248ae6abd8adc9e26d73",
+    "anteprime/02_R22_GUIDE_E_FERMO.png": "138cf99535a3b710bde3baf316e3464b33701e43f7ce76c26197a9605779e2bb",
+    "anteprime/03_R22_RETRO_E_PROVINO.png": "d8d7b4290676eabf83226e2d7c9a722d7b8cd900385f9fa23b94dcb6c12ad6dd",
+    "anteprime/04_R22_PIATTO_UNICO.png": "e5085f6a7943e1e3dc041605f00634c76cbf1cfb4bf9756edeec5a59863fede7"
+  },
+  "physical_photo": false
+}

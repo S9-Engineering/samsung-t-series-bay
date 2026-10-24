@@ -1,0 +1,17 @@
+{
+  "source_manifest_sha256": "9d2376cd1dffce9782e28158b44b6507ff9c4a7d9d7b0d213b4aeca6bbd3acc6",
+  "outputs": {
+    "anteprime/01_R14_CHIUSO.png": "c452099a4d4e7f476ce1baa180e7f4906424f38316f78cf383404dbb7f5d32f6",
+    "anteprime/02_R14_INTERNO.png": "fe46ac527fe8f11d678892a73bc6afbef64c75d0e4a073cd86e620f3b4c5f105",
+    "anteprime/03_R14_SEDI.png": "fbe340f4168b9de59be92249c7d92ac7b4408575ca0bdac680549ff7e14dff06",
+    "anteprime/04_R14_PIATTI.png": "685c52740009846c0ff1ebb16f92fe8bf8585db08f5300862b62b3b1ea9746cc",
+    "anteprime/05_R14_MONOLITE.png": "038924a5badd0a3ff2657b657c5b89af9c4e41fca5835a45d02a042823fb9659",
+    "anteprime/06_R14_ALTO.png": "a356d91d32b15c6469bc1e78e197edae68c54b8b67021dda27adb0dcce8a4575",
+    "anteprime/07_R14_PATTERN_LATERALE.png": "361f2512eef88e59c132e7932cbded1ad29b2a053755ef6d1df37a57a8942472",
+    "anteprime/08_R14_LOGO_FRONTALE.png": "2f4d4bcab258e8e6e0a45085ea55ac665a4197ee3770e4e489405042f31bd1d5",
+    "anteprime/09_R14_CODA_POSTERIORE.png": "6c1cc5ad58135e064e62a374518ac3f829a7f4e683d96b6255b3f9e144f545e3"
+  },
+  "cfd": false,
+  "physical_photo": false,
+  "notes": "Render dai solidi esportati; colori degli inserti esplicativi, stampa con lo stesso PLA BASIC della scocca."
+}

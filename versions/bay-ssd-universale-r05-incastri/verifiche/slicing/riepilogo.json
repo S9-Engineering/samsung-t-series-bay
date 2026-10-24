@@ -1,0 +1,241 @@
+{
+  "jobs": [
+    {
+      "name": "BAY_R05_00_PROVINO_PRIMA_DI_TUTTO",
+      "group": "provino",
+      "geometry_sha256": "df6f355847803f2da8fb25930b50da786c9cbb17f8731731c49fbeb953ff4db6",
+      "profile_hashes": {
+        "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+        "process.json": "e61241cc4bc56d231754a7932ad899cc1c724d042b0373fd18a67f3d782fde85",
+        "filament.json": "3ae48c69da8b06358a122f93fdcffe65688739eb8e7d622874f90caade3880ab"
+      },
+      "slicer_version": "2.4.2",
+      "configuration_confirmed": true,
+      "project": "stampa/progetti_ElegooSlicer/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO_ECC2_PETGPRO.3mf",
+      "project_sha256": "c49e7cfe469eb7d1da1b159a9b33c43c31e857ac65ec49df9febf17b89b55db2",
+      "layers": 155,
+      "slicer_estimates": {
+        "filament used [mm]": "5199.25",
+        "filament used [cm3]": "12.51",
+        "filament used [g]": "15.63",
+        "total filament used [g]": "15.63",
+        "estimated printing time (normal mode)": "1h 11m 19s"
+      },
+      "previews": {
+        "all_layer_contact_sheets": [
+          "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/tutti_strati_0001_0144.png",
+          "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/tutti_strati_0145_0155.png"
+        ],
+        "detail_sheets": [
+          "verifiche/slicing/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO/dettaglio_primo_secondo_medio_ultimo.png"
+        ],
+        "legend": {
+          "Outer wall": "#233c59",
+          "Inner wall": "#48789a",
+          "Sparse infill": "#299f99",
+          "Internal solid infill": "#70ab8e",
+          "Top surface": "#6e4c91",
+          "Bottom surface": "#6e4c91",
+          "Bridge": "#d6472d",
+          "Support": "#dc9c2d",
+          "Support interface": "#cf6724",
+          "Brim": "#bdc6d0"
+        },
+        "full_path_rendered_for_every_layer": true
+      },
+      "model_warnings": [],
+      "cli": {
+        "exit_code": 0,
+        "warnings": [],
+        "command": [
+          "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+          "--debug",
+          "2",
+          "--datadir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-i9re4n3d/data",
+          "--load-settings",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/process.json",
+          "--load-filaments",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/filament.json",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--slice",
+          "0",
+          "--export-3mf",
+          "CONTROLLO.3mf",
+          "--outputdir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-i9re4n3d/out",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/stampa/piatti_geometrici/BAY_R05_00_PROVINO_PRIMA_DI_TUTTO_GEOMETRIA.3mf"
+        ]
+      },
+      "new_wall_island_candidates": 0,
+      "visual_review_complete": true,
+      "supports": false,
+      "sent_to_printer": false
+    },
+    {
+      "name": "BAY_R05_01_SCOCCA_INSERTI",
+      "group": "kit",
+      "geometry_sha256": "a02459659b98d647473dfb075fdf53cedf69da5bc3913ab5261a7afa3379037a",
+      "profile_hashes": {
+        "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+        "process.json": "e61241cc4bc56d231754a7932ad899cc1c724d042b0373fd18a67f3d782fde85",
+        "filament.json": "3ae48c69da8b06358a122f93fdcffe65688739eb8e7d622874f90caade3880ab"
+      },
+      "slicer_version": "2.4.2",
+      "configuration_confirmed": true,
+      "project": "stampa/progetti_ElegooSlicer/BAY_R05_01_SCOCCA_INSERTI_ECC2_PETGPRO.3mf",
+      "project_sha256": "ce04a5f4a77193cb02396bfbb47dc58e6a0207c5594cb275e8fda2841a0c7e1c",
+      "layers": 415,
+      "slicer_estimates": {
+        "filament used [mm]": "38044.98",
+        "filament used [cm3]": "91.51",
+        "filament used [g]": "114.39",
+        "total filament used [g]": "114.39",
+        "estimated printing time (normal mode)": "6h 8m 30s"
+      },
+      "previews": {
+        "all_layer_contact_sheets": [
+          "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/tutti_strati_0001_0144.png",
+          "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/tutti_strati_0145_0288.png",
+          "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/tutti_strati_0289_0415.png"
+        ],
+        "detail_sheets": [
+          "verifiche/slicing/BAY_R05_01_SCOCCA_INSERTI/dettaglio_primo_secondo_medio_ultimo.png"
+        ],
+        "legend": {
+          "Outer wall": "#233c59",
+          "Inner wall": "#48789a",
+          "Sparse infill": "#299f99",
+          "Internal solid infill": "#70ab8e",
+          "Top surface": "#6e4c91",
+          "Bottom surface": "#6e4c91",
+          "Bridge": "#d6472d",
+          "Support": "#dc9c2d",
+          "Support interface": "#cf6724",
+          "Brim": "#bdc6d0"
+        },
+        "full_path_rendered_for_every_layer": true
+      },
+      "model_warnings": [],
+      "cli": {
+        "exit_code": 0,
+        "warnings": [],
+        "command": [
+          "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+          "--debug",
+          "2",
+          "--datadir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-2ck87f0f/data",
+          "--load-settings",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/process.json",
+          "--load-filaments",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/filament.json",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--slice",
+          "0",
+          "--export-3mf",
+          "CONTROLLO.3mf",
+          "--outputdir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-2ck87f0f/out",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/stampa/piatti_geometrici/BAY_R05_01_SCOCCA_INSERTI_GEOMETRIA.3mf"
+        ]
+      },
+      "new_wall_island_candidates": 0,
+      "visual_review_complete": true,
+      "supports": false,
+      "sent_to_printer": false
+    },
+    {
+      "name": "BAY_R05_02_COPERCHIO",
+      "group": "kit",
+      "geometry_sha256": "9596261a0dcd21a7841b769cc92ac3f09023401e085d42ddb4af85d2882229ac",
+      "profile_hashes": {
+        "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+        "process.json": "e61241cc4bc56d231754a7932ad899cc1c724d042b0373fd18a67f3d782fde85",
+        "filament.json": "3ae48c69da8b06358a122f93fdcffe65688739eb8e7d622874f90caade3880ab"
+      },
+      "slicer_version": "2.4.2",
+      "configuration_confirmed": true,
+      "project": "stampa/progetti_ElegooSlicer/BAY_R05_02_COPERCHIO_ECC2_PETGPRO.3mf",
+      "project_sha256": "14e6aeeebcdf9117726bb9f6add46fe7fe77e2fab0307f1a6ca0e98c93cce4c6",
+      "layers": 75,
+      "slicer_estimates": {
+        "filament used [mm]": "5767.32",
+        "filament used [cm3]": "13.87",
+        "filament used [g]": "17.34",
+        "total filament used [g]": "17.34",
+        "estimated printing time (normal mode)": "1h 4m 42s"
+      },
+      "previews": {
+        "all_layer_contact_sheets": [
+          "verifiche/slicing/BAY_R05_02_COPERCHIO/tutti_strati_0001_0075.png"
+        ],
+        "detail_sheets": [
+          "verifiche/slicing/BAY_R05_02_COPERCHIO/dettaglio_primo_secondo_medio_ultimo.png"
+        ],
+        "legend": {
+          "Outer wall": "#233c59",
+          "Inner wall": "#48789a",
+          "Sparse infill": "#299f99",
+          "Internal solid infill": "#70ab8e",
+          "Top surface": "#6e4c91",
+          "Bottom surface": "#6e4c91",
+          "Bridge": "#d6472d",
+          "Support": "#dc9c2d",
+          "Support interface": "#cf6724",
+          "Brim": "#bdc6d0"
+        },
+        "full_path_rendered_for_every_layer": true
+      },
+      "model_warnings": [],
+      "cli": {
+        "exit_code": 0,
+        "warnings": [],
+        "command": [
+          "/private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+          "--debug",
+          "2",
+          "--datadir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-49qmlvbn/data",
+          "--load-settings",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/process.json",
+          "--load-filaments",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/slicer/filament.json",
+          "--arrange",
+          "0",
+          "--orient",
+          "0",
+          "--slice",
+          "0",
+          "--export-3mf",
+          "CONTROLLO.3mf",
+          "--outputdir",
+          "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/bay-r05-slicer-49qmlvbn/out",
+          "/Users/stefanonovelli/Sites/Personal/stampe3d/bay-ssd-universale-r05-incastri/stampa/piatti_geometrici/BAY_R05_02_COPERCHIO_GEOMETRIA.3mf"
+        ]
+      },
+      "new_wall_island_candidates": 0,
+      "visual_review_complete": true,
+      "supports": false,
+      "sent_to_printer": false
+    }
+  ],
+  "kit_totals": {
+    "filament_g": 131.73,
+    "printing_seconds": 25992,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "coupon_totals": {
+    "filament_g": 15.63,
+    "printing_seconds": 4279,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "slicer_version": "2.4.2",
+  "sent_to_printer": false
+}

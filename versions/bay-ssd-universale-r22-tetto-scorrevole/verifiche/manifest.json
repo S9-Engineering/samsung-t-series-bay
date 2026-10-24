@@ -1,0 +1,287 @@
+{
+  "revision": "R22_SCORREVOLE_NASCOSTO",
+  "unit": "millimeter",
+  "parameters_sha256": "1173f416a8ffb24dc3c79fb9be29af472a1c341fdbcf91ee1661adebf21976ea",
+  "parts": [
+    {
+      "name": "SCOCCA_R22",
+      "quantity": 1,
+      "role": "COMPLETO",
+      "orientation": "none",
+      "stl": "stampa/STL/SCOCCA_R22.stl",
+      "step": "CAD/SCOCCA_R22.step",
+      "print_step": "CAD/SCOCCA_R22_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/SCOCCA_R22.ply",
+      "stl_sha256": "24e4992921ba68633ce2fa31b0f88484a2aa7b2f30985762d678db1469c4a862",
+      "step_sha256": "e68375260dc2ca321d79a2b15f8feca0cd78fcd7e19e4cf3bd3113ec2c8396db",
+      "print_step_sha256": "2bcead84e5e3f60bb8639e6933c48c831a6959f27e62d9edc72fbf96679ea4ce",
+      "bounds_mm": [
+        [
+          0.0,
+          -0.4,
+          0.0
+        ],
+        [
+          90.0,
+          101.0,
+          83.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4,
+          83.0
+        ]
+      ],
+      "volume_mm3": 109685.1586289273
+    },
+    {
+      "name": "TETTO_R22_SCORREVOLE",
+      "quantity": 1,
+      "role": "COMPLETO",
+      "orientation": "flip",
+      "stl": "stampa/STL/TETTO_R22_SCORREVOLE.stl",
+      "step": "CAD/TETTO_R22_SCORREVOLE.step",
+      "print_step": "CAD/TETTO_R22_SCORREVOLE_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/TETTO_R22_SCORREVOLE.ply",
+      "stl_sha256": "c4d9fd00ed27df1210badf24d3c6011282b38b50a1c469582d377f1edb6a9f8c",
+      "step_sha256": "a5ea8a422f1f71d409cc83970595a9e5cbf0d42c38329ed73dd9ad29e4cfca8f",
+      "print_step_sha256": "cea246cc7911688f056b0ff50447fafb204ab48ac3ffdeadb48b1129540bb7fb",
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          57.0
+        ],
+        [
+          90.0,
+          109.0,
+          86.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.91886975727153e-16
+        ],
+        [
+          90.0,
+          109.0,
+          29.000000000000014
+        ]
+      ],
+      "volume_mm3": 37243.23237890757
+    },
+    {
+      "name": "PERNO_R22_NASCOSTO",
+      "quantity": 1,
+      "role": "ENTRAMBI",
+      "orientation": "key",
+      "stl": "stampa/STL/PERNO_R22_NASCOSTO.stl",
+      "step": "CAD/PERNO_R22_NASCOSTO.step",
+      "print_step": "CAD/PERNO_R22_NASCOSTO_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PERNO_R22_NASCOSTO.ply",
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d",
+      "step_sha256": "02d30790aca924e18c911c95a71640caf7c5f2ca8aecb156ac4b721e3bccef8d",
+      "print_step_sha256": "5593cce5e2fc1981a9e46c12db456c84eb60fd7b3b470738cb8e9f4d9da1434f",
+      "bounds_mm": [
+        [
+          4.199999999999999,
+          94.3,
+          52.0
+        ],
+        [
+          12.2,
+          97.8,
+          78.5
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.3306690738754696e-15
+        ],
+        [
+          8.0,
+          26.5,
+          3.500000000000017
+        ]
+      ],
+      "volume_mm3": 358.0459172461266
+    },
+    {
+      "name": "INSERTO_T7_R22",
+      "quantity": 2,
+      "role": "COMPLETO",
+      "orientation": "none",
+      "stl": "stampa/STL/INSERTO_T7_R22.stl",
+      "step": "CAD/INSERTO_T7_R22.step",
+      "print_step": "CAD/INSERTO_T7_R22_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/INSERTO_T7_R22.ply",
+      "stl_sha256": "340c2d179ef31c0e8fa1c174f2e946f14c33825b45a448d61ac17b432d4f2ba6",
+      "step_sha256": "5d96df3ef552776a1415f6fde6ba96bec1f4ca4b3e1fd6b5ffd3cce45f2cde31",
+      "print_step_sha256": "c77094481d39e9bd8d7706c5957a6f5c3e30a51be8693053b059d1998af35227",
+      "bounds_mm": [
+        [
+          11.7,
+          28.0,
+          13.0
+        ],
+        [
+          30.3,
+          44.0,
+          32.2
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          18.6,
+          16.0,
+          19.200000000000003
+        ]
+      ],
+      "volume_mm3": 1592.4960000000003
+    },
+    {
+      "name": "INSERTO_SHIELD_R22",
+      "quantity": 2,
+      "role": "COMPLETO",
+      "orientation": "none",
+      "stl": "stampa/STL/INSERTO_SHIELD_R22.stl",
+      "step": "CAD/INSERTO_SHIELD_R22.step",
+      "print_step": "CAD/INSERTO_SHIELD_R22_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/INSERTO_SHIELD_R22.ply",
+      "stl_sha256": "41e9950bbfcb2fc5e7ef33d3144a4139a5b24f9632f9d8ba2c43478b3c0ca3cc",
+      "step_sha256": "374eb0c2622a5dcde2c0ec428b4e830f4a319a27ae97c6a2a6beeb766e8faa00",
+      "print_step_sha256": "ecf56f7b0f5f483a5fa63d410fe2ca76c61c494fa70f70a3c243ad2fd78bafb1",
+      "bounds_mm": [
+        [
+          11.7,
+          28.0,
+          13.0
+        ],
+        [
+          30.3,
+          44.0,
+          32.2
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          18.6,
+          16.0,
+          19.200000000000003
+        ]
+      ],
+      "volume_mm3": 979.7760000000001
+    },
+    {
+      "name": "PROVINO_SCOCCA_R22",
+      "quantity": 1,
+      "role": "PROVA",
+      "orientation": "none",
+      "stl": "stampa/STL/PROVINO_SCOCCA_R22.stl",
+      "step": "CAD/PROVINO_SCOCCA_R22.step",
+      "print_step": "CAD/PROVINO_SCOCCA_R22_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_SCOCCA_R22.ply",
+      "stl_sha256": "69c03ba8ee4aea5ea630f452349ef7b1a1ab578490c54735183d7fd99f871ae7",
+      "step_sha256": "6e16c4432a911a1c6e096c8659a95d1460eaa306da714384843dce2e60540de4",
+      "print_step_sha256": "e38031d82b513e9ad3ab097d970dd41c79ed23997c11afa97412aad22196de47",
+      "bounds_mm": [
+        [
+          0.0,
+          68.0,
+          54.0
+        ],
+        [
+          90.0,
+          101.0,
+          83.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          33.0,
+          29.0
+        ]
+      ],
+      "volume_mm3": 8486.891761307868
+    },
+    {
+      "name": "PROVINO_TETTO_R22",
+      "quantity": 1,
+      "role": "PROVA",
+      "orientation": "flip",
+      "stl": "stampa/STL/PROVINO_TETTO_R22.stl",
+      "step": "CAD/PROVINO_TETTO_R22.step",
+      "print_step": "CAD/PROVINO_TETTO_R22_STAMPA.step",
+      "mesh": "verifiche/mesh_assieme/PROVINO_TETTO_R22.ply",
+      "stl_sha256": "3e5d0b65adc41bb129cf35475f2f5e0b91616b205fbc26622ab46a304b54cc92",
+      "step_sha256": "117163d0bb69b3d2f988e19163cf1ffb238c276acc0e103c093282ba166435e4",
+      "print_step_sha256": "41f85950e3aa4e0f390497b8112509c47f11b30bd11e60dbab1a147cd1cac98d",
+      "bounds_mm": [
+        [
+          0.0,
+          68.0,
+          57.0
+        ],
+        [
+          90.0,
+          109.0,
+          86.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          -1.169537693185722e-15,
+          5.106010999266441e-15
+        ],
+        [
+          90.0,
+          41.0,
+          29.000000000000014
+        ]
+      ],
+      "volume_mm3": 11560.116000486321
+    }
+  ],
+  "complete_kit_parts": 7,
+  "coupon_kit_parts": 3,
+  "external_assembled_dimensions_mm": [
+    90,
+    109.4,
+    86
+  ],
+  "physical_print": false,
+  "physical_fit": false,
+  "thermal_test": false,
+  "elastic_latch": false,
+  "hardware_bom": {},
+  "internal_adhesives": false,
+  "body_reprint_required": true
+}

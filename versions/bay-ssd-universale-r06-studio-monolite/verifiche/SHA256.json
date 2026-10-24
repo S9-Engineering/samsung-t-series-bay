@@ -1,0 +1,18 @@
+{
+  "CAD_studio/R06_STUDIO_ASSIEME.step": "7a91964ab01ad12c408c46d766c7653bea19c7f359b501cded38cc7fd0d6e90c",
+  "CAD_studio/coperchio_R06_STUDIO.step": "17688b0f61c165961fe19b14a24d2aed458adf7504085657ad8f0664896944b1",
+  "CAD_studio/scocca_R06_STUDIO.step": "81282e748b6be5a54653b6a36cf40f595f403960bafa455b962a5691bc4bc094",
+  "README.md": "c93bf6b6801e123dfdbf4afd93e8c29a9caf161d88bc8f9fcef6fb5819d58db9",
+  "anteprime/01_R06_MONOLITE.png": "9d11cf9dcdd156e35fcc403724b62e57612ecc5981027285c74111c29271d3b9",
+  "anteprime/02_R06_FRONTE.png": "f3cc9e680a99fcb6b8c7a78a382fa23101d801f606cb1ce87de3d558d6832804",
+  "anteprime/03_R06_TRE_QUARTI.png": "e0ab27c955d6056be226c5df00cb142ca2f2930f47e2b780390eca37e7e29ed2",
+  "anteprime/04_R06_ALTO.png": "4b9770b21d79d537b8c0f6dcb1035c8ef7c969ebf992b6dec260170d0f25dacb",
+  "sorgenti/genera.py": "8dcbb1200a0b0fe2147dd3bbf21a18379f0a6e7b69ecaf56812802af400bb4ad",
+  "sorgenti/parametri.json": "d64764116c6b39f559fc217bd01ce7293e063f5a18e675daafd6a4d51711a3dc",
+  "sorgenti/render_base.py": "f50cb62a9b55a74491423529954d6fcf07775b7da594d83fd549f491c9a60c5d",
+  "sorgenti/requirements.txt": "35fcc4960ffbbc50631e84eda3edcb25956c61adedc875e7c2eb3852f3f2a84f",
+  "sorgenti/studio.py": "a069a6d88fcbfeb8e1b5a0e09affddb32d24b4ec5592ce5df13db44bface9478",
+  "verifiche/coperchio_R06_STUDIO.ply": "f4ee2053e3f392d30262151de43221591850175bca63c805d8d8fdf740e9e264",
+  "verifiche/scocca_R06_STUDIO.ply": "7785a61dd464186d63a99d7506a014d3c8f894fb166b0fe511febe469eb70d62",
+  "verifiche/studio.json": "9b38967d8b7bac37f92936f193d73ee5a986138c901ab90701d999d8da30784e"
+}
