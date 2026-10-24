@@ -178,9 +178,9 @@ A compact desktop enclosure for **Samsung T7, T7 Shield and T9**. Three upright 
 
 **v1.0.0 · R27 · ELEGOO PLA BASIC · Complete one-plate print project**
 
-![S9 Monolith Bay, assembled front three-quarter view](previews/renders/hero.png)
+![S9 Monolith Bay on a desk: closed and open with three installed SSDs](previews/renders/hero-desk-closed-open.png)
 
-*Render of the supplied R27 geometry. Charcoal colour and smooth shading are illustrative; cables and separately supplied rubber feet are omitted.*
+*S9 Monolith Bay in a desktop setting: closed enclosure and open rear/top view with three installed SSDs. Illustrative charcoal finish; S9 Engineering signature at bottom right.*
 
 ## Product views
 
@@ -195,7 +195,7 @@ The repository contains the complete project: current STL, native 3MF, matching 
 - [Current STEP exports](cad): editable-format geometry plus a reference assembly. The assembly STEP contains the parts and drive envelopes in their installed positions; use the separate STL or native 3MF for printing.
 - [R27 CAD generator]({REL}/sorgenti/genera.py), [parameters]({REL}/sorgenti/parametri.json), and [pinned dependencies]({REL}/sorgenti/requirements.txt).
 - [Retained revision index](docs/revision-history.md). Historical studies and filenames stay in their original language; use this README for v1.0.0 printing and assembly.
-- [Render source](source/render_release.py) and [render dependencies](source/requirements-render.txt).
+- [Render source](source/render_release.py) and [render dependencies](source/requirements-render.txt). [Contextual cover prompt and CAD references](assets/cover-references/cover.json).
 
 To edit/regenerate CAD after cloning, create an environment inside this repository:
 
