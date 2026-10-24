@@ -1,14 +1,14 @@
-# S9 Monolith Bay
+# S9 Monolith Bay — DIY 3D-Printable SSD Enclosure
 
-### Samsung T-Series SSD enclosure
+### For Samsung T7, T7 Shield and T9
 
-A compact desktop enclosure for **Samsung T7, T7 Shield and T9**. Three upright drives, interchangeable cartridges, passive ventilation and a clean monolithic silhouette.
+**Build your own** compact three-drive desktop SSD bay. Download the **STL and 3MF files**, 3D print the PLA parts and assemble an enclosure for **Samsung T7, T7 Shield and T9**, with interchangeable cartridges, passive ventilation and rear cable access.
 
 **v1.0.0 · R27 · PLA · 8 printed components**
 
-![S9 Monolith Bay on a desk: closed and open with three installed SSDs](previews/renders/hero-desk-closed-open.png)
+![DIY 3D-printable Samsung SSD enclosure on a desk, closed and open with three installed SSDs](previews/renders/hero-desk-closed-open-v2.png)
 
-*S9 Monolith Bay in a desktop setting: closed enclosure and open rear/top view with three installed SSDs. Illustrative charcoal finish; S9 Engineering signature at bottom right.*
+*AI-generated visualization of the closed bay and open enclosure with three installed SSDs. S9 Engineering signature at bottom right; AI disclosure at bottom left.*
 
 ## Product views
 
@@ -61,7 +61,7 @@ Three drives stand side by side on their long edges, with their USB ports facing
 
 Assembly is tool-free. There are **no screws, nuts, threaded inserts or internal adhesives**. If you choose self-adhesive rubber feet, their adhesive stays in the four exterior underside recesses. Feet, drives and cables are supplied separately; there is no internal USB hub.
 
-## Download and print
+## Download STL and 3MF files
 
 1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) and select **v1.0.0**.
 2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and read its `README.md`.

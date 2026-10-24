@@ -176,7 +176,7 @@ def public_content():
 ### For assembly
 
 '''
- download=f'''## Download and print
+ download=f'''## Download STL and 3MF files
 
 1. Open [GitHub Releases]({URL}) and select **v1.0.0**.
 2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and read its `README.md`.
@@ -228,17 +228,17 @@ def main():
   copy(REV/'stampa/progetti_ElegooSlicer'/(old+'_ECC2_PLABASIC.3mf'),ROOT/'print/slicer'/(slug+'.3mf'))
   copy(REV/'stampa/GCODE'/(old+'_ECC2_PLABASIC.gcode'),ROOT/'print/gcode'/(slug+'.gcode'))
  write(ROOT/'verification/convenience-copies.json',json.dumps({'copies':copies},indent=2))
- header='''# S9 Monolith Bay
+ header='''# S9 Monolith Bay — DIY 3D-Printable SSD Enclosure
 
-### Samsung T-Series SSD enclosure
+### For Samsung T7, T7 Shield and T9
 
-A compact desktop enclosure for **Samsung T7, T7 Shield and T9**. Three upright drives, interchangeable cartridges, passive ventilation and a clean monolithic silhouette.
+**Build your own** compact three-drive desktop SSD bay. Download the **STL and 3MF files**, 3D print the PLA parts and assemble an enclosure for **Samsung T7, T7 Shield and T9**, with interchangeable cartridges, passive ventilation and rear cable access.
 
 **v1.0.0 · R27 · PLA · 8 printed components**
 
-![S9 Monolith Bay on a desk: closed and open with three installed SSDs](previews/renders/hero-desk-closed-open.png)
+![DIY 3D-printable Samsung SSD enclosure on a desk, closed and open with three installed SSDs](previews/renders/hero-desk-closed-open-v2.png)
 
-*S9 Monolith Bay in a desktop setting: closed enclosure and open rear/top view with three installed SSDs. Illustrative charcoal finish; S9 Engineering signature at bottom right.*
+*AI-generated visualization of the closed bay and open enclosure with three installed SSDs. S9 Engineering signature at bottom right; AI disclosure at bottom left.*
 
 ## Product views
 
@@ -279,32 +279,53 @@ For **Samsung T7, T7 Shield and T9**. Prepared for **ELEGOO Centauri Carbon 2 Co
 This print pack includes the complete eight-piece kit on one plate, separate oriented STLs, optional matching G-code, illustrated assembly instructions and integrity metadata. Editable CAD and retained revisions are available in the GitHub repository.
 '''
  write(RELEASE/'README.print.md',intro+'\n'+content(True)+'\nNo project license has been selected. Samsung product names identify the intended devices; this is an independent design.\n')
- notes=f'''# S9 Monolith Bay — Samsung T-Series
+ notes='''# S9 Monolith Bay — DIY 3D-Printable SSD Enclosure
 
-**v1.0.0 / R27** — complete PLA printing release for **Samsung T7, T7 Shield and T9**.
+**v1.0.0 · R27 · Samsung T7, T7 Shield and T9**
 
-A compact monolithic enclosure with three interchangeable drive cartridges, horizontal ventilation slots, external rear cable access, and a sliding roof secured by two hidden quarter-turn pins. Small raised S9 branding on the front and S9 Engineering on the rear.
+Build your own three-drive desktop SSD bay. Download the **STL and 3MF files**, 3D print the PLA parts and assemble a compact enclosure for your Samsung portable SSDs, with interchangeable cartridges, passive ventilation and rear cable access.
 
-## Download
+![S9 Monolith Bay DIY 3D-printable SSD enclosure, closed and open with three Samsung SSDs](https://raw.githubusercontent.com/S9-Engineering/samsung-t-series-bay/main/previews/renders/hero-desk-closed-open-v2.png)
 
-Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and follow its English `README.md`.
+## Download STL and 3MF files
 
-The pack includes:
+Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`** and extract it. The print pack contains:
 
-- **Complete native ElegooSlicer 3MF**, with all **8 components on one plate**.
-- Separate oriented STL files and matching optional G-code.
-- Illustrated assembly instructions, printed-part quantities and a list of separately supplied items.
+- **Seven separate, print-oriented STL part types**; print two locking pins for **eight components** in total.
+- A complete native **3MF slicer project**, with the reference eight-piece layout on one plate.
+- Matching optional G-code for the reference setup below.
+- Illustrated English assembly instructions, part quantities and a list of separately supplied items.
 - File manifest and SHA-256 checksums.
 
-GitHub's automatic source archives contain the development project; choose the named print pack for printing. The stable download page is [Releases]({URL}).
+The named print pack is the printing download. GitHub's automatic source archives contain the full development repository. Editable CAD and STEP files are available in the repository at the **v1.0.0** tag.
 
-## Printing
+## Print and build your own SSD bay
 
-**ELEGOO Centauri Carbon 2 Combo · 0.4 mm nozzle · textured PEI · ELEGOO PLA BASIC.**
+1. Extract the print pack and read its `README.md` for part quantities and assembly images.
+2. Import the individual **STLs in millimetres** and slice them using your own printer and PLA profile, or use the reference **3MF** with its saved configuration.
+3. Print the eight components, remove the brim and assemble the model-specific cartridges, common front stop, sliding roof and two quarter-turn pins.
+4. Add four rubber feet, install the T7, T7 Shield and T9 in their matching cartridges, and connect their USB cables through the rear opening.
 
-0.20 mm layers, no supports, 5 mm outer brim, one material. **Slicer estimate: 214.07 g / 12 h 30 min 42 s** for the complete kit. Print with the front door open for PLA.
+The assembly uses **no internal screws or glue**. Supply your drives, USB cables and four rubber feet. Each model-specific cartridge fits any of the three base positions.
 
-Assembly requires no internal screws or adhesives. Supply **four rubber feet**, the drives and their USB cables. All CAD/source files, renders and retained revisions are included in the repository at this tag. No project license has been selected.
+## My setup
+
+The native 3MF and optional G-code were prepared with this reference configuration. Use the separate STLs to slice for your own equipment.
+
+| Item | What I used |
+| --- | --- |
+| Printer | ELEGOO Centauri Carbon 2 Combo |
+| Nozzle / plate | 0.4 mm / textured PEI |
+| Filament | ELEGOO PLA BASIC |
+| Slicer | ElegooSlicer 1.5.3.5 |
+| Layer height | 0.20 mm |
+| Supports / brim | No supports / 5 mm outer brim |
+| PLA setup | Front door open |
+| Slicer estimate for this setup | 214.07 g / 12 h 30 min 42 s for all eight components |
+
+[Build guide and product details](https://github.com/S9-Engineering/samsung-t-series-bay#readme) · [All printing releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases)
+
+No project license has been selected. Samsung product names identify compatible devices; this is an independent DIY enclosure design.
 '''
  write(RELEASE/'release-notes.md',notes)
  files=[{'source':'releases/v1.0.0/README.print.md','archive':'README.md','role':'instructions'}]

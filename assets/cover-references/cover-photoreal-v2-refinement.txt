@@ -1,0 +1,10 @@
+Edit input 1 with TWO localized corrections. Preserve the exact enclosure design, two closed/open states, three installed SSDs, dimensions, framing, desk objects, window lighting, contact shadows, camera perspective and S9 ENGINEERING logo at lower-right.
+
+1. The last attempt made the PLA surfaces look heavily scratched, scraped or like grey wood grain. Correct ONLY this surface treatment to realistic WELL-FINISHED CHARCOAL PLA: mostly smooth matte faces, extremely fine consistent 0.2 mm horizontal FDM layer lines only just visible under grazing light, tiny natural tonal differences and realistic gentle diffuse reflection. The top should have a fine understated print-bed finish, not swirling scratches. No chipped paint, carved wood texture, rough fuzzy skin, metallic machining marks, severe scuffs or orange peel. Retain the natural light and photographic softness/grain, and reduce the exaggerated golden/orange desk saturation slightly for a neutral real-camera colour balance. It should feel like an everyday photograph of a clean well-made 3D print, not a stylized render or damaged object.
+
+2. Completely replace the garbled small text at BOTTOM-LEFT with EXACTLY this literal English text:
+AI-generated render
+Spell it precisely A I hyphen g e n e r a t e d space r e n d e r.
+Use crisp, simple white sans-serif type, very small but readable, approximately 16-18 px at this 1664 px image width. Keep a 2.5% left/bottom margin. The sentence is a flat overlay, not lettering on the notebook. No other caption or punctuation. Preserve the full existing S9 ENGINEERING logo on the bottom-right without altering it.
+
+No other changes. Input 2 is the approved branding master for the lower-right logo; use its shapes only if needed.

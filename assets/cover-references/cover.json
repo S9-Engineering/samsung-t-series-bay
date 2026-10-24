@@ -1,22 +1,37 @@
 {
   "product": "S9 Monolith Bay",
   "geometry_revision": "R27",
-  "asset": "previews/renders/hero-desk-closed-open.png",
-  "mode": "Built-in image_gen, CAD-referenced contextual composition",
-  "prompt": "assets/cover-references/cover-prompt.txt",
-  "requested_states": [
-    "Closed, front three-quarter view",
-    "Open, rear/top three-quarter view with exactly three installed SSDs"
+  "cover_revision": 2,
+  "asset": "previews/renders/hero-desk-closed-open-v2.png",
+  "mode": "Built-in image_gen; CAD-referenced photographic material/lighting edit",
+  "prompts": [
+    "assets/cover-references/cover-photoreal-v2-prompt.txt",
+    "assets/cover-references/cover-photoreal-v2-refinement.txt"
   ],
-  "environment": "Warm oak desk in a modern workspace",
-  "signature": "Approved full S9 Engineering logo, white, bottom right",
+  "requested_states": [
+    "Closed bay",
+    "Open rear/top view with exactly three installed SSDs"
+  ],
+  "style": "Natural window light, fine FDM layer detail, gentle optical softness and tonal variation",
+  "disclosure": {
+    "text": "AI-generated render",
+    "position": "bottom-left",
+    "size": "very small"
+  },
+  "signature": {
+    "text": "S9 Engineering",
+    "position": "bottom-right",
+    "master": "assets/branding/logo_S9_Engineering.svg"
+  },
   "references_sha256": {
+    "previews/renders/hero-desk-closed-open.png": "d3b3e590f1681902b8b32ce68e9078f33405c86128ebfd8226f40ba09b3ee4ec",
     "assets/cover-references/r27-closed-cad.png": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
     "assets/cover-references/r27-open-cad.png": "3c037eaa494929497a2576e619096ec7550a2c2ce52049993cc51fa0604e96de",
     "assets/branding/logo_S9_Engineering.png": "d4ec2f0e16bbd9d1176aad4ac8f5550fce2a5f20508d69561fe3272c28dfddce",
-    "assets/branding/logo_S9_Engineering.svg": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
-    "assets/cover-references/cover-prompt.txt": "9f41486b407809c225c469056e8bc87f151721022e550a380309a257ee83674e"
+    "assets/cover-references/cover-photoreal-v2-prompt.txt": "a8ed5c1073024ffb5c2e86c24921a35e7d3669c2027af4ae978657fdaa6c701b",
+    "assets/cover-references/cover-photoreal-v2-refinement.txt": "2e7fc372ffc8de15a5c938f289c1a7badd691bdbeb64f6c59f4c4e1e5406999a",
+    "assets/cover-references/photoreal-v2-pass1.png": "0c5019eeba171b65ddaaaa8e10871aeb46a764e95ae262a38b6aebbaf34e1ab2"
   },
-  "output_sha256": "d3b3e590f1681902b8b32ce68e9078f33405c86128ebfd8226f40ba09b3ee4ec",
-  "notes": "Illustrative contextual render, not a physical photograph. Printable CAD and released print package unchanged."
+  "output_sha256": "5e0c396598381f911c612ffe5632f243a4dd8cba0a4a0718d4e9705875599df3",
+  "notes": "AI-generated visualization, not a physical product photograph. Print geometry, tag and published print assets unchanged."
 }

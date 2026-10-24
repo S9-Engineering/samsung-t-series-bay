@@ -1,0 +1,26 @@
+{
+  "repository": "S9-Engineering/samsung-t-series-bay",
+  "description": "S9 Monolith Bay: DIY 3D-printable SSD enclosure for Samsung T7, T7 Shield and T9. Download STL, 3MF and editable CAD to print and assemble your own three-drive desktop bay.",
+  "topics": [
+    "3d-printing",
+    "3d-printable",
+    "diy",
+    "ssd-enclosure",
+    "ssd-bay",
+    "ssd-holder",
+    "external-ssd",
+    "samsung-t7",
+    "samsung-t7-shield",
+    "samsung-t9",
+    "stl",
+    "3mf",
+    "cadquery",
+    "desktop-organizer"
+  ],
+  "release": {
+    "tag": "v1.0.0",
+    "title": "v1.0.0 \u2014 S9 Monolith Bay: DIY 3D-Printable Samsung SSD Enclosure",
+    "notes": "releases/v1.0.0/release-notes.md",
+    "presentation_only": true
+  }
+}
