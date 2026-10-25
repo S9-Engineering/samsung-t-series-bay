@@ -1,0 +1,83 @@
+{
+  "revision": "R28",
+  "units": "millimeter",
+  "parts": [
+    {
+      "name": "cartridge-stop",
+      "quantity": 1,
+      "assembled_step": "cad/cartridge-stop.step",
+      "print_step": "cad/cartridge-stop-print.step",
+      "stl": "print/stl/cartridge-stop.stl",
+      "stl_sha256": "3a5e292194406405f9c44306c4c4544db3f1c973d1326ea92ae760677177e3f2",
+      "assembled_bounds_mm": [
+        [
+          3.2499999999999996,
+          3.2,
+          5.0
+        ],
+        [
+          86.75,
+          14.1,
+          79.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -4.149444532900841e-16,
+          -8.881784197001251e-16,
+          0.0
+        ],
+        [
+          83.5,
+          74.0,
+          10.9
+        ]
+      ],
+      "volume_mm3": 10056.719999999994
+    },
+    {
+      "name": "lid",
+      "quantity": 1,
+      "assembled_step": "cad/lid.step",
+      "print_step": "cad/lid-print.step",
+      "stl": "print/stl/lid.stl",
+      "stl_sha256": "7c25fddbc4c5b41bff614003d90c795db5c9e63273ecc3f3ccf1697bee6acdf1",
+      "assembled_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          57.0
+        ],
+        [
+          90.0,
+          109.0,
+          86.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9188697572715305e-16
+        ],
+        [
+          90.0,
+          109.0,
+          29.000000000000014
+        ]
+      ],
+      "volume_mm3": 38759.02037890743
+    }
+  ],
+  "source_sha256": "a3a94b95aad945efc9d21c3896dc1a679fb1234a21d83502a5ea798dbc143a8d",
+  "parameters_sha256": "15633245cc40dd6383234e720a2e152b42645e8b58890fd4c72fd70c7836c9a8",
+  "baseline_sha256": {
+    "source/base_geometry.py": "bad2ce0699f505c5736a8c7e0fe72c1e30299a7b4e79d8a26e8a8ef24c2fe587",
+    "source/lid_geometry.py": "8f729d98572f6831f8e4b29dd3f583f4cc245a49c646fcb368518651b82d125f",
+    "source/cartridge_geometry.py": "b9e0875910ce8d81f78acb2962151b0ee0ba340103e0f25217f8183b065e5832",
+    "source/locking_geometry.py": "a0f470a0a9b52581bf9f8d6221ac36c14462590463a3c9e363517a804e3ede3e",
+    "source/shell_geometry.py": "7dc59cad1af3f502fc44b6c26a6e2f3d2c40d02c84dd21aecd5232e3ada54fff"
+  },
+  "physical_fit_verified": false,
+  "sent_to_printer": false
+}

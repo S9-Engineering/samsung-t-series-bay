@@ -18,7 +18,7 @@ def main():
         assert model.isValid() and exported.isValid() and len(exported.Solids())==1,name
         delta=model.cut(exported).Volume()+exported.cut(model).Volume()
         assert delta<1e-4,(name,delta)
-        printing=g.core.oriented(exported,mode)
+        printing=g.oriented(exported,mode)
         assert mesh.is_watertight and mesh.is_winding_consistent and mesh.volume>0,name
         assert len(mesh.split(only_watertight=False))==1,name
         assert np.all(mesh.area_faces>1e-10),name

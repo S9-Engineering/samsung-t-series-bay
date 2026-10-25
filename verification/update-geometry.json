@@ -1,0 +1,146 @@
+{
+  "result": "PASS",
+  "revision": "R28",
+  "parts": [
+    {
+      "name": "cartridge-stop",
+      "valid_single_solid": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 171,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "bounds_mm": [
+        [
+          4.440892098500626e-16,
+          0.0,
+          0.0
+        ],
+        [
+          83.5,
+          74.0,
+          10.899999618530273
+        ]
+      ],
+      "volume_mm3": 10056.719979171747
+    },
+    {
+      "name": "lid",
+      "valid_single_solid": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "degenerate_faces": 0,
+      "duplicate_faces": 0,
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 22647,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      },
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          90.0,
+          109.0,
+          29.0
+        ]
+      ],
+      "volume_mm3": 38759.4262409157
+    }
+  ],
+  "stop_width_before_mm": 57,
+  "stop_width_after_mm": 83.5,
+  "extension_per_side_mm": 13.25,
+  "added_stop_volume_mm3": 1056.72,
+  "wing_depth_mm": 2.4,
+  "nominal_wing_to_roof_rail_clearance_y_mm": 0.4,
+  "front_corner_chamfer_mm": 1.2,
+  "noses_and_handle_unchanged": true,
+  "rear_logo_removed_glyphs": 13,
+  "lid_changes_only_beyond_rear_plane_y_mm": 109,
+  "case_lid_and_stop_interference_mm3": 0,
+  "stop_vertical_removal_poses_checked": 17,
+  "cartridge_checks": [
+    {
+      "model": "T7",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "T7",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "T7",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "T7_Shield",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "T9",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "T9",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "T9",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    }
+  ],
+  "residual_clearance": {
+    "case_internal_width_mm": 84,
+    "stop_width_mm": 83.5,
+    "nominal_side_gap_mm": 0.25,
+    "maximum_nominal_lateral_travel_mm": 0.5,
+    "minimum_tab_overlap_width_with_foot_play_mm": 9.0
+  },
+  "limitations": [
+    "Clearances are nominal; actual PLA fit remains to be checked on the printed R27 shell.",
+    "Self-intersection screening excludes pairs sharing a vertex.",
+    "Nominal CAD overlap does not prove printed fit, holding force or thermal performance."
+  ],
+  "physical_fit_verified": false,
+  "sent_to_printer": false
+}

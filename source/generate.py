@@ -11,7 +11,7 @@ import base_geometry as core
 ROOT=Path(__file__).resolve().parents[1]
 
 def catalog():
-    return {
+    result = {
         'shell':(core.shell(),'none',1),
         'lid':(core.lid(),'flip',1),
         'locking-pin':(core.key(),'key',2),
@@ -19,12 +19,24 @@ def catalog():
         **{'cartridge-'+model.lower().replace('_','-'):(core.carrier(model),'none',1)
            for model in core.P['ssd_nominali']},
     }
+    import update_geometry as update
+    changes=update.models()
+    result['lid']=(changes['lid'][0],'flip',1)
+    result['cartridge-stop']=(changes['cartridge-stop'][0],'front',1)
+    return result
+
+def oriented(shape,mode):
+    if mode=='front':
+        import update_geometry as update
+        return update.normalize(shape.rotate((0,0,0),(1,0,0),90))
+    return core.oriented(shape,mode)
+
 
 def main():
     rows=[]
     for name,(shape,mode,quantity) in catalog().items():
         assert shape.isValid() and len(shape.Solids())==1,name
-        printing=core.oriented(shape,mode)
+        printing=oriented(shape,mode)
         paths={'step':ROOT/'cad'/f'{name}.step',
                'print_step':ROOT/'cad/print'/f'{name}.step',
                'stl':ROOT/'print/stl'/f'{name}.stl'}

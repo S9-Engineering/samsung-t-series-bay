@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "jobs": [
+    {
+      "job": "both",
+      "native_mesh_validation": {
+        "result": "PASS",
+        "units": "millimeter",
+        "printable_count": 2,
+        "modifier_count": 0,
+        "parts": [
+          {
+            "name": "R28 plain rear lid",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                20.0,
+                20.0,
+                0.0
+              ],
+              [
+                110.0,
+                129.0,
+                29.0
+              ]
+            ],
+            "volume_mm3": 38759.42685864017,
+            "closed": true
+          },
+          {
+            "name": "R28 wide cartridge stop",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                135.0,
+                25.0,
+                0.0
+              ],
+              [
+                218.5,
+                99.0,
+                10.89999962
+              ]
+            ],
+            "volume_mm3": 10056.720024785993,
+            "closed": true
+          }
+        ],
+        "method": "Independent read by path/objectid; composed transforms; exported STL comparison; 5 mm brim and excluded bed corner checked."
+      },
+      "crc": true,
+      "embedded_gcode_matches": true,
+      "project_sha256": "fb018d50b6eea15dce6e4a2a9c56ff5717707e730ef17c89f51d833d4a32b0f7"
+    },
+    {
+      "job": "lid",
+      "native_mesh_validation": {
+        "result": "PASS",
+        "units": "millimeter",
+        "printable_count": 1,
+        "modifier_count": 0,
+        "parts": [
+          {
+            "name": "R28 plain rear lid",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                40.0,
+                40.0,
+                0.0
+              ],
+              [
+                130.0,
+                149.0,
+                29.0
+              ]
+            ],
+            "volume_mm3": 38759.42685864018,
+            "closed": true
+          }
+        ],
+        "method": "Independent read by path/objectid; composed transforms; exported STL comparison; 5 mm brim and excluded bed corner checked."
+      },
+      "crc": true,
+      "embedded_gcode_matches": true,
+      "project_sha256": "2965678f9b87ae7a63408a0aea978b54e605ec21e9dbf4673627d066162fc1ac"
+    },
+    {
+      "job": "stop",
+      "native_mesh_validation": {
+        "result": "PASS",
+        "units": "millimeter",
+        "printable_count": 1,
+        "modifier_count": 0,
+        "parts": [
+          {
+            "name": "R28 wide cartridge stop",
+            "role": "normal_part",
+            "bounds_mm": [
+              [
+                40.0,
+                40.0,
+                0.0
+              ],
+              [
+                123.5,
+                114.0,
+                10.89999962
+              ]
+            ],
+            "volume_mm3": 10056.720024785996,
+            "closed": true
+          }
+        ],
+        "method": "Independent read by path/objectid; composed transforms; exported STL comparison; 5 mm brim and excluded bed corner checked."
+      },
+      "crc": true,
+      "embedded_gcode_matches": true,
+      "project_sha256": "30d7abcdcf946aec5b285a2b78bf6fefc7b11a0403e3fe5fc7a124664e248ab9"
+    }
+  ],
+  "resliced": false
+}

@@ -41,11 +41,11 @@
         ],
         [
           90.0,
-          109.4000015258789,
+          109.0,
           29.0
         ]
       ],
-      "stl_sha256": "a2b01f2bc2b3dde80a1d1462b905632ec308c118a7c980141dbc90b24c35236a"
+      "stl_sha256": "7c25fddbc4c5b41bff614003d90c795db5c9e63273ecc3f3ccf1697bee6acdf1"
     },
     {
       "part": "locking-pin",
@@ -81,17 +81,17 @@
       "no_degenerate_or_duplicate_faces": true,
       "bounds_mm": [
         [
+          4.440892098500626e-16,
           0.0,
-          8.881784197001252e-16,
           0.0
         ],
         [
-          57.0,
-          10.899999618530273,
-          74.0
+          83.5,
+          74.0,
+          10.899999618530273
         ]
       ],
-      "stl_sha256": "eac2ebe1297161b43d78418abc0d47fa0b215d5e714c27ba97faa75affdd4162"
+      "stl_sha256": "3a5e292194406405f9c44306c4c4544db3f1c973d1326ea92ae760677177e3f2"
     },
     {
       "part": "cartridge-t7",
