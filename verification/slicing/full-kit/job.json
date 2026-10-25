@@ -1,6 +1,6 @@
 {
   "name": "full-kit",
-  "revision": "R28",
+  "verified_at_version": "1.0.1",
   "items": [
     {
       "part": "shell",
@@ -25,7 +25,7 @@
     },
     {
       "part": "lid",
-      "name": "R28 plain rear lid",
+      "name": "Sliding lid",
       "xy": [
         122,
         20
@@ -115,7 +115,7 @@
     },
     {
       "part": "cartridge-stop",
-      "name": "R28 wide cartridge stop",
+      "name": "Cartridge stop",
       "xy": [
         145,
         150
@@ -180,11 +180,11 @@
     }
   ],
   "project": "print/slicer/full-kit-ecc2-pla-basic.3mf",
-  "project_sha256": "e27bc1cb37e3e574c6503a90461b15b03da12246619875ff821fb94a0e6aa403",
+  "project_sha256": "94abd0fefed369b5be5810fcbf1f80366b6acef10266e844babf13ec184c0253",
   "gcode": "print/gcode/full-kit-ecc2-pla-basic.gcode",
-  "gcode_sha256": "f940005c929b531870636a471095ff21ab031af8e33e558208dd21c48d7321fe",
-  "manifest_sha256": "d9205b3a3e0595a772aab52568250c2f834121fda1371ac5e51e6ba716735d48",
-  "geometry_report_sha256": "688a6993d0494855bb08c632c00b988343ade8cb7f7057e66d26b47983203e17",
+  "gcode_sha256": "c88db3977bb4bda91bbf2a2a7bd0703ca87155f2d6cf4bd4037fa3ebfccdefec",
+  "manifest_sha256": "d1b42108bad0d0e94219306048236846aa694a108c571760f5982d11b96953fb",
+  "geometry_report_sha256": "e57b5403700052bb048ed835ebcfeeb3d226f9ee27dc143155cdea992990c7af",
   "source_check": {
     "result": "PASS",
     "units": "millimeter",
@@ -210,7 +210,7 @@
         "closed": true
       },
       {
-        "name": "R28 plain rear lid",
+        "name": "Sliding lid",
         "role": "normal_part",
         "bounds_mm": [
           [
@@ -282,7 +282,7 @@
         "closed": true
       },
       {
-        "name": "R28 wide cartridge stop",
+        "name": "Cartridge stop",
         "role": "normal_part",
         "bounds_mm": [
           [
@@ -363,7 +363,7 @@
         "closed": true
       },
       {
-        "name": "R28 plain rear lid",
+        "name": "Sliding lid",
         "role": "normal_part",
         "bounds_mm": [
           [
@@ -435,7 +435,7 @@
         "closed": true
       },
       {
-        "name": "R28 wide cartridge stop",
+        "name": "Cartridge stop",
         "role": "normal_part",
         "bounds_mm": [
           [
@@ -498,8 +498,8 @@
       "extruder": "1",
       "fuzzy_skin": "disabled_fuzzy"
     },
-    "R28 plain rear lid": {
-      "name": "R28 plain rear lid",
+    "Sliding lid": {
+      "name": "Sliding lid",
       "enable_support": "0",
       "extruder": "1",
       "fuzzy_skin": "disabled_fuzzy",
@@ -526,8 +526,8 @@
       "fuzzy_skin": "disabled_fuzzy",
       "wall_loops": "6"
     },
-    "R28 wide cartridge stop": {
-      "name": "R28 wide cartridge stop",
+    "Cartridge stop": {
+      "name": "Cartridge stop",
       "enable_support": "0",
       "extruder": "1",
       "fuzzy_skin": "disabled_fuzzy"
@@ -579,7 +579,7 @@
       "--debug",
       "2",
       "--datadir",
-      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-r28-8c88wnb0/data",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-bay-h_aj59ea/data",
       "--load-settings",
       "/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/source/profiles/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/source/profiles/process.json",
       "--load-filaments",
@@ -593,7 +593,7 @@
       "--export-3mf",
       "plate.3mf",
       "--outputdir",
-      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-r28-8c88wnb0/out",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-bay-h_aj59ea/out",
       "/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/verification/slicing/full-kit/full-kit-geometry.3mf"
     ]
   },
@@ -619,5 +619,6 @@
   ],
   "visual_review_complete": true,
   "sent_to_printer": false,
-  "visual_review_report": "verification/visual-review.json"
+  "visual_review_report": "verification/visual-review.json",
+  "visual_review_sha256": "5fd10fd6a77edbe9b10c2f7622eed24cf872df9db82763f22222382a5e3eb367"
 }

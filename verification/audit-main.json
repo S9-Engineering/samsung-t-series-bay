@@ -1,5 +1,5 @@
 {
-  "revision": "R28",
+  "verified_at_version": "1.0.1",
   "checked_on": "2026-10-25",
   "document": "README.md",
   "checked_local_links": [
@@ -39,8 +39,7 @@
   ],
   "current_layout_issues": [],
   "same_repository_release_links": [
-    "https://github.com/S9-Engineering/samsung-t-series-bay/releases",
-    "https://github.com/S9-Engineering/samsung-t-series-bay/releases/tag/v1.0.0"
+    "https://github.com/S9-Engineering/samsung-t-series-bay/releases"
   ],
   "local_portal_git_guard": {
     "directory": "publication-local/",

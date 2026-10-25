@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "revision": "R28",
+  "version": "1.0.1",
   "parts": [
     {
       "part": "shell",
@@ -214,7 +214,7 @@
     }
   ],
   "full_kit_count": 8,
-  "manifest_sha256": "d9205b3a3e0595a772aab52568250c2f834121fda1371ac5e51e6ba716735d48",
+  "manifest_sha256": "d1b42108bad0d0e94219306048236846aa694a108c571760f5982d11b96953fb",
   "stop_width_after_mm": 83.5,
   "side_clearance_mm": 0.25,
   "maximum_nominal_lateral_travel_mm": 0.5,
@@ -275,7 +275,7 @@
       "minimum_blocking_overlap_volume_mm3": 13.499999999999911
     }
   ],
-  "exact_previous_r28_design": {
+  "accepted_geometry_reference": {
     "cartridge-stop": {
       "source_commit": "b0ebe1e",
       "symmetric_difference_mm3": 0
@@ -290,6 +290,6 @@
     "Self-intersection screening excludes pairs sharing a vertex.",
     "Nominal CAD checks do not establish holding force or thermal performance."
   ],
-  "sent_to_printer": false,
-  "physical_fit_verified": false
+  "physical_fit_verified": false,
+  "sent_to_printer": false
 }

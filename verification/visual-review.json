@@ -1,29 +1,35 @@
 {
   "result": "PASS",
-  "revision": "R28",
   "checked_on": "2026-10-25",
   "actual_toolpaths": true,
   "total_layers_reviewed": 759,
   "images_sha256": {
-    "verification/slicing/full-kit/all-layers-001-100.png": "05d8605c6ce9208f5315b3d18252908411c03564a8171ea1e9646afa544a7a11",
-    "verification/slicing/full-kit/all-layers-101-200.png": "8d79a7fe08d5efff1fdce37d39e084a4e0e9936acda5f25d883bfdddfe035c6d",
-    "verification/slicing/full-kit/all-layers-301-400.png": "1c76ed12c0c2bd98fda0275ea8f9c227030c7e3f0e4e2d68d22eec47d9cb1f9a",
-    "verification/slicing/full-kit/all-layers-201-300.png": "0729bfb028e0464686f7df038a9449f0ac159f1e2e9de367ba30dd4894e030e8",
-    "verification/slicing/full-kit/all-layers-401-415.png": "f4decbe503923b82617118df4f9c65772bcd758071a7a6295189e3b988f6c782",
-    "verification/slicing/full-kit/cartridge-bridge-t9.png": "2807f75e58239d0ecc4b7f87366a8a92ac15d616d8d45352878406ff602423df",
-    "verification/slicing/full-kit/cartridge-bridge-t7-shield.png": "09e5bad57e731ae77674885cbf03fe5b61785984b4ae25769d531a1b3c574e20",
-    "verification/slicing/full-kit/cartridge-bridge-t7.png": "6299e84e4c964849b450313e260ba07ddfb3318117714cca28f212933c1891fb",
-    "verification/slicing/full-kit/guide-and-receiver-left-01.png": "fd9f117cdeb67cdb60c20189737ce397ed0af7101928c0c0090dc02d34e4108a",
-    "verification/slicing/full-kit/guide-and-receiver-right-01.png": "8cd173664850b054b3adda30b1f43135b0b8fd22b6cc1f3e16e0ac92a128abd7",
-    "verification/slicing/stop/review-overview.png": "32e14a23d35efa80380431dcb556fac2bdefc54aacf8a6ba28bea126fbbb0675",
-    "verification/slicing/lid/review-overview.png": "60e09b28d1a816ef3ca1c711401a3dd788d8bfce301ce5565471dc1605bff842",
-    "verification/slicing/both/review-overview.png": "cf92f37a4e6a6379cfbe76554e0a15f274f37d4dbdb6c1f36c9878fc6fa944d6",
+    "verification/slicing/full-kit/all-layers-001-100.png": "93b70f4cc5c5a09fa42f6b5d60a38f8c24d2b4f74b51997e1987783e650f16e0",
+    "verification/slicing/full-kit/all-layers-101-200.png": "82655fc679bb6f47822412c6347d6213f4250bf84b0d3d64cc44ba29eeef780e",
+    "verification/slicing/full-kit/all-layers-301-400.png": "cede82138f6f11ae752d38093697ed60a2fefa6f686deff49b159dd8e732a243",
+    "verification/slicing/full-kit/all-layers-201-300.png": "f91fa6b1aee8b3cdb980e6b06d63be5f4c0a58b55d26d971ca843c2be191a5df",
+    "verification/slicing/full-kit/all-layers-401-415.png": "33b3066067bd5de53d70f6a44e7e37ee99254bc920ecd89eddde646b9262792c",
+    "verification/slicing/full-kit/cartridge-bridge-t9.png": "9227873f538eb32cc2c947a37366d694330e26ea9d944e3b5de9941ab9ed8376",
+    "verification/slicing/full-kit/cartridge-bridge-t7-shield.png": "9be82df120d6d2d6685ff0a7dbd91c8b93ec7f0c6edbef1c2e2067ba922e8998",
+    "verification/slicing/full-kit/cartridge-bridge-t7.png": "fab6f763072451ba3cd113d1a0ff3a35cc99216a748ea53bcbf0abf5fd5875b9",
+    "verification/slicing/full-kit/guide-and-receiver-left-01.png": "3ccbfe8263217e7b5e5303b7f32c1dfe6b8f7960ffebbd62303123d2d074c068",
+    "verification/slicing/full-kit/guide-and-receiver-right-01.png": "733d6ad5d41f7135587c456ecea415ac208d831a870c5d53ee42c4aca225c659",
     "previews/renders/product-front.png": "f18976973dd1f58cd18df441f607062290d1e76646ea6510d1d29a836d69489c",
     "previews/renders/product-side.png": "221f39ddae25df1a3d7127dbdb584687e284354c5bfcf3f7dfb2fc60ad7035dd",
     "previews/renders/product-rear.png": "2dcdba48adcd7af7ef7cbf47458fd4e6ff05ab77df3b1890d06b2a728655ce41",
     "previews/assembly/03-cartridge-seating.png": "6ec6bfd84d9114e6f57c0bf696e3d130cb1f5c69da9b18b99357664313863501",
     "previews/assembly/04-slide-lid.png": "def3d4c5b4ba605ebda49fc546e33e22969a5cc6a6b80fa0458b64f29bdeff35",
-    "previews/assembly/05-locking-pins.png": "ace79f739687747d28e9ac6491e130c91f759e9c8d409e6c99f505233cd2d096"
+    "previews/assembly/05-locking-pins.png": "ace79f739687747d28e9ac6491e130c91f759e9c8d409e6c99f505233cd2d096",
+    "verification/slicing/stop/all-layers-001-054.png": "60a406552e5396311d3a7b74f92c3785ab5a9bb66a5166d137cf9521da083753",
+    "verification/slicing/stop/first-middle-last-01.png": "86e25b0a5cfa7149b4a25a08ad71589a41968cc9087fee4e039f0c39c8473db9",
+    "verification/slicing/lid/all-layers-001-100.png": "18bb48e3b159f587b802c1fc2d209cfa75f19badbcdfb5c8f49b0fa4d21793a3",
+    "verification/slicing/lid/all-layers-101-145.png": "5878f7c3c419d66f10553335fe0285c4a43f023f0a5e8c87e82ac681d83093a2",
+    "verification/slicing/lid/first-middle-last-01.png": "3d37148540e06c3b905e0c2c3ee716c18ce36162db74e83e835739d99b567819",
+    "verification/slicing/both/all-layers-001-100.png": "b450763ff61fc4e91bd13f422544949fc6c843593b87f91588ee536cf9a736a5",
+    "verification/slicing/both/all-layers-101-145.png": "70860c42bf296380f5edea9d563bff2a9f39a8e3cf4d7c1b291831a46b66f459",
+    "verification/slicing/both/first-middle-last-01.png": "06a1bab32210683ddf13b311e6b21d8595a628e04a233d0382f87b621e2e42d9",
+    "verification/slicing/full-kit/first-middle-last-01.png": "b2bb1f20509953fb22b3a5e0bcd423cfabb00dc53c04fc65a6bb99fd9de510de",
+    "verification/slicing/lid/guide-and-receiver-left-01.png": "ba9d17b4596b88333c3889833c9e3657f57eaea8f890cd2a67a30664f0efba9f"
   },
   "findings": [
     "All four jobs: continuous first layers, no model/brim overlap or excluded-corner/bed violations.",
@@ -35,5 +41,11 @@
   "physical_fit_verified": false,
   "limitations": [
     "Toolpath inspection does not prove full-kit physical fit, endurance or thermal performance."
-  ]
+  ],
+  "verified_at_version": "1.0.1",
+  "baseline_review_commit": "3a97cbe6c000270729a6448ed2b6146e0b69adc8",
+  "baseline_review_sha256": "d07fa4fe0c481e274d17e488ed93b9a5017816e562b4956ab7fd911b4f58da07",
+  "comparison_report": "verification/versioning.json",
+  "comparison_report_sha256": "beecd55b6a6912c87f906f3562ce3f55798402bae8f8f51ec81cd3bcaeab2b7b",
+  "review_method": "Carry forward prior all-layer visual review only after exact STL and per-layer deposited-segment/role comparisons. Fresh first-layer, lid receiver and cartridge bridge details inspected. Full-kit changes are direction/order only in layers 1, 93, 94 and 100; all other jobs retain exact extrusion order. Numeric print settings are unchanged; profile and object names are stable."
 }

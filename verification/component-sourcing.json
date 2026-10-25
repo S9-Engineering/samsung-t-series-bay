@@ -1,7 +1,6 @@
 {
   "checked_on": "2026-10-25",
-  "revision": "R28",
-  "scope": "Stop and plain-lid replacement using existing R27 enclosure",
+  "scope": "Stop and plain-lid replacement using the existing v1.0.0 enclosure",
   "materials": [
     {
       "item": "PLA 1.75 mm",
@@ -15,7 +14,7 @@
   ],
   "additional_purchased_fittings_required": 0,
   "reused_items": [
-    "R27 shell, cartridges and both pins",
+    "v1.0.0 shell, cartridges and both pins",
     "Existing feet, SSDs and matching USB cables"
   ],
   "full_build_feet": {
@@ -26,5 +25,6 @@
     "purchase_url": null
   },
   "affiliate_links": false,
-  "prices_claimed": false
+  "prices_claimed": false,
+  "verified_at_version": "1.0.1"
 }

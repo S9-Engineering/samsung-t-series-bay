@@ -1,4 +1,4 @@
-"""Slice the actual R28 STL exports with the confirmed ECC2 / PLA BASIC setup.
+"""Slice the actual current STL exports with the confirmed ECC2 / PLA BASIC setup.
 
 SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 Required Notice: S9 Engineering (https://github.com/S9-Engineering)
@@ -29,9 +29,9 @@ ROOT = g.ROOT
 
 def definitions():
     def stop(xy):
-        return dict(part='cartridge-stop', name='R28 wide cartridge stop', xy=xy, support=False)
+        return dict(part='cartridge-stop', name='Cartridge stop', xy=xy, support=False)
     def lid(xy):
-        return dict(part='lid', name='R28 plain rear lid', xy=xy,
+        return dict(part='lid', name='Sliding lid', xy=xy,
                     support=False, options={'wall_generator': 'arachne'})
     return {'stop': [stop([40, 40])], 'lid': [lid([40, 40])],
             'both': [lid([20, 20]), stop([135, 25])],
@@ -50,7 +50,7 @@ def previews(layers, analysis, qa, name, items):
         subset = layers[start:start+100]
         im = Image.new('RGB', (2000, math.ceil(len(subset)/10)*200+32), 'white')
         d = ImageDraw.Draw(im)
-        d.text((10, 8), f'R28 {name} | actual sliced toolpaths | layers {start+1}-{start+len(subset)}', fill='#24323d')
+        d.text((10, 8), f'{name} | actual sliced toolpaths | layers {start+1}-{start+len(subset)}', fill='#24323d')
         for k, layer in enumerate(subset):
             draw_layer(d, layer, ((k % 10)*200, 32+(k//10)*200), 200, frame)
         path = qa/f'all-layers-{start+1:03d}-{start+len(subset):03d}.png'
@@ -62,7 +62,7 @@ def previews(layers, analysis, qa, name, items):
         for start in range(0, len(indexes), 6):
             im = Image.new('RGB', (1800, 1240), 'white')
             d = ImageDraw.Draw(im)
-            d.text((10, 8), f'R28 {name} | {label} | actual toolpaths', fill='#24323d')
+            d.text((10, 8), f'{name} | {label} | actual toolpaths', fill='#24323d')
             for k, i in enumerate(indexes[start:start+6]):
                 draw_layer(d, layers[i], ((k % 3)*600, 32+(k//3)*600), 600, fr)
             path = qa/f'{label}-{start//6+1:02d}.png'
@@ -98,7 +98,7 @@ def previews(layers, analysis, qa, name, items):
         x,y=np.array(it['xy'])-offset
         fr=[x-2,y+11,x+23,y+76]
         im=Image.new('RGB',(1800,1240),'white');d=ImageDraw.Draw(im)
-        d.text((10,8),f'R28 full kit / {model} upper frame bridge',fill='#24323d')
+        d.text((10,8),f'Full kit / {model} upper frame bridge',fill='#24323d')
         for i,n in enumerate(range(k-2,k+4)):
             draw_layer(d,layers[n-1],((i%3)*600,32+(i//3)*600),600,fr)
         path=qa/f'cartridge-bridge-{model}.png';im.save(path)
@@ -137,9 +137,9 @@ def main():
         provenance.append(dict(kind=name, installed_profile=str(path), installed_sha256=g.sha(path)))
     g.save(ROOT/'verification/profile-provenance.json', dict(
         slicer_app=app, slicer_engine=engine, installed_profiles=provenance,
-        saved_profiles={p.name: g.sha(p) for p in profiles},
+        saved_profiles={p.name: g.sha(p) for p in sorted((ROOT/'source/profiles').glob('*.json'))},
         baseline_evidence='Installed ECC2 profile SHA256 values recorded during the original confirmed setup',
-        configuration='Confirmed ECC2 Combo / 0.4 mm / textured PEI / ELEGOO PLA BASIC; existing R27 reference settings.'))
+        configuration='Confirmed ECC2 Combo / 0.4 mm / textured PEI / ELEGOO PLA BASIC; confirmed reference settings.'))
     for name, items in definitions().items():
         if args.job not in ('all', name):
             continue
@@ -151,7 +151,7 @@ def main():
         source_check = validate(source, items)
         target = ROOT/'print/slicer'/f'{name}-ecc2-pla-basic.3mf'
         gcode = ROOT/'print/gcode'/f'{name}-ecc2-pla-basic.gcode'
-        with tempfile.TemporaryDirectory(prefix='s9-r28-') as td:
+        with tempfile.TemporaryDirectory(prefix='s9-bay-') as td:
             td = Path(td)
             out = td/'out'
             out.mkdir()
@@ -196,7 +196,7 @@ def main():
             shutil.copy2(gcodes[0], gcode)
             g.save(qa/'analysis.json', analysis)
         images = previews(layers, analysis, qa, name, items)
-        job = dict(name=name, revision='R28', items=items, project=str(target.relative_to(ROOT)),
+        job = dict(name=name, verified_at_version=g.VERSION, items=items, project=str(target.relative_to(ROOT)),
                    project_sha256=g.sha(target), gcode=str(gcode.relative_to(ROOT)), gcode_sha256=g.sha(gcode),
                    manifest_sha256=g.sha(ROOT/'verification/manifest.json'),
                    geometry_report_sha256=g.sha(ROOT/'verification/geometry.json'),

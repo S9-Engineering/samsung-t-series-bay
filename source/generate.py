@@ -10,6 +10,7 @@ import base_geometry as core
 
 ROOT=Path(__file__).resolve().parents[1]
 P=core.P
+VERSION=(ROOT/'VERSION').read_text().strip()
 sha=core.sha
 save=core.save
 
@@ -44,9 +45,10 @@ def main():
                      'volume_mm3':shape.Volume(),
                      'sha256':{k:hashlib.sha256(p.read_bytes()).hexdigest() for k,p in paths.items()}})
     out=ROOT/'verification/manifest.json';out.parent.mkdir(exist_ok=True)
-    out.write_text(json.dumps({'revision':'R28','unit':'millimeter','parts':rows,'full_kit_count':8,
+    out.write_text(json.dumps({'version':VERSION,'unit':'millimeter','parts':rows,'full_kit_count':8,
                               'source_sha256':sha(Path(__file__)),
                               'parameters_sha256':sha(ROOT/'source/parameters.json'),
+                              'geometry_inputs_sha256':{str(p.relative_to(ROOT)):sha(p) for p in sorted((ROOT/'source').glob('*')) if p.name in ['generate.py','base_geometry.py','cartridge_geometry.py','lid_geometry.py','locking_geometry.py','shell_geometry.py','parameters.json','front-logo-outlines.json']},
                               'physical_tests_added':False},indent=2)+'\n')
     assembly=cq.Assembly()
     assembly.add(core.shell(),name='shell')

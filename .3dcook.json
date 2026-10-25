@@ -17,11 +17,13 @@
   },
   "visibility": "public",
   "release": {
-    "version": "v1.0.0",
-    "project_revision": "R27",
-    "confirmed_by": "user",
-    "scope": "Immutable published first R27 printing release; not the current R28 working tree."
-  },
-  "current_revision": "R28",
-  "current_scope": "83.5 mm cartridge stop, plain rear lid; compatible with R27 shell/cartridges/two pins"
+    "version_file": "VERSION",
+    "automatic_on_push": "main",
+    "default_increment": "patch",
+    "workflow": ".github/workflows/release.yml",
+    "assets": [
+      "packages/monolith-bay-print-pack.zip",
+      "packages/SHA256SUMS.txt"
+    ]
+  }
 }

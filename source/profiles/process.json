@@ -1,6 +1,6 @@
 {
   "type": "process",
-  "name": "0.20 mm BAY R25 CARTUCCE B PLA BASIC",
+  "name": "0.20 mm S9 Monolith Bay PLA BASIC",
   "from": "system",
   "instantiation": "true",
   "adaptive_layer_height": "0",
@@ -148,7 +148,7 @@
   "top_solid_infill_flow_ratio": "1.09",
   "brim_type": "outer_only",
   "curr_bed_type": "Textured PEI Plate",
-  "print_settings_id": "0.20 mm BAY R25 CARTUCCE B PLA BASIC",
+  "print_settings_id": "0.20 mm S9 Monolith Bay PLA BASIC",
   "fuzzy_skin": "disabled_fuzzy",
   "fuzzy_skin_mode": "displacement",
   "fuzzy_skin_noise_type": "classic",

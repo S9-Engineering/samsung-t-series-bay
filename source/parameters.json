@@ -1,5 +1,4 @@
 {
-  "revisione": "R28 - wide cartridge stop, plain rear lid, two locking pins",
   "unita": "mm",
   "larghezza": 90.0,
   "profondita": 101.0,
@@ -365,5 +364,6 @@
     "side_clearance_mm": 0.25,
     "wing_depth_mm": 2.4,
     "front_corner_chamfer_mm": 1.2
-  }
+  },
+  "version_file": "VERSION"
 }

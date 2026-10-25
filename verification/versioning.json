@@ -1,0 +1,45 @@
+{
+  "version": "1.0.1",
+  "baseline_commit": "3a97cbe6c000270729a6448ed2b6146e0b69adc8",
+  "all_stl_bytes_unchanged": true,
+  "jobs": {
+    "stop": {
+      "exact_extrusion_order_unchanged": true,
+      "identical_extrusion_segments_and_roles_allowing_direction_and_order": true,
+      "layers_with_direction_or_order_changes": [],
+      "layers": 54,
+      "baseline_gcode_sha256": "41053c57a376636fc64adfcdf1b692e083f013dbf1f1faa4cf96786129d748a6",
+      "current_gcode_sha256": "cf9a5e2956ac1db2c4351b4ff7eef25f33b50f6feda928715cc90ecde7c9f421"
+    },
+    "lid": {
+      "exact_extrusion_order_unchanged": true,
+      "identical_extrusion_segments_and_roles_allowing_direction_and_order": true,
+      "layers_with_direction_or_order_changes": [],
+      "layers": 145,
+      "baseline_gcode_sha256": "7c0f4f8037c6110603ba194153a301696c66abe4acfce4b99e68f6336345fb33",
+      "current_gcode_sha256": "e61ce5657e0c100f2eabc949456b4198112b882e7eb14c6654163fe4ee2b14f6"
+    },
+    "both": {
+      "exact_extrusion_order_unchanged": true,
+      "identical_extrusion_segments_and_roles_allowing_direction_and_order": true,
+      "layers_with_direction_or_order_changes": [],
+      "layers": 145,
+      "baseline_gcode_sha256": "e228dcafc30652a8a985c0b3c0927555eeb3df5326afdad92704ef247d886410",
+      "current_gcode_sha256": "6db7715c2cf81d0c00d1151d7e0974f54073936a740b616b92a8948eb91795d7"
+    },
+    "full-kit": {
+      "exact_extrusion_order_unchanged": false,
+      "identical_extrusion_segments_and_roles_allowing_direction_and_order": true,
+      "layers_with_direction_or_order_changes": [
+        1,
+        93,
+        94,
+        100
+      ],
+      "layers": 415,
+      "baseline_gcode_sha256": "f940005c929b531870636a471095ff21ab031af8e33e558208dd21c48d7321fe",
+      "current_gcode_sha256": "c88db3977bb4bda91bbf2a2a7bd0703ca87155f2d6cf4bd4037fa3ebfccdefec"
+    }
+  },
+  "physical_test_claimed": false
+}

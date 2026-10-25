@@ -19,10 +19,11 @@
     }
   ],
   "saved_profiles": {
+    "filament.json": "5a4db6f5d098c6020dde7e7591ed29043c72d65b25f26b50539b3fedf31470cb",
     "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
-    "process.json": "d72aeb57017434b4d97aca38eb46f0ef5c59b219d35c56a836eb5cc0bb84680c",
-    "filament.json": "f2dc1a2e34b2f0b9a0f4e31478e31172445bb2b01a07beb0425331edcebcec5e"
+    "process.json": "08e54626bb49ed8b4f23a6b19279b795e15ec21f4165eba32d6baecc290b9265",
+    "project.json": "21419acae8b34604d012506b3fb5a15567c13fa40efe3cc8fa0aedb11dd04909"
   },
   "baseline_evidence": "Installed ECC2 profile SHA256 values recorded during the original confirmed setup",
-  "configuration": "Confirmed ECC2 Combo / 0.4 mm / textured PEI / ELEGOO PLA BASIC; existing R27 reference settings."
+  "configuration": "Confirmed ECC2 Combo / 0.4 mm / textured PEI / ELEGOO PLA BASIC; confirmed reference settings."
 }

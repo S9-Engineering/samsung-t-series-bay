@@ -595,7 +595,7 @@
   "print_flow_ratio": "0.97",
   "print_order": "default",
   "print_sequence": "by layer",
-  "print_settings_id": "0.20 mm BAY R25 CARTUCCE B PLA BASIC",
+  "print_settings_id": "0.20 mm S9 Monolith Bay PLA BASIC",
   "printable_area": [
     "0x0",
     "256x0",
@@ -998,7 +998,7 @@
     "nil"
   ],
   "filament_settings_id": [
-    "BAY SSD R25 - ELEGOO PLA BASIC ECC2"
+    "S9 Monolith Bay - ELEGOO PLA BASIC ECC2"
   ],
   "filament_soluble": [
     "0"

@@ -10,9 +10,10 @@ def sha(b):return hashlib.sha256(b).hexdigest()
 def main():
     package=ROOT/'packages';package.mkdir(exist_ok=True)
     main=(ROOT/'README.md').read_text()
-    readme='''# S9 Monolith Bay — R28 print pack
+    version=(ROOT/'VERSION').read_text().strip()
+    readme='''# S9 Monolith Bay — v{PROJECT_VERSION} print pack
 
-DIY 3D-printable enclosure for Samsung T7, T7 Shield and T9. Current R28 uses an 83.5 mm cartridge stop and a plain rear lid. It accepts the existing R27 shell, cartridges and two pins.
+DIY 3D-printable enclosure for Samsung T7, T7 Shield and T9. This version uses an 83.5 mm cartridge stop and a plain rear lid. It accepts the existing v1.0.0 shell, cartridges and two pins.
 
 Print the full-kit project once, or print just the replacement parts you need. The stop-only, lid-only and both-parts layouts are alternatives to the full kit; do not print all of them.
 
@@ -46,8 +47,9 @@ Native sliced projects: [full kit](print/slicer/full-kit-ecc2-pla-basic.3mf), [s
 
 Verify the extracted files with `shasum -a 256 -c SHA256SUMS.txt` from this folder. Optional G-code is specific to the reference setup above. Original designs/documentation: [CC BY-NC-SA 4.0](LICENSE.txt). Original S9 software: [PolyForm Noncommercial 1.0.0](LICENSE-SOFTWARE.txt). See [scope and branding terms](LICENSING.md).
 
-Geometry and actual slicing were checked. No complete R28 physical fit, endurance or thermal test is claimed. Published v1.0.0 remains R27; this current package does not replace its assets.
+Geometry and actual slicing were checked. No complete physical fit, endurance or thermal test is claimed. Published releases and their assets remain immutable.
 '''
+    readme=readme.replace('{PROJECT_VERSION}',version)
     repo_readme=re.sub(r'\]\(([^)]+)\)',
                        lambda m:']('+('../'+m[1] if '://' not in m[1] and not m[1].startswith('#') else m[1])+')',readme)
     (package/'README.md').write_text(repo_readme)
@@ -79,7 +81,7 @@ Geometry and actual slicing were checked. No complete R28 physical fit, enduranc
         assert z.testzip() is None
         for n,b in entries.items():assert z.read(n)==b
     (package/'SHA256SUMS.txt').write_text(f'{sha(dest.read_bytes())}  {dest.name}\n')
-    (package/'recipe.json').write_text(json.dumps(dict(revision='R28',release_published=False,files=recipe),indent=2)+'\n')
-    (ROOT/'verification/package.json').write_text(json.dumps(dict(result='PASS',path=str(dest.relative_to(ROOT)),sha256=sha(dest.read_bytes()),members=len(entries),bytes=dest.stat().st_size,zip_reopened=True,internal_readme_links_verified=True,portal_files_included=False,public_release_created=False),indent=2)+'\n')
-    print('Current R28 print package verified:',dest.stat().st_size,'bytes')
+    (package/'recipe.json').write_text(json.dumps(dict(version=version,files=recipe),indent=2)+'\n')
+    (ROOT/'verification/package.json').write_text(json.dumps(dict(result='PASS',path=str(dest.relative_to(ROOT)),sha256=sha(dest.read_bytes()),members=len(entries),bytes=dest.stat().st_size,zip_reopened=True,internal_readme_links_verified=True,portal_files_included=False),indent=2)+'\n')
+    print(f'Current v{version} print package verified:',dest.stat().st_size,'bytes')
 if __name__=='__main__':main()

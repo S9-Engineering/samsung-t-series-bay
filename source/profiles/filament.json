@@ -1,6 +1,6 @@
 {
   "type": "filament",
-  "name": "BAY SSD R25 - ELEGOO PLA BASIC ECC2",
+  "name": "S9 Monolith Bay - ELEGOO PLA BASIC ECC2",
   "from": "system",
   "instantiation": "true",
   "activate_air_filtration": [
@@ -82,7 +82,7 @@
     "nil"
   ],
   "filament_settings_id": [
-    "BAY SSD R25 - ELEGOO PLA BASIC ECC2"
+    "S9 Monolith Bay - ELEGOO PLA BASIC ECC2"
   ],
   "filament_soluble": [
     "0"

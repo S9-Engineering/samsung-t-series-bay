@@ -13,7 +13,7 @@ def matrix(text):
 
 def export_plate(path,items,meshes):
     root=ET.Element(tag('model'),unit='millimeter',requiredextensions='p')
-    for k,v in [('Application','ElegooSlicer-1.5.3.5'),('OrcaSlicer','2.4.2'),('BambuStudio:3mfVersion','1'),('Title','S9 R28 / replacement parts / PLA BASIC')]:ET.SubElement(root,tag('metadata'),name=k).text=v
+    for k,v in [('Application','ElegooSlicer-1.5.3.5'),('OrcaSlicer','2.4.2'),('BambuStudio:3mfVersion','1'),('Title','S9 Monolith Bay / PLA BASIC')]:ET.SubElement(root,tag('metadata'),name=k).text=v
     resources=ET.SubElement(root,tag('resources'));build=ET.SubElement(root,tag('build'));cfg=ET.Element('config');idx=0;files={}
     def add(m):
         nonlocal idx
@@ -37,7 +37,7 @@ def export_plate(path,items,meshes):
         for k,v in opts.items():ET.SubElement(co,'metadata',key=k,value=v)
         cp=ET.SubElement(co,'part',id=str(pid),subtype='normal_part');ET.SubElement(cp,'metadata',key='name',value=item['name'])
     pp=ET.SubElement(cfg,'plate')
-    for k,v in dict(plater_id='1',plater_name='S9 R28',locked='false',filament_map_mode='Auto For Flush').items():ET.SubElement(pp,'metadata',key=k,value=v)
+    for k,v in dict(plater_id='1',plater_name='S9 Monolith Bay',locked='false',filament_map_mode='Auto For Flush').items():ET.SubElement(pp,'metadata',key=k,value=v)
     ET.SubElement(cfg,'assemble')
     types='<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="model" ContentType="application/vnd.ms-package.3dmanufacturing-3dmodel+xml"/></Types>'
     rels='<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Target="/3D/3dmodel.model" Id="rel0" Type="http://schemas.microsoft.com/3dmanufacturing/2013/01/3dmodel"/></Relationships>'

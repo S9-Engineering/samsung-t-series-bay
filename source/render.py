@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 # Required Notice: S9 Engineering (https://github.com/S9-Engineering)
-"""Render the current R28 exported meshes with Mitsuba (millimetres).
+"""Render the current exported meshes with Mitsuba (millimetres).
 
 All exploded translations and illustrative colours are presentation only.
 Run: .venv/bin/python source/render.py [--smoke]
@@ -183,7 +183,7 @@ def main():
     inputs = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
               for p in sorted((REV/'verification/meshes').glob('*.ply'))}
     (ROOT/'verification/render.json').write_text(json.dumps({
-        'renderer': 'Mitsuba 3.9.1 / llvm_ad_rgb', 'revision': 'R28',
+        'renderer': 'Mitsuba 3.9.1 / llvm_ad_rgb', 'verified_at_version': (ROOT/'VERSION').read_text().strip(),
         'actual_exported_meshes': True, 'physical_photographs': False,
         'notes': 'Illustrative smooth charcoal PLA shading, not a measured print finish. No simulated layer texture, feet or cables. Assembly colours/exploded offsets are illustrative; drive envelopes are nominal.',
         'inputs_sha256': inputs, 'outputs': records}, indent=2)+'\n')

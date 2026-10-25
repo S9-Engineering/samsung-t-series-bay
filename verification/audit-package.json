@@ -1,0 +1,39 @@
+{
+  "verified_at_version": "1.0.1",
+  "checked_on": "2026-10-25",
+  "document": "packages/README.md",
+  "checked_local_links": [
+    "print/stl/shell.stl",
+    "print/stl/lid.stl",
+    "print/stl/locking-pin.stl",
+    "print/stl/cartridge-stop.stl",
+    "print/stl/cartridge-t7.stl",
+    "print/stl/cartridge-t7-shield.stl",
+    "print/stl/cartridge-t9.stl",
+    "print/slicer/full-kit-ecc2-pla-basic.3mf",
+    "print/slicer/stop-ecc2-pla-basic.3mf",
+    "print/slicer/lid-ecc2-pla-basic.3mf",
+    "print/slicer/both-ecc2-pla-basic.3mf",
+    "previews/assembly/02-drive-cartridge.png",
+    "previews/assembly/03-cartridge-seating.png",
+    "previews/assembly/04-slide-lid.png",
+    "previews/assembly/05-locking-pins.png",
+    "LICENSE.txt",
+    "LICENSE-SOFTWARE.txt",
+    "LICENSING.md"
+  ],
+  "current_layout_issues": [],
+  "same_repository_release_links": [],
+  "local_portal_git_guard": {
+    "directory": "publication-local/",
+    "present": true,
+    "own_repository": true,
+    "tracked_files": [],
+    "ignored_by_git": true,
+    "passed": true
+  },
+  "require_tracked": true,
+  "issues": [],
+  "passed": true,
+  "scope": "Inline Markdown links/images. Inspect HTML, reference-style links, source dependencies and image content separately."
+}

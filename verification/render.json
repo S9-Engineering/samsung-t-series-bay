@@ -1,6 +1,5 @@
 {
   "renderer": "Mitsuba 3.9.1 / llvm_ad_rgb",
-  "revision": "R28",
   "actual_exported_meshes": true,
   "physical_photographs": false,
   "notes": "Illustrative smooth charcoal PLA shading, not a measured print finish. No simulated layer texture, feet or cables. Assembly colours/exploded offsets are illustrative; drive envelopes are nominal.",
@@ -70,5 +69,6 @@
       "sha256": "ace79f739687747d28e9ac6491e130c91f759e9c8d409e6c99f505233cd2d096",
       "samples_per_pixel": 256
     }
-  ]
+  ],
+  "verified_at_version": "1.0.1"
 }

@@ -1,6 +1,6 @@
-# S9 Monolith Bay — R28 print pack
+# S9 Monolith Bay — v1.0.1 print pack
 
-DIY 3D-printable enclosure for Samsung T7, T7 Shield and T9. Current R28 uses an 83.5 mm cartridge stop and a plain rear lid. It accepts the existing R27 shell, cartridges and two pins.
+DIY 3D-printable enclosure for Samsung T7, T7 Shield and T9. This version uses an 83.5 mm cartridge stop and a plain rear lid. It accepts the existing v1.0.0 shell, cartridges and two pins.
 
 Print the full-kit project once, or print just the replacement parts you need. The stop-only, lid-only and both-parts layouts are alternatives to the full kit; do not print all of them.
 
@@ -100,4 +100,4 @@ Gold and blue in the following images distinguish the pieces; the print project 
 
 Verify the extracted files with `shasum -a 256 -c SHA256SUMS.txt` from this folder. Optional G-code is specific to the reference setup above. Original designs/documentation: [CC BY-NC-SA 4.0](../LICENSE.txt). Original S9 software: [PolyForm Noncommercial 1.0.0](../LICENSE-SOFTWARE.txt). See [scope and branding terms](../LICENSING.md).
 
-Geometry and actual slicing were checked. No complete R28 physical fit, endurance or thermal test is claimed. Published v1.0.0 remains R27; this current package does not replace its assets.
+Geometry and actual slicing were checked. No complete physical fit, endurance or thermal test is claimed. Published releases and their assets remain immutable.

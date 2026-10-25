@@ -4,9 +4,9 @@
 
 **Build your own** compact three-drive desktop SSD bay. Download the **STL and 3MF files**, 3D print the PLA parts and assemble an enclosure for **Samsung T7, T7 Shield and T9**, with interchangeable cartridges, passive ventilation and rear cable access.
 
-**Current stable model · PLA · 8 printed components**
-
-The distributed kit is available as **v1.0.0**. Ongoing wide-stop/plain-lid changes live on the `feature/wide-stop-plain-lid` branch.
+<!-- project-version:start -->
+**Version v1.0.1 · PLA · 8 printed components**
+<!-- project-version:end -->
 
 ![DIY 3D-printable Samsung SSD enclosure on a desk, closed and open with three installed SSDs](previews/renders/hero-desk-closed-open-v2.png)
 
@@ -67,20 +67,20 @@ Assembly is tool-free. There are **no screws, nuts, threaded inserts or internal
 
 ## Download STL and 3MF files
 
-1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) for published kits. **v1.0.0 contains R27**, including the previous narrow stop and rear lettering. The files on this branch are the current **R28**, available in [print](print) and the [current print package](packages/monolith-bay-print-pack.zip).
-2. For a published kit, download its named `*-print-pack.zip` under **Assets**, extract it and read its version-specific `README.md`. For current R28, extract the package linked above. Use the matching complete file set.
+1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) and choose the latest release. The current files also live in [print](print) and the [current print package](packages/monolith-bay-print-pack.zip).
+2. Under **Assets**, download `monolith-bay-print-pack.zip` and `SHA256SUMS.txt`. Extract the ZIP and read its version-specific `README.md`. Use the matching complete file set. The original v1.0.0 release uses its original versioned asset names.
 3. Import the [separate STLs](print/stl) into your slicer in **millimetres**, keeping their supplied orientations. Use the quantities listed above, including **two copies of the locking pin**.
 4. Arrange the parts for your build plate, apply your printer and PLA profile with the part settings below, and inspect the slicing preview. The supplied [reference 3MF](print/slicer/full-kit-ecc2-pla-basic.3mf) already contains the one-plate layout and configuration described in **My setup**.
 5. Print the parts, let the plate cool, and remove the brim and stray strings from the guides, cartridge openings and pin seats.
 
 The full-kit and replacement 3MF files are complete native slicer projects with saved profiles, object overrides and sliced paths. Its optional G-code in `print/gcode/` is tied to the reference configuration below. Use the separate STLs to slice for your own equipment.
 
-The published printing ZIP remains available under [v1.0.0 Assets](https://github.com/S9-Engineering/samsung-t-series-bay/releases/tag/v1.0.0). The archive includes `SHA256SUMS.txt`; the separate release checksum file verifies the downloaded ZIP with `shasum -a 256 -c samsung-t-series-bay-v1.0.0-SHA256SUMS.txt` from the download directory.
+Before extraction, verify the downloaded ZIP with `shasum -a 256 -c SHA256SUMS.txt` from the download directory. Inside the extracted folder, the included `SHA256SUMS.txt` verifies the individual files with the same command. Earlier versions remain available on the Releases page with their original files.
 
 
 ### Replace only the stop and lid
 
-If you already printed R27, reuse its shell, all cartridges and both pins. Choose one of these alternative layouts; printing all of them would duplicate parts.
+If you already printed v1.0.0, reuse its shell, all cartridges and both pins. Choose one of these alternative layouts; printing all of them would duplicate parts.
 
 | Layout | Native 3MF | Reference slicer estimate |
 | --- | --- | --- |
@@ -162,6 +162,8 @@ Gold and blue in the following images distinguish the pieces; the print project 
 
 The working tree contains one current model family: [STL](print/stl), [STEP](cad), [native print projects](print/slicer), [editable CAD](source/generate.py), [parameters](source/parameters.json) and [verification](verification/geometry.json). Device-specific cartridges are functional variants of the same kit.
 
+`VERSION` is the only project version counter. Every normal push to `main` prepares the next patch version, validates the saved artifact evidence, builds the print ZIP, commits version/package updates, and publishes an immutable matching Git tag and GitHub Release. Set a higher minor/major value in `VERSION` explicitly when needed; no parallel Rxx numbering is used. Source changes without matching regenerated files/evidence fail the release checks. Branch pushes do not release.
+
 Use Git commits for history, branches for development, and tagged releases for distributed kits. Earlier snapshots remain recoverable from Git; published tags and release assets are unchanged. Component files use stable English names. Use all files from the same tag when printing a distributed kit.
 
 ```sh
@@ -171,12 +173,12 @@ python3.11 -m venv .venv-cad
 .venv-cad/bin/python source/verify.py
 ```
 
-The generator exports assembled and print-oriented STEP files, oriented STL files and an assembly manifest. Printing projects retain their already-checked machine configuration; run `.venv-cad/bin/python source/slice.py` after geometry verification to regenerate the native projects and real G-code. [Geometry checks](verification/geometry.json) also compare the current stop and lid with the exact R28 design opened for the user. No thermal or endurance test is claimed.
+The generator exports assembled and print-oriented STEP files, oriented STL files and an assembly manifest. Printing projects retain their already-checked machine configuration; run `.venv-cad/bin/python source/slice.py` after geometry verification to regenerate the native projects and real G-code. [Geometry checks](verification/geometry.json) also compare the current stop and lid with the accepted cartridge-stop and lid geometry. No thermal or endurance test is claimed.
 
 ## License and attribution
 
 Original project designs and documentation are licensed under **CC BY-NC-SA 4.0** ([LICENSE.txt](LICENSE.txt)). Original S9 software, including CAD generators and build/render scripts, is licensed under **PolyForm Noncommercial 1.0.0** ([LICENSE-SOFTWARE.txt](LICENSE-SOFTWARE.txt)). Read [LICENSING.md](LICENSING.md) for scope, required notices, separate commercial permissions, S9 branding and third-party exclusions. The software is source-available; generated models retain their separately stated design license.
 
-The license grants include covered original material in **v1.0.0** and original software in Git history and release source archives. Published archives predate these notices and remain unchanged; historical statements that no license was selected or software terms were undecided are superseded by the current grants in LICENSING.md. Future print packages will include both license texts and the scope notice.
+The license grants include covered original material in **v1.0.0** and original software in Git history and release source archives. The original published archive predates these notices and remains unchanged; historical statements that no license was selected or software terms were undecided are superseded by the current grants in LICENSING.md. Current print packages include both license texts and the scope notice.
 
 Samsung names identify compatible devices; this is an independent enclosure design with no claim of manufacturer affiliation.

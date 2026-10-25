@@ -1,11 +1,10 @@
 {
   "result": "PASS",
   "path": "packages/monolith-bay-print-pack.zip",
-  "sha256": "58ce529149458ed3a78537244d779e496673837b48ed830cdc7126c79fe39155",
+  "sha256": "25564e4a4da156f71a7605af381c5f830ef820ee08c14ab24934eb99f937fa03",
   "members": 24,
-  "bytes": 19597772,
+  "bytes": 19598920,
   "zip_reopened": true,
   "internal_readme_links_verified": true,
-  "portal_files_included": false,
-  "public_release_created": false
+  "portal_files_included": false
 }

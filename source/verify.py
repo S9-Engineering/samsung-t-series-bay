@@ -1,4 +1,4 @@
-"""Reopen current exports; check R28 geometry and archived print identity.
+"""Reopen current exports; check current geometry and archived print identity.
 
 SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 Required Notice: S9 Engineering (https://github.com/S9-Engineering)
@@ -75,18 +75,18 @@ def main():
         delta=volume(previous.cut(shapes[name]))+volume(shapes[name].cut(previous))
         assert delta<1e-4,(name,delta)
         historical[name]=dict(source_commit='b0ebe1e',symmetric_difference_mm3=delta)
-    report=dict(result='PASS',revision='R28',parts=checks,full_kit_count=8,
+    report=dict(result='PASS',version=g.VERSION,parts=checks,full_kit_count=8,
                 manifest_sha256=g.sha(g.ROOT/'verification/manifest.json'),
                 stop_width_after_mm=83.5,side_clearance_mm=.25,
                 maximum_nominal_lateral_travel_mm=.5,vertical_removal_poses=51,
-                cartridge_checks=fits,exact_previous_r28_design=historical,
+                cartridge_checks=fits,accepted_geometry_reference=historical,
                 physical_test_scope='User approved the repository update after the R28 stop-only project was opened; no dimensional, cycling or thermal evidence was supplied.',
                 limitations=['Self-intersection screening excludes pairs sharing a vertex.',
                              'Nominal CAD checks do not establish holding force or thermal performance.'],
                 physical_fit_verified=False,sent_to_printer=False)
     g.save(g.ROOT/'verification/geometry.json',report)
     g.save(g.ROOT/'verification/current-exports.json',report)
-    print('Current R28 geometry and all nine cartridge positions: PASS',flush=True)
+    print('Current geometry and all nine cartridge positions: PASS',flush=True)
 
 
 if __name__=='__main__':main()

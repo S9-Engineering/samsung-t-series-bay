@@ -1,6 +1,5 @@
 {
-  "revision": "R28",
-  "release_published": false,
+  "version": "1.0.1",
   "files": [
     {
       "source": "packages/README.md",
