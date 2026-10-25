@@ -9,13 +9,16 @@ import cadquery as cq
 import base_geometry as core
 
 ROOT=Path(__file__).resolve().parents[1]
+P=core.P
+sha=core.sha
+save=core.save
 
 def catalog():
     return {
         'shell':(core.shell(),'none',1),
         'lid':(core.lid(),'flip',1),
         'locking-pin':(core.key(),'key',2),
-        'cartridge-stop':(core.front_lock(),'none',1),
+        'cartridge-stop':(core.front_lock(),'key',1),
         **{'cartridge-'+model.lower().replace('_','-'):(core.carrier(model),'none',1)
            for model in core.P['ssd_nominali']},
     }
@@ -32,12 +35,27 @@ def main():
         cq.exporters.export(shape,str(paths['step']))
         cq.exporters.export(printing,str(paths['print_step']))
         cq.exporters.export(printing,str(paths['stl']),tolerance=.035,angularTolerance=.08)
+        mesh_path=ROOT/'verification/meshes'/f'{name}.ply'
+        mesh_path.parent.mkdir(parents=True,exist_ok=True)
+        core.mesh_of(shape).export(mesh_path)
         rows.append({'name':name,'quantity':quantity,'orientation':mode,
                      **{k:str(p.relative_to(ROOT)) for k,p in paths.items()},
+                     'stl_sha256':sha(paths['stl']),
                      'volume_mm3':shape.Volume(),
                      'sha256':{k:hashlib.sha256(p.read_bytes()).hexdigest() for k,p in paths.items()}})
     out=ROOT/'verification/manifest.json';out.parent.mkdir(exist_ok=True)
-    out.write_text(json.dumps({'unit':'millimeter','parts':rows,'full_kit_count':8,'physical_tests_added':False},indent=2)+'\n')
+    out.write_text(json.dumps({'revision':'R28','unit':'millimeter','parts':rows,'full_kit_count':8,
+                              'source_sha256':sha(Path(__file__)),
+                              'parameters_sha256':sha(ROOT/'source/parameters.json'),
+                              'physical_tests_added':False},indent=2)+'\n')
+    assembly=cq.Assembly()
+    assembly.add(core.shell(),name='shell')
+    assembly.add(core.lid(),name='lid')
+    assembly.add(core.front_lock(),name='cartridge-stop')
+    for i,model in enumerate(core.P['ssd_nominali']):
+        assembly.add(core.carrier(model).translate((24*i,0,0)),name='cartridge-'+model.lower().replace('_','-'))
+    for side in [0,1]:assembly.add(core.closed_key(side),name='locking-pin-'+str(side+1))
+    assembly.save(str(ROOT/'cad/reference-assembly-do-not-print.step'))
     print('Exported current seven part types / eight components.')
 
 if __name__=='__main__':main()

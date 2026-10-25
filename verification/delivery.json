@@ -1,0 +1,11 @@
+{
+  "revision": "R28",
+  "status": "ready_for_printing",
+  "slicer": "ElegooSlicer 1.5.3.5 / 2.4.2",
+  "full_kit_printed_components": 8,
+  "geometry_report": "verification/geometry.json",
+  "visual_review": "verification/visual-review.json",
+  "physical_fit_verified": false,
+  "sent_to_printer": false,
+  "new_github_release": false
+}

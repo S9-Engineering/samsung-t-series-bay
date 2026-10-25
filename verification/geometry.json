@@ -1,0 +1,295 @@
+{
+  "result": "PASS",
+  "revision": "R28",
+  "parts": [
+    {
+      "part": "shell",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4000015258789,
+          83.0
+        ]
+      ],
+      "stl_sha256": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 1048924,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "lid",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          90.0,
+          109.0,
+          29.0
+        ]
+      ],
+      "stl_sha256": "6c85a55be89686b8e8f42c07dc8f7f718daf41e601d3c5d824be878a10c654a4",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 22490,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "locking-pin",
+      "quantity": 2,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          26.5,
+          3.499650716781616
+        ]
+      ],
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 996,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "cartridge-stop",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          4.440892098500626e-16,
+          0.0,
+          0.0
+        ],
+        [
+          83.5,
+          74.0,
+          10.899999618530273
+        ]
+      ],
+      "stl_sha256": "c3d398fa02556c5df0da1114ea4ebd51efc4d2050d2b5af8446dfbaaa848ee4e",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 172,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "cartridge-t7",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          62.900001525878906
+        ]
+      ],
+      "stl_sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 605,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "cartridge-t7-shield",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          64.9000015258789
+        ]
+      ],
+      "stl_sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 608,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    },
+    {
+      "part": "cartridge-t9",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          65.9000015258789
+        ]
+      ],
+      "stl_sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a",
+      "self_intersection_screen": {
+        "candidate_pairs_no_shared_vertex": 616,
+        "intersection_pairs": 0,
+        "examples": [],
+        "algorithm": "triangle_pairs_vectorized_v1",
+        "limitation": "Stessi test/tolleranze del riferimento R15: coppie con vertici condivisi escluse; nessuna riparazione automatica."
+      }
+    }
+  ],
+  "full_kit_count": 8,
+  "manifest_sha256": "d9205b3a3e0595a772aab52568250c2f834121fda1371ac5e51e6ba716735d48",
+  "stop_width_after_mm": 83.5,
+  "side_clearance_mm": 0.25,
+  "maximum_nominal_lateral_travel_mm": 0.5,
+  "vertical_removal_poses": 51,
+  "cartridge_checks": [
+    {
+      "model": "t7",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "t7",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "t7",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "t7-shield",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "t7-shield",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "t7-shield",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "t9",
+      "slot": 1,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    },
+    {
+      "model": "t9",
+      "slot": 2,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999913
+    },
+    {
+      "model": "t9",
+      "slot": 3,
+      "nominal_interference_mm3": 0,
+      "minimum_blocking_overlap_volume_mm3": 13.499999999999911
+    }
+  ],
+  "exact_previous_r28_design": {
+    "cartridge-stop": {
+      "source_commit": "b0ebe1e",
+      "symmetric_difference_mm3": 0
+    },
+    "lid": {
+      "source_commit": "b0ebe1e",
+      "symmetric_difference_mm3": 0
+    }
+  },
+  "physical_test_scope": "User approved the repository update after the R28 stop-only project was opened; no dimensional, cycling or thermal evidence was supplied.",
+  "limitations": [
+    "Self-intersection screening excludes pairs sharing a vertex.",
+    "Nominal CAD checks do not establish holding force or thermal performance."
+  ],
+  "sent_to_printer": false,
+  "physical_fit_verified": false
+}

@@ -1,5 +1,5 @@
 {
-  "revisione": "R27 — logo posteriore all’80%, doppio perno e cartucce B",
+  "revisione": "R28 - wide cartridge stop, plain rear lid, two locking pins",
   "unita": "mm",
   "larghezza": 90.0,
   "profondita": 101.0,
@@ -172,7 +172,7 @@
     "canale_Shield_mm": 13.6,
     "tipo": "due collari a U collegati da base; sede sagomata attorno alle guide R14; inserimento dall alto"
   },
-  "richiesta": "Logo completo S9 Engineering grande, centrato sul retro della coda del tetto. Altra geometria R24 conservata.",
+  "richiesta": "83.5 mm cartridge stop with 0.25 mm nominal clearance per side; no rear lid lettering.",
   "guide_scorrevoli": {
     "inizio_y_mm": 6.0,
     "fine_y_mm": 88.0,
@@ -343,7 +343,8 @@
     "colore": "stesso PLA BASIC del tetto",
     "orientamento": "leggibile guardando il retro da +Y, nessuna specchiatura del testo",
     "pareti_slicer": "arachne sul solo tetto per il sottotitolo sottile",
-    "scala_planare_rispetto_R26": 0.8
+    "scala_planare_rispetto_R26": 0.8,
+    "enabled": false
   },
   "doppio_perno": {
     "assi_x_mm": [
@@ -357,5 +358,12 @@
     "chiusura_gradi": 90,
     "abbassamento_chiuso_mm": 1.1,
     "nota": "Supporto scocca e ricevitore tetto speculari; nessun precarico o nuova interferenza intenzionale."
+  },
+  "cartridge_stop": {
+    "width_mm": 83.5,
+    "case_internal_width_mm": 84.0,
+    "side_clearance_mm": 0.25,
+    "wing_depth_mm": 2.4,
+    "front_corner_chamfer_mm": 1.2
   }
 }

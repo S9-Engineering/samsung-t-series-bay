@@ -33,3 +33,6 @@ Thumbs.db
 # Local portal drafts and slicer runtime logs
 /publication-local/
 /00000.log
+
+# Portal-specific publication files stay local; never commit.
+/publication-local/

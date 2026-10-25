@@ -1,0 +1,115 @@
+{
+  "revision": "R28",
+  "unit": "millimeter",
+  "parts": [
+    {
+      "name": "shell",
+      "quantity": 1,
+      "orientation": "none",
+      "step": "cad/shell.step",
+      "print_step": "cad/print/shell.step",
+      "stl": "print/stl/shell.stl",
+      "stl_sha256": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2",
+      "volume_mm3": 112689.3445166785,
+      "sha256": {
+        "step": "212fc78e5340f3b74bf0016cac70f44d983a96a5d19b6c2be3b9b9d19bdbc83f",
+        "print_step": "20f5625ac25aba58abcbe378469b8042dafad27a20a293414aae29da49ec62c3",
+        "stl": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2"
+      }
+    },
+    {
+      "name": "lid",
+      "quantity": 1,
+      "orientation": "flip",
+      "step": "cad/lid.step",
+      "print_step": "cad/print/lid.step",
+      "stl": "print/stl/lid.stl",
+      "stl_sha256": "6c85a55be89686b8e8f42c07dc8f7f718daf41e601d3c5d824be878a10c654a4",
+      "volume_mm3": 38759.02037890748,
+      "sha256": {
+        "step": "46d97c5b98f2b72b5d594c9feb62e5cbaab56b706f127953e47a23962d366023",
+        "print_step": "656d16174a72ba0498ee0691c5928a03b3ef8e8d5d2cefbd0dfc2fe24e1a70a0",
+        "stl": "6c85a55be89686b8e8f42c07dc8f7f718daf41e601d3c5d824be878a10c654a4"
+      }
+    },
+    {
+      "name": "locking-pin",
+      "quantity": 2,
+      "orientation": "key",
+      "step": "cad/locking-pin.step",
+      "print_step": "cad/print/locking-pin.step",
+      "stl": "print/stl/locking-pin.stl",
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d",
+      "volume_mm3": 358.0459172461266,
+      "sha256": {
+        "step": "e644e3bf431c2fa6fc1f3d4d34b0c5bfb193c8474f1056813757a44f4fb11c70",
+        "print_step": "797796563d66f03a3497c0d22f0b803f4da8306a94d0b1a3f98a962511030081",
+        "stl": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d"
+      }
+    },
+    {
+      "name": "cartridge-stop",
+      "quantity": 1,
+      "orientation": "key",
+      "step": "cad/cartridge-stop.step",
+      "print_step": "cad/print/cartridge-stop.step",
+      "stl": "print/stl/cartridge-stop.stl",
+      "stl_sha256": "c3d398fa02556c5df0da1114ea4ebd51efc4d2050d2b5af8446dfbaaa848ee4e",
+      "volume_mm3": 10056.719999999994,
+      "sha256": {
+        "step": "5e72b6a744f3dc59e988335f7b62f28c3a821bf6029852f025a4465ca5b0cceb",
+        "print_step": "9980e1f617c472ceadd71ed61a365cb3e70275f3efdae3364c864191abeedc6d",
+        "stl": "c3d398fa02556c5df0da1114ea4ebd51efc4d2050d2b5af8446dfbaaa848ee4e"
+      }
+    },
+    {
+      "name": "cartridge-t7",
+      "quantity": 1,
+      "orientation": "none",
+      "step": "cad/cartridge-t7.step",
+      "print_step": "cad/print/cartridge-t7.step",
+      "stl": "print/stl/cartridge-t7.stl",
+      "stl_sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e",
+      "volume_mm3": 12334.895999999988,
+      "sha256": {
+        "step": "9ae1abebc28befd1f31d994973cee38a0b1ffd76138c8ad303c8d2545c066f12",
+        "print_step": "51ec30870c4bd2f1efed74dec3845b413f50478be74e0139d2ce99e3c4af4c28",
+        "stl": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e"
+      }
+    },
+    {
+      "name": "cartridge-t7-shield",
+      "quantity": 1,
+      "orientation": "none",
+      "step": "cad/cartridge-t7-shield.step",
+      "print_step": "cad/print/cartridge-t7-shield.step",
+      "stl": "print/stl/cartridge-t7-shield.stl",
+      "stl_sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96",
+      "volume_mm3": 12891.515999999996,
+      "sha256": {
+        "step": "860424661b3f2b296e757f79c3bd850ea82c20aa8861d3ffb3b4b746376374dd",
+        "print_step": "c2f19bbcc30b2d2a7b55f4e1beadd817a03d2dcd2368e6295d962fb50e57a028",
+        "stl": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96"
+      }
+    },
+    {
+      "name": "cartridge-t9",
+      "quantity": 1,
+      "orientation": "none",
+      "step": "cad/cartridge-t9.step",
+      "print_step": "cad/print/cartridge-t9.step",
+      "stl": "print/stl/cartridge-t9.stl",
+      "stl_sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a",
+      "volume_mm3": 13081.655999999992,
+      "sha256": {
+        "step": "2129168c270fc8ec17adf0f488b95d77579868f9496d13643f22a09cf639b491",
+        "print_step": "2d7e7be8452fd9239ff4eb489a2ab8a9875eefa07bafb2db60d7b942fa0b59c6",
+        "stl": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a"
+      }
+    }
+  ],
+  "full_kit_count": 8,
+  "source_sha256": "c8ff359017972f4730b0b80033b12a1056ab83b5fe2459f77b54e073285028ec",
+  "parameters_sha256": "b0322e8ff2c8e709f5d9d33931321796fcf7b69be2fb825933a648c8be70ea76",
+  "physical_tests_added": false
+}

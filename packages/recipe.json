@@ -1,0 +1,99 @@
+{
+  "revision": "R28",
+  "release_published": false,
+  "files": [
+    {
+      "source": "packages/README.md",
+      "archive": "README.md",
+      "transformation": "Rebase repository-parent Markdown links to the archive root."
+    },
+    {
+      "source": "LICENSE.txt",
+      "archive": "LICENSE.txt"
+    },
+    {
+      "source": "LICENSE-SOFTWARE.txt",
+      "archive": "LICENSE-SOFTWARE.txt"
+    },
+    {
+      "source": "LICENSING.md",
+      "archive": "LICENSING.md"
+    },
+    {
+      "source": "print/stl/shell.stl",
+      "archive": "print/stl/shell.stl"
+    },
+    {
+      "source": "print/stl/lid.stl",
+      "archive": "print/stl/lid.stl"
+    },
+    {
+      "source": "print/stl/locking-pin.stl",
+      "archive": "print/stl/locking-pin.stl"
+    },
+    {
+      "source": "print/stl/cartridge-stop.stl",
+      "archive": "print/stl/cartridge-stop.stl"
+    },
+    {
+      "source": "print/stl/cartridge-t7.stl",
+      "archive": "print/stl/cartridge-t7.stl"
+    },
+    {
+      "source": "print/stl/cartridge-t7-shield.stl",
+      "archive": "print/stl/cartridge-t7-shield.stl"
+    },
+    {
+      "source": "print/stl/cartridge-t9.stl",
+      "archive": "print/stl/cartridge-t9.stl"
+    },
+    {
+      "source": "print/slicer/full-kit-ecc2-pla-basic.3mf",
+      "archive": "print/slicer/full-kit-ecc2-pla-basic.3mf"
+    },
+    {
+      "source": "print/gcode/full-kit-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/full-kit-ecc2-pla-basic.gcode"
+    },
+    {
+      "source": "print/slicer/stop-ecc2-pla-basic.3mf",
+      "archive": "print/slicer/stop-ecc2-pla-basic.3mf"
+    },
+    {
+      "source": "print/gcode/stop-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/stop-ecc2-pla-basic.gcode"
+    },
+    {
+      "source": "print/slicer/lid-ecc2-pla-basic.3mf",
+      "archive": "print/slicer/lid-ecc2-pla-basic.3mf"
+    },
+    {
+      "source": "print/gcode/lid-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/lid-ecc2-pla-basic.gcode"
+    },
+    {
+      "source": "print/slicer/both-ecc2-pla-basic.3mf",
+      "archive": "print/slicer/both-ecc2-pla-basic.3mf"
+    },
+    {
+      "source": "print/gcode/both-ecc2-pla-basic.gcode",
+      "archive": "print/gcode/both-ecc2-pla-basic.gcode"
+    },
+    {
+      "source": "previews/assembly/02-drive-cartridge.png",
+      "archive": "previews/assembly/02-drive-cartridge.png"
+    },
+    {
+      "source": "previews/assembly/03-cartridge-seating.png",
+      "archive": "previews/assembly/03-cartridge-seating.png"
+    },
+    {
+      "source": "previews/assembly/04-slide-lid.png",
+      "archive": "previews/assembly/04-slide-lid.png"
+    },
+    {
+      "source": "previews/assembly/05-locking-pins.png",
+      "archive": "previews/assembly/05-locking-pins.png"
+    }
+  ]
+}

@@ -20,6 +20,8 @@
     "version": "v1.0.0",
     "project_revision": "R27",
     "confirmed_by": "user",
-    "scope": "First complete R27 printing release."
-  }
+    "scope": "Immutable published first R27 printing release; not the current R28 working tree."
+  },
+  "current_revision": "R28",
+  "current_scope": "83.5 mm cartridge stop, plain rear lid; compatible with R27 shell/cartridges/two pins"
 }

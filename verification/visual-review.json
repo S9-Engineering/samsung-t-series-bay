@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "revision": "R28",
+  "checked_on": "2026-10-25",
+  "actual_toolpaths": true,
+  "total_layers_reviewed": 759,
+  "images_sha256": {
+    "verification/slicing/full-kit/all-layers-001-100.png": "05d8605c6ce9208f5315b3d18252908411c03564a8171ea1e9646afa544a7a11",
+    "verification/slicing/full-kit/all-layers-101-200.png": "8d79a7fe08d5efff1fdce37d39e084a4e0e9936acda5f25d883bfdddfe035c6d",
+    "verification/slicing/full-kit/all-layers-301-400.png": "1c76ed12c0c2bd98fda0275ea8f9c227030c7e3f0e4e2d68d22eec47d9cb1f9a",
+    "verification/slicing/full-kit/all-layers-201-300.png": "0729bfb028e0464686f7df038a9449f0ac159f1e2e9de367ba30dd4894e030e8",
+    "verification/slicing/full-kit/all-layers-401-415.png": "f4decbe503923b82617118df4f9c65772bcd758071a7a6295189e3b988f6c782",
+    "verification/slicing/full-kit/cartridge-bridge-t9.png": "2807f75e58239d0ecc4b7f87366a8a92ac15d616d8d45352878406ff602423df",
+    "verification/slicing/full-kit/cartridge-bridge-t7-shield.png": "09e5bad57e731ae77674885cbf03fe5b61785984b4ae25769d531a1b3c574e20",
+    "verification/slicing/full-kit/cartridge-bridge-t7.png": "6299e84e4c964849b450313e260ba07ddfb3318117714cca28f212933c1891fb",
+    "verification/slicing/full-kit/guide-and-receiver-left-01.png": "fd9f117cdeb67cdb60c20189737ce397ed0af7101928c0c0090dc02d34e4108a",
+    "verification/slicing/full-kit/guide-and-receiver-right-01.png": "8cd173664850b054b3adda30b1f43135b0b8fd22b6cc1f3e16e0ac92a128abd7",
+    "verification/slicing/stop/review-overview.png": "32e14a23d35efa80380431dcb556fac2bdefc54aacf8a6ba28bea126fbbb0675",
+    "verification/slicing/lid/review-overview.png": "60e09b28d1a816ef3ca1c711401a3dd788d8bfce301ce5565471dc1605bff842",
+    "verification/slicing/both/review-overview.png": "cf92f37a4e6a6379cfbe76554e0a15f274f37d4dbdb6c1f36c9878fc6fa944d6",
+    "previews/renders/product-front.png": "f18976973dd1f58cd18df441f607062290d1e76646ea6510d1d29a836d69489c",
+    "previews/renders/product-side.png": "221f39ddae25df1a3d7127dbdb584687e284354c5bfcf3f7dfb2fc60ad7035dd",
+    "previews/renders/product-rear.png": "2dcdba48adcd7af7ef7cbf47458fd4e6ff05ab77df3b1890d06b2a728655ce41",
+    "previews/assembly/03-cartridge-seating.png": "6ec6bfd84d9114e6f57c0bf696e3d130cb1f5c69da9b18b99357664313863501",
+    "previews/assembly/04-slide-lid.png": "def3d4c5b4ba605ebda49fc546e33e22969a5cc6a6b80fa0458b64f29bdeff35",
+    "previews/assembly/05-locking-pins.png": "ace79f739687747d28e9ac6491e130c91f759e9c8d409e6c99f505233cd2d096"
+  },
+  "findings": [
+    "All four jobs: continuous first layers, no model/brim overlap or excluded-corner/bed violations.",
+    "Three noses grow from the supported crossbar; added wings finish into supported skins.",
+    "Both lid receivers, guide details and all three cartridge roof bridges inspected against adjacent layers.",
+    "Full kit contains eight components on one plate; pins flat and solid, cartridges six walls, no supports or purge tower.",
+    "Updated rear and assembly views show the plain lid and the wide stop."
+  ],
+  "physical_fit_verified": false,
+  "limitations": [
+    "Toolpath inspection does not prove full-kit physical fit, endurance or thermal performance."
+  ]
+}

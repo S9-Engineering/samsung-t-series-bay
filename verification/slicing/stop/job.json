@@ -1,0 +1,152 @@
+{
+  "name": "stop",
+  "revision": "R28",
+  "items": [
+    {
+      "part": "cartridge-stop",
+      "name": "R28 wide cartridge stop",
+      "xy": [
+        40,
+        40
+      ],
+      "support": false,
+      "bounds_mm": [
+        [
+          40.0,
+          40.0,
+          0.0
+        ],
+        [
+          123.5,
+          114.0,
+          10.899999618530273
+        ]
+      ]
+    }
+  ],
+  "project": "print/slicer/stop-ecc2-pla-basic.3mf",
+  "project_sha256": "e11ee4e03ab971dbd0b3e92587dd98ba46161f1785feffaace5e833983c4e7e6",
+  "gcode": "print/gcode/stop-ecc2-pla-basic.gcode",
+  "gcode_sha256": "41053c57a376636fc64adfcdf1b692e083f013dbf1f1faa4cf96786129d748a6",
+  "manifest_sha256": "d9205b3a3e0595a772aab52568250c2f834121fda1371ac5e51e6ba716735d48",
+  "geometry_report_sha256": "688a6993d0494855bb08c632c00b988343ade8cb7f7057e66d26b47983203e17",
+  "source_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 1,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "R28 wide cartridge stop",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            40.0,
+            40.0,
+            0.0
+          ],
+          [
+            123.5,
+            114.0,
+            10.8999996
+          ]
+        ],
+        "volume_mm3": 10056.719978670002,
+        "closed": true
+      }
+    ],
+    "method": "Independent read by path/objectid; composed transforms; exported STL comparison; 5 mm brim and excluded bed corner checked."
+  },
+  "native_check": {
+    "result": "PASS",
+    "units": "millimeter",
+    "printable_count": 1,
+    "modifier_count": 0,
+    "parts": [
+      {
+        "name": "R28 wide cartridge stop",
+        "role": "normal_part",
+        "bounds_mm": [
+          [
+            40.0,
+            40.0,
+            0.0
+          ],
+          [
+            123.5,
+            114.0,
+            10.89999962
+          ]
+        ],
+        "volume_mm3": 10056.720024785996,
+        "closed": true
+      }
+    ],
+    "method": "Independent read by path/objectid; composed transforms; exported STL comparison; 5 mm brim and excluded bed corner checked."
+  },
+  "object_config": {
+    "R28 wide cartridge stop": {
+      "name": "R28 wide cartridge stop",
+      "enable_support": "0",
+      "extruder": "1",
+      "fuzzy_skin": "disabled_fuzzy"
+    }
+  },
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "layers": 54,
+  "slicer_estimates": {
+    "filament used [mm]": "3173.40",
+    "filament used [cm3]": "7.63",
+    "filament used [g]": "9.54",
+    "total filament used [g]": "9.54",
+    "estimated printing time (normal mode)": "31m 23s"
+  },
+  "totals": {
+    "filament_g": 9.54,
+    "printing_seconds": 1883,
+    "note": "Somma delle stime restituite dallo slicer per tutti i piatti completati; include il brim e le impostazioni di questo scenario. Nessuna torre, ogni piatto ha un solo materiale."
+  },
+  "warnings": [
+    {
+      "msg": "bed_temperature_too_high_than_filament",
+      "level": "3",
+      "error_code": "1000C001"
+    }
+  ],
+  "cli": {
+    "exit_code": 0,
+    "warnings": [],
+    "command": [
+      "/Applications/ElegooSlicer.app/Contents/MacOS/ElegooSlicer",
+      "--debug",
+      "2",
+      "--datadir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-r28-6xt0vqce/data",
+      "--load-settings",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/source/profiles/machine.json;/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/source/profiles/process.json",
+      "--load-filaments",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/source/profiles/filament.json",
+      "--arrange",
+      "0",
+      "--orient",
+      "0",
+      "--slice",
+      "0",
+      "--export-3mf",
+      "plate.3mf",
+      "--outputdir",
+      "/var/folders/5n/qz6j4g615_1b7xqh418xzkfm0000gn/T/s9-r28-6xt0vqce/out",
+      "/Users/stefanonovelli/Sites/Personal/stampe3d/ssd-bay/verification/slicing/stop/stop-geometry.3mf"
+    ]
+  },
+  "images": [
+    "verification/slicing/stop/all-layers-001-054.png",
+    "verification/slicing/stop/first-middle-last-01.png",
+    "verification/slicing/stop/bridge-details-01.png",
+    "verification/slicing/stop/bridge-details-02.png"
+  ],
+  "visual_review_complete": true,
+  "sent_to_printer": false,
+  "visual_review_report": "verification/visual-review.json"
+}

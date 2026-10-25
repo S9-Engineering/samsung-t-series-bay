@@ -14,7 +14,19 @@ P=json.loads((ROOT/'source/parameters.json').read_text())
 r24=r25.r24;r22=r24.r22;C=r22.C;CX=r22.CX;CY=r22.CY;W=P['larghezza']
 box=r25.box;union=r25.union;bounds=r25.bounds;mesh_of=r25.mesh_of;save=r25.save;sha=r25.sha
 oriented=r25.oriented;drive=r25.drive;usb_keepout=r25.usb_keepout
-carrier=r24.carrier;front_lock=r24.front_lock;logo_shapes=r25.logo_shapes
+carrier=r24.carrier;logo_shapes=r25.logo_shapes
+def front_lock(slots=(0,1,2)):
+ s=r24.front_lock(slots)
+ if len(slots)!=3:return s
+ p=P['cartridge_stop'];b=bounds(s);e=(p['width_mm']-(b[1][0]-b[0][0]))/2
+ z=b[0][2];height=P['cartucce_b']['fermo_frontale']['quota_alta_mm']-z
+ s=union([s,box(b[0][0]-e,b[0][1],z,e,p['wing_depth_mm'],height),
+               box(b[1][0],b[0][1],z,e,p['wing_depth_mm'],height)])
+ sb=bounds(s);c=p['front_corner_chamfer_mm'];y=sb[0][1]
+ for x,d in [(sb[0][0],1),(sb[1][0],-1)]:
+  wire=cq.Wire.makePolygon([cq.Vector(x,y,z-.1),cq.Vector(x+d*c,y,z-.1),cq.Vector(x,y+c,z-.1)],close=True)
+  s=s.cut(cq.Solid.extrudeLinear(wire,[],cq.Vector(0,0,height+.2)))
+ return s.clean()
 def mirrored(s):return s.mirror('YZ',(W/2,0,0))
 @lru_cache(None)
 def extra_body_support():
@@ -25,7 +37,7 @@ def shell():return union([r24.shell(),extra_body_support()])
 @lru_cache(None)
 def lid_structure():return union([r24.lid(),mirrored(r22.receiver())])
 @lru_cache(None)
-def lid():return union([lid_structure(),*logo_shapes()])
+def lid():return lid_structure()
 def key(angle=0,dz=0,side=0):
  s=r24.key(angle,dz)
  return mirrored(s) if side else s

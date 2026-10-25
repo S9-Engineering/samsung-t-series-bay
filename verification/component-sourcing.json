@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-10-25",
+  "revision": "R28",
+  "scope": "Stop and plain-lid replacement using existing R27 enclosure",
+  "materials": [
+    {
+      "item": "PLA 1.75 mm",
+      "required": true,
+      "inventory": "User already owns ELEGOO PLA BASIC",
+      "purchase_required_for_update": false,
+      "candidate_url": "https://www.amazon.it/dp/B0CD7BTN37",
+      "asin": "B0CD7BTN37",
+      "status": "Listing access blocked; variant/pack/availability unverified. Not a verified purchase recommendation."
+    }
+  ],
+  "additional_purchased_fittings_required": 0,
+  "reused_items": [
+    "R27 shell, cartridges and both pins",
+    "Existing feet, SSDs and matching USB cables"
+  ],
+  "full_build_feet": {
+    "quantity": 4,
+    "specification": "Round base fitting diameter 10.5 mm x 0.65 mm recess; minimum 5 mm projection below shell.",
+    "search_status": "No dimensionally verified Amazon.it listing found in this run; no alternative approved.",
+    "pack_size": null,
+    "purchase_url": null
+  },
+  "affiliate_links": false,
+  "prices_claimed": false
+}

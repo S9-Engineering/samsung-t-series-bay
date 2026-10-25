@@ -16,7 +16,7 @@ The distributed kit is available as **v1.0.0**. Ongoing wide-stop/plain-lid chan
 
 | Front | Side | Rear and cable access |
 | --- | --- | --- |
-| ![Front with raised S9](previews/renders/product-front.png) | ![Horizontal side ventilation](previews/renders/product-side.png) | ![S9 Engineering rear tail and lower cable opening](previews/renders/product-rear.png) |
+| ![Front with raised S9](previews/renders/product-front.png) | ![Horizontal side ventilation](previews/renders/product-side.png) | ![Plain rear tail and lower cable opening](previews/renders/product-rear.png) |
 
 ## Compatibility and specifications
 
@@ -28,11 +28,11 @@ The distributed kit is available as **v1.0.0**. Ongoing wide-stop/plain-lid chan
 
 Three drives stand side by side on their long edges, with their USB ports facing the open rear. Each of the three base positions accepts any of the included model-specific cartridges. The complete kit supplies one cartridge for each model above.
 
-- **Overall size:** 90 × 109.8 × 86 mm (width × depth × height), excluding feet and external cables.
+- **Overall size:** 90 × 109.4 × 86 mm (width × depth × height), excluding feet and external cables.
 - **Enclosure:** sharp-edged monolithic shell, flat slotted roof and horizontal side ventilation pattern.
 - **Cooling:** passive ventilation through the base, sides and top. Four rubber feet keep the bottom air inlets clear.
 - **Access:** sliding roof on rigid guides, secured by two hidden quarter-turn pins. USB plugs and cable bends remain outside the enclosure.
-- **Branding:** raised S9 on the front and S9 Engineering centred on the rear tail, 0.4 mm relief.
+- **Branding:** raised S9 on the front, 0.4 mm relief; plain rear tail.
 
 ## What you need
 
@@ -47,13 +47,13 @@ Three drives stand side by side on their long edges, with their USB ports facing
 
 | Printed component | Quantity | Print orientation / setting | STL |
 | --- | ---: | --- | --- |
-| Shell | 1 | Upright; 4 walls | [shell-r27.stl](print/stl/shell.stl) |
-| Sliding lid with rear tail | 1 | Exterior on the build plate; Arachne | [lid-r27.stl](print/stl/lid.stl) |
-| Hidden locking pin | 2 | Flat; 100% rectilinear infill | [locking-pin-r27.stl](print/stl/locking-pin.stl) |
-| Common front cartridge stop | 1 | Upright handle; 4 walls | [cartridge-stop-r27.stl](print/stl/cartridge-stop.stl) |
-| T7 cartridge | 1 | Upright frames; 6 walls | [cartridge-t7-r27.stl](print/stl/cartridge-t7.stl) |
-| T7 Shield cartridge | 1 | Upright frames; 6 walls | [cartridge-t7-shield-r27.stl](print/stl/cartridge-t7-shield.stl) |
-| T9 cartridge | 1 | Upright frames; 6 walls | [cartridge-t9-r27.stl](print/stl/cartridge-t9.stl) |
+| Shell | 1 | Upright; 4 walls | [shell.stl](print/stl/shell.stl) |
+| Sliding lid with rear tail | 1 | Exterior on the build plate; Arachne | [lid.stl](print/stl/lid.stl) |
+| Hidden locking pin | 2 | Flat; 100% rectilinear infill | [locking-pin.stl](print/stl/locking-pin.stl) |
+| Common front cartridge stop | 1 | Flat front face on the plate, three blocks up; 4 walls | [cartridge-stop.stl](print/stl/cartridge-stop.stl) |
+| T7 cartridge | 1 | Upright frames; 6 walls | [cartridge-t7.stl](print/stl/cartridge-t7.stl) |
+| T7 Shield cartridge | 1 | Upright frames; 6 walls | [cartridge-t7-shield.stl](print/stl/cartridge-t7-shield.stl) |
+| T9 cartridge | 1 | Upright frames; 6 walls | [cartridge-t9.stl](print/stl/cartridge-t9.stl) |
 
 | Additional item | Quantity | Specification |
 | --- | ---: | --- |
@@ -61,19 +61,34 @@ Three drives stand side by side on their long edges, with their USB ports facing
 | Samsung SSDs | Up to 3 | T7, T7 Shield or T9, using the corresponding cartridge. |
 | USB cables | One per drive | Matching cables for your SSDs and host, connected from the rear. |
 
+For this replacement, reuse your existing feet, SSDs and cables; no new purchased fittings are needed. PLA BASIC is already in the author’s inventory. [Component sourcing checked 2026-10-25](verification/component-sourcing.json) records the current search limits; no dimensionally verified Amazon.it foot listing was found, so no substitute foot is endorsed.
+
 Assembly is tool-free. There are **no screws, nuts, threaded inserts or internal adhesives**. If you choose self-adhesive rubber feet, their adhesive stays in the four exterior underside recesses. Feet, drives and cables are supplied separately; there is no internal USB hub.
 
 ## Download STL and 3MF files
 
-1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) and select **v1.0.0**.
-2. Under **Assets**, download **`samsung-t-series-bay-v1.0.0-print-pack.zip`**, extract it and read its `README.md`.
+1. Open [GitHub Releases](https://github.com/S9-Engineering/samsung-t-series-bay/releases) for published kits. **v1.0.0 contains R27**, including the previous narrow stop and rear lettering. The files on this branch are the current **R28**, available in [print](print) and the [current print package](packages/monolith-bay-print-pack.zip).
+2. For a published kit, download its named `*-print-pack.zip` under **Assets**, extract it and read its version-specific `README.md`. For current R28, extract the package linked above. Use the matching complete file set.
 3. Import the [separate STLs](print/stl) into your slicer in **millimetres**, keeping their supplied orientations. Use the quantities listed above, including **two copies of the locking pin**.
 4. Arrange the parts for your build plate, apply your printer and PLA profile with the part settings below, and inspect the slicing preview. The supplied [reference 3MF](print/slicer/full-kit-ecc2-pla-basic.3mf) already contains the one-plate layout and configuration described in **My setup**.
 5. Print the parts, let the plate cool, and remove the brim and stray strings from the guides, cartridge openings and pin seats.
 
-The 3MF is a complete native slicer project with saved profiles, object overrides and sliced paths. Its optional G-code in `print/gcode/` is tied to the reference configuration below. Use the separate STLs to slice for your own equipment.
+The full-kit and replacement 3MF files are complete native slicer projects with saved profiles, object overrides and sliced paths. Its optional G-code in `print/gcode/` is tied to the reference configuration below. Use the separate STLs to slice for your own equipment.
 
 The published printing ZIP remains available under [v1.0.0 Assets](https://github.com/S9-Engineering/samsung-t-series-bay/releases/tag/v1.0.0). The archive includes `SHA256SUMS.txt`; the separate release checksum file verifies the downloaded ZIP with `shasum -a 256 -c samsung-t-series-bay-v1.0.0-SHA256SUMS.txt` from the download directory.
+
+
+### Replace only the stop and lid
+
+If you already printed R27, reuse its shell, all cartridges and both pins. Choose one of these alternative layouts; printing all of them would duplicate parts.
+
+| Layout | Native 3MF | Reference slicer estimate |
+| --- | --- | --- |
+| Stop only | [stop-ecc2-pla-basic.3mf](print/slicer/stop-ecc2-pla-basic.3mf) | 31 min 23 s / 9.54 g |
+| Plain rear lid only | [lid-ecc2-pla-basic.3mf](print/slicer/lid-ecc2-pla-basic.3mf) | 2 h 11 min 19 s / 39.58 g |
+| Stop and lid together | [both-ecc2-pla-basic.3mf](print/slicer/both-ecc2-pla-basic.3mf) | 2 h 40 min 48 s / 48.59 g |
+
+The stop prints flat on its front face with the three blocks facing up. Remove the brim from the contact edges, lower the stop into the existing shell and check that the cartridge tongues remain blocked throughout its small side movement. No new purchased fittings are needed for this update.
 
 ## My setup
 
@@ -89,23 +104,25 @@ This is the reference configuration used to prepare the included 3MF and G-code.
 | Slicer | ElegooSlicer 1.5.3.5, engine 2.4.2 |
 | PLA enclosure setup | Front door open |
 | Reference layout | All 8 printed components on one plate |
-| Slicer estimate for this setup | 214.07 g / 12 h 30 min 42 s, including brim; one material, no purge tower |
+| Slicer estimate for this setup | 12 h 23 min 19 s / 213.41 g, including brim; one material, no purge tower |
 
 | Print setting | My value |
 | --- | --- |
 | Layer height | 0.20 mm |
 | Walls | 4 general; 6 on the drive cartridges |
 | Infill | 20% gyroid; pins 100% rectilinear |
-| Wall generator | Arachne on the lid for the rear lettering |
+| Wall generator | Arachne on the lid |
 | Nozzle / textured PEI bed | 220 °C / 60 °C |
 | Volumetric flow limit / bridge speed | 5 mm³/s / 25 mm/s |
 | Brim | Outer, 5 mm; 0.10 mm separation |
 | Elephant-foot compensation | 0.10 mm |
 | Supports / raft / fuzzy skin | Disabled |
 
+The saved project retains the slicer warning `bed_temperature_too_high_than_filament` for the 60 °C bed setup; keep the front door open as listed above. No other slice warning was accepted.
+
 These are the saved reference values. Temperature, flow and the plate layout should follow your own printer/material configuration when you reslice. The time and consumption above are slicer estimates for this setup.
 
-## Assembly
+## How to assemble
 
 Gold and blue in the following images distinguish the pieces; the print project uses a single PLA colour. Drive shapes are schematic envelopes.
 
@@ -121,7 +138,7 @@ Gold and blue in the following images distinguish the pieces; the print project 
 ### Seat the cartridges
 
 3. Hold each cartridge **6 mm forward** of its final position, lower its foot into the base, then slide it **6 mm towards the rear** under the four short rigid tabs.
-4. Lower the common front stop into the gap between the front wall and the cartridge feet. Its three lower blocks prevent forward movement; the tall handle lets you lift it out. The stop rests on the floor beside the feet.
+4. Lower the **83.5 mm common front stop** into the gap between the front wall and the cartridge feet, with its three lower blocks pointing towards the cartridge tongues. It rests on the floor beside the feet; nothing goes underneath them. The nominal side travel is **0.50 mm total**. The added ends clear the internal corner radii and upper roof guides; lift it straight up using the original handle.
 5. Fit the four rubber feet in the underside recesses, leaving at least 5 mm of air under the base and keeping the bottom slots unobstructed.
 
 ![Roof sliding forward along its guides with rear connector access open](previews/assembly/04-slide-lid.png)
@@ -143,7 +160,7 @@ Gold and blue in the following images distinguish the pieces; the print project 
 
 ## Editable CAD and versioning
 
-The working tree contains one current model family: [STL](print/stl), [STEP](cad), [native print projects](print/slicer), [editable CAD](source/generate.py), [parameters](source/parameters.json) and [verification](verification/repository-layout.json). Device-specific cartridges are functional variants of the same kit.
+The working tree contains one current model family: [STL](print/stl), [STEP](cad), [native print projects](print/slicer), [editable CAD](source/generate.py), [parameters](source/parameters.json) and [verification](verification/geometry.json). Device-specific cartridges are functional variants of the same kit.
 
 Use Git commits for history, branches for development, and tagged releases for distributed kits. Earlier snapshots remain recoverable from Git; published tags and release assets are unchanged. Component files use stable English names. Use all files from the same tag when printing a distributed kit.
 
@@ -154,7 +171,7 @@ python3.11 -m venv .venv-cad
 .venv-cad/bin/python source/verify.py
 ```
 
-The generator exports assembled and print-oriented STEP files, oriented STL files and an assembly manifest. Printing projects retain their already-checked machine configuration; regenerating CAD does not automatically reslice them.
+The generator exports assembled and print-oriented STEP files, oriented STL files and an assembly manifest. Printing projects retain their already-checked machine configuration; run `.venv-cad/bin/python source/slice.py` after geometry verification to regenerate the native projects and real G-code. [Geometry checks](verification/geometry.json) also compare the current stop and lid with the exact R28 design opened for the user. No thermal or endurance test is claimed.
 
 ## License and attribution
 
