@@ -1,9 +1,0 @@
-{
-  "floor_net_cm2": 30.16723451482189,
-  "roof_net_cm2": 38.17352510552969,
-  "roof_round_holes_nominal_cm2": 38.18625505392478,
-  "continuous_vertical_corridors_three_T9_cm2": 10.180535469740725,
-  "method": "Fondo sulla ROI X3..87/Y12..101; tetto sulla sagoma esterna intera arrotondata R3. Aree sulle mesh esportate; corridoi verticali conservativi dalla proiezione di tutti i solidi, tre T9 senza inserti.",
-  "cfd": false,
-  "thermal_test": false
-}

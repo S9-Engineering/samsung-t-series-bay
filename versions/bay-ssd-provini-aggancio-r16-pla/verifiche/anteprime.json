@@ -1,9 +1,0 @@
-{
-  "source_manifest_sha256": "09497a072834d5ad43012058c7b85ea20c8ec9cc4253e14bc879ea9c3e4b177d",
-  "outputs": {
-    "anteprime/01_R16_PROVINI.png": "5a27f232a13c5eb4670ae423a10c71c1d86a627cbb64e46a6190d41ac7d10f9b",
-    "anteprime/02_R16_SEZIONI.png": "a1671ee25c252ae475f1951a9ee0a6a620f6273da3b379fc26371657d6017ec9",
-    "anteprime/03_R16_MONTAGGIO.png": "d668d32a8437ed7ebbeeb3b5df2d7c1226e1c5c83d2feeae0da2eb4cd55c572b"
-  },
-  "physical_photo": false
-}

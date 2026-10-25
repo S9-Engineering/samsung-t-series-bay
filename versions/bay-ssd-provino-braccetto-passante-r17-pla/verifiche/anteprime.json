@@ -1,8 +1,0 @@
-{
-  "source_manifest_sha256": "fa361d954e262a02f516980faa6b162bafddfc835357b20702ce5f3ee3b0d87b",
-  "outputs": {
-    "anteprime/01_R17_BRACCETTO_PASSANTE.png": "e976c846284dbda41789aea35a649283adb37d740f9e702c16c98b2a6df89d6b",
-    "anteprime/02_R17_MONTAGGIO.png": "e129797c1264f8ae8d562124fe04b6ec4621deef3748c27475b4663f8bda6af9"
-  },
-  "physical_photo": false
-}

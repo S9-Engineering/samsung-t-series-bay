@@ -25,8 +25,8 @@
   },
   "references_sha256": {
     "previews/renders/hero-desk-closed-open.png": "d3b3e590f1681902b8b32ce68e9078f33405c86128ebfd8226f40ba09b3ee4ec",
-    "assets/cover-references/r27-closed-cad.png": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
-    "assets/cover-references/r27-open-cad.png": "3c037eaa494929497a2576e619096ec7550a2c2ce52049993cc51fa0604e96de",
+    "assets/cover-references/closed-cad.png": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
+    "assets/cover-references/open-cad.png": "3c037eaa494929497a2576e619096ec7550a2c2ce52049993cc51fa0604e96de",
     "assets/branding/logo_S9_Engineering.png": "d4ec2f0e16bbd9d1176aad4ac8f5550fce2a5f20508d69561fe3272c28dfddce",
     "assets/cover-references/cover-photoreal-v2-prompt.txt": "a8ed5c1073024ffb5c2e86c24921a35e7d3669c2027af4ae978657fdaa6c701b",
     "assets/cover-references/cover-photoreal-v2-refinement.txt": "2e7fc372ffc8de15a5c938f289c1a7badd691bdbeb64f6c59f4c4e1e5406999a",

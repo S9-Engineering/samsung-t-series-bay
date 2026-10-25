@@ -1,0 +1,170 @@
+{
+  "status": "PASS",
+  "parts": [
+    {
+      "part": "shell",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          90.0,
+          101.4000015258789,
+          83.0
+        ]
+      ],
+      "stl_sha256": "159512ba9f2b364629983cdf6f43b4224524ee639c65448c20272d199c78cdb2"
+    },
+    {
+      "part": "lid",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9157713758723625e-16
+        ],
+        [
+          90.0,
+          109.4000015258789,
+          29.0
+        ]
+      ],
+      "stl_sha256": "a2b01f2bc2b3dde80a1d1462b905632ec308c118a7c980141dbc90b24c35236a"
+    },
+    {
+      "part": "locking-pin",
+      "quantity": 2,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          8.0,
+          26.5,
+          3.499650716781616
+        ]
+      ],
+      "stl_sha256": "8c6b203cf8a972a7e01d7bd512b9fc6a97f17baf4e47d036f62366d1e637173d"
+    },
+    {
+      "part": "cartridge-stop",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          8.881784197001252e-16,
+          0.0
+        ],
+        [
+          57.0,
+          10.899999618530273,
+          74.0
+        ]
+      ],
+      "stl_sha256": "eac2ebe1297161b43d78418abc0d47fa0b215d5e714c27ba97faa75affdd4162"
+    },
+    {
+      "part": "cartridge-t7",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          62.900001525878906
+        ]
+      ],
+      "stl_sha256": "d33aa4915416bf544a283012231c5d8ce49b96ffaa4454a2ee152f8f9299548e"
+    },
+    {
+      "part": "cartridge-t7-shield",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          64.9000015258789
+        ]
+      ],
+      "stl_sha256": "9b714666a80ccf26e98e4e8c1d5f789fd87247609a36525ab0421201ee90af96"
+    },
+    {
+      "part": "cartridge-t9",
+      "quantity": 1,
+      "source_matches_export": true,
+      "step_solid_count": 1,
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume": true,
+      "no_degenerate_or_duplicate_faces": true,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          20.799999237060547,
+          77.69999694824219,
+          65.9000015258789
+        ]
+      ],
+      "stl_sha256": "c915799a00caf5325a881285ad5f2b241e21eff7443a5ecb23e42d36ceab897a"
+    }
+  ],
+  "full_kit_count": 8,
+  "geometry_changed_by_layout_migration": false,
+  "physical_tests_added": false,
+  "self_intersection_screen": "Previous exported-file evidence retained in Git; not repeated for a path-only migration."
+}

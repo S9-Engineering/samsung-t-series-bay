@@ -1,0 +1,48 @@
+{
+  "document": "README.md",
+  "checked_local_links": [
+    "previews/renders/hero-desk-closed-open-v2.png",
+    "previews/renders/product-front.png",
+    "previews/renders/product-side.png",
+    "previews/renders/product-rear.png",
+    "print/stl/shell.stl",
+    "print/stl/lid.stl",
+    "print/stl/locking-pin.stl",
+    "print/stl/cartridge-stop.stl",
+    "print/stl/cartridge-t7.stl",
+    "print/stl/cartridge-t7-shield.stl",
+    "print/stl/cartridge-t9.stl",
+    "print/stl",
+    "print/slicer/full-kit-ecc2-pla-basic.3mf",
+    "previews/assembly/02-drive-cartridge.png",
+    "previews/assembly/03-cartridge-seating.png",
+    "previews/assembly/04-slide-lid.png",
+    "previews/assembly/05-locking-pins.png",
+    "print/stl",
+    "cad",
+    "print/slicer",
+    "source/generate.py",
+    "source/parameters.json",
+    "verification/repository-layout.json",
+    "LICENSE.txt",
+    "LICENSE-SOFTWARE.txt",
+    "LICENSING.md"
+  ],
+  "current_layout_issues": [],
+  "same_repository_release_links": [
+    "https://github.com/S9-Engineering/samsung-t-series-bay/releases",
+    "https://github.com/S9-Engineering/samsung-t-series-bay/releases/tag/v1.0.0"
+  ],
+  "local_portal_git_guard": {
+    "directory": "publication-local/",
+    "present": false,
+    "own_repository": true,
+    "tracked_files": [],
+    "ignored_by_git": true,
+    "passed": true
+  },
+  "require_tracked": true,
+  "issues": [],
+  "passed": true,
+  "scope": "Inline Markdown links/images. Inspect HTML, reference-style links, source dependencies and image content separately."
+}

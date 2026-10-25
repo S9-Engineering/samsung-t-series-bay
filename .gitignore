@@ -29,3 +29,7 @@ Thumbs.db
 
 # CAD, STL, STEP, 3MF, G-code, images, reports, and ZIPs are NOT excluded.
 # END 3DCOOK
+
+# Local portal drafts and slicer runtime logs
+/publication-local/
+/00000.log

@@ -1,7 +1,0 @@
-cli mode, Current ElegooSlicer Version 1.5.3.5
-file /private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/Resources/profiles/BBL/cli_config.json not exist.
-Detected missing Voronoi vertex, input polygons will be rotated back and forth.
-get_hrc_by_nozzle_type: parse /private/tmp/stampe3d-slicer/ElegooSlicer.app/Contents/Resources/info/nozzle_info.json got a nlohmann::detail::parse_error, reason = [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
-error_code 65540, description: Invalid OpenGL version 3.4
-Failed to create GLFW window; skipping thumbnail rendering for CLI export
-OpenGL context unavailable; skip thumbnail generating

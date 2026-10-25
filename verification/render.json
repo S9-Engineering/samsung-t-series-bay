@@ -1,0 +1,74 @@
+{
+  "renderer": "Mitsuba 3.9.1 / llvm_ad_rgb",
+  "revision": "R27",
+  "actual_exported_meshes": true,
+  "physical_photographs": false,
+  "notes": "Illustrative smooth charcoal PLA shading, not a measured print finish. No simulated layer texture, feet or cables. Assembly colours/exploded offsets are illustrative; drive envelopes are nominal.",
+  "inputs_sha256": {
+    "verification/meshes/CARTUCCIA_T7_R27.ply": "5012259e6b61da18656fe93ce2771aecbeb3e8126e8c9e06d261b30e7decc6c1",
+    "verification/meshes/CARTUCCIA_T7_Shield_R27.ply": "2a31e37d8d99dfeacffcbb3d74b55a3b9b46bf7422eea0ad47b8aed02a0fdd2e",
+    "verification/meshes/CARTUCCIA_T9_R27.ply": "ddd25f3bac23ce64a13797edaf3f5df4e9709769beb000a8d2fd73273f18e462",
+    "verification/meshes/FERMO_CARTUCCE_R27.ply": "bc9c587bd8b5e3f3382f7281b8e127c74d763c85d79ff75bf7cdcaff4483a0ac",
+    "verification/meshes/PERNO_R27_NASCOSTO.ply": "62cba7456b257b6706796784ddf3ff25b7c3ea29a04ad51c3d141a6d108dc5be",
+    "verification/meshes/PROVINO_GUIDE_SCOCCA_R27.ply": "1a3f8736c3837e0a553895d4b9e33303a3d0f585fbbe98315da682cf519652ed",
+    "verification/meshes/PROVINO_GUIDE_TETTO_R27.ply": "d461ca554df9c6f92e8317228867b828e0328f3867d5a19c6bdecce3fd7fcd3f",
+    "verification/meshes/SCOCCA_R27_DOPPIO_PERNO.ply": "dd1ec19116ba4db5d7a3bd604d2a2251e55d1bf23df5e8a3e83209cfd81c1e62",
+    "verification/meshes/TETTO_R27_DOPPIO_PERNO.ply": "4dfcaf5778637cae4838a59c1314e7c1ba9ebe5bde71bbf787be1afd32dc0407"
+  },
+  "outputs": [
+    {
+      "file": "previews/renders/hero.png",
+      "seconds": 34.34,
+      "sha256": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/renders/product-front.png",
+      "seconds": 20.92,
+      "sha256": "45b9d3c23f35b33991459dd226fe3c7421630fb1605bbfc2cacf7208b0b5ad5e",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/renders/product-side.png",
+      "seconds": 31.36,
+      "sha256": "6e967353b690f2b19b4ba84ca7427da97e67029778cdb059e8c1326f6464feb7",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/renders/product-rear.png",
+      "seconds": 34.88,
+      "sha256": "e3676b2abd56cb01d5b11550f077505abe034574e5cce15c3fa016bac839a8d1",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/assembly/01-fit-coupon.png",
+      "seconds": 6.6,
+      "sha256": "d9871816b2457b3b5f252f50fce83943d19893031754a2af94c326736506fb51",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/assembly/02-drive-cartridge.png",
+      "seconds": 6.34,
+      "sha256": "5463c92e2b238ad4fcb50e9ae008d14529c3ecb989ca61a1dde5f58d5452c9f5",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/assembly/03-cartridge-seating.png",
+      "seconds": 18.92,
+      "sha256": "f8e5efc9b6bff634f865b5cfd36f3628961fab4cd904e7d1c5688b41b4717c32",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/assembly/04-slide-lid.png",
+      "seconds": 14.32,
+      "sha256": "2257c2d3f099edfa613c3debeabff85dc2eac36f1bd76bf4c2dac9685573e831",
+      "samples_per_pixel": 256
+    },
+    {
+      "file": "previews/assembly/05-locking-pins.png",
+      "seconds": 8.15,
+      "sha256": "cf8f29bf2bac71355ec4399f293590049f6f2db1a8438a3d84308073d253f53b",
+      "samples_per_pixel": 256
+    }
+  ]
+}

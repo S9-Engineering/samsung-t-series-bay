@@ -1,7 +1,0 @@
-{
-  "candidate_pairs_no_shared_vertex": 133633,
-  "intersection_pairs": 0,
-  "examples": [],
-  "algorithm": "triangle_pairs_vectorized_v1",
-  "limitation": "Stessi test/tolleranze del riferimento R06: coppie con vertici condivisi escluse; nessuna riparazione automatica."
-}

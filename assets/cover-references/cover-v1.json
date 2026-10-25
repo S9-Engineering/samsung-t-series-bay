@@ -11,8 +11,8 @@
   "environment": "Warm oak desk in a modern workspace",
   "signature": "Approved full S9 Engineering logo, white, bottom right",
   "references_sha256": {
-    "assets/cover-references/r27-closed-cad.png": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
-    "assets/cover-references/r27-open-cad.png": "3c037eaa494929497a2576e619096ec7550a2c2ce52049993cc51fa0604e96de",
+    "assets/cover-references/closed-cad.png": "eacb76d4e72358e32602b74c96211e0e635181d21c9abe5377f9230f59186fc6",
+    "assets/cover-references/open-cad.png": "3c037eaa494929497a2576e619096ec7550a2c2ce52049993cc51fa0604e96de",
     "assets/branding/logo_S9_Engineering.png": "d4ec2f0e16bbd9d1176aad4ac8f5550fce2a5f20508d69561fe3272c28dfddce",
     "assets/branding/logo_S9_Engineering.svg": "4656e2b34a1b4435f0b38815af7e94f832e255938db0cbe66245f4bfdbf41225",
     "assets/cover-references/cover-prompt.txt": "9f41486b407809c225c469056e8bc87f151721022e550a380309a257ee83674e"
