@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "file": "print/s9-monolith-bay-r28-replacements-print-pack.zip",
+  "sha256": "83f89b3132355d35d4afda1cc17c66b0b006f3724587a4754b5964c8c0caf16f",
+  "entries": 17,
+  "bytes": 5906778,
+  "archive_reopened": true,
+  "all_member_checksums_verified": true,
+  "internal_readme_links_verified": true,
+  "public_release": false
+}

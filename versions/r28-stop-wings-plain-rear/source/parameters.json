@@ -1,0 +1,30 @@
+{
+  "revision": "R28",
+  "units": "mm",
+  "compatible_base_revision": "R27",
+  "stop": {
+    "extension_per_side_mm": 13.25,
+    "target_width_mm": 83.5,
+    "case_internal_width_mm": 84.0,
+    "clearance_per_side_mm": 0.25,
+    "front_corner_chamfer_mm": 1.2,
+    "crossbar_depth_mm": 3.0,
+    "wing_depth_mm": 2.4,
+    "crossbar_top_z_mm": 22.0,
+    "print_orientation": "Front face on the build plate; three blocks face up"
+  },
+  "lid": {
+    "plain_rear_plane_y_mm": 109.0,
+    "print_orientation": "Exterior roof face on the build plate"
+  },
+  "baseline": {
+    "stop": "cad/cartridge-stop-r27.step",
+    "lid": "cad/lid-r27.step",
+    "shell": "cad/shell-r27.step",
+    "cartridges": {
+      "T7": "cad/cartridge-t7-r27.step",
+      "T7_Shield": "cad/cartridge-t7-shield-r27.step",
+      "T9": "cad/cartridge-t9-r27.step"
+    }
+  }
+}

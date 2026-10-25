@@ -6,6 +6,8 @@
 
 **v1.0.0 · R27 · PLA · 8 printed components**
 
+**Latest local revision:** [R28 replacement stop and plain rear lid](versions/r28-stop-wings-plain-rear/README.md) — 83.5 mm stop width, 0.25 mm nominal side clearance, rear lettering removed. Includes separate and combined PLA print projects for the existing R27 shell. The published v1.0.0 package below remains R27.
+
 ![DIY 3D-printable Samsung SSD enclosure on a desk, closed and open with three installed SSDs](previews/renders/hero-desk-closed-open-v2.png)
 
 *AI-generated visualization of the closed bay and open enclosure with three installed SSDs. S9 Engineering signature at bottom right; AI disclosure at bottom left.*

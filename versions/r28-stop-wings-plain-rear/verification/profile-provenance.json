@@ -1,0 +1,28 @@
+{
+  "slicer_app": "1.5.3.5",
+  "slicer_engine": "2.4.2",
+  "installed_profiles": [
+    {
+      "kind": "machine",
+      "installed_profile": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/machine/ECC2/Elegoo Centauri Carbon 2 0.4 nozzle.json",
+      "installed_sha256": "06ce79b9ad2d9e40bffa786f2df5199ec33add8d31b70cd4e5ea687c9fcc2039"
+    },
+    {
+      "kind": "process",
+      "installed_profile": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/process/ECC2/0.20mm Standard @Elegoo CC2 0.4 nozzle.json",
+      "installed_sha256": "80030b42558303e83daffd8694752c2e548ac0524cb60994d7d4dcfa9e5d8fd9"
+    },
+    {
+      "kind": "filament",
+      "installed_profile": "/Applications/ElegooSlicer.app/Contents/Resources/profiles/Elegoo/filament/ECC2/Elegoo PLA Basic @ECC2.json",
+      "installed_sha256": "8682e4713299224f3657239775470c50aabb1bb81776ccbf937ffbb212432075"
+    }
+  ],
+  "saved_profiles": {
+    "machine.json": "296fc9a4fa04eba7a3a0b1c94328de1955dc9a0e6d901d625aab2bb2f21e14a5",
+    "process.json": "d72aeb57017434b4d97aca38eb46f0ef5c59b219d35c56a836eb5cc0bb84680c",
+    "filament.json": "f2dc1a2e34b2f0b9a0f4e31478e31172445bb2b01a07beb0425331edcebcec5e"
+  },
+  "baseline_evidence": "versions/bay-ssd-r27-logo-retro-80-pla/verifiche/provenienza_profili.json",
+  "configuration": "Confirmed ECC2 Combo / 0.4 mm / textured PEI / ELEGOO PLA BASIC; existing R27 reference settings."
+}

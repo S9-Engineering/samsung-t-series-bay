@@ -1,0 +1,84 @@
+{
+  "revision": "R28",
+  "units": "millimeter",
+  "parts": [
+    {
+      "name": "cartridge-stop-r28",
+      "quantity": 1,
+      "assembled_step": "cad/cartridge-stop-r28.step",
+      "print_step": "cad/cartridge-stop-r28-print.step",
+      "stl": "print/stl/cartridge-stop-r28.stl",
+      "stl_sha256": "3a5e292194406405f9c44306c4c4544db3f1c973d1326ea92ae760677177e3f2",
+      "assembled_bounds_mm": [
+        [
+          3.2499999999999996,
+          3.2,
+          5.0
+        ],
+        [
+          86.75,
+          14.1,
+          79.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          -4.149444532900841e-16,
+          -8.881784197001251e-16,
+          0.0
+        ],
+        [
+          83.5,
+          74.0,
+          10.9
+        ]
+      ],
+      "volume_mm3": 10056.719999999994
+    },
+    {
+      "name": "lid-plain-r28",
+      "quantity": 1,
+      "assembled_step": "cad/lid-plain-r28.step",
+      "print_step": "cad/lid-plain-r28-print.step",
+      "stl": "print/stl/lid-plain-r28.stl",
+      "stl_sha256": "7c25fddbc4c5b41bff614003d90c795db5c9e63273ecc3f3ccf1697bee6acdf1",
+      "assembled_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          57.0
+        ],
+        [
+          90.0,
+          109.0,
+          86.0
+        ]
+      ],
+      "print_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          -3.9188697572715305e-16
+        ],
+        [
+          90.0,
+          109.0,
+          29.000000000000014
+        ]
+      ],
+      "volume_mm3": 38759.02037890743
+    }
+  ],
+  "source_sha256": "5e08d3a25fc545b26bc079b694a98ede3aafdf715f69f36a9f7d748b11d14d64",
+  "parameters_sha256": "821f4b664e0a9d9b389f89c7b80609991be150e620caf2cc226e02eecf3033dc",
+  "baseline_sha256": {
+    "cad/cartridge-stop-r27.step": "069c560f5a65cd0e95ea132a60013454cf8c83cf0e8d232b58e6f03bbaac55d9",
+    "cad/lid-r27.step": "9f497b03e33b974d22e94f949d32faf7b43de2521b2ec0c7d2c04eea2cdb8eab",
+    "cad/shell-r27.step": "8b34eebb2a5d433070c782368a81cd8136ebf37ec581818712b2ddece93c47d1",
+    "cad/cartridge-t7-r27.step": "a7aa9f0e36bf684830b58fdf0f39b154a6db00ac829f1308179682301c1b9b3b",
+    "cad/cartridge-t7-shield-r27.step": "2bc9881ea33b7cbd8349646281357e875dbaaee931629aae80e8456cb4e3ed7f",
+    "cad/cartridge-t9-r27.step": "dbc4238c657d069a4cf2c96355733184bfa9823b2c49c48deb9f46cbca6ea081"
+  },
+  "physical_fit_verified": false,
+  "sent_to_printer": false
+}

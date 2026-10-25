@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "revision": "R28",
+  "reviewed_date": "2026-10-24",
+  "images_sha256": {
+    "verification/slicing/stop/all-layers-001-054.png": "6e069aeec01517ce7ea25a03190abd777ee94685a5aac53d8fbc338a93cfcb53",
+    "verification/slicing/stop/bridge-details-01.png": "d7db817a22f0643f6682894cd9adde8b48ce971e6ddf48f723cf348dc46e5150",
+    "verification/slicing/lid/all-layers-001-100.png": "3f885b631e0f465a72953ddce2b733810b3be00b10b915887c9c6fdc247ae2cf",
+    "verification/slicing/lid/all-layers-101-145.png": "1173d608c120445a7aa43c7864ee0ad744d348c15954a3a090f0f9a9a15d25fc",
+    "verification/slicing/lid/guide-and-receiver-left-01.png": "d9b9e860efe2c9eb3efe3defbc1b1cdd4467e9f81ae7f952078b2b86c621e3e3",
+    "verification/slicing/lid/guide-and-receiver-right-01.png": "9225afd456b6535453440daac09a2985eb66fab786bf8e49ee5e5e851b9e0234",
+    "verification/slicing/both/all-layers-001-100.png": "89ad62f0699cd8ba1025c02cbf6addfff187a27da7f5d9f08e7423a2c0bfed93",
+    "verification/slicing/both/all-layers-101-145.png": "631d3482385da648b7c2522581ba5b8301b3a87ab45d64ed4ebd70b6ac3b9ec0",
+    "previews/assembly/01-wide-stop.png": "b71e78aa5f04ff810463d633c88659eb424043bfa84df6a8cac91fcc96919e6c",
+    "previews/assembly/02-plain-rear-lid.png": "e79db9ac42a5f0e5b64bb301b8909dcde392c6eaa99fc9158de31f1a960ee367",
+    "previews/assembly/03-stop-seating-cutaway.png": "8d808e0b442b3ac5004e21d3a264fcb4478c3c32b65326954f056f0eb68064ce",
+    "previews/assembly/04-print-orientation.png": "c0cf6ac5011561d07d2aee9a8fe6b6b1dd84037f3620e21fae4fce93fa0e9866"
+  },
+  "findings": [
+    "All 344 layers across the three alternative jobs inspected in actual-toolpath contact sheets.",
+    "Continuous first-layer footprints and separate brims; no bed/excluded-corner or inter-object collisions.",
+    "Wide stop wings terminate into supported upper skins. Three noses rise from the existing crossbar; no floating starts.",
+    "Internal-bridge labels above gyroid infill were reviewed as skin over infill, not unsupported free spans.",
+    "Lid receiver bridges at layer 59 span at most 6.486 mm per labelled Bridge segment; lower layer and both receivers inspected.",
+    "Roof slots remain open, guide and pin details present; no support structures or inaccessible support removal.",
+    "Exported-mesh technical previews inspected; rear is plain and wider stop seats between the side walls in the cutaway."
+  ],
+  "physical_fit_verified": false,
+  "limitations": [
+    "Visual toolpath inspection does not establish physical print quality, fit or heat performance."
+  ]
+}
