@@ -1,0 +1,41 @@
+{
+  "checked_on": "2026-10-26",
+  "document": "previews/photos/README.md",
+  "checked_local_links": [
+    "previews/photos/gallery/bay-closed.jpg",
+    "previews/photos/edited/bay-closed-real.jpg",
+    "previews/photos/edited/bay-closed-enhanced.png",
+    "previews/photos/gallery/bay-open.jpg",
+    "previews/photos/edited/bay-open-real.jpg",
+    "previews/photos/edited/bay-open-enhanced.png",
+    "previews/photos/gallery/bay-side.jpg",
+    "previews/photos/edited/bay-side-real.jpg",
+    "previews/photos/edited/bay-side-enhanced.png",
+    "previews/photos/gallery/bay-rear.jpg",
+    "previews/photos/edited/bay-rear-real.jpg",
+    "previews/photos/edited/bay-rear-enhanced.png",
+    "previews/photos/gallery/bay-open-rear.jpg",
+    "previews/photos/edited/bay-open-rear-real.jpg",
+    "previews/photos/edited/bay-open-rear-enhanced.png",
+    "previews/photos/gallery/bay-cartridge-detail.jpg",
+    "previews/photos/edited/bay-cartridge-detail-real.jpg",
+    "previews/photos/edited/bay-cartridge-detail-enhanced.png",
+    "previews/photos/edits.json",
+    "previews/photos/prompts.md",
+    "previews/photos/additional-prompts.json"
+  ],
+  "current_layout_issues": [],
+  "same_repository_release_links": [],
+  "local_portal_git_guard": {
+    "directory": "publication-local/",
+    "present": true,
+    "own_repository": true,
+    "tracked_files": [],
+    "ignored_by_git": true,
+    "passed": true
+  },
+  "require_tracked": true,
+  "issues": [],
+  "passed": true,
+  "scope": "Inline Markdown links/images. Inspect HTML, reference-style links, source dependencies and image content separately."
+}

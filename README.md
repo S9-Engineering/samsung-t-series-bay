@@ -8,11 +8,33 @@
 **Version v1.0.1 · PLA · 8 printed components**
 <!-- project-version:end -->
 
-![DIY 3D-printable Samsung SSD enclosure on a desk, closed and open with three installed SSDs](previews/renders/hero-desk-closed-open-v2.png)
+![Real printed S9 Monolith Bay closed on a wooden desk](previews/photos/edited/bay-closed-enhanced.png)
 
-*AI-generated visualization of the closed bay and open enclosure with three installed SSDs. S9 Engineering signature at bottom right; AI disclosure at bottom left.*
+*Photograph of the actual print, enhanced with AI for lighting and presentation. S9 Engineering signature at bottom right; “AI-enhanced photo” disclosure at bottom left.*
+
+![Actual open bay with three SSDs in their cartridges](previews/photos/edited/bay-open-enhanced.png)
+
+*The photographed open enclosure with three installed SSDs. Lighting and presentation enhanced with AI; this is a physical sample rather than a generated product render.*
+
+### Real-print reference photographs
+
+All six photographs below show the author's actual print, with **no generative retouching**. These gallery copies preserve the original framing and printing details; full-resolution JPEG references are included in the repository. Location metadata has been removed from public copies.
+
+| Closed bay | Open top view | Side ventilation |
+| --- | --- | --- |
+| ![Unretouched real print, closed](previews/photos/gallery/bay-closed.jpg) | ![Unretouched real print, open](previews/photos/gallery/bay-open.jpg) | ![Real side ventilation](previews/photos/gallery/bay-side.jpg) |
+
+| Rear USB access | Open bay from the rear | Cartridge and stop detail |
+| --- | --- | --- |
+| ![Rear of the printed sample with its earlier branded lid](previews/photos/gallery/bay-rear.jpg) | ![Three SSDs and the removed lid](previews/photos/gallery/bay-open-rear.jpg) | ![Blue SSD cartridge and the common three-block stop](previews/photos/gallery/bay-cartridge-detail.jpg) |
+
+*The photographed sample retains the earlier raised S9 Engineering rear lettering; the current downloadable lid has a plain rear tail.*
+
+[Full-resolution photographs and enhanced alternatives](previews/photos/README.md) · [Photo treatment and provenance](previews/photos/edits.json).
 
 ## Product views
+
+The following CAD illustrations show the current model and cable opening.
 
 | Front | Side | Rear and cable access |
 | --- | --- | --- |

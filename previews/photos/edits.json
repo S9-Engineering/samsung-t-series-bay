@@ -1,0 +1,237 @@
+{
+  "project": "S9 Monolith Bay",
+  "prepared_on": "2026-10-26",
+  "project_version_when_prepared": "1.0.1",
+  "publication_state": "Public photo masters, unretouched gallery copies and enhanced alternatives are included in the GitHub repository update. Channel-specific exports remain local.",
+  "photographed_component_version": "Not independently established from the photographs.",
+  "physical_evidence_scope": "User-supplied photographs show a physical print closed and open with three SSDs; no measurements, endurance or thermal results are inferred.",
+  "originals_policy": "Untouched HEIC originals are retained locally inside previews/photos/originals and specifically ignored by Git because they include GPS location. Public full-resolution JPEGs have location metadata removed without modifying decoded pixels.",
+  "prompt_file": "previews/photos/prompts.md",
+  "assets": [
+    {
+      "original": "previews/photos/originals/IMG_1653.HEIC",
+      "original_sha256": "2fe05db71a4c2134088422941d06393617eb611f7430aec4fe1aeba842fefb11",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-closed-real.jpg",
+      "unretouched_sha256": "2dd6af49d9f98de24e55901794c4f2841f056dcaa113ea5833b189a7420a8c77",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94. Lossless removal of JPEG APP1 metadata, verified with identical decoded RGB pixel hashes.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "enhanced": "previews/photos/edited/bay-closed-enhanced.png",
+      "enhanced_sha256": "bfd70a6329cc455f4e3b39c482a90646ef028daff5db3968cd5dd8a28bb3416c",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained photographic exposure and shadow/white-balance adjustments",
+        "Small S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared visually with the supplied photograph: same view, three drives in the open view, printed frames, vents, raised front logo and visible print texture retained. Generative output is a presentation image; the unretouched JPEG remains the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-closed.jpg",
+      "github_gallery_sha256": "59c65f6cd7c682442c7254d7b11353e7f0250e0e150303f30002785d7e82a3e1",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    },
+    {
+      "original": "previews/photos/originals/IMG_1654.HEIC",
+      "original_sha256": "5538fa695cefd66bc68755508673ff311216fc250f33e393d1bb58cb9b563d94",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-open-real.jpg",
+      "unretouched_sha256": "a4ffc1c4971fa87d431fb19c4fea2f1e8fcd02f1ab0f12cf0de6cbeb390545df",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94. Lossless removal of JPEG APP1 metadata, verified with identical decoded RGB pixel hashes.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "enhanced": "previews/photos/edited/bay-open-enhanced.png",
+      "enhanced_sha256": "2523e7ef5ed31a7e9fba27d1278700f852d2c3e7b119faa0c9c57bb5ac58f131",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained photographic exposure and shadow/white-balance adjustments",
+        "Small S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared visually with the supplied photograph: same view, three drives in the open view, printed frames, vents, raised front logo and visible print texture retained. Generative output is a presentation image; the unretouched JPEG remains the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-open.jpg",
+      "github_gallery_sha256": "64ce4055da83f543df549691f4d7b60c8cb172b33b223c3e1d0865d237f5f0eb",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    },
+    {
+      "original": "previews/photos/originals/IMG_1657.HEIC",
+      "original_sha256": "fe86427f5b078cfde02eb9353c976fc1579eb7bc4b019650820160e59701d2d6",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-side-real.jpg",
+      "unretouched_sha256": "5ac2469aaf6776605f724cb22fddf327e1823b99f940f9ed0cd52496b178c983",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94; location metadata removed by discarding APP1 segments without changing decoded pixels.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "source_id": "IMG_1657",
+      "name": "bay-side",
+      "full_resolution": [
+        5712,
+        4284
+      ],
+      "component_note": "Photographed physical sample; rear lid has the earlier raised S9 Engineering logo. Current downloadable lid is plain.",
+      "prompt_file": "previews/photos/additional-prompts.json",
+      "enhanced": "previews/photos/edited/bay-side-enhanced.png",
+      "enhanced_sha256": "accfd7bd7a0f4aa49c79717e985c5eb9d53a10fc5f7657a5190b2d323f6af6ba",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained exposure, white balance and shadow readability",
+        "S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared with the actual source photograph: same view, drive arrangement, printed frame/vent pattern and visible layer texture. Rear physical branding retained as photographed; full-resolution unretouched JPEG is the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-side.jpg",
+      "github_gallery_sha256": "3a365a9293786c6d452a1c4f7ef639a321b0fa0fa5dead52c1766775f2368074",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    },
+    {
+      "original": "previews/photos/originals/IMG_1658.HEIC",
+      "original_sha256": "78256f576ae971c3c0a7dac783408640ebf31ca7ce74be22504e48788748af1f",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-rear-real.jpg",
+      "unretouched_sha256": "3c40b5113d5bd63be0506d5f427d1db7ecdbdfbce78a5e82008af1793f5be86a",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94; location metadata removed by discarding APP1 segments without changing decoded pixels.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "source_id": "IMG_1658",
+      "name": "bay-rear",
+      "full_resolution": [
+        5712,
+        4284
+      ],
+      "component_note": "Photographed physical sample; rear lid has the earlier raised S9 Engineering logo. Current downloadable lid is plain.",
+      "prompt_file": "previews/photos/additional-prompts.json",
+      "enhanced": "previews/photos/edited/bay-rear-enhanced.png",
+      "enhanced_sha256": "da5846c1d27f46cc47dd50fc3c52db6b59e2a4f36e564a1b8d2393ad9e77c585",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained exposure, white balance and shadow readability",
+        "S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared with the actual source photograph: same view, drive arrangement, printed frame/vent pattern and visible layer texture. Rear physical branding retained as photographed; full-resolution unretouched JPEG is the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-rear.jpg",
+      "github_gallery_sha256": "83a218c66a2b8ac66405c8faf3fece6df6a4a40082f96ac66522c7ae1f24f1bc",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    },
+    {
+      "original": "previews/photos/originals/IMG_1659.HEIC",
+      "original_sha256": "0173645a40f28a7b934bb03d5e244d02a8ae44004c14cd25ca9c6bdf96479cd7",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-open-rear-real.jpg",
+      "unretouched_sha256": "231912a74cca9f93ccd7f1016f86239c44901dc927b87167e97beb1962c4361a",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94; location metadata removed by discarding APP1 segments without changing decoded pixels.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "source_id": "IMG_1659",
+      "name": "bay-open-rear",
+      "full_resolution": [
+        5712,
+        4284
+      ],
+      "component_note": "Photographed physical sample; rear lid has the earlier raised S9 Engineering logo. Current downloadable lid is plain.",
+      "prompt_file": "previews/photos/additional-prompts.json",
+      "enhanced": "previews/photos/edited/bay-open-rear-enhanced.png",
+      "enhanced_sha256": "7f3b134c377bc636e47b9fe3ea8670cc83d3579914aff746ee9ae0adacc2ac54",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained exposure, white balance and shadow readability",
+        "S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared with the actual source photograph: same view, drive arrangement, printed frame/vent pattern and visible layer texture. Rear physical branding retained as photographed; full-resolution unretouched JPEG is the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-open-rear.jpg",
+      "github_gallery_sha256": "0e8ffe1e2ac1a96eb6fd470ab29e6888690d2508a49925b1e084464701cc66e1",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    },
+    {
+      "original": "previews/photos/originals/IMG_1660.HEIC",
+      "original_sha256": "d244ae4e6318bb427903294a876678db7a4339588c94d973451ee7bcdee08085",
+      "original_gps_metadata_present": true,
+      "original_git_ignored": true,
+      "unretouched_export": "previews/photos/edited/bay-cartridge-detail-real.jpg",
+      "unretouched_sha256": "a20f98bd5c7af136f87241ee750bdd39d99fb2815b7a3a8e04f9ff784d10afea",
+      "unretouched_tool": "Apple sips / ImageIO: HEIC to full-resolution JPEG, quality 94; location metadata removed by discarding APP1 segments without changing decoded pixels.",
+      "unretouched_ai_used": false,
+      "unretouched_checks": {
+        "pixel_data_unchanged_by_metadata_removal": true,
+        "gps_metadata_present": false
+      },
+      "source_id": "IMG_1660",
+      "name": "bay-cartridge-detail",
+      "full_resolution": [
+        5712,
+        4284
+      ],
+      "component_note": "Photographed physical sample; rear lid has the earlier raised S9 Engineering logo. Current downloadable lid is plain.",
+      "prompt_file": "previews/photos/additional-prompts.json",
+      "enhanced": "previews/photos/edited/bay-cartridge-detail-enhanced.png",
+      "enhanced_sha256": "b4fe8cfe0e63fc8f16307b3a40da7148814a2c4fd9db407381786ff353425d77",
+      "editing_tool": "Built-in image_gen",
+      "generative_ai_used": true,
+      "disclosure": "AI-enhanced photo",
+      "changes": [
+        "Restrained exposure, white balance and shadow readability",
+        "S9 Engineering signature at bottom right",
+        "AI disclosure at bottom left"
+      ],
+      "review": "Compared with the actual source photograph: same view, drive arrangement, printed frame/vent pattern and visible layer texture. Rear physical branding retained as photographed; full-resolution unretouched JPEG is the physical reference.",
+      "github_gallery": "previews/photos/gallery/bay-cartridge-detail.jpg",
+      "github_gallery_sha256": "0b0b83db7070bede0fb096e5d147416dbb0c3814e7313f1f676223294b88cfb9",
+      "github_gallery_size": [
+        2000,
+        1500
+      ],
+      "github_gallery_generative_ai_used": false
+    }
+  ],
+  "github_photo_index": "previews/photos/README.md"
+}

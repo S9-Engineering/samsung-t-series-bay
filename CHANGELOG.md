@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.2
+
+- Add six real-print photographs to the GitHub cover/gallery, with unretouched public references and clearly labelled enhanced alternatives.
+- Preserve full-resolution JPEG references and photo provenance while keeping private location metadata out of public files.
+- Clarify that the photographed branded rear lid is an earlier printed part; the current downloadable lid remains plain.
+
+Documentation and photography update only. All STL, STEP, 3MF, G-code and slicer settings are unchanged from v1.0.1.
+
 ## v1.0.1
 
 - Widen the common cartridge stop to 83.5 mm, leaving 0.25 mm nominal clearance per side.
