@@ -5,7 +5,7 @@
 **Build your own** compact three-drive desktop SSD bay. Download the **STL and 3MF files**, 3D print the PLA parts and assemble an enclosure for **Samsung T7, T7 Shield and T9**, with interchangeable cartridges, passive ventilation and rear cable access.
 
 <!-- project-version:start -->
-**Version v1.0.1 · PLA · 8 printed components**
+**Version v1.0.2 · PLA · 8 printed components**
 <!-- project-version:end -->
 
 ![Real printed S9 Monolith Bay closed on a wooden desk](previews/photos/edited/bay-closed-enhanced.png)

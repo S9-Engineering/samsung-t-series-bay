@@ -1,4 +1,4 @@
-# S9 Monolith Bay — v1.0.1 print pack
+# S9 Monolith Bay — v1.0.2 print pack
 
 DIY 3D-printable enclosure for Samsung T7, T7 Shield and T9. This version uses an 83.5 mm cartridge stop and a plain rear lid. It accepts the existing v1.0.0 shell, cartridges and two pins.
 
